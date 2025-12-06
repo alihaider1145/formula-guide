@@ -1,0 +1,23 @@
+{
+  "chapter": "3. Forces and Motion",
+  "units": [
+    { "unit_eng": "Displacement", "unit_math": "meter (m)" },
+    { "unit_eng": "Velocity", "unit_math": "meter per second (m/s)" },
+    { "unit_eng": "Acceleration", "unit_math": "meter per second squared (m/s^2)" },
+
+    { "unit_eng": "Force", "unit_math": "newton (N)" },
+    { "unit_eng": "Weight", "unit_math": "newton (N)" },
+    { "unit_eng": "Normal reaction", "unit_math": "newton (N)" },
+    { "unit_eng": "Frictional force", "unit_math": "newton (N)" },
+    { "unit_eng": "Air resistance / drag", "unit_math": "newton (N)" },
+    { "unit_eng": "Tension", "unit_math": "newton (N)" },
+
+    { "unit_eng": "Momentum", "unit_math": "kilogram meter per second (kg·m/s)" },
+    { "unit_eng": "Impulse", "unit_math": "newton second (N·s)" },
+
+    { "unit_eng": "Mass", "unit_math": "kilogram (kg)" },
+    { "unit_eng": "Coefficient of friction", "unit_math": "dimensionless" },
+
+    { "unit_eng": "Time", "unit_math": "second (s)" }
+  ]
+}

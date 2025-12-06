@@ -1,0 +1,90 @@
+{
+  "chapter": "15. Alternating Current",
+  "formulas": [
+    {
+      "formula_math": "I(t) = I_0 \\sin(\\omega t)",
+      "formula_english": "Instantaneous AC current."
+    },
+    {
+      "formula_math": "V(t) = V_0 \\sin(\\omega t)",
+      "formula_english": "Instantaneous AC voltage."
+    },
+    {
+      "formula_math": "I_{rms} = \\frac{I_0}{\\sqrt{2}}",
+      "formula_english": "RMS value of AC current."
+    },
+    {
+      "formula_math": "V_{rms} = \\frac{V_0}{\\sqrt{2}}",
+      "formula_english": "RMS value of AC voltage."
+    },
+
+    {
+      "formula_math": "X_L = \\omega L = 2 \\pi f L",
+      "formula_english": "Inductive reactance."
+    },
+    {
+      "formula_math": "X_C = \\frac{1}{\\omega C} = \\frac{1}{2 \\pi f C}",
+      "formula_english": "Capacitive reactance."
+    },
+    {
+      "formula_math": "Z_R = R",
+      "formula_english": "Impedance of a resistor in AC."
+    },
+    {
+      "formula_math": "Z_L = j X_L",
+      "formula_english": "Impedance of an inductor (phasor form)."
+    },
+    {
+      "formula_math": "Z_C = -j X_C",
+      "formula_english": "Impedance of a capacitor (phasor form)."
+    },
+
+    {
+      "formula_math": "Z = \\sqrt{R^2 + (X_L - X_C)^2}",
+      "formula_english": "Impedance of an RLC series circuit."
+    },
+    {
+      "formula_math": "\\tan \\phi = \\frac{X_L - X_C}{R}",
+      "formula_english": "Phase angle between V and I."
+    },
+    {
+      "formula_math": "I_{rms} = \\frac{V_{rms}}{Z}",
+      "formula_english": "AC current using impedance."
+    },
+
+    {
+      "formula_math": "P_{ave} = V_{rms} I_{rms} \\cos \\phi",
+      "formula_english": "Average power delivered to an AC circuit."
+    },
+    {
+      "formula_math": "\\cos \\phi = \\frac{R}{Z}",
+      "formula_english": "Power factor."
+    },
+
+    {
+      "formula_math": "f_0 = \\frac{1}{2 \\pi \\sqrt{LC}}",
+      "formula_english": "Resonant frequency of a series RLC circuit."
+    },
+    {
+      "formula_math": "Z_{resonance} = R",
+      "formula_english": "Impedance at resonance."
+    },
+    {
+      "formula_math": "I_{max} = \\frac{V_{rms}}{R}",
+      "formula_english": "Maximum current at resonance."
+    },
+
+    {
+      "formula_math": "\\frac{V_s}{V_p} = \\frac{N_s}{N_p}",
+      "formula_english": "Transformer voltage ratio."
+    },
+    {
+      "formula_math": "\\frac{I_p}{I_s} = \\frac{N_s}{N_p}",
+      "formula_english": "Transformer current ratio."
+    },
+    {
+      "formula_math": "P_p = P_s",
+      "formula_english": "Power conservation in an ideal transformer."
+    }
+  ]
+}

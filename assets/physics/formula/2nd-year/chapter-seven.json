@@ -1,0 +1,74 @@
+{
+  "chapter": "17. Electronics",
+  "formulas": [
+    {
+      "formula_math": "I = I_0 \\left( e^{\\frac{V}{\\eta V_T}} - 1 \\right)",
+      "formula_english": "Diode current–voltage (ideal diode equation)."
+    },
+    {
+      "formula_math": "V_{out} = V_{in} \\frac{R_2}{R_1 + R_2}",
+      "formula_english": "Voltage divider formula."
+    },
+    {
+      "formula_math": "A_v = - \\frac{R_f}{R_{in}}",
+      "formula_english": "Inverting amplifier gain (op-amp)."
+    },
+    {
+      "formula_math": "A_v = 1 + \\frac{R_f}{R_{in}}",
+      "formula_english": "Non-inverting amplifier gain (op-amp)."
+    },
+    {
+      "formula_math": "A_v = \\frac{V_{out}}{V_{in}}",
+      "formula_english": "Voltage gain definition."
+    },
+    {
+      "formula_math": "Z_{in} = \\infty, \\quad Z_{out} = 0",
+      "formula_english": "Ideal op-amp input/output impedance assumptions."
+    },
+
+    {
+      "formula_math": "V_Z \\approx \\text{constant}",
+      "formula_english": "Zener diode maintains nearly constant voltage in breakdown region."
+    },
+    {
+      "formula_math": "I_L = \\frac{V_Z}{R_L}",
+      "formula_english": "Load current in Zener regulator."
+    },
+
+    {
+      "formula_math": "f_c = \\frac{1}{2 \\pi R C}",
+      "formula_english": "Cutoff frequency of RC filters (low-pass / high-pass)."
+    },
+    {
+      "formula_math": "X_C = \\frac{1}{2 \\pi f C}",
+      "formula_english": "Capacitive reactance (used in AC circuits and filters)."
+    },
+
+    {
+      "formula_math": "f = \\frac{1}{2 \\pi R C}",
+      "formula_english": "General RC time-constant frequency relation."
+    },
+    {
+      "formula_math": "\\tau = R C",
+      "formula_english": "Time constant of an RC circuit."
+    },
+
+    {
+      "formula_math": "Q = C V",
+      "formula_english": "Charge stored in a capacitor."
+    },
+    {
+      "formula_math": "E = \\frac{1}{2} C V^2",
+      "formula_english": "Energy stored in a capacitor."
+    },
+
+    {
+      "formula_math": "I(t) = I_0 e^{-t/RC}",
+      "formula_english": "Decay of current/voltage in a discharging capacitor."
+    },
+    {
+      "formula_math": "V(t) = V_0 (1 - e^{-t/RC})",
+      "formula_english": "Voltage rise across a charging capacitor."
+    }
+  ]
+}

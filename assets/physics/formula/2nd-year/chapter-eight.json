@@ -1,0 +1,69 @@
+{
+  "chapter": "18. Dawn of Modern Physics",
+  "formulas": [
+    {
+      "formula_math": "E = h f",
+      "formula_english": "Energy of a photon."
+    },
+    {
+      "formula_math": "\\lambda = \\frac{c}{f}",
+      "formula_english": "Photon wavelength–frequency relation."
+    },
+    {
+      "formula_math": "p = \\frac{h}{\\lambda}",
+      "formula_english": "Momentum of a photon."
+    },
+    {
+      "formula_math": "E_k = h f - \\phi",
+      "formula_english": "Photoelectric effect (maximum kinetic energy)."
+    },
+    {
+      "formula_math": "e V_s = h f - \\phi",
+      "formula_english": "Stopping potential relation for photoelectric effect."
+    },
+    {
+      "formula_math": "E = m c^2",
+      "formula_english": "Rest mass energy relation."
+    },
+    {
+      "formula_math": "K = (\\gamma - 1) m c^2",
+      "formula_english": "Relativistic kinetic energy."
+    },
+    {
+      "formula_math": "\\gamma = \\frac{1}{\\sqrt{1 - v^2/c^2}}",
+      "formula_english": "Lorentz factor."
+    },
+    {
+      "formula_math": "p = \\gamma m v",
+      "formula_english": "Relativistic momentum."
+    },
+    {
+      "formula_math": "L = L_0 \\sqrt{1 - v^2/c^2}",
+      "formula_english": "Length contraction."
+    },
+    {
+      "formula_math": "t = \\frac{t_0}{\\sqrt{1 - v^2/c^2}}",
+      "formula_english": "Time dilation."
+    },
+    {
+      "formula_math": "E^2 = (pc)^2 + (mc^2)^2",
+      "formula_english": "General energy–momentum relation."
+    },
+    {
+      "formula_math": "\\lambda = \\frac{h}{p}",
+      "formula_english": "de Broglie wavelength of matter waves."
+    },
+    {
+      "formula_math": "K = \\frac{p^2}{2m}",
+      "formula_english": "Non-relativistic kinetic energy in terms of momentum."
+    },
+    {
+      "formula_math": "m v r = n h",
+      "formula_english": "Bohr's quantization of angular momentum (basic form)."
+    },
+    {
+      "formula_math": "E_n = - \\frac{E_0}{n^2}",
+      "formula_english": "Energy levels of the hydrogen atom (n = 1, 2, 3...)."
+    }
+  ]
+}

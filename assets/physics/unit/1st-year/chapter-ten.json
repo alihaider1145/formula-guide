@@ -1,0 +1,23 @@
+{
+  "chapter": "10. Thermodynamics",
+  "units": [
+    { "unit_eng": "Internal energy", "unit_math": "joule (J)" },
+    { "unit_eng": "Heat", "unit_math": "joule (J)" },
+    { "unit_eng": "Work", "unit_math": "joule (J)" },
+
+    { "unit_eng": "Pressure", "unit_math": "pascal (Pa)" },
+    { "unit_eng": "Volume", "unit_math": "cubic meter (m^3)" },
+    { "unit_eng": "Temperature", "unit_math": "kelvin (K)" },
+    { "unit_eng": "Heat capacity", "unit_math": "joule per kelvin (J/K)" },
+    { "unit_eng": "Specific heat capacity", "unit_math": "joule per kilogram kelvin (J/(kg·K))" },
+
+    { "unit_eng": "Entropy", "unit_math": "joule per kelvin (J/K)" },
+
+    { "unit_eng": "Power", "unit_math": "watt (W)" },
+    { "unit_eng": "Efficiency", "unit_math": "dimensionless" },
+
+    { "unit_eng": "Moles (n)", "unit_math": "mole (mol)" },
+    { "unit_eng": "Mass", "unit_math": "kilogram (kg)" },
+    { "unit_eng": "Time", "unit_math": "second (s)" }
+  ]
+}

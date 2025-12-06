@@ -1,0 +1,22 @@
+{
+  "chapter": "4. Work and Energy",
+  "units": [
+    { "unit_eng": "Work", "unit_math": "joule (J)" },
+    { "unit_eng": "Energy", "unit_math": "joule (J)" },
+    { "unit_eng": "Power", "unit_math": "watt (W)" },
+
+    { "unit_eng": "Kinetic energy", "unit_math": "joule (J)" },
+    { "unit_eng": "Potential energy (gravitational)", "unit_math": "joule (J)" },
+    { "unit_eng": "Elastic potential energy", "unit_math": "joule (J)" },
+
+    { "unit_eng": "Force", "unit_math": "newton (N)" },
+    { "unit_eng": "Displacement", "unit_math": "meter (m)" },
+
+    { "unit_eng": "Height", "unit_math": "meter (m)" },
+    { "unit_eng": "Velocity", "unit_math": "meter per second (m/s)" },
+    { "unit_eng": "Spring constant", "unit_math": "newton per meter (N/m)" },
+
+    { "unit_eng": "Efficiency", "unit_math": "dimensionless" },
+    { "unit_eng": "Time", "unit_math": "second (s)" }
+  ]
+}

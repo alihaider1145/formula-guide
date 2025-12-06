@@ -1,0 +1,55 @@
+{
+  "chapter": "19. Atomic Spectra",
+  "formulas": [
+    {
+      "formula_math": "E_n = - \\frac{E_0}{n^2}",
+      "formula_english": "Energy of the nth orbit of hydrogen."
+    },
+    {
+      "formula_math": "\\Delta E = E_i - E_f",
+      "formula_english": "Energy difference between initial and final levels."
+    },
+    {
+      "formula_math": "hf = E_i - E_f",
+      "formula_english": "Photon frequency emitted or absorbed during transition."
+    },
+    {
+      "formula_math": "\\lambda = \\frac{c}{f}",
+      "formula_english": "Wavelength–frequency relation of emitted photon."
+    },
+    {
+      "formula_math": "E = \\frac{h c}{\\lambda}",
+      "formula_english": "Photon energy in terms of wavelength."
+    },
+
+    {
+      "formula_math": "\\frac{1}{\\lambda} = R \\left( \\frac{1}{n_f^2} - \\frac{1}{n_i^2} \\right)",
+      "formula_english": "Rydberg formula for hydrogen spectral lines."
+    },
+    {
+      "formula_math": "n_i > n_f",
+      "formula_english": "Condition for emission spectrum."
+    },
+    {
+      "formula_math": "n_i < n_f",
+      "formula_english": "Condition for absorption spectrum."
+    },
+
+    {
+      "formula_math": "m v r = n h",
+      "formula_english": "Bohr’s quantization of angular momentum."
+    },
+    {
+      "formula_math": "r_n = n^2 r_1",
+      "formula_english": "Radius of nth Bohr orbit (proportional relation)."
+    },
+    {
+      "formula_math": "v_n = \\frac{v_1}{n}",
+      "formula_english": "Electron speed in nth orbit (inverse proportionality)."
+    },
+    {
+      "formula_math": "f = \\frac{E}{h}",
+      "formula_english": "Frequency of radiation corresponding to energy E."
+    }
+  ]
+}
