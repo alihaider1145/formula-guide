@@ -160,8 +160,8 @@ body{
     background-color: var(--button-hover-color);
 
     position: fixed;
-    top: 90vh;
-    left: 80vw;
+    bottom: 50px;
+    right: 50px;
 }
 
 /* -----------------
