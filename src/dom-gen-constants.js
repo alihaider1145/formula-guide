@@ -4,7 +4,7 @@ import { populateCard } from "./dom-gen-cards.js";
 //generates card for one chapter
 function genConstantCards(data, number, grade){
     const chapterDiv = document.createElement('div');
-    chapterDiv.classList.add(`constant__${grade}__chapter-${number}`, 'chapter');
+    chapterDiv.classList.add(`constant__${grade}__chapter-${number}`, 'chapter', "hidden");
     document.querySelector(".constant").appendChild(chapterDiv);
 
     const chapterTitle = document.createElement('h2');

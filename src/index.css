@@ -1,10 +1,10 @@
 :root{
-    --button-hover-color: #e4eaf2;
-    --button-color: #e7e6e7;
-    --text-color: #101010;
-    --text-secondary-color: #525355;
-    --bg-color: #f7f7f7;
-    --card-color: #ffffff;
+    --button-hover-color: #357266;
+    --button-color: #C6AC8F;
+    --text-color: #0A0908;
+    --text-secondary-color: #EAE0D5;
+    --bg-color: #5E503F;
+    --card-color: #C6AC8F;
 }
 
 *, *::before, *::after{
@@ -27,6 +27,9 @@ body{
 /* -----------------
 ----------components
 -------------------- */
+.container{
+    width: 80vw;
+}
 
 .hidden{
     display: none !important;
@@ -44,7 +47,6 @@ body{
     font-weight: 600;
     width: 100%;
     margin: 8px 0;
-    /* width: calc(100% / 2 - 10px); */
 }
 
 .btn:hover{
@@ -64,15 +66,16 @@ body{
     margin-block: 32px 16px;
 }
 
+.title--main{
+    color: var(--text-secondary-color);
+}
+
 /* -----------------
 ------------subjects
 -------------------- */
 
 .subject{
-    width: 80vw;
-    min-width: 410px;
     margin: auto;
-
 }
 
 /* -----------------
@@ -80,10 +83,7 @@ body{
 -------------------- */
 
 .grade{
-    width: 80vw;
-    min-width: 410px;
     margin: auto;
-
 }
 
 /* -----------------
@@ -91,10 +91,7 @@ body{
 -------------------- */
 
 .topic{
-    width: 80vw;
-    min-width: 410px;
     margin: auto;
-
 }
 
 /* -----------------
@@ -102,8 +99,6 @@ body{
 -------------------- */
 
 .formula{
-    width: 80vw;
-    min-width: 410px;
     margin: 32px auto;
 }
 
@@ -118,9 +113,9 @@ body{
     border-radius: 8px;
     padding: 16px;
     width: calc((80vw - 32px)/2);
-    min-width: calc((410px - 32px)/2);
     font-size: 1.6rem;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    min-width: calc((410px - 32px)/2);
 }
 
 .card__eng{
@@ -151,3 +146,37 @@ body{
 /* -----------------
 ---------------units
 -------------------- */
+
+/* -----------------
+------------back-btn
+-------------------- */
+
+.back-btn{
+    padding: 12px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    background-color: var(--button-hover-color);
+
+    position: fixed;
+    top: 90vh;
+    left: 80vw;
+}
+
+/* -----------------
+----------responsive
+-------------------- */
+@media screen and (max-width: 480px) {
+    .chapter{
+        grid-template-columns: 1fr;
+    }
+
+    .formula__card{
+        width: 100%;
+    }
+
+    .formula__chapter-title{
+        grid-column: span 1;
+    }
+}

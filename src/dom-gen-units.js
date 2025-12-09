@@ -4,7 +4,7 @@ import { populateCard } from "./dom-gen-cards.js";
 //generates card for one chapter
 function genUnitCards(data, number, grade){
     const chapterDiv = document.createElement('div');
-    chapterDiv.classList.add(`unit__${grade}__chapter-${number}`, 'chapter');
+    chapterDiv.classList.add(`unit__${grade}__chapter-${number}`, 'chapter', "hidden");
     document.querySelector(".unit").appendChild(chapterDiv);
 
     const chapterTitle = document.createElement('h2');
