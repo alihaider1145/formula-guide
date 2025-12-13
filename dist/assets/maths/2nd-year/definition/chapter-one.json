@@ -1,1 +1,35 @@
-{}
+{
+  "chapter": "Functions and Graphs",
+  "definitions": [
+    {
+      "term": "Function",
+      "definition_math": "f: A → B such that each element of A has one unique image in B",
+      "definition_eng": "A rule assigning exactly one output to each valid input.",
+      "examples": ["f(x)=x^2", "f(x)=3x+1"]
+    },
+    {
+      "term": "Domain",
+      "definition_math": "Dom(f) = {x | f(x) is defined}",
+      "definition_eng": "All input values allowed for a function.",
+      "examples": ["Dom(1/x) = x ≠ 0"]
+    },
+    {
+      "term": "Range",
+      "definition_math": "Rng(f) = {f(x) | x ∈ Dom(f)}",
+      "definition_eng": "All possible outputs of a function.",
+      "examples": []
+    },
+    {
+      "term": "One-to-One Function",
+      "definition_math": "f(a)=f(b) ⇒ a=b",
+      "definition_eng": "Every output comes from a unique input.",
+      "examples": ["f(x)=2x is one-to-one"]
+    },
+    {
+      "term": "Even / Odd Functions",
+      "definition_math": "Even: f(-x)=f(x) | Odd: f(-x)=-f(x)",
+      "definition_eng": "Even functions are symmetric about y-axis; odd about origin.",
+      "examples": ["cos x is even", "sin x is odd"]
+    }
+  ]
+}

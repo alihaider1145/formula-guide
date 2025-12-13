@@ -1,1 +1,35 @@
-{}
+{
+  "chapter": "Inverse Trigonometric Functions and Their Graphs",
+  "definitions": [
+    {
+      "term": "Inverse Sine Function",
+      "definition_math": "y = sin^{-1}(x)",
+      "definition_eng": "Gives angle whose sine is x.",
+      "examples": ["sin^{-1}(1/2) = π/6"]
+    },
+    {
+      "term": "Inverse Cosine Function",
+      "definition_math": "y = cos^{-1}(x)",
+      "definition_eng": "Gives angle whose cosine is x.",
+      "examples": []
+    },
+    {
+      "term": "Inverse Tangent Function",
+      "definition_math": "y = tan^{-1}(x)",
+      "definition_eng": "Gives angle whose tangent is x.",
+      "examples": []
+    },
+    {
+      "term": "Principal Value Branch",
+      "definition_math": "Restricted domain ensuring one-to-one mapping",
+      "definition_eng": "Chosen range that defines inverse trig uniquely.",
+      "examples": ["sin^{-1}(x) ∈ [-π/2, π/2]"]
+    },
+    {
+      "term": "Graph of Inverse Function",
+      "definition_math": "Reflection of original function across line y=x",
+      "definition_eng": "Inverse trig graph is the mirrored form of its corresponding trig graph.",
+      "examples": []
+    }
+  ]
+}

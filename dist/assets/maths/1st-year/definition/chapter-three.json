@@ -1,1 +1,35 @@
-{}
+{
+  "chapter": "Vectors",
+  "definitions": [
+    {
+      "term": "Vector",
+      "definition_math": "A quantity with magnitude and direction.",
+      "definition_eng": "An object defined by its length and direction.",
+      "examples": ["(3, 4)", "i + 2j - k"]
+    },
+    {
+      "term": "Unit Vector",
+      "definition_math": "û = v / |v|",
+      "definition_eng": "A vector of magnitude 1 in the direction of v.",
+      "examples": ["(3/5, 4/5)"]
+    },
+    {
+      "term": "Scalar Product",
+      "definition_math": "a · b = |a||b| cosθ",
+      "definition_eng": "Dot product gives projection magnitude.",
+      "examples": ["(1,2)·(3,4)=11"]
+    },
+    {
+      "term": "Vector Product",
+      "definition_math": "a × b = |a||b| sinθ n̂",
+      "definition_eng": "Cross product gives an area vector perpendicular to both vectors.",
+      "examples": []
+    },
+    {
+      "term": "Collinear Vectors",
+      "definition_math": "a = k b",
+      "definition_eng": "Vectors lying along the same or opposite directions.",
+      "examples": ["(2,4) and (1,2)"]
+    }
+  ]
+}

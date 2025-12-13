@@ -1,1 +1,35 @@
-{}
+{
+  "chapter": "Mathematical Induction and Binomial Theorem",
+  "definitions": [
+    {
+      "term": "Mathematical Induction",
+      "definition_math": "If P(1) is true and P(k) ⇒ P(k+1), then P(n) is true for all n ∈ ℕ.",
+      "definition_eng": "A proof method showing a statement holds for every natural number.",
+      "examples": []
+    },
+    {
+      "term": "Base Step",
+      "definition_math": "Verify P(1) is true.",
+      "definition_eng": "First step of induction confirming the starting case.",
+      "examples": []
+    },
+    {
+      "term": "Inductive Step",
+      "definition_math": "Assume P(k) true and prove P(k+1).",
+      "definition_eng": "Step that extends truth from one number to the next.",
+      "examples": []
+    },
+    {
+      "term": "Binomial Expression",
+      "definition_math": "(a + b)^n",
+      "definition_eng": "A sum of two terms raised to a natural power.",
+      "examples": []
+    },
+    {
+      "term": "Binomial Coefficient",
+      "definition_math": "C(n, r) = n! / (r!(n-r)!)",
+      "definition_eng": "Coefficient of the r-th term in a binomial expansion.",
+      "examples": ["C(5,2) = 10"]
+    }
+  ]
+}

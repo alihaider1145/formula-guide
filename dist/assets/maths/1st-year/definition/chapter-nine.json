@@ -1,1 +1,35 @@
-{}
+{
+  "chapter": "Trigonometric Functions",
+  "definitions": [
+    {
+      "term": "Inverse Trigonometric Function",
+      "definition_math": "y = sin^{-1}(x), cos^{-1}(x), tan^{-1}(x)",
+      "definition_eng": "Functions that reverse the effects of trigonometric ratios.",
+      "examples": []
+    },
+    {
+      "term": "Principal Value",
+      "definition_math": "Restricted range for inverse functions",
+      "definition_eng": "Specific angle chosen to represent an inverse trig value.",
+      "examples": ["sin^{-1}(x) ∈ [-π/2, π/2]"]
+    },
+    {
+      "term": "Amplitude",
+      "definition_math": "Max value of |f(θ)|",
+      "definition_eng": "Height of wave from midline to peak.",
+      "examples": ["Amplitude of sinθ = 1"]
+    },
+    {
+      "term": "Period",
+      "definition_math": "T = smallest θ for which f(θ + T) = f(θ)",
+      "definition_eng": "Length of cycle of trig function.",
+      "examples": ["Period of sinθ = 2π"]
+    },
+    {
+      "term": "Phase Shift",
+      "definition_math": "Horizontal displacement of graph",
+      "definition_eng": "Shift of trigonometric graph left or right.",
+      "examples": []
+    }
+  ]
+}

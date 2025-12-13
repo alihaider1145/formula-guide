@@ -1,1 +1,35 @@
-{}
+{
+  "chapter": "Permutation, Combination and Probability",
+  "definitions": [
+    {
+      "term": "Permutation",
+      "definition_math": "nPr = n! / (n-r)!",
+      "definition_eng": "Number of arrangements of r objects from n distinct objects.",
+      "examples": ["5P2 = 20"]
+    },
+    {
+      "term": "Combination",
+      "definition_math": "nCr = n! / (r!(n-r)!)",
+      "definition_eng": "Number of selections of r objects from n without order.",
+      "examples": ["5C2 = 10"]
+    },
+    {
+      "term": "Factorial",
+      "definition_math": "n! = n × (n-1) × ... × 1",
+      "definition_eng": "Product of all positive integers up to n.",
+      "examples": ["5! = 120"]
+    },
+    {
+      "term": "Sample Space",
+      "definition_math": "S = {all possible outcomes}",
+      "definition_eng": "Complete set of outcomes of an experiment.",
+      "examples": ["{H, T} for a coin toss"]
+    },
+    {
+      "term": "Event",
+      "definition_math": "E ⊆ S",
+      "definition_eng": "A subset of the sample space describing an outcome.",
+      "examples": ["Even numbers when rolling a die: {2,4,6}"]
+    }
+  ]
+}

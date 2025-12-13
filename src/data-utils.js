@@ -15,10 +15,18 @@ const  fetchData = async (jsonFilePath) => {
     return data;
 }
 
-const countFiles = async (jsonFilePath) => {
-    const response = await fetch(`${jsonFilePath}`);
-    const data = await response.json();
-    return data.files.length;
+const countFiles = async (subject, grade) => {
+    const chapterCount = {
+    physics: {
+        "1st-year": 10,
+        "2nd-year": 10
+    },
+    maths: {
+        "1st-year": 9,
+        "2nd-year": 10
+    }
+    };
+    return chapterCount[subject][grade];
 }
 
 export { getFetchURL, fetchData, countFiles };

@@ -1,1 +1,35 @@
-{}
+{
+  "chapter": "Complex Numbers",
+  "definitions": [
+    {
+      "term": "Complex Number",
+      "definition_math": "z = a + bi",
+      "definition_eng": "A number consisting of a real part a and an imaginary part b multiplied by i.",
+      "examples": ["3 + 4i", "-2 + 7i"]
+    },
+    {
+      "term": "Imaginary Unit",
+      "definition_math": "i^2 = -1",
+      "definition_eng": "A special number whose square is negative one.",
+      "examples": ["i", "2i", "-5i"]
+    },
+    {
+      "term": "Modulus",
+      "definition_math": "|z| = √(a^2 + b^2)",
+      "definition_eng": "The distance of a complex number from the origin in the complex plane.",
+      "examples": ["|3 + 4i| = 5"]
+    },
+    {
+      "term": "Argument",
+      "definition_math": "arg(z) = tan^{-1}(b/a)",
+      "definition_eng": "The angle a complex number makes with the positive real axis.",
+      "examples": ["arg(1 + i) = 45°"]
+    },
+    {
+      "term": "Polar Form",
+      "definition_math": "z = r (cos θ + i sin θ)",
+      "definition_eng": "Representation using modulus and argument.",
+      "examples": ["5(cos 37° + i sin 37°)"]
+    }
+  ]
+}

@@ -1,1 +1,59 @@
-{}
+{
+  "chapter": "Numerical Methods",
+  "definitions": [
+    {
+      "term": "Numerical Method",
+      "definition_math": "Algorithmic approach to approximate solutions of mathematical problems.",
+      "definition_eng": "Techniques used to compute approximate answers when exact solutions are hard or impossible.",
+      "examples": []
+    },
+    {
+      "term": "Interpolation",
+      "definition_math": "Estimating f(x) within known data points.",
+      "definition_eng": "Finding intermediate values from a table of known values.",
+      "examples": []
+    },
+    {
+      "term": "Extrapolation",
+      "definition_math": "Estimating f(x) outside known data points.",
+      "definition_eng": "Predicting values beyond the provided interval.",
+      "examples": []
+    },
+    {
+      "term": "Newton's Forward Difference Formula",
+      "definition_math": "f(x) ≈ f(x₀) + pΔf(x₀) + p(p−1)/2! Δ²f(x₀) + ... where p = (x−x₀)/h",
+      "definition_eng": "Used to approximate values near the start of a data table.",
+      "examples": []
+    },
+    {
+      "term": "Backward Difference",
+      "definition_math": "Uses ∇ operator: ∇f(xₙ) = f(xₙ) − f(xₙ−1)",
+      "definition_eng": "Difference method used near the end of a table.",
+      "examples": []
+    },
+    {
+      "term": "Numerical Differentiation",
+      "definition_math": "f'(x) ≈ [f(x+h) - f(x)] / h",
+      "definition_eng": "Approximating derivatives using incremental values.",
+      "examples": []
+    },
+    {
+      "term": "Numerical Integration",
+      "definition_math": "I ≈ Σ f(xᵢ) Δx",
+      "definition_eng": "Approximating area under curves using discrete sums.",
+      "examples": ["Trapezoidal Rule", "Simpson's Rule"]
+    },
+    {
+      "term": "Trapezoidal Rule",
+      "definition_math": "∫_a^b f(x) dx ≈ (h/2)[f(a) + 2Σf(xᵢ) + f(b)]",
+      "definition_eng": "Estimates area using trapeziums across subintervals.",
+      "examples": []
+    },
+    {
+      "term": "Simpson’s Rule",
+      "definition_math": "∫_a^b f(x) dx ≈ (h/3)[f(a) + 4f(x₁) + 2f(x₂) + ... + f(b)]",
+      "definition_eng": "More accurate numerical integration using parabolic arcs.",
+      "examples": []
+    }
+  ]
+}

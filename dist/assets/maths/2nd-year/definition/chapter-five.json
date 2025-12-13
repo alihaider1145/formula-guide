@@ -1,1 +1,35 @@
-{}
+{
+  "chapter": "Kinematics of Motion in a Straight Line",
+  "definitions": [
+    {
+      "term": "Position",
+      "definition_math": "x(t)",
+      "definition_eng": "Location of an object along a straight line at time t.",
+      "examples": []
+    },
+    {
+      "term": "Velocity",
+      "definition_math": "v = dx/dt",
+      "definition_eng": "Rate of change of position with respect to time.",
+      "examples": ["v = 5 m/s"]
+    },
+    {
+      "term": "Speed",
+      "definition_math": "|v|",
+      "definition_eng": "Magnitude of velocity without direction.",
+      "examples": []
+    },
+    {
+      "term": "Acceleration",
+      "definition_math": "a = dv/dt",
+      "definition_eng": "Rate of change of velocity with respect to time.",
+      "examples": []
+    },
+    {
+      "term": "Displacement",
+      "definition_math": "Δx = x₂ - x₁",
+      "definition_eng": "Change in position between two times.",
+      "examples": []
+    }
+  ]
+}

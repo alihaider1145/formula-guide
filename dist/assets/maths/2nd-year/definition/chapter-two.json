@@ -1,1 +1,35 @@
-{}
+{
+  "chapter": "Limit, Continuity and Derivative",
+  "definitions": [
+    {
+      "term": "Limit",
+      "definition_math": "lim_{x→a} f(x) = L",
+      "definition_eng": "The value a function approaches as x nears a.",
+      "examples": ["lim x→0 (sinx)/x = 1"]
+    },
+    {
+      "term": "Continuity",
+      "definition_math": "f is continuous at a if lim_{x→a} f(x) = f(a)",
+      "definition_eng": "A function without breaks or jumps.",
+      "examples": []
+    },
+    {
+      "term": "Derivative",
+      "definition_math": "f'(x) = lim_{h→0} [f(x+h) - f(x)] / h",
+      "definition_eng": "Instantaneous rate of change of a function.",
+      "examples": ["d/dx (x^2) = 2x"]
+    },
+    {
+      "term": "Differentiable Function",
+      "definition_math": "Derivative exists at every point of the domain",
+      "definition_eng": "Function that has a well-defined slope everywhere.",
+      "examples": []
+    },
+    {
+      "term": "Tangent Line",
+      "definition_math": "y - f(a) = f'(a)(x - a)",
+      "definition_eng": "Line that touches a curve at one point matching its slope.",
+      "examples": []
+    }
+  ]
+}

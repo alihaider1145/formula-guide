@@ -1,1 +1,35 @@
-{}
+{
+  "chapter": "Matrices and Determinants",
+  "definitions": [
+    {
+      "term": "Matrix",
+      "definition_math": "An array of numbers arranged in rows and columns.",
+      "definition_eng": "A rectangular arrangement of elements.",
+      "examples": ["[[1, 2], [3, 4]]"]
+    },
+    {
+      "term": "Order of a Matrix",
+      "definition_math": "m × n",
+      "definition_eng": "Matrix with m rows and n columns.",
+      "examples": ["2 × 3 matrix"]
+    },
+    {
+      "term": "Determinant",
+      "definition_math": "|A|",
+      "definition_eng": "A scalar value computed from a square matrix.",
+      "examples": ["| [[a, b], [c, d]] | = ad - bc"]
+    },
+    {
+      "term": "Identity Matrix",
+      "definition_math": "I_n = diag(1, 1, ..., 1)",
+      "definition_eng": "A square matrix with 1s on the diagonal and 0 elsewhere.",
+      "examples": ["[[1, 0], [0, 1]]"]
+    },
+    {
+      "term": "Singular Matrix",
+      "definition_math": "|A| = 0",
+      "definition_eng": "A matrix without an inverse.",
+      "examples": []
+    }
+  ]
+}

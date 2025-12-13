@@ -1,1 +1,35 @@
-{}
+{
+  "chapter": "Polynomials",
+  "definitions": [
+    {
+      "term": "Polynomial",
+      "definition_math": "P(x) = a_n x^n + ... + a_1 x + a_0",
+      "definition_eng": "Expression involving powers of x with constant coefficients.",
+      "examples": ["3x^3 - 5x + 2"]
+    },
+    {
+      "term": "Degree of Polynomial",
+      "definition_math": "deg(P) = n",
+      "definition_eng": "Highest power of x in a polynomial.",
+      "examples": ["deg(4x^5 + x^2) = 5"]
+    },
+    {
+      "term": "Root of Polynomial",
+      "definition_math": "P(r) = 0",
+      "definition_eng": "A number r that makes the polynomial zero.",
+      "examples": ["roots of x^2-1 are ±1"]
+    },
+    {
+      "term": "Factor Theorem",
+      "definition_math": "(x - a) is a factor ⇔ P(a) = 0",
+      "definition_eng": "Links polynomial roots with factors.",
+      "examples": ["x - 2 is factor if P(2)=0"]
+    },
+    {
+      "term": "Remainder",
+      "definition_math": "R = P(a)",
+      "definition_eng": "Value left when a polynomial is divided by (x - a).",
+      "examples": ["Divide P(x) by (x-3): remainder = P(3)"]
+    }
+  ]
+}

@@ -1,1 +1,35 @@
-{}
+{
+  "chapter": "Fundamentals of Trigonometry",
+  "definitions": [
+    {
+      "term": "Radian",
+      "definition_math": "θ = s / r",
+      "definition_eng": "Angle subtended by an arc equal in length to the radius.",
+      "examples": ["π rad = 180°"]
+    },
+    {
+      "term": "Trigonometric Ratios",
+      "definition_math": "sin, cos, tan, cot, sec, csc",
+      "definition_eng": "Functions relating angles to ratios of sides of a right triangle.",
+      "examples": []
+    },
+    {
+      "term": "Unit Circle Definition",
+      "definition_math": "sinθ = y, cosθ = x on x² + y² = 1",
+      "definition_eng": "Defines trig functions using coordinates on a circle.",
+      "examples": []
+    },
+    {
+      "term": "Reference Angle",
+      "definition_math": "Acute angle formed with x-axis",
+      "definition_eng": "Angle used to determine trig values in any quadrant.",
+      "examples": []
+    },
+    {
+      "term": "Periodic Function",
+      "definition_math": "f(θ + T) = f(θ)",
+      "definition_eng": "Function repeating after each interval T.",
+      "examples": ["sin, cos have period 2π"]
+    }
+  ]
+}

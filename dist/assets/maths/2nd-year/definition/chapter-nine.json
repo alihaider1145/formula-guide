@@ -1,1 +1,35 @@
-{}
+{
+  "chapter": "Solution of Trigonometric Equations",
+  "definitions": [
+    {
+      "term": "General Solution",
+      "definition_math": "sinθ = k ⇒ θ = (-1)^n arcsin(k) + nπ ; cosθ = k ⇒ θ = ± arccos(k) + 2nπ ; tanθ = k ⇒ θ = arctan(k) + nπ",
+      "definition_eng": "Expressions giving all possible angles that satisfy a trig equation.",
+      "examples": []
+    },
+    {
+      "term": "Principal Solution",
+      "definition_math": "Solutions within restricted interval",
+      "definition_eng": "Main solution within the fundamental period.",
+      "examples": []
+    },
+    {
+      "term": "Periodic Property",
+      "definition_math": "sin(θ+2π)=sinθ; tan(θ+π)=tanθ",
+      "definition_eng": "Trig values repeat after fixed intervals.",
+      "examples": []
+    },
+    {
+      "term": "Quadrant Analysis",
+      "definition_math": "Determining angle based on sign of trig function",
+      "definition_eng": "Using ASTC rule to position solutions.",
+      "examples": []
+    },
+    {
+      "term": "Auxiliary Angle Method",
+      "definition_math": "a sinθ + b cosθ = R sin(θ+α)",
+      "definition_eng": "Technique to simplify and solve linear trig equations.",
+      "examples": []
+    }
+  ]
+}

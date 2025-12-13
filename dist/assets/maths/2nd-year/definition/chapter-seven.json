@@ -1,1 +1,35 @@
-{}
+{
+  "chapter": "Conic Section",
+  "definitions": [
+    {
+      "term": "Conic Section",
+      "definition_math": "Curves obtained by intersecting a plane with a double cone.",
+      "definition_eng": "Parabola, ellipse, and hyperbola formed by slicing a cone.",
+      "examples": []
+    },
+    {
+      "term": "Parabola",
+      "definition_math": "Set of points equidistant from a fixed point (focus) and line (directrix)",
+      "definition_eng": "U-shaped curve defined by focus–directrix property.",
+      "examples": []
+    },
+    {
+      "term": "Ellipse",
+      "definition_math": "x²/a² + y²/b² = 1",
+      "definition_eng": "Set of points where the sum of distances to two foci is constant.",
+      "examples": []
+    },
+    {
+      "term": "Hyperbola",
+      "definition_math": "x²/a² - y²/b² = 1",
+      "definition_eng": "Set of points where the absolute difference of distances to foci is constant.",
+      "examples": []
+    },
+    {
+      "term": "Eccentricity",
+      "definition_math": "e = c/a (for ellipse), e = c/a > 1 (for hyperbola)",
+      "definition_eng": "Measure of how stretched a conic is.",
+      "examples": []
+    }
+  ]
+}

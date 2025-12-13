@@ -1,9 +1,8 @@
 import { countFiles, getFetchURL } from "./data-utils.js";
 import { chapterBtnFunc } from "./dom-buttons.js";
 
-async function countTotalChapters(subject, grade, topic) {
-    const jsonFilePath = await getFetchURL(subject, grade, topic, "index");
-    const totalChapters = await countFiles(jsonFilePath);
+function countTotalChapters(subject, grade) {
+    const totalChapters = countFiles(subject, grade);
     return totalChapters;
 }
 

@@ -1,1 +1,35 @@
-{}
+{
+  "chapter": "Integration",
+  "definitions": [
+    {
+      "term": "Indefinite Integral",
+      "definition_math": "∫ f(x) dx = F(x) + C",
+      "definition_eng": "A family of antiderivatives of a function.",
+      "examples": ["∫ x dx = x^2/2 + C"]
+    },
+    {
+      "term": "Definite Integral",
+      "definition_math": "∫_a^b f(x) dx",
+      "definition_eng": "Net area under the curve between x=a and x=b.",
+      "examples": []
+    },
+    {
+      "term": "Integrand",
+      "definition_math": "f(x) in ∫ f(x) dx",
+      "definition_eng": "The function being integrated.",
+      "examples": ["In ∫ sinx dx, integrand = sinx"]
+    },
+    {
+      "term": "Substitution Rule",
+      "definition_math": "If u=g(x), ∫ f(g(x))g'(x) dx = ∫ f(u) du",
+      "definition_eng": "Method of integration using variable transformation.",
+      "examples": []
+    },
+    {
+      "term": "Integration by Parts",
+      "definition_math": "∫ u dv = uv - ∫ v du",
+      "definition_eng": "Technique based on product rule reversal.",
+      "examples": []
+    }
+  ]
+}

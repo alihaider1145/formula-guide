@@ -1,1 +1,35 @@
-{}
+{
+  "chapter": "Analytical Geometry",
+  "definitions": [
+    {
+      "term": "Slope",
+      "definition_math": "m = (y₂ - y₁) / (x₂ - x₁)",
+      "definition_eng": "Rate of change of y with respect to x.",
+      "examples": []
+    },
+    {
+      "term": "Distance Formula",
+      "definition_math": "d = √[(x₂ - x₁)² + (y₂ - y₁)²]",
+      "definition_eng": "Distance between two points in the plane.",
+      "examples": []
+    },
+    {
+      "term": "Midpoint Formula",
+      "definition_math": "M = ((x₁ + x₂)/2, (y₁ + y₂)/2)",
+      "definition_eng": "Point exactly halfway between two points.",
+      "examples": []
+    },
+    {
+      "term": "Section Formula",
+      "definition_math": "P = ( (mx₂ + nx₁)/(m+n), (my₂ + ny₁)/(m+n) )",
+      "definition_eng": "Coordinates dividing a line segment internally in ratio m:n.",
+      "examples": []
+    },
+    {
+      "term": "General Equation of Line",
+      "definition_math": "Ax + By + C = 0",
+      "definition_eng": "Standard linear form for a straight line.",
+      "examples": []
+    }
+  ]
+}
