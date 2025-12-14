@@ -8,6 +8,9 @@ function countTotalChapters(subject, grade) {
 
 async function genChapterBtns(totalChapters){
     let num = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty"];
+    if(document.querySelector(".chapter").hasChildNodes()){
+        document.querySelector(".chapter").replaceChildren();
+    }
     for (let i = 0; i < (await totalChapters); i++) {
         const chapterBtn = document.createElement("button");
         chapterBtn.classList.add("chapter__btn", "btn");
