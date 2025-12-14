@@ -1,6 +1,9 @@
 import { countTotalChapters, genChapterBtns } from "./dom-gen-chapter-btns.js";
+import { fetchData } from "./data-utils.js";
+import { genFormulaCards } from "./dom-gen-formula.js";
+import { genUnitCards } from "./dom-gen-units.js";
+import { genConstantCards } from "./dom-gen-constants.js";
 
-//add showing the selected chapter in the last event listener
 const subjPhysicsBtn = document.querySelector(".subject__physics-btn");
 const subjMathsBtn = document.querySelector(".subject__maths-btn");
 const grade1stYrBtn = document.querySelector(".grade__1styr-btn");
@@ -61,10 +64,41 @@ function transitionTopic(action){
     }
 }
 
-function chapterBtnFunc(event){
+async function chapterBtnFunc(event){
     chapter = event.target.textContent.split(" ").join("-").toLowerCase();
+
+    let contentContainer = document.querySelector(`.${topic}__${grade}__${chapter}`);
+   
+    if (!contentContainer) {
+        const data = await fetchData(subject, grade, topic, chapter);
+         
+        if (!data) {
+            console.error(`Failed to load ${subject} ${grade} ${topic} ${chapter}`);
+            alert("Failed to load chapter data. Please try again.");
+            return;
+        }
+        
+        // Convert chapter name to number word (chapter-one -> "one")
+        const chapterNum = chapter.replace("chapter-", "");
+        
+        // Generate cards based on topic type
+        if (topic === "formula") {
+            genFormulaCards(data, chapterNum, grade);
+        } else if (topic === "units") {
+            genUnitCards(data, chapterNum, grade);
+        } else if (topic === "constants") {
+            genConstantCards(data, chapterNum, grade);
+        }
+
+        // Add maths topics when you uncomment them
+        // else if (topic === "definition") { genDefinitionCards(data, chapterNum, grade); }
+        // ... etc
+
+        contentContainer = document.querySelector(`.${topic}__${grade}__${chapter}`);
+    }
+    
     document.querySelector(".chapter-wrapper").classList.add("hidden");
-    document.querySelector(`.${topic}__${grade}__${chapter}`).classList.remove("hidden");
+    contentContainer.classList.remove("hidden");
 }
 
 function transitionBackBtn(action){
@@ -76,7 +110,6 @@ function transitionBackBtn(action){
     }
 }
 
-//wrapper section transitions
 document.addEventListener("DOMContentLoaded", () => {
     subjPhysicsBtn.addEventListener("click", () => {
         subject = "physics";
@@ -105,9 +138,9 @@ document.addEventListener("DOMContentLoaded", () => {
     })
 
     topicConstantsBtn.addEventListener("click", () => {
-        topic = "constant";
+        topic = "constants";
         transitionTopic("hide");
-        genChapterBtns(countTotalChapters(subject, grade, topic));
+        genChapterBtns(countTotalChapters(subject, grade));
         chapterBtns = document.querySelectorAll(".chapter__btn");
         document.querySelector(".chapter-wrapper").classList.remove("hidden");
     })
@@ -115,15 +148,15 @@ document.addEventListener("DOMContentLoaded", () => {
     topicFormulasBtn.addEventListener("click", () => {
         topic = "formula";
         transitionTopic("hide");
-        genChapterBtns(countTotalChapters(subject, grade, topic));
+        genChapterBtns(countTotalChapters(subject, grade));
         chapterBtns = document.querySelectorAll(".chapter__btn");
         document.querySelector(".chapter-wrapper").classList.remove("hidden");
     })
 
     topicUnitsBtn.addEventListener("click", () => {
-        topic = "unit";
+        topic = "units";
         transitionTopic("hide");
-        genChapterBtns(countTotalChapters(subject, grade, topic));
+        genChapterBtns(countTotalChapters(subject, grade));
         chapterBtns = document.querySelectorAll(".chapter__btn");
         document.querySelector(".chapter-wrapper").classList.remove("hidden");
     })

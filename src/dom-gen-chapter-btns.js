@@ -1,4 +1,4 @@
-import { countFiles, getFetchURL } from "./data-utils.js";
+import { countFiles } from "./data-utils.js";
 import { chapterBtnFunc } from "./dom-buttons.js";
 
 function countTotalChapters(subject, grade) {

@@ -23,6 +23,11 @@ module.exports = {
         { from: 'src/assets', to: 'assets' }
       ],
     }),
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: 'src/service-worker.js', to: 'service-worker.js' }
+      ],
+    }),
   ],
   module: {
     rules: [

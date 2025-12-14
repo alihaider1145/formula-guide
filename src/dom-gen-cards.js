@@ -1,13 +1,13 @@
 function populateCard(topicList, topicName){
     const engMap = {
         formula: "formula_english",
-        constant: "constant_english",
-        unit: "unit_english"
+        constant: "const_eng",
+        unit: "unit_eng"
     }
 
     const mathMap = {
         formula: "formula_math",
-        constant: "constant_math",
+        constant: "const_math",
         unit: "unit_math"
     }
 
