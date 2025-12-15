@@ -1,8 +1,6 @@
 import { countTotalChapters, genChapterBtns } from "./dom-gen-chapter-btns.js";
 import { fetchData } from "./data-utils.js";
-import { genFormulaCards } from "./dom-gen-formula.js";
-import { genUnitCards } from "./dom-gen-units.js";
-import { genConstantCards } from "./dom-gen-constants.js";
+import { genContentCards } from "./dom-gen-content.js";
 
 const subjPhysicsBtn = document.querySelector(".subject__physics-btn");
 const subjMathsBtn = document.querySelector(".subject__maths-btn");
@@ -82,13 +80,7 @@ async function chapterBtnFunc(event){
         const chapterNum = chapter.replace("chapter-", "");
         
         // Generate cards based on topic type
-        if (topic === "formula") {
-            genFormulaCards(data, chapterNum, grade);
-        } else if (topic === "units") {
-            genUnitCards(data, chapterNum, grade);
-        } else if (topic === "constants") {
-            genConstantCards(data, chapterNum, grade);
-        }
+        genContentCards(data, chapterNum, grade, topic);
 
         // Add maths topics when you uncomment them
         // else if (topic === "definition") { genDefinitionCards(data, chapterNum, grade); }
@@ -146,7 +138,7 @@ document.addEventListener("DOMContentLoaded", () => {
     })
 
     topicFormulasBtn.addEventListener("click", () => {
-        topic = "formula";
+        topic = "formulas";
         transitionTopic("hide");
         genChapterBtns(countTotalChapters(subject, grade));
         chapterBtns = document.querySelectorAll(".chapter__btn");
