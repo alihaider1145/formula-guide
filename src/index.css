@@ -74,7 +74,25 @@ body{
     font-weight: 600;;
 }
 
+.card{
+    background-color: var(--card-color);
+    overflow-y: hidden;
+    overflow-x: auto;
+    border-radius: 8px;
+    padding: 16px;
+    width: calc((80vw - 32px)/2);
+    font-size: 1.6rem;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    min-width: calc((410px - 32px)/2);
+}
 
+.container{
+    margin: auto;
+}
+
+.title{
+    grid-column: span 2;
+}
 /* -----------------
 ------------subjects
 -------------------- */
@@ -103,26 +121,6 @@ body{
 ------------formulas
 -------------------- */
 
-.formula{
-    margin: 32px auto;
-}
-
-.formula__chapter-title{
-    grid-column: span 2;
-}
-
-.formula__card{
-    background-color: var(--card-color);
-    overflow-y: hidden;
-    overflow-x: auto;
-    border-radius: 8px;
-    padding: 16px;
-    width: calc((80vw - 32px)/2);
-    font-size: 1.6rem;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-    min-width: calc((410px - 32px)/2);
-}
-
 /* -----------------
 -------------chapter
 -------------------- */
@@ -132,7 +130,7 @@ body{
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
     width: 80vw;
-    margin: auto;
+    margin: 32px auto;
 }
 
 .chapter__btn{
@@ -143,48 +141,11 @@ body{
 /* -----------------
 -----------constants
 -------------------- */
-.constants{
-    margin: 32px auto;
-}
-
-.constants__chapter-title{
-    grid-column: span 2;
-}
-
-.constant__card{
-    background-color: var(--card-color);
-    overflow-y: hidden;
-    overflow-x: auto;
-    border-radius: 8px;
-    padding: 16px;
-    width: calc((80vw - 32px)/2);
-    font-size: 1.6rem;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-    min-width: calc((410px - 32px)/2);
-}
 
 /* -----------------
 ---------------units
 -------------------- */
-.units{
-    margin: 32px auto;
-}
 
-.units__chapter-title{
-    grid-column: span 2;
-}
-
-.unit__card{
-    background-color: var(--card-color);
-    overflow-y: hidden;
-    overflow-x: auto;
-    border-radius: 8px;
-    padding: 16px;
-    width: calc((80vw - 32px)/2);
-    font-size: 1.6rem;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-    min-width: calc((410px - 32px)/2);
-}
 /* -----------------
 ------------back-btn
 -------------------- */
@@ -210,11 +171,11 @@ body{
         grid-template-columns: 1fr;
     }
 
-    .formula__card, .unit__card, .constant__card{
+    .formulas__card, .unit__card, .constant__card{
         width: 100%;
     }
 
-    .formula__chapter-title, .constants__chapter-title, .units__chapter-title{
+    .formulas__chapter-title, .constants__chapter-title, .units__chapter-title{
         grid-column: span 1;
     }
 }
