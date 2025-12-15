@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", () => {
     topicDefinitionBtn.addEventListener("click", () => {
         topic = "definitions";
         transitionTopic("hide");
-        genChapterBtns(countTotalChapters(subject, grade, topic));
+        genChapterBtns(countTotalChapters(subject, grade));
         chapterBtns = document.querySelectorAll(".chapter__btn");
         document.querySelector(".chapter-wrapper").classList.remove("hidden");
     })
@@ -164,7 +164,7 @@ document.addEventListener("DOMContentLoaded", () => {
     topicEquationBtn.addEventListener("click", () => {
         topic = "equations";
         transitionTopic("hide");
-        genChapterBtns(countTotalChapters(subject, grade, topic));
+        genChapterBtns(countTotalChapters(subject, grade));
         chapterBtns = document.querySelectorAll(".chapter__btn");
         document.querySelector(".chapter-wrapper").classList.remove("hidden");
     })
@@ -172,7 +172,7 @@ document.addEventListener("DOMContentLoaded", () => {
     topicPropertiesBtn.addEventListener("click", () => {
         topic = "properties";
         transitionTopic("hide");
-        genChapterBtns(countTotalChapters(subject, grade, topic));
+        genChapterBtns(countTotalChapters(subject, grade));
         chapterBtns = document.querySelectorAll(".chapter__btn");
         document.querySelector(".chapter-wrapper").classList.remove("hidden");
     })
@@ -180,7 +180,7 @@ document.addEventListener("DOMContentLoaded", () => {
     topicTheoremBtn.addEventListener("click", () => {
         topic = "theorems";
         transitionTopic("hide");
-        genChapterBtns(countTotalChapters(subject, grade, topic));
+        genChapterBtns(countTotalChapters(subject, grade));
         chapterBtns = document.querySelectorAll(".chapter__btn");
         document.querySelector(".chapter-wrapper").classList.remove("hidden");
     })
