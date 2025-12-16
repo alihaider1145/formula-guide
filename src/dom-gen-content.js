@@ -13,8 +13,6 @@ function genContentCards(data, number, grade, topic) {
 
     const items = data[topic];
 
-    console.log(items);
-    console.log(data);
     // Iterate through each content type for the subject
     if (items && Array.isArray(items)) {
         for (const item of items) {
