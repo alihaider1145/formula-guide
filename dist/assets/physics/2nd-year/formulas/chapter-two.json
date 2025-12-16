@@ -26,6 +26,10 @@
       "formula_english": "Temperature dependence of resistance."
     },
     {
+      "formula_math": "\\varepsilon = \\frac{W}{Q}",
+      "formula_english": "Electromotive Force."
+    },
+    {
       "formula_math": "P = I V",
       "formula_english": "Electric power."
     },

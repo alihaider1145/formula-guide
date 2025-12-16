@@ -17,7 +17,14 @@
       "formula_math": "V_{rms} = \\frac{V_0}{\\sqrt{2}}",
       "formula_english": "RMS value of AC voltage."
     },
-
+    {
+      "formula_math": "V_L = \\omega I L",
+      "formula_english": "Inductive voltage."
+    },
+    {
+      "formula_math": "X_C = \\frac{I}{\\omega C}}",
+      "formula_english": "Capacitive voltage."
+    },
     {
       "formula_math": "X_L = \\omega L = 2 \\pi f L",
       "formula_english": "Inductive reactance."
@@ -27,16 +34,24 @@
       "formula_english": "Capacitive reactance."
     },
     {
+      "formula_math": "P = 0",
+      "formula_english": "Power in capacitive and inductive AC circuit."
+    },
+    {
+      "formula_math": "P = V-rms I-rms",
+      "formula_english": "Power in resistive AC curcuit."
+    },
+    {
       "formula_math": "Z_R = R",
       "formula_english": "Impedance of a resistor in AC."
     },
     {
       "formula_math": "Z_L = j X_L",
-      "formula_english": "Impedance of an inductor (phasor form)."
+      "formula_english": "Impedance of an inductor (phasor form, j = y-axis)."
     },
     {
       "formula_math": "Z_C = -j X_C",
-      "formula_english": "Impedance of a capacitor (phasor form)."
+      "formula_english": "Impedance of a capacitor (phasor form, -j = -y-axis)."
     },
 
     {
@@ -60,7 +75,10 @@
       "formula_math": "\\cos \\phi = \\frac{R}{Z}",
       "formula_english": "Power factor."
     },
-
+    {
+      "formula_math": "R_load = R_source (unity power factor)}",
+      "formula_english": "Maximum Power Factor."
+    },
     {
       "formula_math": "f_0 = \\frac{1}{2 \\pi \\sqrt{LC}}",
       "formula_english": "Resonant frequency of a series RLC circuit."
@@ -72,19 +90,6 @@
     {
       "formula_math": "I_{max} = \\frac{V_{rms}}{R}",
       "formula_english": "Maximum current at resonance."
-    },
-
-    {
-      "formula_math": "\\frac{V_s}{V_p} = \\frac{N_s}{N_p}",
-      "formula_english": "Transformer voltage ratio."
-    },
-    {
-      "formula_math": "\\frac{I_p}{I_s} = \\frac{N_s}{N_p}",
-      "formula_english": "Transformer current ratio."
-    },
-    {
-      "formula_math": "P_p = P_s",
-      "formula_english": "Power conservation in an ideal transformer."
     }
   ]
 }

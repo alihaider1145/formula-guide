@@ -3,7 +3,7 @@
   "formulas": [
     {
       "formula_math": "\\Phi = B A \\cos \\theta",
-      "formula_english": "Magnetic flux through a surface."
+      "formula_english": "Magnetic flux (considered as vector area)."
     },
     {
       "formula_math": "emf = - N \\frac{\\Delta \\Phi}{\\Delta t}",
@@ -58,44 +58,6 @@
       "formula_math": "\\tau = \\frac{L}{R}",
       "formula_english": "Time constant of an LR circuit."
     },
-
-    {
-      "formula_math": "I = \\frac{V}{X_L}",
-      "formula_english": "Current through an inductor in AC circuits."
-    },
-    {
-      "formula_math": "X_L = 2 \\pi f L",
-      "formula_english": "Inductive reactance."
-    },
-    {
-      "formula_math": "I = \\frac{V}{X_C}",
-      "formula_english": "Current through a capacitor in AC circuits."
-    },
-    {
-      "formula_math": "X_C = \\frac{1}{2 \\pi f C}",
-      "formula_english": "Capacitive reactance."
-    },
-    {
-      "formula_math": "Z = \\sqrt{R^2 + (X_L - X_C)^2}",
-      "formula_english": "Impedance of an RLC series circuit."
-    },
-    {
-      "formula_math": "I_{rms} = \\frac{V_{rms}}{Z}",
-      "formula_english": "AC current using impedance."
-    },
-    {
-      "formula_math": "f_0 = \\frac{1}{2 \\pi \\sqrt{L C}}",
-      "formula_english": "Resonant frequency of an RLC circuit."
-    },
-    {
-      "formula_math": "\\cos \\phi = \\frac{R}{Z}",
-      "formula_english": "Power factor in AC circuits."
-    },
-    {
-      "formula_math": "P_{ave} = I_{rms} V_{rms} \\cos \\phi",
-      "formula_english": "Average AC power delivered to a circuit."
-    },
-
     {
       "formula_math": "\\frac{V_s}{V_p} = \\frac{N_s}{N_p}",
       "formula_english": "Transformer voltage ratio."
@@ -103,6 +65,10 @@
     {
       "formula_math": "\\frac{I_p}{I_s} = \\frac{N_s}{N_p}",
       "formula_english": "Transformer current ratio."
+    },
+    {
+      "formula_math": "P_p = P_s",
+      "formula_english": "Power conservation in an ideal transformer."
     }
   ]
 }

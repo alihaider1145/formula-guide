@@ -10,6 +10,10 @@
       "formula_english": "Electric field defined as force per unit charge."
     },
     {
+      "formula_math": "EF = E q",
+      "formula_english": "Force in terms of Electric Feild."
+    },
+    {
       "formula_math": "E = k \\frac{Q}{r^2}",
       "formula_english": "Electric field due to a point charge."
     },
@@ -41,8 +45,12 @@
       "formula_english": "Electric field inside a conductor/shell in electrostatic equilibrium."
     },
     {
+      "formula_math": "E = - \\frac{dV}{dr}",
+      "formula_english": "Potential Gradient."
+    },
+    {
       "formula_math": "\\Phi = E A \\cos \\theta",
-      "formula_english": "Electric flux through a flat surface."
+      "formula_english": "Electric flux (considered as scalar area)."
     },
     {
       "formula_math": "\\Phi = \\oint \\vec{E} \\cdot d\\vec{A}",
