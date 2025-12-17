@@ -34,39 +34,6 @@
     {
       "formula_math": "\\gamma = \\frac{x}{L}",
       "formula_english": "Shear strain (lateral displacement / length)."
-    },
-
-    {
-      "formula_math": "Y = 2G(1 + \\nu)",
-      "formula_english": "Relation between Young’s modulus, shear modulus, and Poisson’s ratio."
-    },
-    {
-      "formula_math": "K = \\frac{Y}{3(1 - 2\\nu)}",
-      "formula_english": "Relation between bulk modulus, Young’s modulus, and Poisson’s ratio."
-    },
-
-    {
-      "formula_math": "\\nu = - \\frac{\\Delta d/d}{\\Delta L/L}",
-      "formula_english": "Poisson’s ratio definition."
-    },
-
-    {
-      "formula_math": "E = N E_b",
-      "formula_english": "Total binding energy of a crystal (N is number of atoms)."
-    },
-
-    {
-      "formula_math": "U(r) = - \\frac{A}{r^m} + \\frac{B}{r^n}",
-      "formula_english": "Interatomic potential energy of a solid (generalized form)."
-    },
-    {
-      "formula_math": "F(r) = - \\frac{dU}{dr}",
-      "formula_english": "Force between atoms from potential energy curve."
-    },
-
-    {
-      "formula_math": "\\rho = n m",
-      "formula_english": "Mass density of a crystalline solid (number density × mass)."
     }
   ]
 }

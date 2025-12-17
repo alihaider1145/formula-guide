@@ -22,7 +22,7 @@
       "formula_english": "Inductive voltage."
     },
     {
-      "formula_math": "X_C = \\frac{I}{\\omega C}}",
+      "formula_math": "V_C = \\frac{I}{\\omega C}}",
       "formula_english": "Capacitive voltage."
     },
     {
