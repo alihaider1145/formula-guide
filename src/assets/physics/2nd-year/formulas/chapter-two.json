@@ -2,56 +2,84 @@
   "chapter": "12. Current Electricity",
   "formulas": [
     {
-      "formula_math": "I = \\frac{\\Delta Q}{\\Delta t}",
-      "formula_english": "Electric current as rate of flow of charge."
+      "formula_math": "I = \\frac{Q}{t}",
+      "formula_english": "Electric current."
     },
     {
-      "formula_math": "I = n q A v_d",
-      "formula_english": "Current in terms of charge density, drift velocity, and cross-sectional area."
+      "formula_math": "I = nAqv_d",
+      "formula_english": "Current in terms of drift velocity."
     },
     {
-      "formula_math": "V = I R",
-      "formula_english": "Ohm’s law (voltage across a resistor)."
+      "formula_math": "V = IR",
+      "formula_english": "Ohm's law."
     },
     {
-      "formula_math": "R = \\rho \\frac{L}{A}",
-      "formula_english": "Resistance of a conductor."
+      "formula_math": "R = \\rho \\frac{l}{A}",
+      "formula_english": "Resistance of conductor."
     },
     {
       "formula_math": "\\rho = \\rho_0 (1 + \\alpha \\Delta T)",
       "formula_english": "Temperature dependence of resistivity."
     },
     {
-      "formula_math": "R = R_0 (1 + \\alpha \\Delta T)",
-      "formula_english": "Temperature dependence of resistance."
+      "formula_math": "G = \\frac{1}{R}",
+      "formula_english": "Conductance."
     },
     {
-      "formula_math": "\\varepsilon = \\frac{W}{Q}",
-      "formula_english": "Electromotive Force."
+      "formula_math": "R_s = R_1 + R_2 + ...",
+      "formula_english": "Resistors in series."
     },
     {
-      "formula_math": "P = I V",
+      "formula_math": "\\frac{1}{R_p} = \\frac{1}{R_1} + \\frac{1}{R_2} + ...",
+      "formula_english": "Resistors in parallel."
+    },
+    {
+      "formula_math": "\\varepsilon = I(R + r)",
+      "formula_english": "EMF and internal resistance."
+    },
+    {
+      "formula_math": "V = \\varepsilon - Ir",
+      "formula_english": "Terminal voltage."
+    },
+    {
+      "formula_math": "P = VI",
       "formula_english": "Electric power."
     },
     {
       "formula_math": "P = I^2 R",
-      "formula_english": "Power in terms of current and resistance."
+      "formula_english": "Power (current form)."
     },
     {
       "formula_math": "P = \\frac{V^2}{R}",
-      "formula_english": "Power in terms of voltage and resistance."
+      "formula_english": "Power (voltage form)."
     },
     {
-      "formula_math": "I_{rms} = \\frac{I_0}{\\sqrt{2}}",
-      "formula_english": "Root-mean-square value of AC current."
+      "formula_math": "E = Pt",
+      "formula_english": "Electrical energy."
     },
     {
-      "formula_math": "V_{rms} = \\frac{V_0}{\\sqrt{2}}",
-      "formula_english": "Root-mean-square value of AC voltage."
+      "formula_math": "H = I^2 Rt",
+      "formula_english": "Heat produced (Joule's law)."
     },
     {
-      "formula_math": "P_{ave} = \\frac{1}{2} I_0 V_0",
-      "formula_english": "Average power of an AC signal."
+      "formula_math": "\\sum I = 0",
+      "formula_english": "Kirchhoff's current law (junction rule)."
+    },
+    {
+      "formula_math": "\\sum \\varepsilon = \\sum IR",
+      "formula_english": "Kirchhoff's voltage law (loop rule)."
+    },
+    {
+      "formula_math": "\\frac{P}{Q} = \\frac{R}{S}",
+      "formula_english": "Wheatstone bridge balance condition."
+    },
+    {
+      "formula_math": "R_x = \\frac{R_2}{R_1} R_3",
+      "formula_english": "Unknown resistance in Wheatstone bridge."
+    },
+    {
+      "formula_math": "S = \\frac{l}{RA}",
+      "formula_english": "Specific conductance."
     }
   ]
 }

@@ -2,24 +2,72 @@
   "chapter": "17. Electronics",
   "formulas": [
     {
-      "formula_eng": "Amplification factor CEC transistor(ratio of collector current and emitter current)",
-      "formula_math": "\\alpha = \\frac{I_C}{I_E}"
+      "formula_math": "I_E = I_B + I_C",
+      "formula_english": "Current relation in transistor."
     },
     {
-      "formula_eng": "Current gain or current amplification factor CEC transistor (ratio of collector current and base current)",
-      "formula_math": "\\beta = \\frac{I_C}{I_B}"
+      "formula_math": "\\alpha = \\frac{I_C}{I_E}",
+      "formula_english": "Current amplification factor (alpha)."
     },
     {
-      "formula_eng": "Relation of current gain and amplification factor",
-      "formula_math": "\\beta = \\frac{\\alpha}{1 - \\alpha}"
+      "formula_math": "\\beta = \\frac{I_C}{I_B}",
+      "formula_english": "Current gain (beta)."
     },
     {
-      "formula_eng": "Drift Velocity (in terms of elec veloctiy and hole velocity)",
-      "formula_math": "I_drift = I_e + I_h"
+      "formula_math": "\\beta = \\frac{\\alpha}{1 - \\alpha}",
+      "formula_english": "Relation between alpha and beta."
     },
     {
-      "formula_eng": "Relation between emitter, base and collector currents",
-      "formula_math": "I_E = I_B + I_C"
+      "formula_math": "\\alpha = \\frac{\\beta}{1 + \\beta}",
+      "formula_english": "Alpha in terms of beta."
+    },
+    {
+      "formula_math": "A_v = \\frac{V_{out}}{V_{in}}",
+      "formula_english": "Voltage gain of amplifier."
+    },
+    {
+      "formula_math": "A_i = \\frac{I_{out}}{I_{in}}",
+      "formula_english": "Current gain of amplifier."
+    },
+    {
+      "formula_math": "A_p = A_v \\times A_i",
+      "formula_english": "Power gain of amplifier."
+    },
+    {
+      "formula_math": "V_{out} = A_v V_{in}",
+      "formula_english": "Output voltage of amplifier."
+    },
+    {
+      "formula_math": "I_C = \\beta I_B",
+      "formula_english": "Collector current in terms of base current."
+    },
+    {
+      "formula_math": "V_{CE} = V_{CC} - I_C R_C",
+      "formula_english": "Collector-emitter voltage."
+    },
+    {
+      "formula_math": "I_D = I_{DSS} \\left(1 - \\frac{V_{GS}}{V_P}\\right)^2",
+      "formula_english": "Drain current in JFET."
+    },
+    {
+      "formula_math": "g_m = \\frac{\\Delta I_D}{\\Delta V_{GS}}",
+      "formula_english": "Transconductance of FET."
+    },
+    {
+      "formula_math": "f_c = \\frac{1}{2\\pi RC}",
+      "formula_english": "Cut-off frequency of filter."
+    },
+    {
+      "formula_math": "Y = A + B",
+      "formula_english": "OR gate logic."
+    },
+    {
+      "formula_math": "Y = A \\cdot B",
+      "formula_english": "AND gate logic."
+    },
+    {
+      "formula_math": "Y = \\overline{A}",
+      "formula_english": "NOT gate logic."
     }
   ]
 }

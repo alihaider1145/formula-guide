@@ -2,44 +2,72 @@
   "chapter": "13. Electromagnetism",
   "formulas": [
     {
-      "formula_math": "F = q v B \\sin \\theta",
-      "formula_english": "Magnetic force on a moving charge."
+      "formula_math": "F = qvB \\sin \\theta",
+      "formula_english": "Magnetic force on moving charge."
     },
     {
-      "formula_math": "r = \\frac{m v}{q B}",
-      "formula_english": "Radius of circular path of a charged particle in a magnetic field."
+      "formula_math": "\\vec{F} = q(\\vec{v} \\times \\vec{B})",
+      "formula_english": "Lorentz force (vector form)."
     },
     {
-      "formula_math": "\\epsilon = B l v",
-      "formula_english": "Motional emf induced in a conductor moving in a magnetic field."
+      "formula_math": "r = \\frac{mv}{qB}",
+      "formula_english": "Radius of circular path in magnetic field."
     },
     {
-      "formula_math": "F = I L B \\sin \\theta",
-      "formula_english": "Force on a current-carrying conductor in a magnetic field."
+      "formula_math": "T = \\frac{2\\pi m}{qB}",
+      "formula_english": "Period of circular motion in magnetic field."
     },
     {
-      "formula_math": "\\tau = N I A B \\sin \\theta",
-      "formula_english": "Torque on a current loop in a magnetic field."
+      "formula_math": "F = BIl \\sin \\theta",
+      "formula_english": "Force on current-carrying conductor."
     },
     {
-      "formula_math": "B = \\frac{\\mu_0 I}{2 \\pi r}",
-      "formula_english": "Magnetic field due to a long straight wire."
+      "formula_math": "\\tau = NIAB \\sin \\theta",
+      "formula_english": "Torque on current loop."
     },
     {
-      "formula_math": "B = \\frac{\\mu_0 I}{2 R}",
-      "formula_english": "Magnetic field at the center of a circular current loop."
+      "formula_math": "\\mu = NIA",
+      "formula_english": "Magnetic dipole moment of coil."
     },
     {
-      "formula_math": "B = \\mu_0 n I",
-      "formula_english": "Magnetic field inside a solenoid."
+      "formula_math": "\\tau = \\mu B \\sin \\theta",
+      "formula_english": "Torque on magnetic dipole."
     },
     {
-      "formula_math": "\\frac{F}{l} = \\frac{\\mu_0 I_1 I_2}{2 \\pi r}",
-      "formula_english": "Force per unit length between two parallel current-carrying wires."
+      "formula_math": "B = \\frac{\\mu_0 I}{2\\pi r}",
+      "formula_english": "Magnetic field due to straight wire."
     },
     {
-      "formula_math": "B = \\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I_{enclosed}",
-      "formula_english": "Ampère’s law (integral form)."
+      "formula_math": "B = \\frac{\\mu_0 I}{2R}",
+      "formula_english": "Magnetic field at center of circular loop."
+    },
+    {
+      "formula_math": "B = \\mu_0 nI",
+      "formula_english": "Magnetic field inside solenoid."
+    },
+    {
+      "formula_math": "\\frac{F}{l} = \\frac{\\mu_0 I_1 I_2}{2\\pi d}",
+      "formula_english": "Force per unit length between parallel wires."
+    },
+    {
+      "formula_math": "\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I_{enclosed}",
+      "formula_english": "Ampere's law."
+    },
+    {
+      "formula_math": "B = \\mu_0 (H + M)",
+      "formula_english": "Magnetic field in material."
+    },
+    {
+      "formula_math": "\\mu_r = \\frac{B}{B_0}",
+      "formula_english": "Relative permeability."
+    },
+    {
+      "formula_math": "\\chi_m = \\frac{M}{H}",
+      "formula_english": "Magnetic susceptibility."
+    },
+    {
+      "formula_math": "e = Blv",
+      "formula_english": "Motional EMF."
     }
   ]
 }

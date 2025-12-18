@@ -2,67 +2,95 @@
   "chapter": "11. Electrostatics",
   "formulas": [
     {
-      "formula_math": "F = k \\frac{|q_1 q_2|}{r^2}",
-      "formula_english": "Coulomb’s law for electrostatic force between two point charges."
+      "formula_math": "F = k \\frac{q_1 q_2}{r^2}",
+      "formula_english": "Coulomb's law."
     },
     {
-      "formula_math": "E = \\frac{F}{q}",
-      "formula_english": "Electric field defined as force per unit charge."
-    },
-    {
-      "formula_math": "EF = E q",
-      "formula_english": "Force in terms of Electric Feild."
-    },
-    {
-      "formula_math": "E = k \\frac{Q}{r^2}",
-      "formula_english": "Electric field due to a point charge."
-    },
-    {
-      "formula_math": "E = k \\frac{Q}{r^2} \\, \\hat{r}",
-      "formula_english": "Vector form of electric field of a point charge."
-    },
-    {
-      "formula_math": "E_{net} = \\sum E_i",
-      "formula_english": "Superposition principle for electric fields."
-    },
-    {
-      "formula_math": "F_{net} = \\sum F_i",
-      "formula_english": "Superposition principle for electrostatic forces."
-    },
-    {
-      "formula_math": "E = \\frac{\\sigma}{2\\varepsilon_0}",
-      "formula_english": "Electric field due to an infinite charged sheet.",
+      "formula_math": "k = \\frac{1}{4\\pi \\varepsilon_0}",
+      "formula_english": "Coulomb's constant.",
       "variants": [
-        "Above and below the sheet: same magnitude, opposite direction"
+        "k = 9 \\times 10^9 N m^2/C^2"
       ]
     },
     {
-      "formula_math": "E = \\frac{kQ}{r^2} \\quad (\\text{outside a uniformly charged sphere})",
-      "formula_english": "Electric field outside a charged solid or hollow sphere behaves as a point charge."
+      "formula_math": "E = \\frac{F}{q_0}",
+      "formula_english": "Electric field intensity."
     },
     {
-      "formula_math": "E = 0 \\quad (\\text{inside a hollow charged sphere})",
-      "formula_english": "Electric field inside a conductor/shell in electrostatic equilibrium."
+      "formula_math": "E = k \\frac{Q}{r^2}",
+      "formula_english": "Electric field due to point charge."
     },
     {
-      "formula_math": "E = - \\frac{dV}{dr}",
-      "formula_english": "Potential Gradient."
+      "formula_math": "\\vec{E} = k \\frac{Q}{r^2} \\hat{r}",
+      "formula_english": "Electric field (vector form)."
+    },
+    {
+      "formula_math": "F = qE",
+      "formula_english": "Force on charge in electric field."
+    },
+    {
+      "formula_math": "E = \\frac{\\sigma}{\\varepsilon_0}",
+      "formula_english": "Electric field due to infinite charged sheet."
+    },
+    {
+      "formula_math": "E = \\frac{\\sigma}{2\\varepsilon_0}",
+      "formula_english": "Electric field near conducting plate."
     },
     {
       "formula_math": "\\Phi = E A \\cos \\theta",
-      "formula_english": "Electric flux (considered as scalar area)."
+      "formula_english": "Electric flux through surface."
     },
     {
-      "formula_math": "\\Phi = \\oint \\vec{E} \\cdot d\\vec{A}",
-      "formula_english": "General definition of electric flux."
+      "formula_math": "\\Phi = \\oint \\vec{E} \\cdot d\\vec{A} = \\frac{Q_{enclosed}}{\\varepsilon_0}",
+      "formula_english": "Gauss's law."
     },
     {
-      "formula_math": "\\oint \\vec{E} \\cdot d\\vec{A} = \\frac{Q_{enclosed}}{\\varepsilon_0}",
-      "formula_english": "Gauss’s law."
+      "formula_math": "V = \\frac{W}{q}",
+      "formula_english": "Electric potential."
     },
     {
-      "formula_math": "E = \\frac{Q}{\\varepsilon_0 A}",
-      "formula_english": "Electric field between two oppositely charged parallel plates."
+      "formula_math": "V = k \\frac{Q}{r}",
+      "formula_english": "Potential due to point charge."
+    },
+    {
+      "formula_math": "V = Ed",
+      "formula_english": "Potential difference in uniform field."
+    },
+    {
+      "formula_math": "W = qV",
+      "formula_english": "Work done in moving charge."
+    },
+    {
+      "formula_math": "E = -\\frac{dV}{dr}",
+      "formula_english": "Relation between field and potential."
+    },
+    {
+      "formula_math": "C = \\frac{Q}{V}",
+      "formula_english": "Capacitance definition."
+    },
+    {
+      "formula_math": "C = \\frac{\\varepsilon_0 A}{d}",
+      "formula_english": "Capacitance of parallel plate capacitor."
+    },
+    {
+      "formula_math": "C = K C_0",
+      "formula_english": "Capacitance with dielectric."
+    },
+    {
+      "formula_math": "C_s = \\frac{1}{\\frac{1}{C_1} + \\frac{1}{C_2} + ...}",
+      "formula_english": "Capacitors in series."
+    },
+    {
+      "formula_math": "C_p = C_1 + C_2 + ...",
+      "formula_english": "Capacitors in parallel."
+    },
+    {
+      "formula_math": "U = \\frac{1}{2} CV^2",
+      "formula_english": "Energy stored in capacitor."
+    },
+    {
+      "formula_math": "U = \\frac{1}{2} QV = \\frac{Q^2}{2C}",
+      "formula_english": "Alternative forms of stored energy."
     }
   ]
 }

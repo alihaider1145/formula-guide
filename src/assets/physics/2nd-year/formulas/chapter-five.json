@@ -2,94 +2,80 @@
   "chapter": "15. Alternating Current",
   "formulas": [
     {
-      "formula_math": "I(t) = I_0 \\sin(\\omega t)",
-      "formula_english": "Instantaneous AC current."
-    },
-    {
-      "formula_math": "V(t) = V_0 \\sin(\\omega t)",
+      "formula_math": "V = V_0 \\sin(\\omega t)",
       "formula_english": "Instantaneous AC voltage."
     },
     {
-      "formula_math": "I_{rms} = \\frac{I_0}{\\sqrt{2}}",
-      "formula_english": "RMS value of AC current."
+      "formula_math": "I = I_0 \\sin(\\omega t)",
+      "formula_english": "Instantaneous AC current."
     },
     {
       "formula_math": "V_{rms} = \\frac{V_0}{\\sqrt{2}}",
-      "formula_english": "RMS value of AC voltage."
+      "formula_english": "RMS voltage."
     },
     {
-      "formula_math": "V_L = \\omega I L",
-      "formula_english": "Inductive voltage."
+      "formula_math": "I_{rms} = \\frac{I_0}{\\sqrt{2}}",
+      "formula_english": "RMS current."
     },
     {
-      "formula_math": "V_C = \\frac{I}{\\omega C}",
-      "formula_english": "Capacitive voltage."
-    },
-    {
-      "formula_math": "X_L = \\omega L = 2 \\pi f L",
+      "formula_math": "X_L = \\omega L = 2\\pi f L",
       "formula_english": "Inductive reactance."
     },
     {
-      "formula_math": "X_C = \\frac{1}{\\omega C} = \\frac{1}{2 \\pi f C}",
+      "formula_math": "X_C = \\frac{1}{\\omega C} = \\frac{1}{2\\pi f C}",
       "formula_english": "Capacitive reactance."
     },
     {
-      "formula_math": "P = 0",
-      "formula_english": "Power in capacitive and inductive AC circuit."
+      "formula_math": "V_L = I_0 X_L",
+      "formula_english": "Voltage across inductor."
     },
     {
-      "formula_math": "P = V-rms I-rms",
-      "formula_english": "Power in resistive AC curcuit."
+      "formula_math": "V_C = I_0 X_C",
+      "formula_english": "Voltage across capacitor."
     },
-    {
-      "formula_math": "Z_R = R",
-      "formula_english": "Impedance of a resistor in AC."
-    },
-    {
-      "formula_math": "Z_L = j X_L",
-      "formula_english": "Impedance of an inductor (phasor form, j = y-axis)."
-    },
-    {
-      "formula_math": "Z_C = -j X_C",
-      "formula_english": "Impedance of a capacitor (phasor form, -j = -y-axis)."
-    },
-
     {
       "formula_math": "Z = \\sqrt{R^2 + (X_L - X_C)^2}",
-      "formula_english": "Impedance of an RLC series circuit."
+      "formula_english": "Impedance of RLC circuit."
+    },
+    {
+      "formula_math": "I = \\frac{V}{Z}",
+      "formula_english": "Current in AC circuit."
     },
     {
       "formula_math": "\\tan \\phi = \\frac{X_L - X_C}{R}",
-      "formula_english": "Phase angle between V and I."
-    },
-    {
-      "formula_math": "I_{rms} = \\frac{V_{rms}}{Z}",
-      "formula_english": "AC current using impedance."
-    },
-
-    {
-      "formula_math": "P_{ave} = V_{rms} I_{rms} \\cos \\phi",
-      "formula_english": "Average power delivered to an AC circuit."
+      "formula_english": "Phase angle."
     },
     {
       "formula_math": "\\cos \\phi = \\frac{R}{Z}",
       "formula_english": "Power factor."
     },
     {
-      "formula_math": "R_load = R_source (unity power factor)}",
-      "formula_english": "Maximum Power Factor."
+      "formula_math": "P_{avg} = V_{rms} I_{rms} \\cos \\phi",
+      "formula_english": "Average power in AC circuit."
     },
     {
-      "formula_math": "f_0 = \\frac{1}{2 \\pi \\sqrt{LC}}",
-      "formula_english": "Resonant frequency of a series RLC circuit."
+      "formula_math": "P = I_{rms}^2 R",
+      "formula_english": "Power dissipated in resistance."
     },
     {
-      "formula_math": "Z_{resonance} = R",
+      "formula_math": "f_0 = \\frac{1}{2\\pi \\sqrt{LC}}",
+      "formula_english": "Resonant frequency."
+    },
+    {
+      "formula_math": "\\omega_0 = \\frac{1}{\\sqrt{LC}}",
+      "formula_english": "Angular resonant frequency."
+    },
+    {
+      "formula_math": "Z_{min} = R",
       "formula_english": "Impedance at resonance."
     },
     {
-      "formula_math": "I_{max} = \\frac{V_{rms}}{R}",
+      "formula_math": "I_{max} = \\frac{V_0}{R}",
       "formula_english": "Maximum current at resonance."
+    },
+    {
+      "formula_math": "Q = \\frac{\\omega_0 L}{R} = \\frac{1}{\\omega_0 CR}",
+      "formula_english": "Quality factor of RLC circuit."
     }
   ]
 }

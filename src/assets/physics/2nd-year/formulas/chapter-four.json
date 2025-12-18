@@ -2,73 +2,76 @@
   "chapter": "14. Electromagnetic Induction",
   "formulas": [
     {
-      "formula_math": "\\Phi = B A \\cos \\theta",
-      "formula_english": "Magnetic flux (considered as vector area)."
+      "formula_math": "\\Phi_B = BA \\cos \\theta",
+      "formula_english": "Magnetic flux."
     },
     {
-      "formula_math": "emf = - N \\frac{\\Delta \\Phi}{\\Delta t}",
-      "formula_english": "Faraday’s law of electromagnetic induction (coil of N turns)."
+      "formula_math": "\\varepsilon = -N \\frac{d\\Phi_B}{dt}",
+      "formula_english": "Faraday's law of induction."
     },
     {
-      "formula_math": "emf = - \\frac{d \\Phi}{dt}",
-      "formula_english": "Induced emf for a single loop."
+      "formula_math": "\\varepsilon = -\\frac{d\\Phi_B}{dt}",
+      "formula_english": "Induced EMF (single loop)."
     },
     {
-      "formula_math": "emf = B l v",
-      "formula_english": "Motional emf in a straight conductor moving in a magnetic field."
+      "formula_math": "\\varepsilon = Blv",
+      "formula_english": "Motional EMF."
     },
     {
-      "formula_math": "emf = N A B \\omega \\sin(\\omega t)",
-      "formula_english": "Emf induced in a rotating coil (AC generator)."
-    },
-
-    {
-      "formula_math": "emf_1 = - M \\frac{\\Delta I_2}{\\Delta t}",
-      "formula_english": "Mutual induction between two coils."
+      "formula_math": "\\varepsilon = NAB\\omega \\sin(\\omega t)",
+      "formula_english": "EMF in rotating coil (AC generator)."
     },
     {
-      "formula_math": "emf = - L \\frac{\\Delta I}{\\Delta t}",
-      "formula_english": "Self-induced emf (self-induction)."
+      "formula_math": "\\varepsilon_0 = NAB\\omega",
+      "formula_english": "Peak EMF in AC generator."
     },
     {
-      "formula_math": "L = N \\frac{\\Delta \\Phi}{\\Delta I}",
-      "formula_english": "Inductance definition."
+      "formula_math": "\\varepsilon = -M \\frac{dI}{dt}",
+      "formula_english": "Mutual induction."
     },
     {
-      "formula_math": "L = \\mu_0 \\frac{N^2 A}{\\ell}",
-      "formula_english": "Inductance of a solenoid."
+      "formula_math": "\\varepsilon = -L \\frac{dI}{dt}",
+      "formula_english": "Self-induction."
     },
     {
-      "formula_math": "E_{ind} = \\frac{1}{2} L I^2",
-      "formula_english": "Energy stored in an inductor."
-    },
-
-    {
-      "formula_math": "I = I_0 (1 - e^{-t/\\tau})",
-      "formula_english": "Growth of current in an LR circuit.",
-      "variants": [
-        "Initial condition: I(0) = 0"
-      ]
+      "formula_math": "L = \\frac{N\\Phi_B}{I}",
+      "formula_english": "Self-inductance definition."
     },
     {
-      "formula_math": "I = I_0 e^{-t/\\tau}",
-      "formula_english": "Decay of current in an LR circuit."
+      "formula_math": "L = \\frac{\\mu_0 N^2 A}{l}",
+      "formula_english": "Inductance of solenoid."
+    },
+    {
+      "formula_math": "U = \\frac{1}{2} LI^2",
+      "formula_english": "Energy stored in inductor."
+    },
+    {
+      "formula_math": "I = I_0 (1 - e^{-Rt/L})",
+      "formula_english": "Current growth in LR circuit."
+    },
+    {
+      "formula_math": "I = I_0 e^{-Rt/L}",
+      "formula_english": "Current decay in LR circuit."
     },
     {
       "formula_math": "\\tau = \\frac{L}{R}",
-      "formula_english": "Time constant of an LR circuit."
+      "formula_english": "Time constant of LR circuit."
     },
     {
       "formula_math": "\\frac{V_s}{V_p} = \\frac{N_s}{N_p}",
-      "formula_english": "Transformer voltage ratio."
+      "formula_english": "Transformer voltage relation."
     },
     {
-      "formula_math": "\\frac{I_p}{I_s} = \\frac{N_s}{N_p}",
-      "formula_english": "Transformer current ratio."
+      "formula_math": "\\frac{I_s}{I_p} = \\frac{N_p}{N_s}",
+      "formula_english": "Transformer current relation."
     },
     {
-      "formula_math": "P_p = P_s",
-      "formula_english": "Power conservation in an ideal transformer."
+      "formula_math": "\\frac{V_s}{V_p} = \\frac{I_p}{I_s}",
+      "formula_english": "Ideal transformer power relation."
+    },
+    {
+      "formula_math": "\\eta = \\frac{P_{out}}{P_{in}} \\times 100\\%",
+      "formula_english": "Transformer efficiency."
     }
   ]
 }

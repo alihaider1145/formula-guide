@@ -2,61 +2,86 @@
   "chapter": "20. Nuclear Physics",
   "formulas": [
     {
-      "formula_math": "E = m c^2",
-      "formula_english": "Mass–energy equivalence."
+      "formula_math": "R = R_0 A^{1/3}",
+      "formula_english": "Nuclear radius.",
+      "variants": [
+        "R_0 = 1.2 \\times 10^{-15} m"
+      ]
     },
     {
-      "formula_math": "\\Delta m = Z m_p + N m_n - M_{nucleus}",
-      "formula_english": "Mass defect: difference between nucleon mass sum and actual nucleus mass."
+      "formula_math": "\\rho = \\frac{3m_p}{4\\pi R_0^3}",
+      "formula_english": "Nuclear density."
     },
     {
-      "formula_math": "E_b = \\Delta m \\, c^2",
-      "formula_english": "Total binding energy of a nucleus."
+      "formula_math": "\\Delta m = (Zm_p + Nm_n) - M_{nucleus}",
+      "formula_english": "Mass defect."
     },
     {
-      "formula_math": "E_b / A",
+      "formula_math": "E_b = \\Delta m c^2",
+      "formula_english": "Binding energy."
+    },
+    {
+      "formula_math": "\\frac{E_b}{A}",
       "formula_english": "Binding energy per nucleon."
     },
-
     {
-      "formula_math": "N(t) = N_0 e^{-\\lambda t}",
-      "formula_english": "Radioactive decay law (number of nuclei)."
+      "formula_math": "1 \\text{ amu} = 931.5 \\text{ MeV/c}^2",
+      "formula_english": "Atomic mass unit conversion."
     },
     {
-      "formula_math": "A(t) = A_0 e^{-\\lambda t}",
-      "formula_english": "Radioactive activity decay."
+      "formula_math": "N = N_0 e^{-\\lambda t}",
+      "formula_english": "Radioactive decay law."
     },
     {
-      "formula_math": "\\lambda = \\frac{0.693}{T_{1/2}}",
-      "formula_english": "Relation between decay constant and half-life."
+      "formula_math": "A = A_0 e^{-\\lambda t}",
+      "formula_english": "Activity decay."
     },
     {
-      "formula_math": "N = N_0 2^{-t / T_{1/2}}",
-      "formula_english": "Half-life form of decay law."
-    },
-
-    {
-      "formula_math": "R = \\lambda N",
-      "formula_english": "Activity of a radioactive sample."
+      "formula_math": "A = \\lambda N",
+      "formula_english": "Activity definition."
     },
     {
-      "formula_math": "A = A_0 2^{-t / T_{1/2}}",
-      "formula_english": "Activity in terms of half-life."
+      "formula_math": "T_{1/2} = \\frac{0.693}{\\lambda}",
+      "formula_english": "Half-life relation."
     },
-
     {
-      "formula_math": "Q = (m_{initial} - m_{final}) c^2",
-      "formula_english": "Energy released in a nuclear reaction (reaction Q-value)."
+      "formula_math": "\\lambda = \\frac{\\ln 2}{T_{1/2}}",
+      "formula_english": "Decay constant from half-life."
     },
-
     {
-      "formula_math": "E = h f",
-      "formula_english": "Photon energy (gamma emission)."
+      "formula_math": "N = N_0 \\left(\\frac{1}{2}\\right)^{t/T_{1/2}}",
+      "formula_english": "Decay in terms of half-life."
     },
-
     {
-      "formula_math": "P = \\frac{E}{t}",
-      "formula_english": "Nuclear power formula (energy per unit time)."
+      "formula_math": "N = N_0 2^{-n}",
+      "formula_english": "After n half-lives.",
+      "variants": [
+        "n = t/T_{1/2}"
+      ]
+    },
+    {
+      "formula_math": "t_{avg} = \\frac{T_{1/2}}{0.693} = \\frac{1}{\\lambda}",
+      "formula_english": "Average (mean) life."
+    },
+    {
+      "formula_math": "Q = (m_i - m_f)c^2",
+      "formula_english": "Q-value of nuclear reaction."
+    },
+    {
+      "formula_math": "Q = \\Delta BE",
+      "formula_english": "Q-value from binding energy change."
+    },
+    {
+      "formula_math": "E = hf = \\frac{hc}{\\lambda}",
+      "formula_english": "Gamma ray energy."
+    },
+    {
+      "formula_math": "KE = \\frac{1}{2}mv^2",
+      "formula_english": "Kinetic energy of particles."
+    },
+    {
+      "formula_math": "\\frac{dN}{dt} = -\\lambda N",
+      "formula_english": "Rate of decay."
     }
   ]
 }
