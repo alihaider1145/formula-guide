@@ -2,50 +2,66 @@
   "chapter": "4. Work and Energy",
   "formulas": [
     {
-      "formula_math": "W = F d \\cos \\theta",
-      "formula_english": "Work done by a force at an angle."
+      "formula_math": "W = Fs \\cos \\theta",
+      "formula_english": "Work done by a constant force."
+    },
+    {
+      "formula_math": "W = Fs",
+      "formula_english": "Work when force is in direction of displacement.",
+      "variants": [
+        "\\theta = 0°"
+      ]
     },
     {
       "formula_math": "KE = \\frac{1}{2} m v^2",
-      "formula_english": "Kinetic energy of a moving body."
+      "formula_english": "Kinetic energy."
     },
     {
-      "formula_math": "W_{net} = \\frac{1}{2} m v_f^2 - \\frac{1}{2} m v_0^2",
-      "formula_english": "Work–energy theorem."
+      "formula_math": "W_{net} = \\Delta KE = KE_f - KE_i",
+      "formula_english": "Work-energy theorem."
     },
     {
-      "formula_math": "PE_g = m g h",
+      "formula_math": "PE = mgh",
       "formula_english": "Gravitational potential energy."
     },
     {
-      "formula_math": "PE_s = \\frac{1}{2} k x^2",
-      "formula_english": "Elastic potential energy stored in a spring."
+      "formula_math": "PE = \\frac{1}{2} k x^2",
+      "formula_english": "Elastic potential energy."
     },
     {
-      "formula_math": "KE_0 + PE_0 = KE_f + PE_f",
-      "formula_english": "Conservation of mechanical energy (no non-conservative forces)."
+      "formula_math": "F = -kx",
+      "formula_english": "Hooke's law for springs."
     },
     {
-      "formula_math": "KE_0 + PE_0 + W_{nc} = KE_f + PE_f",
-      "formula_english": "Mechanical energy with non-conservative work included.",
+      "formula_math": "ME = KE + PE",
+      "formula_english": "Total mechanical energy."
+    },
+    {
+      "formula_math": "KE_i + PE_i = KE_f + PE_f",
+      "formula_english": "Conservation of mechanical energy."
+    },
+    {
+      "formula_math": "KE_i + PE_i = KE_f + PE_f + W_f",
+      "formula_english": "Energy conservation with friction.",
       "variants": [
-        "W_{nc} often represents work done by friction or air resistance"
+        "W_f = work done against friction"
       ]
     },
     {
       "formula_math": "P = \\frac{W}{t}",
-      "formula_english": "Power is the rate of doing work."
+      "formula_english": "Average power."
     },
     {
-      "formula_math": "P = F v",
-      "formula_english": "Instantaneous power for a constant force and velocity.",
-      "similar": [
-        "Useful when force is applied in direction of motion"
-      ]
+      "formula_math": "P = Fv",
+      "formula_english": "Instantaneous power."
     },
     {
-      "formula_math": "Eff = \\frac{W_{out}}{E_{in}}",
+      "formula_math": "\\eta = \\frac{W_{out}}{W_{in}} \\times 100\\%",
       "formula_english": "Efficiency of a machine."
+    },
+    {
+      "formula_math": "\\eta = \\frac{P_{out}}{P_{in}} \\times 100\\%",
+      "formula_english": "Efficiency in terms of power."
     }
   ]
 }

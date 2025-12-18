@@ -2,68 +2,79 @@
   "chapter": "7. Oscillations",
   "formulas": [
     {
-      "formula_math": "F = -k x",
-      "formula_english": "Restoring force in simple harmonic motion (Hooke’s law)."
+      "formula_math": "F = -kx",
+      "formula_english": "Restoring force (Hooke's law)."
     },
     {
-      "formula_math": "PE = \\frac{1}{2} k x^2",
-      "formula_english": "Elastic potential energy of a spring."
+      "formula_math": "a = -\\omega^2 x",
+      "formula_english": "Acceleration in simple harmonic motion."
     },
     {
-      "formula_math": "T = 2 \\pi \\sqrt{\\frac{m}{k}}",
-      "formula_english": "Time period of a mass–spring system."
+      "formula_math": "\\omega = \\sqrt{\\frac{k}{m}}",
+      "formula_english": "Angular frequency of mass-spring system."
     },
     {
-      "formula_math": "f = \\frac{1}{2 \\pi} \\sqrt{\\frac{k}{m}}",
-      "formula_english": "Frequency of a mass–spring system."
+      "formula_math": "T = 2\\pi \\sqrt{\\frac{m}{k}}",
+      "formula_english": "Period of mass-spring system."
     },
     {
-      "formula_math": "x(t) = X \\cos\\left( \\frac{2 \\pi t}{T} \\right)",
-      "formula_english": "Displacement as a function of time in SHM."
+      "formula_math": "f = \\frac{1}{2\\pi} \\sqrt{\\frac{k}{m}}",
+      "formula_english": "Frequency of mass-spring system."
     },
     {
-      "formula_math": "v(t) = -v_{max} \\sin\\left( \\frac{2 \\pi t}{T} \\right)",
-      "formula_english": "Velocity as a function of time in SHM."
+      "formula_math": "x = A \\cos(\\omega t + \\phi)",
+      "formula_english": "Displacement in SHM."
     },
     {
-      "formula_math": "v_{max} = \\frac{2 \\pi X}{T}",
+      "formula_math": "v = -A\\omega \\sin(\\omega t + \\phi)",
+      "formula_english": "Velocity in SHM."
+    },
+    {
+      "formula_math": "v_{max} = A\\omega",
       "formula_english": "Maximum velocity in SHM."
     },
     {
-      "formula_math": "v_{max} = X \\sqrt{\\frac{k}{m}}",
-      "formula_english": "Alternate expression for maximum velocity."
+      "formula_math": "a = -A\\omega^2 \\cos(\\omega t + \\phi)",
+      "formula_english": "Acceleration in SHM."
     },
     {
-      "formula_math": "a(t) = - \\frac{k X}{m} \\cos\\left( \\frac{2 \\pi t}{T} \\right)",
-      "formula_english": "Acceleration as a function of time in SHM."
+      "formula_math": "a_{max} = A\\omega^2",
+      "formula_english": "Maximum acceleration in SHM."
     },
     {
-      "formula_math": "v_{string} = \\sqrt{\\frac{F}{m/L}}",
-      "formula_english": "Wave speed on a stretched string (F = tension)."
+      "formula_math": "KE = \\frac{1}{2} m v^2 = \\frac{1}{2} m \\omega^2 (A^2 - x^2)",
+      "formula_english": "Kinetic energy in SHM."
     },
     {
-      "formula_math": "v_w = 331 \\sqrt{\\frac{T}{273}}",
-      "formula_english": "Speed of sound in air as a function of temperature."
+      "formula_math": "PE = \\frac{1}{2} k x^2",
+      "formula_english": "Potential energy in SHM."
     },
     {
-      "formula_math": "f = \\frac{1}{T}",
-      "formula_english": "Frequency–period relation."
+      "formula_math": "E_{total} = \\frac{1}{2} k A^2",
+      "formula_english": "Total energy in SHM."
     },
     {
-      "formula_math": "v = f \\lambda",
-      "formula_english": "Wave speed relation."
+      "formula_math": "T = 2\\pi \\sqrt{\\frac{l}{g}}",
+      "formula_english": "Period of simple pendulum."
     },
     {
-      "formula_math": "I = \\frac{P}{A}",
-      "formula_english": "Intensity of a wave."
+      "formula_math": "\\omega = \\sqrt{\\frac{g}{l}}",
+      "formula_english": "Angular frequency of simple pendulum."
     },
     {
-      "formula_math": "A_{sphere} = 4 \\pi r^2",
-      "formula_english": "Surface area used when intensity spreads spherically."
+      "formula_math": "x = Ae^{-bt/2m} \\cos(\\omega' t)",
+      "formula_english": "Damped harmonic motion.",
+      "variants": [
+        "b = damping constant"
+      ]
     },
     {
-      "formula_math": "I = \\frac{(\\Delta p)^2}{2 \\rho v_w}",
-      "formula_english": "Intensity in terms of pressure amplitude."
+      "formula_math": "A = \\frac{F_0}{m\\sqrt{(\\omega_0^2 - \\omega^2)^2 + (b\\omega/m)^2}}",
+      "formula_english": "Amplitude in forced oscillations."
+    },
+    {
+      "formula_math": "\\omega_r = \\sqrt{\\omega_0^2 - \\frac{b^2}{2m^2}}",
+      "formula_english": "Resonance frequency."
     }
   ]
 }

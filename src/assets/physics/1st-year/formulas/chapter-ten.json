@@ -2,72 +2,90 @@
   "chapter": "10. Thermodynamics",
   "formulas": [
     {
-      "formula_math": "U = \\frac{3}{2} N k T",
-      "formula_english": "Internal energy of an ideal monoatomic gas."
-    },
-    {
       "formula_math": "\\Delta U = Q - W",
       "formula_english": "First law of thermodynamics."
     },
-
     {
       "formula_math": "W = P \\Delta V",
-      "formula_english": "Work done by a gas in an isobaric process."
+      "formula_english": "Work done by gas at constant pressure."
     },
     {
-      "formula_math": "W = 0",
-      "formula_english": "Work done in an isochoric process."
+      "formula_math": "Q = mc\\Delta T",
+      "formula_english": "Heat absorbed or released."
     },
     {
-      "formula_math": "Q = W",
-      "formula_english": "Isothermal process (ΔU = 0)."
-    },
-    {
-      "formula_math": "Q = 0",
-      "formula_english": "Adiabatic process (ΔU = −W)."
-    },
-
-    {
-      "formula_math": "Eff = \\frac{W}{Q_h}",
-      "formula_english": "Efficiency of a heat engine."
-    },
-    {
-      "formula_math": "Eff = 1 - \\frac{Q_c}{Q_h}",
-      "formula_english": "Alternative efficiency form using heat rejected."
-    },
-    {
-      "formula_math": "Eff_C = 1 - \\frac{T_c}{T_h}",
-      "formula_english": "Carnot engine efficiency."
-    },
-
-    {
-      "formula_math": "COP_{hp} = \\frac{Q_h}{W}",
-      "formula_english": "Coefficient of performance for a heat pump."
-    },
-    {
-      "formula_math": "COP_{ref} = \\frac{Q_c}{W}",
-      "formula_english": "Coefficient of performance for a refrigerator.",
+      "formula_math": "Q = mL_f",
+      "formula_english": "Heat for phase change (fusion).",
       "variants": [
-        "COP_{ref} = COP_{hp} - 1"
+        "L_f = latent heat of fusion"
       ]
     },
-
     {
-      "formula_math": "\\Delta S = \\frac{Q}{T}",
-      "formula_english": "Entropy change in a reversible process."
+      "formula_math": "Q = mL_v",
+      "formula_english": "Heat for phase change (vaporization).",
+      "variants": [
+        "L_v = latent heat of vaporization"
+      ]
     },
     {
-      "formula_math": "\\Delta S_{total} = \\frac{Q_h}{T_h} + \\frac{Q_c}{T_c}",
-      "formula_english": "Total entropy change for a cyclic process."
+      "formula_math": "PV = nRT",
+      "formula_english": "Ideal gas law."
     },
     {
-      "formula_math": "W_{unavailable} = \\Delta S \\cdot T_0",
-      "formula_english": "Unavailable energy due to entropy production."
+      "formula_math": "P_1 V_1 = P_2 V_2",
+      "formula_english": "Boyle's law (isothermal process)."
     },
-
     {
-      "formula_math": "S = k \\ln W",
-      "formula_english": "Boltzmann entropy formula."
+      "formula_math": "\\frac{V_1}{T_1} = \\frac{V_2}{T_2}",
+      "formula_english": "Charles's law (isobaric process)."
+    },
+    {
+      "formula_math": "\\frac{P_1}{T_1} = \\frac{P_2}{T_2}",
+      "formula_english": "Gay-Lussac's law (isochoric process)."
+    },
+    {
+      "formula_math": "PV^\\gamma = \\text{constant}",
+      "formula_english": "Adiabatic process."
+    },
+    {
+      "formula_math": "TV^{\\gamma - 1} = \\text{constant}",
+      "formula_english": "Alternative form of adiabatic relation."
+    },
+    {
+      "formula_math": "W = nRT \\ln\\left(\\frac{V_f}{V_i}\\right)",
+      "formula_english": "Work in isothermal process."
+    },
+    {
+      "formula_math": "W = \\frac{nR(T_1 - T_2)}{\\gamma - 1}",
+      "formula_english": "Work in adiabatic process."
+    },
+    {
+      "formula_math": "\\eta = \\frac{W}{Q_h}",
+      "formula_english": "Efficiency of heat engine."
+    },
+    {
+      "formula_math": "\\eta = 1 - \\frac{Q_c}{Q_h}",
+      "formula_english": "Efficiency in terms of heat."
+    },
+    {
+      "formula_math": "\\eta_c = 1 - \\frac{T_c}{T_h}",
+      "formula_english": "Carnot efficiency."
+    },
+    {
+      "formula_math": "W = Q_h - Q_c",
+      "formula_english": "Net work output of heat engine."
+    },
+    {
+      "formula_math": "COP = \\frac{Q_c}{W}",
+      "formula_english": "Coefficient of performance (refrigerator)."
+    },
+    {
+      "formula_math": "KE_{avg} = \\frac{3}{2} kT",
+      "formula_english": "Average kinetic energy per molecule."
+    },
+    {
+      "formula_math": "v_{rms} = \\sqrt{\\frac{3RT}{M}}",
+      "formula_english": "Root mean square speed of gas molecules."
     }
   ]
 }

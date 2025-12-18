@@ -2,47 +2,70 @@
   "chapter": "1. Measurement",
   "formulas": [
     {
-      "formula_math": "L.C. = \\text{Value of one main scale division} \\;/\\; \\text{Number of vernier divisions}",
-      "formula_english": "Least count formula for vernier-type instruments.",
+      "formula_math": "\\text{Least Count} = \\frac{\\text{1 MSD}}{\\text{Total vernier divisions}}",
+      "formula_english": "Least count of vernier caliper.",
       "variants": [
-        "For screw gauge: L.C. = pitch / number_of_divisions"
+        "1 MSD = 1 Main Scale Division"
       ]
     },
     {
-      "formula_math": "E = |\\text{True value} - \\text{Measured value}|",
+      "formula_math": "\\text{Least Count} = \\frac{\\text{Pitch}}{\\text{Total circular divisions}}",
+      "formula_english": "Least count of screw gauge/micrometer."
+    },
+    {
+      "formula_math": "\\text{Reading} = \\text{MSR} + (\\text{VSD} \\times \\text{LC})",
+      "formula_english": "Total reading for vernier caliper.",
+      "variants": [
+        "MSR = Main Scale Reading",
+        "VSD = Vernier Scale Division coinciding"
+      ]
+    },
+    {
+      "formula_math": "\\text{Error} = |\\text{True Value} - \\text{Measured Value}|",
       "formula_english": "Absolute error."
     },
     {
-      "formula_math": "\\delta x = \\frac{E}{x}",
-      "formula_english": "Fractional error."
+      "formula_math": "\\text{Fractional Error} = \\frac{\\Delta x}{x}",
+      "formula_english": "Fractional (relative) error."
     },
     {
-      "formula_math": "\\%\\text{Error} = \\left(\\frac{E}{x}\\right) \\times 100",
+      "formula_math": "\\% \\text{Error} = \\frac{\\Delta x}{x} \\times 100",
       "formula_english": "Percentage error."
     },
     {
-      "formula_math": "\\Delta z = \\Delta x + \\Delta y",
-      "formula_english": "Error addition rule for z = x + y or z = x − y."
+      "formula_math": "\\Delta Z = \\Delta A + \\Delta B",
+      "formula_english": "Error propagation for addition/subtraction (Z = A ± B)."
     },
     {
-      "formula_math": "\\frac{\\Delta z}{z} = \\frac{\\Delta x}{x} + \\frac{\\Delta y}{y}",
-      "formula_english": "Fractional error for multiplication and division (z = xy or z = x / y)."
+      "formula_math": "\\frac{\\Delta Z}{Z} = \\frac{\\Delta A}{A} + \\frac{\\Delta B}{B}",
+      "formula_english": "Fractional error for multiplication/division (Z = A × B or Z = A / B)."
     },
     {
-      "formula_math": "\\frac{\\Delta z}{z} = n \\left( \\frac{\\Delta x}{x} \\right)",
-      "formula_english": "Fractional error for a power function (z = x^n)."
+      "formula_math": "\\frac{\\Delta Z}{Z} = n \\frac{\\Delta A}{A}",
+      "formula_english": "Fractional error for power function (Z = A^n)."
     },
     {
-      "formula_math": "z = x \\pm \\Delta x",
-      "formula_english": "General representation of measured values with uncertainty."
+      "formula_math": "[L^a M^b T^c]",
+      "formula_english": "Dimensional formula representation.",
+      "variants": [
+        "L = Length, M = Mass, T = Time"
+      ]
     },
     {
-      "formula_math": "x = a \\times 10^n",
-      "formula_english": "Scientific notation representation of a number."
+      "formula_math": "[v] = [L T^{-1}]",
+      "formula_english": "Dimensional formula for velocity."
     },
     {
-      "formula_math": "n = \\log_{10}(x)",
-      "formula_english": "Logarithmic form used in scientific notation and data scaling."
+      "formula_math": "[a] = [L T^{-2}]",
+      "formula_english": "Dimensional formula for acceleration."
+    },
+    {
+      "formula_math": "[F] = [M L T^{-2}]",
+      "formula_english": "Dimensional formula for force."
+    },
+    {
+      "formula_math": "[E] = [M L^2 T^{-2}]",
+      "formula_english": "Dimensional formula for energy/work."
     }
   ]
 }

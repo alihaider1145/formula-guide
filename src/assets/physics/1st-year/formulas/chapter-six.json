@@ -2,52 +2,76 @@
   "chapter": "6. Fluid Dynamics",
   "formulas": [
     {
-      "formula_math": "Q = \\frac{V}{t}",
+      "formula_math": "\\rho = \\frac{m}{V}",
+      "formula_english": "Density."
+    },
+    {
+      "formula_math": "P = \\frac{F}{A}",
+      "formula_english": "Pressure."
+    },
+    {
+      "formula_math": "P = P_0 + \\rho g h",
+      "formula_english": "Pressure in a fluid at depth h."
+    },
+    {
+      "formula_math": "F_B = \\rho_{fluid} V g",
+      "formula_english": "Buoyant force (Archimedes' principle)."
+    },
+    {
+      "formula_math": "Q = Av",
       "formula_english": "Volume flow rate."
     },
     {
-      "formula_math": "Q = A v",
-      "formula_english": "Flow rate equals cross-sectional area times velocity."
-    },
-    {
       "formula_math": "A_1 v_1 = A_2 v_2",
-      "formula_english": "Equation of continuity (incompressible flow)."
+      "formula_english": "Equation of continuity."
     },
     {
-      "formula_math": "P_1 + \\frac{1}{2} \\rho v_1^2 + \\rho g h_1 = P_2 + \\frac{1}{2} \\rho v_2^2 + \\rho g h_2",
-      "formula_english": "Bernoulli’s equation for ideal fluid flow."
+      "formula_math": "P + \\frac{1}{2}\\rho v^2 + \\rho g h = \\text{constant}",
+      "formula_english": "Bernoulli's equation."
     },
     {
-      "formula_math": "P + \\frac{1}{2} \\rho v^2 + \\rho g h = \\text{constant}",
-      "formula_english": "Bernoulli’s principle (general form)."
+      "formula_math": "P_1 + \\frac{1}{2}\\rho v_1^2 + \\rho g h_1 = P_2 + \\frac{1}{2}\\rho v_2^2 + \\rho g h_2",
+      "formula_english": "Bernoulli's equation between two points."
     },
     {
-      "formula_math": "v = \\sqrt{2 g h}",
-      "formula_english": "Torricelli’s law (speed of efflux)."
+      "formula_math": "v = \\sqrt{2gh}",
+      "formula_english": "Torricelli's theorem (efflux velocity)."
     },
     {
-      "formula_math": "\\eta = \\frac{F L}{A v}",
-      "formula_english": "Viscosity definition for laminar flow."
+      "formula_math": "F = \\eta A \\frac{v}{d}",
+      "formula_english": "Viscous force."
     },
     {
-      "formula_math": "Q = \\frac{P_2 - P_1}{R}",
-      "formula_english": "Flow rate using fluid resistance."
+      "formula_math": "F_v = 6\\pi \\eta r v",
+      "formula_english": "Stokes' law for viscous drag."
     },
     {
-      "formula_math": "R = \\frac{8 \\eta l}{\\pi r^4}",
-      "formula_english": "Fluid resistance in laminar flow (Poiseuille’s law)."
+      "formula_math": "v_t = \\frac{2r^2 (\\rho - \\sigma) g}{9\\eta}",
+      "formula_english": "Terminal velocity in viscous fluid."
     },
     {
-      "formula_math": "Q = \\frac{(P_2 - P_1) \\pi r^4}{8 \\eta l}",
-      "formula_english": "Poiseuille’s equation for laminar flow in a pipe."
+      "formula_math": "Q = \\frac{\\pi r^4 (P_1 - P_2)}{8\\eta l}",
+      "formula_english": "Poiseuille's equation for laminar flow."
     },
     {
-      "formula_math": "N_R = \\frac{2 \\rho v r}{\\eta}",
-      "formula_english": "Reynolds number (laminar/turbulent flow criterion)."
+      "formula_math": "R_e = \\frac{\\rho v D}{\\eta}",
+      "formula_english": "Reynolds number.",
+      "variants": [
+        "R_e < 2000: laminar flow",
+        "R_e > 4000: turbulent flow"
+      ]
     },
     {
-      "formula_math": "x_{rms} = \\sqrt{2 D t}",
-      "formula_english": "Root-mean-square displacement in diffusion."
+      "formula_math": "\\gamma = \\frac{F}{L}",
+      "formula_english": "Surface tension."
+    },
+    {
+      "formula_math": "\\Delta P = \\frac{2\\gamma}{r}",
+      "formula_english": "Excess pressure inside a liquid drop."
+    },
+    {
+      "formula_math": "h = \\frac{2\\gamma \\cos \\theta}{\\rho g r}",
+      "formula_english": "Capillary rise."
     }
   ]
 }

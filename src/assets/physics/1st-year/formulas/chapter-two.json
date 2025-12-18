@@ -3,70 +3,86 @@
   "formulas": [
     {
       "formula_math": "A_x = A \\cos \\theta",
-      "formula_english": "Horizontal component of a vector."
+      "formula_english": "Horizontal (x) component of vector A."
     },
     {
       "formula_math": "A_y = A \\sin \\theta",
-      "formula_english": "Vertical component of a vector."
+      "formula_english": "Vertical (y) component of vector A."
+    },
+    {
+      "formula_math": "A = \\sqrt{A_x^2 + A_y^2}",
+      "formula_english": "Magnitude of vector from its components."
+    },
+    {
+      "formula_math": "\\theta = \\tan^{-1} \\left( \\frac{A_y}{A_x} \\right)",
+      "formula_english": "Direction of vector from components."
     },
     {
       "formula_math": "R_x = A_x + B_x",
-      "formula_english": "Resultant x-component when adding vectors."
+      "formula_english": "x-component of resultant vector."
     },
     {
       "formula_math": "R_y = A_y + B_y",
-      "formula_english": "Resultant y-component when adding vectors."
+      "formula_english": "y-component of resultant vector."
     },
     {
       "formula_math": "R = \\sqrt{R_x^2 + R_y^2}",
       "formula_english": "Magnitude of resultant vector."
     },
     {
-      "formula_math": "\\theta = \\tan^{-1}\\left(\\frac{R_y}{R_x}\\right)",
-      "formula_english": "Direction of the resultant vector."
+      "formula_math": "\\theta = \\tan^{-1} \\left( \\frac{R_y}{R_x} \\right)",
+      "formula_english": "Direction of resultant vector."
     },
     {
-      "formula_math": "A \\cdot B = AB \\cos \\theta",
-      "formula_english": "Dot product of two vectors.",
-      "similar": [
-        "If A ⟂ B, dot product = 0"
-      ]
+      "formula_math": "\\vec{A} \\cdot \\vec{B} = AB \\cos \\theta",
+      "formula_english": "Scalar (dot) product of two vectors."
     },
     {
-      "formula_math": "|A \\times B| = AB \\sin \\theta",
+      "formula_math": "\\vec{A} \\cdot \\vec{B} = A_x B_x + A_y B_y + A_z B_z",
+      "formula_english": "Dot product in component form."
+    },
+    {
+      "formula_math": "|\\vec{A} \\times \\vec{B}| = AB \\sin \\theta",
       "formula_english": "Magnitude of cross product."
     },
     {
-      "formula_math": "A \\times B = (AB \\sin \\theta)\\, \\hat{n}",
-      "formula_english": "Vector form of cross product."
+      "formula_math": "\\vec{A} \\times \\vec{B} = (AB \\sin \\theta) \\hat{n}",
+      "formula_english": "Vector (cross) product with direction."
     },
     {
-      "formula_math": "F_{net} = 0",
-      "formula_english": "Condition for translational equilibrium."
+      "formula_math": "\\sum F = 0",
+      "formula_english": "First condition of equilibrium (translational)."
     },
     {
-      "formula_math": "F_x = 0,\\; F_y = 0",
-      "formula_english": "Equilibrium resolved into components."
+      "formula_math": "\\sum F_x = 0, \\quad \\sum F_y = 0",
+      "formula_english": "Equilibrium conditions in component form."
     },
     {
-      "formula_math": "\\tau_{net} = 0",
-      "formula_english": "Condition for rotational equilibrium."
+      "formula_math": "\\sum \\tau = 0",
+      "formula_english": "Second condition of equilibrium (rotational)."
     },
     {
-      "formula_math": "\\tau = rF \\sin \\theta",
-      "formula_english": "Torque acting on a body."
+      "formula_math": "\\tau = r F \\sin \\theta",
+      "formula_english": "Torque (moment of force)."
     },
     {
-      "formula_math": "r_\\perp = r \\sin \\theta",
-      "formula_english": "Perpendicular distance used in torque calculation."
+      "formula_math": "\\tau = F \\times r_\\perp",
+      "formula_english": "Torque using perpendicular distance.",
+      "variants": [
+        "r_\\perp = r \\sin \\theta"
+      ]
     },
     {
-      "formula_math": "l_i F_i = l_o F_o",
-      "formula_english": "Law of the lever (moments)."
+      "formula_math": "F_1 d_1 = F_2 d_2",
+      "formula_english": "Principle of moments (law of lever)."
     },
     {
-      "formula_math": "M_A = \\frac{F_o}{F_i} = \\frac{l_i}{l_o}",
+      "formula_math": "\\text{MA} = \\frac{F_{out}}{F_{in}} = \\frac{d_{in}}{d_{out}}",
       "formula_english": "Mechanical advantage of a lever."
+    },
+    {
+      "formula_math": "\\vec{C} = \\frac{\\sum m_i \\vec{r}_i}{\\sum m_i}",
+      "formula_english": "Center of mass position."
     }
   ]
 }

@@ -1,80 +1,100 @@
 {
-  "chapter": "3. Forces and Motion",
+  "chapter": "3. Motion and Force",
   "formulas": [
     {
-      "formula_math": "\\Delta x = x_f - x_0",
-      "formula_english": "Displacement."
-    },
-    {
-      "formula_math": "\\Delta t = t_f - t_0",
-      "formula_english": "Time interval."
-    },
-    {
-      "formula_math": "v = \\frac{\\Delta x}{\\Delta t}",
+      "formula_math": "v_{avg} = \\frac{\\Delta x}{\\Delta t}",
       "formula_english": "Average velocity."
     },
     {
-      "formula_math": "a = \\frac{\\Delta v}{\\Delta t}",
+      "formula_math": "a_{avg} = \\frac{\\Delta v}{\\Delta t}",
       "formula_english": "Average acceleration."
     },
     {
-      "formula_math": "x = x_0 + vt",
-      "formula_english": "Uniform motion equation."
+      "formula_math": "v_f = v_i + at",
+      "formula_english": "First equation of motion."
     },
     {
-      "formula_math": "v = \\frac{v_0 + v}{2}",
-      "formula_english": "Average velocity during uniform acceleration."
+      "formula_math": "s = v_i t + \\frac{1}{2} a t^2",
+      "formula_english": "Second equation of motion."
     },
     {
-      "formula_math": "v = v_0 + at",
-      "formula_english": "Velocity-time relation for constant acceleration."
+      "formula_math": "2as = v_f^2 - v_i^2",
+      "formula_english": "Third equation of motion."
     },
     {
-      "formula_math": "x = x_0 + v_0 t + \\frac{1}{2} a t^2",
-      "formula_english": "Position-time equation with constant acceleration."
+      "formula_math": "s = \\frac{v_i + v_f}{2} \\times t",
+      "formula_english": "Distance using average velocity."
     },
     {
-      "formula_math": "v^2 = v_0^2 + 2a(x - x_0)",
-      "formula_english": "Velocity-position relation without time."
-    },
-    {
-      "formula_math": "g = 9.80 \\, m/s^2",
-      "formula_english": "Acceleration due to gravity (keep formula only: value excluded)."
-    },
-    {
-      "formula_math": "A_x = A \\cos \\theta",
-      "formula_english": "Horizontal component of velocity or acceleration."
-    },
-    {
-      "formula_math": "A_y = A \\sin \\theta",
-      "formula_english": "Vertical component of velocity or acceleration."
-    },
-    {
-      "formula_math": "v_x = v \\cos \\theta",
-      "formula_english": "Horizontal component of velocity."
-    },
-    {
-      "formula_math": "v_y = v \\sin \\theta",
-      "formula_english": "Vertical component of velocity."
-    },
-    {
-      "formula_math": "v = \\sqrt{v_x^2 + v_y^2}",
-      "formula_english": "Magnitude of velocity in 2D motion."
-    },
-    {
-      "formula_math": "\\theta = \\tan^{-1}\\left(\\frac{v_y}{v_x}\\right)",
-      "formula_english": "Direction of velocity vector."
-    },
-    {
-      "formula_math": "h = \\frac{v_{0y}^2}{2g}",
-      "formula_english": "Maximum height of projectile motion.",
+      "formula_math": "v = u + gt",
+      "formula_english": "Velocity under free fall.",
       "variants": [
-        "v_{0y} = v_0 \\sin \\theta"
+        "g = 9.8 m/s² (downward)"
       ]
     },
     {
-      "formula_math": "R = \\frac{v_0^2 \\sin 2\\theta_0}{g}",
-      "formula_english": "Horizontal range of a projectile."
+      "formula_math": "h = ut + \\frac{1}{2} g t^2",
+      "formula_english": "Height in free fall motion."
+    },
+    {
+      "formula_math": "v^2 = u^2 + 2gh",
+      "formula_english": "Velocity-height relation in free fall."
+    },
+    {
+      "formula_math": "F = ma",
+      "formula_english": "Newton's second law of motion."
+    },
+    {
+      "formula_math": "F_{12} = -F_{21}",
+      "formula_english": "Newton's third law (action-reaction)."
+    },
+    {
+      "formula_math": "p = mv",
+      "formula_english": "Linear momentum."
+    },
+    {
+      "formula_math": "F = \\frac{\\Delta p}{\\Delta t}",
+      "formula_english": "Force as rate of change of momentum."
+    },
+    {
+      "formula_math": "\\sum p_{before} = \\sum p_{after}",
+      "formula_english": "Conservation of linear momentum."
+    },
+    {
+      "formula_math": "f = \\mu N",
+      "formula_english": "Friction force.",
+      "variants": [
+        "\\mu_s = static friction coefficient",
+        "\\mu_k = kinetic friction coefficient"
+      ]
+    },
+    {
+      "formula_math": "v_x = v_0 \\cos \\theta",
+      "formula_english": "Horizontal component of projectile velocity."
+    },
+    {
+      "formula_math": "v_y = v_0 \\sin \\theta - gt",
+      "formula_english": "Vertical component of projectile velocity."
+    },
+    {
+      "formula_math": "x = (v_0 \\cos \\theta) t",
+      "formula_english": "Horizontal displacement of projectile."
+    },
+    {
+      "formula_math": "y = (v_0 \\sin \\theta) t - \\frac{1}{2} g t^2",
+      "formula_english": "Vertical displacement of projectile."
+    },
+    {
+      "formula_math": "H = \\frac{v_0^2 \\sin^2 \\theta}{2g}",
+      "formula_english": "Maximum height of projectile."
+    },
+    {
+      "formula_math": "R = \\frac{v_0^2 \\sin 2\\theta}{g}",
+      "formula_english": "Range of projectile."
+    },
+    {
+      "formula_math": "T = \\frac{2 v_0 \\sin \\theta}{g}",
+      "formula_english": "Time of flight for projectile."
     }
   ]
 }

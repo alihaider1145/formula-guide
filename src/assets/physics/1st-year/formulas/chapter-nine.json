@@ -2,70 +2,94 @@
   "chapter": "9. Physical Optics",
   "formulas": [
     {
-      "formula_math": "I = I_0 \\cos^2 \\theta",
-      "formula_english": "Malus law for polarization: transmitted intensity."
+      "formula_math": "c = f\\lambda",
+      "formula_english": "Speed of light relation."
     },
     {
-      "formula_math": "I = \\frac{1}{2} I_0",
-      "formula_english": "Intensity after passing through an ideal polarizer (unpolarized light)."
+      "formula_math": "n = \\frac{c}{v}",
+      "formula_english": "Refractive index."
     },
-    {
-      "formula_math": "\\tan \\theta_B = \\frac{n_2}{n_1}",
-      "formula_english": "Brewster’s angle for polarization by reflection."
-    },
-
-    {
-      "formula_math": "y_m = m \\frac{\\lambda D}{d}",
-      "formula_english": "Position of bright fringes in Young’s double-slit experiment.",
-      "variants": [
-        "m = 0, 1, 2, ... (bright fringes)"
-      ]
-    },
-    {
-      "formula_math": "y_m = (m + \\frac{1}{2}) \\frac{\\lambda D}{d}",
-      "formula_english": "Position of dark fringes in double-slit.",
-      "variants": [
-        "m = 0, 1, 2, ... (dark fringes)"
-      ]
-    },
-    {
-      "formula_math": "\\beta = \\frac{\\lambda D}{d}",
-      "formula_english": "Fringe spacing (fringe width) in double-slit interference."
-    },
-
-    {
-      "formula_math": "d \\sin \\theta = m \\lambda",
-      "formula_english": "Diffraction grating (principal maxima condition)."
-    },
-    {
-      "formula_math": "\\sin \\theta = m \\frac{\\lambda}{W}",
-      "formula_english": "Diffraction by single slit: minima positions (W = slit width)."
-    },
-    {
-      "formula_math": "\\theta = 1.22 \\frac{\\lambda}{D}",
-      "formula_english": "Angular resolution limit (Rayleigh criterion)."
-    },
-
-    {
-      "formula_math": "2t = \\frac{\\lambda}{2}",
-      "formula_english": "Thin film interference: condition for destructive interference (normal incidence)."
-    },
-    {
-      "formula_math": "2t = \\lambda",
-      "formula_english": "Thin film interference: condition for constructive interference (normal incidence)."
-    },
-    {
-      "formula_math": "2t = m \\lambda",
-      "formula_english": "General constructive condition (multiple orders)."
-    },
-    {
-      "formula_math": "2t = \\left(m + \\frac{1}{2}\\right) \\lambda",
-      "formula_english": "General destructive condition (multiple orders)."
-    },
-
     {
       "formula_math": "\\lambda_n = \\frac{\\lambda}{n}",
-      "formula_english": "Wavelength in a medium with refractive index n."
+      "formula_english": "Wavelength in a medium."
+    },
+    {
+      "formula_math": "I = I_0 \\cos^2 \\theta",
+      "formula_english": "Malus' law for polarized light."
+    },
+    {
+      "formula_math": "\\tan \\theta_p = \\frac{n_2}{n_1}",
+      "formula_english": "Brewster's angle.",
+      "variants": [
+        "\\theta_p = polarizing angle"
+      ]
+    },
+    {
+      "formula_math": "\\Delta x = \\frac{\\lambda D}{d}",
+      "formula_english": "Fringe width in Young's double slit."
+    },
+    {
+      "formula_math": "x_n = \\frac{n\\lambda D}{d}",
+      "formula_english": "Position of bright fringes.",
+      "variants": [
+        "n = 0, 1, 2, 3, ..."
+      ]
+    },
+    {
+      "formula_math": "x_n = \\frac{(2n-1)\\lambda D}{2d}",
+      "formula_english": "Position of dark fringes.",
+      "variants": [
+        "n = 1, 2, 3, ..."
+      ]
+    },
+    {
+      "formula_math": "\\Delta \\phi = \\frac{2\\pi}{\\lambda} \\times \\text{path difference}",
+      "formula_english": "Phase difference from path difference."
+    },
+    {
+      "formula_math": "d \\sin \\theta = n\\lambda",
+      "formula_english": "Diffraction grating (principal maxima).",
+      "variants": [
+        "n = 0, 1, 2, 3, ..."
+      ]
+    },
+    {
+      "formula_math": "N = \\frac{1}{d}",
+      "formula_english": "Number of lines per unit length on grating."
+    },
+    {
+      "formula_math": "a \\sin \\theta = n\\lambda",
+      "formula_english": "Single slit diffraction (minima).",
+      "variants": [
+        "a = slit width",
+        "n = 1, 2, 3, ..."
+      ]
+    },
+    {
+      "formula_math": "\\theta = 1.22\\frac{\\lambda}{D}",
+      "formula_english": "Rayleigh criterion for resolution."
+    },
+    {
+      "formula_math": "R = \\frac{\\lambda}{\\Delta \\lambda} = nN",
+      "formula_english": "Resolving power of diffraction grating."
+    },
+    {
+      "formula_math": "2t = (m + \\frac{1}{2})\\lambda",
+      "formula_english": "Constructive interference in thin films.",
+      "variants": [
+        "m = 0, 1, 2, 3, ..."
+      ]
+    },
+    {
+      "formula_math": "2t = m\\lambda",
+      "formula_english": "Destructive interference in thin films.",
+      "variants": [
+        "m = 0, 1, 2, 3, ..."
+      ]
+    },
+    {
+      "formula_math": "2\\mu t \\cos r = n\\lambda",
+      "formula_english": "Thin film interference with oblique incidence."
     }
   ]
 }

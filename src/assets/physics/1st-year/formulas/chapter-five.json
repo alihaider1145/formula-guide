@@ -1,103 +1,117 @@
 {
-  "chapter": "5. Rotational and Circular Motion",
+  "chapter": "5. Circular Motion",
   "formulas": [
     {
-      "formula_math": "v = r \\omega",
-      "formula_english": "Linear (tangential) speed of a rotating body."
+      "formula_math": "\\omega = \\frac{\\theta}{t}",
+      "formula_english": "Angular velocity."
     },
     {
-      "formula_math": "\\omega = \\frac{\\Delta \\theta}{\\Delta t}",
-      "formula_english": "Angular velocity."
+      "formula_math": "\\omega = \\frac{2\\pi}{T}",
+      "formula_english": "Angular velocity in terms of period."
+    },
+    {
+      "formula_math": "\\omega = 2\\pi f",
+      "formula_english": "Angular velocity in terms of frequency."
+    },
+    {
+      "formula_math": "v = r\\omega",
+      "formula_english": "Linear velocity in circular motion."
     },
     {
       "formula_math": "a_c = \\frac{v^2}{r}",
       "formula_english": "Centripetal acceleration."
     },
     {
-      "formula_math": "a_c = r \\omega^2",
-      "formula_english": "Centripetal acceleration in angular form.",
-      "similar": [
-        "a_c = v^2 / r"
-      ]
+      "formula_math": "a_c = r\\omega^2",
+      "formula_english": "Centripetal acceleration in angular form."
     },
     {
-      "formula_math": "F_c = m a_c",
+      "formula_math": "F_c = \\frac{mv^2}{r}",
       "formula_english": "Centripetal force."
     },
     {
-      "formula_math": "F_c = \\frac{m v^2}{r}",
-      "formula_english": "Centripetal force using linear velocity."
+      "formula_math": "F_c = mr\\omega^2",
+      "formula_english": "Centripetal force in angular form."
     },
     {
-      "formula_math": "F_c = m r \\omega^2",
-      "formula_english": "Centripetal force using angular velocity."
+      "formula_math": "\\tan \\theta = \\frac{v^2}{rg}",
+      "formula_english": "Banking angle for circular motion."
     },
     {
-      "formula_math": "\\tan \\theta = \\frac{v^2}{r g}",
-      "formula_english": "Banking of roads / conical pendulum tilt angle."
+      "formula_math": "T = 2\\pi \\sqrt{\\frac{l}{g}}",
+      "formula_english": "Period of simple pendulum."
     },
     {
-      "formula_math": "a_t = r \\alpha",
-      "formula_english": "Tangential acceleration (due to angular acceleration)."
+      "formula_math": "T = 2\\pi \\sqrt{\\frac{r}{g}}",
+      "formula_english": "Period of conical pendulum."
     },
     {
       "formula_math": "\\alpha = \\frac{\\Delta \\omega}{\\Delta t}",
       "formula_english": "Angular acceleration."
     },
     {
-      "formula_math": "\\theta = \\omega_0 t + \\frac{1}{2} \\alpha t^2",
+      "formula_math": "\\omega_f = \\omega_i + \\alpha t",
+      "formula_english": "Angular velocity with constant angular acceleration."
+    },
+    {
+      "formula_math": "\\theta = \\omega_i t + \\frac{1}{2} \\alpha t^2",
       "formula_english": "Angular displacement with constant angular acceleration."
     },
     {
-      "formula_math": "\\omega = \\omega_0 + \\alpha t",
-      "formula_english": "Angular velocity-time relation."
+      "formula_math": "\\omega_f^2 = \\omega_i^2 + 2\\alpha \\theta",
+      "formula_english": "Angular velocity-displacement relation."
     },
     {
-      "formula_math": "\\omega^2 = \\omega_0^2 + 2 \\alpha \\theta",
-      "formula_english": "Angular form of v² = v₀² + 2ax."
-    },
-    {
-      "formula_math": "I = \\sum m r^2",
-      "formula_english": "Moment of inertia (general definition)."
-    },
-    {
-      "formula_math": "\\tau = I \\alpha",
-      "formula_english": "Rotational analog of F = ma."
+      "formula_math": "a_t = r\\alpha",
+      "formula_english": "Tangential acceleration."
     },
     {
       "formula_math": "\\tau = r F \\sin \\theta",
-      "formula_english": "Torque produced by a force at angle θ."
+      "formula_english": "Torque."
     },
     {
-      "formula_math": "W = \\tau \\theta",
-      "formula_english": "Rotational work done."
+      "formula_math": "\\tau = I \\alpha",
+      "formula_english": "Rotational form of Newton's second law."
+    },
+    {
+      "formula_math": "I = \\sum m_i r_i^2",
+      "formula_english": "Moment of inertia (discrete masses)."
     },
     {
       "formula_math": "KE_{rot} = \\frac{1}{2} I \\omega^2",
       "formula_english": "Rotational kinetic energy."
     },
     {
-      "formula_math": "L = I \\omega",
+      "formula_math": "L = I\\omega",
       "formula_english": "Angular momentum."
     },
     {
       "formula_math": "\\tau = \\frac{\\Delta L}{\\Delta t}",
-      "formula_english": "Rate of change of angular momentum."
+      "formula_english": "Torque as rate of change of angular momentum."
     },
     {
-      "formula_math": "T^2 \\propto r^3",
-      "formula_english": "Kepler’s Third Law (proportional form)."
+      "formula_math": "W = \\tau \\theta",
+      "formula_english": "Work done in rotational motion."
+    },
+    {
+      "formula_math": "P = \\tau \\omega",
+      "formula_english": "Power in rotational motion."
+    },
+    {
+      "formula_math": "v = \\sqrt{gr}",
+      "formula_english": "Velocity at lowest point of vertical circle."
     },
     {
       "formula_math": "\\frac{T_1^2}{T_2^2} = \\frac{r_1^3}{r_2^3}",
-      "formula_english": "Kepler’s Third Law (ratio form)."
+      "formula_english": "Kepler's third law (ratio form)."
     },
     {
-      "formula_math": "T = 2 \\pi \\sqrt{\\frac{r^3}{GM}}",
-      "formula_english": "Orbital period around a central mass.",
-      "variants": [
-        "T^2 = \\frac{4 \\pi^2 r^3}{GM}"
-      ]
+      "formula_math": "v_s = \\sqrt{\\frac{GM}{r}}",
+      "formula_english": "Orbital velocity of satellite."
+    },
+    {
+      "formula_math": "T = 2\\pi \\sqrt{\\frac{r^3}{GM}}",
+      "formula_english": "Orbital period."
     }
   ]
 }
