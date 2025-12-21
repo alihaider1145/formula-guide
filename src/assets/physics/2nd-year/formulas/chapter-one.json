@@ -49,6 +49,10 @@
       "formula_english": "Electric potential."
     },
     {
+      "formula_math": "E = -\\frac{\\Delta V}{\\Delta r}",
+      "formula_english": "Electric field as the negative potential gradient."
+    },
+    {
       "formula_math": "V = k \\frac{Q}{r}",
       "formula_english": "Potential due to point charge."
     },

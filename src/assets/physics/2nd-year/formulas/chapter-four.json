@@ -10,6 +10,14 @@
       "formula_english": "Faraday's law of induction."
     },
     {
+      "formula_math": "P = I^2 R = \\frac{B^2 l^2 v^2}{R}",
+      "formula_english": "Power dissipated as heat in a conductor due to motional electromotive force induction."
+    },
+    {
+      "formula_math": "L = \\frac{N\\Phi}{I}",
+      "formula_english": "Self inductance defined as magnetic flux linkage per unit current."
+    },
+    {
       "formula_math": "\\varepsilon = -\\frac{d\\Phi_B}{dt}",
       "formula_english": "Induced EMF (single loop)."
     },
