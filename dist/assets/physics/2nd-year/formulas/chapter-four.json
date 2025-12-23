@@ -10,6 +10,14 @@
       "formula_english": "Faraday's law of induction."
     },
     {
+      "formula_math": "P = I^2 R = \\frac{B^2 l^2 v^2}{R}",
+      "formula_english": "Power dissipated as heat in a conductor due to motional electromotive force induction."
+    },
+    {
+      "formula_math": "L = \\frac{N\\Phi}{I}",
+      "formula_english": "Self inductance defined as magnetic flux linkage per unit current."
+    },
+    {
       "formula_math": "\\varepsilon = -\\frac{d\\Phi_B}{dt}",
       "formula_english": "Induced EMF (single loop)."
     },
@@ -36,26 +44,6 @@
     {
       "formula_math": "L = \\frac{N\\Phi_B}{I}",
       "formula_english": "Self-inductance definition."
-    },
-    {
-      "formula_math": "L = \\frac{\\mu_0 N^2 A}{l}",
-      "formula_english": "Inductance of solenoid."
-    },
-    {
-      "formula_math": "U = \\frac{1}{2} LI^2",
-      "formula_english": "Energy stored in inductor."
-    },
-    {
-      "formula_math": "I = I_0 (1 - e^{-Rt/L})",
-      "formula_english": "Current growth in LR circuit."
-    },
-    {
-      "formula_math": "I = I_0 e^{-Rt/L}",
-      "formula_english": "Current decay in LR circuit."
-    },
-    {
-      "formula_math": "\\tau = \\frac{L}{R}",
-      "formula_english": "Time constant of LR circuit."
     },
     {
       "formula_math": "\\frac{V_s}{V_p} = \\frac{N_s}{N_p}",

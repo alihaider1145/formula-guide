@@ -22,38 +22,6 @@
       "formula_english": "Alpha in terms of beta."
     },
     {
-      "formula_math": "A_v = \\frac{V_{out}}{V_{in}}",
-      "formula_english": "Voltage gain of amplifier."
-    },
-    {
-      "formula_math": "A_i = \\frac{I_{out}}{I_{in}}",
-      "formula_english": "Current gain of amplifier."
-    },
-    {
-      "formula_math": "A_p = A_v \\times A_i",
-      "formula_english": "Power gain of amplifier."
-    },
-    {
-      "formula_math": "V_{out} = A_v V_{in}",
-      "formula_english": "Output voltage of amplifier."
-    },
-    {
-      "formula_math": "I_C = \\beta I_B",
-      "formula_english": "Collector current in terms of base current."
-    },
-    {
-      "formula_math": "V_{CE} = V_{CC} - I_C R_C",
-      "formula_english": "Collector-emitter voltage."
-    },
-    {
-      "formula_math": "I_D = I_{DSS} \\left(1 - \\frac{V_{GS}}{V_P}\\right)^2",
-      "formula_english": "Drain current in JFET."
-    },
-    {
-      "formula_math": "g_m = \\frac{\\Delta I_D}{\\Delta V_{GS}}",
-      "formula_english": "Transconductance of FET."
-    },
-    {
       "formula_math": "f_c = \\frac{1}{2\\pi RC}",
       "formula_english": "Cut-off frequency of filter."
     },

@@ -2,17 +2,6 @@
   "chapter": "19. Atomic Spectra",
   "formulas": [
     {
-      "formula_math": "E_n = -\\frac{13.6}{n^2} \\text{ eV}",
-      "formula_english": "Energy levels of hydrogen atom."
-    },
-    {
-      "formula_math": "E_n = -\\frac{E_0}{n^2}",
-      "formula_english": "General form of energy levels.",
-      "variants": [
-        "E_0 = 13.6 eV"
-      ]
-    },
-    {
       "formula_math": "\\Delta E = E_i - E_f",
       "formula_english": "Energy difference between levels."
     },
@@ -21,7 +10,7 @@
       "formula_english": "Photon energy in transition."
     },
     {
-      "formula_math": "\\frac{1}{\\lambda} = R \\left(\\frac{1}{n_f^2} - \\frac{1}{n_i^2}\\right)",
+      "formula_math": "\\frac{1}{\\lambda} = R \\left(\\frac{1}{p^2} - \\frac{1}{n^2}\\right)",
       "formula_english": "Rydberg formula.",
       "variants": [
         "R = 1.097 \\times 10^7 m^{-1}"
@@ -43,6 +32,21 @@
       "formula_english": "Bohr radius formula (detailed)."
     },
     {
+      "formula_math": "E_n = -\\frac{13.6}{n^2} \\text{ eV}",
+      "formula_english": "Energy levels of hydrogen atom."
+    },
+    {
+      "formula_math": "E_n = -\\frac{E_0}{n^2}",
+      "formula_english": "General form of energy levels.",
+      "variants": [
+        "E_0 = 13.6 eV"
+      ]
+    },
+    {
+      "formula_math": "E_n = -\\frac{m e^4}{8\\varepsilon_0^2 h^2}\\,\\frac{1}{n^2} = -\\frac{13.6}{n^2}\\,\\text{eV}",
+      "formula_english": "Total energy of an electron in the nth Bohr orbit of a hydrogen atom, showing both the fundamental-constants form and the numerical value in electron-volts."
+    },
+    {
       "formula_math": "v_n = \\frac{v_1}{n}",
       "formula_english": "Velocity in nth orbit."
     },
@@ -59,6 +63,10 @@
       "formula_english": "Bohr's quantization condition."
     },
     {
+      "formula_math": "\\frac{mv^2}{r} = \\frac{1}{4\\pi\\varepsilon_0}\\frac{e^2}{r^2}",
+      "formula_english": "In Bohr postulate one, the electrostatic force between nucleus and electron provides the centripetal force for circular orbit."
+    },
+    {
       "formula_math": "KE_n = \\frac{13.6}{n^2} \\text{ eV}",
       "formula_english": "Kinetic energy in nth orbit."
     },
@@ -69,10 +77,6 @@
     {
       "formula_math": "E_n = KE_n + PE_n = -\\frac{13.6}{n^2} \\text{ eV}",
       "formula_english": "Total energy in nth orbit."
-    },
-    {
-      "formula_math": "f = \\frac{\\Delta E}{h}",
-      "formula_english": "Frequency of radiation."
     }
   ]
 }

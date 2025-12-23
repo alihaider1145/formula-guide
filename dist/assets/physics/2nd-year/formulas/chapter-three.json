@@ -15,7 +15,16 @@
     },
     {
       "formula_math": "T = \\frac{2\\pi m}{qB}",
-      "formula_english": "Period of circular motion in magnetic field."
+      "formula_english": "Period of circular motion in magnetic field.",
+      "variants": "Cyclotron frequency f = \\frac{qB}{2\\pi m}"
+    },
+    {
+      "formula_math": "v = \\frac{E}{B}",
+      "formula_english": "Velocity of a charged particle selected when electric and magnetic forces balance."
+    },
+    {
+      "formula_math": "\\frac{e}{m} = \\frac{2V}{B^2 r^2}",
+      "formula_english": "Charge to mass ratio (e/m) of an electron."
     },
     {
       "formula_math": "F = BIl \\sin \\theta",
@@ -26,48 +35,48 @@
       "formula_english": "Torque on current loop."
     },
     {
-      "formula_math": "\\mu = NIA",
-      "formula_english": "Magnetic dipole moment of coil."
-    },
-    {
-      "formula_math": "\\tau = \\mu B \\sin \\theta",
-      "formula_english": "Torque on magnetic dipole."
-    },
-    {
       "formula_math": "B = \\frac{\\mu_0 I}{2\\pi r}",
       "formula_english": "Magnetic field due to straight wire."
-    },
-    {
-      "formula_math": "B = \\frac{\\mu_0 I}{2R}",
-      "formula_english": "Magnetic field at center of circular loop."
     },
     {
       "formula_math": "B = \\mu_0 nI",
       "formula_english": "Magnetic field inside solenoid."
     },
     {
-      "formula_math": "\\frac{F}{l} = \\frac{\\mu_0 I_1 I_2}{2\\pi d}",
-      "formula_english": "Force per unit length between parallel wires."
-    },
-    {
       "formula_math": "\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I_{enclosed}",
       "formula_english": "Ampere's law."
     },
     {
-      "formula_math": "B = \\mu_0 (H + M)",
-      "formula_english": "Magnetic field in material."
-    },
-    {
-      "formula_math": "\\mu_r = \\frac{B}{B_0}",
+      "formula_math": "\\mu_r = \\frac{mu}{mu_0}",
       "formula_english": "Relative permeability."
     },
     {
-      "formula_math": "\\chi_m = \\frac{M}{H}",
-      "formula_english": "Magnetic susceptibility."
+      "formula_math": "I = \\frac{c\\,\\theta}{NAB}",
+      "formula_english": "Current through a galvanometer expressed in terms of torsional constant, deflection, number of turns, area, and magnetic field."
     },
     {
-      "formula_math": "e = Blv",
-      "formula_english": "Motional EMF."
+      "formula_math": "R_s = \\frac{G I_g}{I - I_g}",
+      "formula_english": "Shunt resistance required to convert a galvanometer into an ammeter."
+    },
+    {
+      "formula_math": "R = \\frac{V}{I_g} - G",
+      "formula_english": "High resistance required to convert a galvanometer into a voltmeter."
+    },
+    {
+      "formula_math": "V_1 = V_2 = V_3 = \\cdots = V",
+      "formula_english": "In a parallel circuit, the potential difference across each branch is the same."
+    },
+    {
+      "formula_math": "I = I_1 + I_2 + I_3 + \\cdots",
+      "formula_english": "In a parallel circuit, the total current is divided among the branches."
+    },
+    {
+      "formula_math": "I_1 = I_2 = I_3 = \\cdots = I",
+      "formula_english": "In a series circuit, the same current flows through all components."
+    },
+    {
+      "formula_math": "V = V_1 + V_2 + V_3 + \\cdots",
+      "formula_english": "In a series circuit, the total potential difference is divided across components."
     }
   ]
 }

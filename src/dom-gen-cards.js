@@ -61,7 +61,7 @@ function populateCard(topicList, topicName){
     if(topicList.variants){
         const cardVariants = document.createElement('div');
         cardVariants.classList.add('card__variation');
-        cardVariants.textContent = topicList.variants;
+        cardVariants.innerHTML = `\\(${topicList.variants}\\)`;;
         card.appendChild(cardVariants);
     }
 
