@@ -64,8 +64,8 @@
       "formula_math": "f = \\mu N",
       "formula_english": "Friction force.",
       "variants": [
-        "\\mu_s = static friction coefficient",
-        "\\mu_k = kinetic friction coefficient"
+        "\\mu_s = static //  friction //  coefficient",
+        "\\mu_k = kinetic /  friction /  coefficient"
       ]
     },
     {
