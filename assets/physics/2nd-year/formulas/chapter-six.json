@@ -18,10 +18,6 @@
       "formula_english": "Bulk modulus."
     },
     {
-      "formula_math": "K = -V \\frac{dP}{dV}",
-      "formula_english": "Bulk modulus (differential form)."
-    },
-    {
       "formula_math": "G = \\frac{\\tau}{\\gamma}",
       "formula_english": "Shear modulus (rigidity modulus)."
     },
@@ -32,34 +28,6 @@
     {
       "formula_math": "\\gamma = \\frac{\\Delta x}{h}",
       "formula_english": "Shear strain."
-    },
-    {
-      "formula_math": "U = \\frac{1}{2} \\times \\text{stress} \\times \\text{strain} \\times V",
-      "formula_english": "Elastic potential energy."
-    },
-    {
-      "formula_math": "U = \\frac{1}{2} \\frac{F \\Delta L}{V}",
-      "formula_english": "Energy stored per unit volume."
-    },
-    {
-      "formula_math": "\\nu = -\\frac{\\text{lateral strain}}{\\text{longitudinal strain}}",
-      "formula_english": "Poisson's ratio."
-    },
-    {
-      "formula_math": "Y = 2G(1 + \\nu)",
-      "formula_english": "Relation between Y, G, and Poisson's ratio."
-    },
-    {
-      "formula_math": "Y = 3K(1 - 2\\nu)",
-      "formula_english": "Relation between Y, K, and Poisson's ratio."
-    },
-    {
-      "formula_math": "n = \\frac{N}{V}",
-      "formula_english": "Number density of charge carriers."
-    },
-    {
-      "formula_math": "\\rho = \\frac{m}{\\tau e^2 n}",
-      "formula_english": "Resistivity in terms of carrier density."
     },
     {
       "formula_math": "E_g = E_C - E_V",

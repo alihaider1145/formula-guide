@@ -6,10 +6,6 @@
       "formula_english": "Electric current."
     },
     {
-      "formula_math": "I = nAqv_d",
-      "formula_english": "Current in terms of drift velocity."
-    },
-    {
       "formula_math": "V = IR",
       "formula_english": "Ohm's law."
     },
@@ -26,12 +22,24 @@
       "formula_english": "Conductance."
     },
     {
+      "formula_math": "\\rho = \\frac{RA}{l}",
+      "formula_english": "Resistivity of a material in terms of resistance, length, and cross-sectional area."
+    },
+    {
+      "formula_math": "\\sigma = \\frac{1}{\\rho}",
+      "formula_english": "Conductivity defined as the reciprocal of resistivity."
+    },
+    {
       "formula_math": "R_s = R_1 + R_2 + ...",
       "formula_english": "Resistors in series."
     },
     {
       "formula_math": "\\frac{1}{R_p} = \\frac{1}{R_1} + \\frac{1}{R_2} + ...",
       "formula_english": "Resistors in parallel."
+    },
+    {
+      "formula_math": "\\text{emf} = \\frac{W}{Q}",
+      "formula_english": "Electromotive force defined as work done per unit charge."
     },
     {
       "formula_math": "\\varepsilon = I(R + r)",
@@ -58,8 +66,8 @@
       "formula_english": "Electrical energy."
     },
     {
-      "formula_math": "H = I^2 Rt",
-      "formula_english": "Heat produced (Joule's law)."
+      "formula_math": "P_{\\text{max}} = \\frac{E^2}{4r}",
+      "formula_english": "Maximum power output of a source when external resistance equals internal resistance."
     },
     {
       "formula_math": "\\sum I = 0",
@@ -70,7 +78,7 @@
       "formula_english": "Kirchhoff's voltage law (loop rule)."
     },
     {
-      "formula_math": "\\frac{P}{Q} = \\frac{R}{S}",
+      "formula_math": "\\frac{P}{Q} = \\frac{R}{X}",
       "formula_english": "Wheatstone bridge balance condition."
     },
     {

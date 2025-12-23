@@ -72,10 +72,6 @@
     {
       "formula_math": "I_{max} = \\frac{V_0}{R}",
       "formula_english": "Maximum current at resonance."
-    },
-    {
-      "formula_math": "Q = \\frac{\\omega_0 L}{R} = \\frac{1}{\\omega_0 CR}",
-      "formula_english": "Quality factor of RLC circuit."
     }
   ]
 }
