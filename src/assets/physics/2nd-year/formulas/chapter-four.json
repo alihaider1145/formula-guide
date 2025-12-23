@@ -46,26 +46,6 @@
       "formula_english": "Self-inductance definition."
     },
     {
-      "formula_math": "L = \\frac{\\mu_0 N^2 A}{l}",
-      "formula_english": "Inductance of solenoid."
-    },
-    {
-      "formula_math": "U = \\frac{1}{2} LI^2",
-      "formula_english": "Energy stored in inductor."
-    },
-    {
-      "formula_math": "I = I_0 (1 - e^{-Rt/L})",
-      "formula_english": "Current growth in LR circuit."
-    },
-    {
-      "formula_math": "I = I_0 e^{-Rt/L}",
-      "formula_english": "Current decay in LR circuit."
-    },
-    {
-      "formula_math": "\\tau = \\frac{L}{R}",
-      "formula_english": "Time constant of LR circuit."
-    },
-    {
       "formula_math": "\\frac{V_s}{V_p} = \\frac{N_s}{N_p}",
       "formula_english": "Transformer voltage relation."
     },
