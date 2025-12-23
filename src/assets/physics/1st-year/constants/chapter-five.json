@@ -11,7 +11,7 @@
     },
     {
       "const_eng": "Moment of inertia constants (standard bodies)",
-      "const_math": "I_(solid-sphere) = (2/5) m r^2,  I_hollow_sphere = (2/3) m r^2,  I_rod_center = (1/12) m L^2"
+      "const_math": "I-solid-sphere = (2/5) m r^2,  I_hollow_sphere = (2/3) m r^2,  I_rod_center = (1/12) m L^2"
     }
   ]
 }
