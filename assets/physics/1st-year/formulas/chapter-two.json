@@ -75,14 +75,6 @@
     {
       "formula_math": "F_1 d_1 = F_2 d_2",
       "formula_english": "Principle of moments (law of lever)."
-    },
-    {
-      "formula_math": "\\text{MA} = \\frac{F_{out}}{F_{in}} = \\frac{d_{in}}{d_{out}}",
-      "formula_english": "Mechanical advantage of a lever."
-    },
-    {
-      "formula_math": "\\vec{C} = \\frac{\\sum m_i \\vec{r}_i}{\\sum m_i}",
-      "formula_english": "Center of mass position."
     }
   ]
 }

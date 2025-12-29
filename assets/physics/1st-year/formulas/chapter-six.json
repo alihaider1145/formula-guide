@@ -18,6 +18,15 @@
       "formula_english": "Buoyant force (Archimedes' principle)."
     },
     {
+      "formula_math": "F_v = 6\\pi \\eta r v",
+      "formula_english": "Stokes' law for viscous drag."
+    },
+    {
+      "formula_math": "v_t = \\frac{2r^2 (\\rho - \\sigma) g}{9\\eta}",
+      "formula_english": "Terminal velocity in viscous fluid.",
+      "variants": "\\rho : Density of object. \\sigma : Density of medium."
+    },
+    {
       "formula_math": "Q = Av",
       "formula_english": "Volume flow rate."
     },
@@ -38,40 +47,12 @@
       "formula_english": "Torricelli's theorem (efflux velocity)."
     },
     {
-      "formula_math": "F = \\eta A \\frac{v}{d}",
-      "formula_english": "Viscous force."
+      "formula_math": "Q = A \\sqrt{2 g h}",
+      "formula_english": "Flow rate in Venturi meter with height difference h."
     },
     {
-      "formula_math": "F_v = 6\\pi \\eta r v",
-      "formula_english": "Stokes' law for viscous drag."
-    },
-    {
-      "formula_math": "v_t = \\frac{2r^2 (\\rho - \\sigma) g}{9\\eta}",
-      "formula_english": "Terminal velocity in viscous fluid."
-    },
-    {
-      "formula_math": "Q = \\frac{\\pi r^4 (P_1 - P_2)}{8\\eta l}",
-      "formula_english": "Poiseuille's equation for laminar flow."
-    },
-    {
-      "formula_math": "R_e = \\frac{\\rho v D}{\\eta}",
-      "formula_english": "Reynolds number.",
-      "variants": [
-        "R_e < 2000: laminar flow",
-        "R_e > 4000: turbulent flow"
-      ]
-    },
-    {
-      "formula_math": "\\gamma = \\frac{F}{L}",
-      "formula_english": "Surface tension."
-    },
-    {
-      "formula_math": "\\Delta P = \\frac{2\\gamma}{r}",
-      "formula_english": "Excess pressure inside a liquid drop."
-    },
-    {
-      "formula_math": "h = \\frac{2\\gamma \\cos \\theta}{\\rho g r}",
-      "formula_english": "Capillary rise."
+      "formula_math": "Q = A_1 A_2 \\sqrt{ \\frac{2 g (P_1 - P_2)}{\\rho (A_1^2 - A_2^2)} }",
+      "formula_english": "Flow rate in Venturi meter using pressure difference."
     }
   ]
 }

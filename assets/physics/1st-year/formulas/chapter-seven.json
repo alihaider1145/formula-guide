@@ -60,21 +60,6 @@
     {
       "formula_math": "\\omega = \\sqrt{\\frac{g}{l}}",
       "formula_english": "Angular frequency of simple pendulum."
-    },
-    {
-      "formula_math": "x = Ae^{-bt/2m} \\cos(\\omega' t)",
-      "formula_english": "Damped harmonic motion.",
-      "variants": [
-        "b = damping constant"
-      ]
-    },
-    {
-      "formula_math": "A = \\frac{F_0}{m\\sqrt{(\\omega_0^2 - \\omega^2)^2 + (b\\omega/m)^2}}",
-      "formula_english": "Amplitude in forced oscillations."
-    },
-    {
-      "formula_math": "\\omega_r = \\sqrt{\\omega_0^2 - \\frac{b^2}{2m^2}}",
-      "formula_english": "Resonance frequency."
     }
   ]
 }

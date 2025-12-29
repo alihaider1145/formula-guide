@@ -1,0 +1,156 @@
+{
+  "chapter": "Units",
+  "units": [
+    { "unit_eng": "Length", "unit_math": "\\text{meter (m)}" },
+    { "unit_eng": "Distance", "unit_math": "\\text{meter (m)}" },
+    { "unit_eng": "Displacement", "unit_math": "\\text{meter (m)}" },
+    { "unit_eng": "Displacement (SHM)", "unit_math": "\\text{meter (m)}" },
+    { "unit_eng": "Displacement (wave)", "unit_math": "\\text{meter (m)}" },
+    { "unit_eng": "Height", "unit_math": "\\text{meter (m)}" },
+    { "unit_eng": "Height / depth", "unit_math": "\\text{meter (m)}" },
+    { "unit_eng": "Radius", "unit_math": "\\text{meter (m)}" },
+    { "unit_eng": "Amplitude", "unit_math": "\\text{meter (m)}" },
+    { "unit_eng": "Amplitude of wave", "unit_math": "\\text{meter (m)}" },
+    { "unit_eng": "Wavelength", "unit_math": "\\text{meter (m)}" },
+    { "unit_eng": "Path difference", "unit_math": "\\text{meter (m)}" },
+    { "unit_eng": "Fringe spacing", "unit_math": "\\text{meter (m)}" },
+    { "unit_eng": "Slit separation", "unit_math": "\\text{meter (m)}" },
+    { "unit_eng": "Slit width", "unit_math": "\\text{meter (m)}" },
+    { "unit_eng": "Optical path length", "unit_math": "\\text{meter (m)}" },
+    { "unit_eng": "Lens/film thickness (t)", "unit_math": "\\text{meter (m)}" },
+    
+    { "unit_eng": "Area", "unit_math": "\\text{square meter (m}^2\\text{)}" },
+    { "unit_eng": "Area of cross-section", "unit_math": "\\text{square meter (m}^2\\text{)}" },
+    
+    { "unit_eng": "Volume", "unit_math": "\\text{cubic meter (m}^3\\text{)}" },
+    
+    { "unit_eng": "Mass", "unit_math": "\\text{kilogram (kg)}" },
+    
+    { "unit_eng": "Time", "unit_math": "\\text{second (s)}" },
+    { "unit_eng": "Time period", "unit_math": "\\text{second (s)}" },
+    
+    { "unit_eng": "Speed / Velocity", "unit_math": "\\text{meter per second (m/s)}" },
+    { "unit_eng": "Velocity", "unit_math": "\\text{meter per second (m/s)}" },
+    { "unit_eng": "Linear velocity", "unit_math": "\\text{meter per second (m/s)}" },
+    { "unit_eng": "Tangential velocity", "unit_math": "\\text{meter per second (m/s)}" },
+    { "unit_eng": "Velocity of fluid", "unit_math": "\\text{meter per second (m/s)}" },
+    { "unit_eng": "Wave speed", "unit_math": "\\text{meter per second (m/s)}" },
+    
+    { "unit_eng": "Acceleration", "unit_math": "\\text{meter per second squared (m/s}^2\\text{)}" },
+    { "unit_eng": "Centripetal acceleration", "unit_math": "\\text{meter per second squared (m/s}^2\\text{)}" },
+    
+    { "unit_eng": "Angle (plane)", "unit_math": "\\text{radian (rad)}" },
+    { "unit_eng": "Angle between vectors", "unit_math": "\\text{radian (rad)}" },
+    { "unit_eng": "Phase angle", "unit_math": "\\text{radian (rad)}" },
+    { "unit_eng": "Phase difference", "unit_math": "\\text{radian (rad)}" },
+    { "unit_eng": "Angle of diffraction", "unit_math": "\\text{radian (rad)}" },
+    { "unit_eng": "Polarization angle", "unit_math": "\\text{radian (rad)}" },
+    { "unit_eng": "Angular displacement", "unit_math": "\\text{radian (rad)}" },
+    
+    { "unit_eng": "Solid angle", "unit_math": "\\text{steradian (sr)}" },
+    
+    { "unit_eng": "Angular velocity", "unit_math": "\\text{radian per second (rad/s)}" },
+    { "unit_eng": "Angular frequency", "unit_math": "\\text{radian per second (rad/s)}" },
+    { "unit_eng": "Angular frequency (ω)", "unit_math": "\\text{radian per second (rad/s)}" },
+    
+    { "unit_eng": "Angular acceleration", "unit_math": "\\text{radian per second squared (rad/s}^2\\text{)}" },
+    
+    { "unit_eng": "Wave number", "unit_math": "\\text{radian per meter (rad/m)}" },
+    { "unit_eng": "Wave number (k)", "unit_math": "\\text{radian per meter (rad/m)}" },
+    
+    { "unit_eng": "Frequency", "unit_math": "\\text{hertz (Hz)}" },
+    
+    { "unit_eng": "Force", "unit_math": "\\text{newton (N)}" },
+    { "unit_eng": "Weight", "unit_math": "\\text{newton (N)}" },
+    { "unit_eng": "Normal force", "unit_math": "\\text{newton (N)}" },
+    { "unit_eng": "Normal reaction", "unit_math": "\\text{newton (N)}" },
+    { "unit_eng": "Friction", "unit_math": "\\text{newton (N)}" },
+    { "unit_eng": "Frictional force", "unit_math": "\\text{newton (N)}" },
+    { "unit_eng": "Friction (rolling/centripetal)", "unit_math": "\\text{newton (N)}" },
+    { "unit_eng": "Tension", "unit_math": "\\text{newton (N)}" },
+    { "unit_eng": "Tension (string)", "unit_math": "\\text{newton (N)}" },
+    { "unit_eng": "Air resistance / drag", "unit_math": "\\text{newton (N)}" },
+    { "unit_eng": "Centripetal force", "unit_math": "\\text{newton (N)}" },
+    { "unit_eng": "Buoyant force", "unit_math": "\\text{newton (N)}" },
+    { "unit_eng": "Drag force", "unit_math": "\\text{newton (N)}" },
+    
+    { "unit_eng": "Momentum", "unit_math": "\\text{kilogram meter per second (kg·m/s)}" },
+    
+    { "unit_eng": "Impulse", "unit_math": "\\text{newton second (N·s)}" },
+    
+    { "unit_eng": "Torque", "unit_math": "\\text{newton meter (N·m)}" },
+    { "unit_eng": "Couple", "unit_math": "\\text{newton meter (N·m)}" },
+    
+    { "unit_eng": "Moment of inertia", "unit_math": "\\text{kilogram meter squared (kg·m}^2\\text{)}" },
+    
+    { "unit_eng": "Angular momentum", "unit_math": "\\text{kilogram meter squared per second (kg·m}^2\\text{/s)}" },
+    
+    { "unit_eng": "Work", "unit_math": "\\text{joule (J)}" },
+    { "unit_eng": "Work (rotational)", "unit_math": "\\text{joule (J)}" },
+    { "unit_eng": "Energy", "unit_math": "\\text{joule (J)}" },
+    { "unit_eng": "Energy (SHM)", "unit_math": "\\text{joule (J)}" },
+    { "unit_eng": "Kinetic energy", "unit_math": "\\text{joule (J)}" },
+    { "unit_eng": "Kinetic energy (oscillation)", "unit_math": "\\text{joule (J)}" },
+    { "unit_eng": "Rotational kinetic energy", "unit_math": "\\text{joule (J)}" },
+    { "unit_eng": "Potential energy (gravitational)", "unit_math": "\\text{joule (J)}" },
+    { "unit_eng": "Potential energy (spring/oscillation)", "unit_math": "\\text{joule (J)}" },
+    { "unit_eng": "Elastic potential energy", "unit_math": "\\text{joule (J)}" },
+    { "unit_eng": "Internal energy", "unit_math": "\\text{joule (J)}" },
+    { "unit_eng": "Heat", "unit_math": "\\text{joule (J)}" },
+    
+    { "unit_eng": "Power", "unit_math": "\\text{watt (W)}" },
+    { "unit_eng": "Power (wave)", "unit_math": "\\text{watt (W)}" },
+    
+    { "unit_eng": "Spring constant", "unit_math": "\\text{newton per meter (N/m)}" },
+    
+    { "unit_eng": "Pressure", "unit_math": "\\text{pascal (Pa)}" },
+    
+    { "unit_eng": "Density", "unit_math": "\\text{kilogram per cubic meter (kg/m}^3\\text{)}" },
+    
+    { "unit_eng": "Linear mass density (μ)", "unit_math": "\\text{kilogram per meter (kg/m)}" },
+    
+    { "unit_eng": "Volume flow rate", "unit_math": "\\text{cubic meter per second (m}^3\\text{/s)}" },
+    
+    { "unit_eng": "Mass flow rate", "unit_math": "\\text{kilogram per second (kg/s)}" },
+    { "unit_eng": "Damping constant", "unit_math": "\\text{kilogram per second (kg/s)}" },
+    
+    { "unit_eng": "Viscosity", "unit_math": "\\text{pascal second (Pa·s)}" },
+    { "unit_eng": "Coefficient of viscosity", "unit_math": "\\text{pascal second (Pa·s)}" },
+    
+    { "unit_eng": "Acoustic impedance", "unit_math": "\\text{pascal second per meter (Pa·s/m)}" },
+    
+    { "unit_eng": "Intensity", "unit_math": "\\text{watt per square meter (W/m}^2\\text{)}" },
+    
+    { "unit_eng": "Temperature", "unit_math": "\\text{kelvin (K)}" },
+    
+    { "unit_eng": "Heat capacity", "unit_math": "\\text{joule per kelvin (J/K)}" },
+    { "unit_eng": "Specific heat capacity", "unit_math": "\\text{joule per kilogram kelvin (J/(kg·K))}" },
+    
+    { "unit_eng": "Entropy", "unit_math": "\\text{joule per kelvin (J/K)}" },
+    
+    { "unit_eng": "Amount of substance", "unit_math": "\\text{mole (mol)}" },
+    { "unit_eng": "Moles (n)", "unit_math": "\\text{mole (mol)}" },
+    
+    { "unit_eng": "Electric current", "unit_math": "\\text{ampere (A)}" },
+    
+    { "unit_eng": "Luminous intensity", "unit_math": "\\text{candela (cd)}" },
+    
+    { "unit_eng": "Bernoulli constant (energy per volume)", "unit_math": "\\text{joule per cubic meter (J/m}^3\\text{)}" },
+    
+    { "unit_eng": "Coefficient of friction", "unit_math": "\\text{dimensionless}" },
+    { "unit_eng": "Unit vector", "unit_math": "\\text{dimensionless}" },
+    { "unit_eng": "Efficiency", "unit_math": "\\text{dimensionless}" },
+    { "unit_eng": "Reynolds number", "unit_math": "\\text{dimensionless}" },
+    { "unit_eng": "Reflection coefficient", "unit_math": "\\text{dimensionless}" },
+    { "unit_eng": "Quality factor (Q)", "unit_math": "\\text{dimensionless}" },
+    { "unit_eng": "Refractive index (n)", "unit_math": "\\text{dimensionless}" },
+    { "unit_eng": "Relative error", "unit_math": "\\text{dimensionless}" },
+    
+    { "unit_eng": "Absolute error", "unit_math": "\\text{same as measurement}" },
+    
+    { "unit_eng": "Percentage error", "unit_math": "\\text{percent (%)}" },
+    
+    { "unit_eng": "Dot product", "unit_math": "\\text{depends on quantities (e.g. N·m)}" },
+    { "unit_eng": "Cross product magnitude", "unit_math": "\\text{depends on quantities (e.g. N·m)}" }
+  ]
+}

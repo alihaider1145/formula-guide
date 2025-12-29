@@ -48,6 +48,14 @@
       ]
     },
     {
+      "formula_math": "U = -\\frac{1}{4\\pi\\varepsilon_0}\\frac{e^2}{r}",
+      "formula_english": "Absolute electrostatic potential energy of an electron at a distance r from the nucleus, taking zero potential energy at infinity."
+    },
+    {
+      "formula_math": "v_e = \\sqrt{\\frac{2GM}{R}}",
+      "formula_english": "Escape velocity required for a body to leave the gravitational field of a planet without further propulsion."
+    },
+    {
       "formula_math": "P = \\frac{W}{t}",
       "formula_english": "Average power."
     },

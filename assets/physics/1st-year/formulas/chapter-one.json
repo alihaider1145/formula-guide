@@ -3,10 +3,7 @@
   "formulas": [
     {
       "formula_math": "\\text{Least Count} = \\frac{\\text{1 MSD}}{\\text{Total vernier divisions}}",
-      "formula_english": "Least count of vernier caliper.",
-      "variants": [
-        "1 MSD = 1 Main Scale Division"
-      ]
+      "formula_english": "Least count of vernier caliper."
     },
     {
       "formula_math": "\\text{Least Count} = \\frac{\\text{Pitch}}{\\text{Total circular divisions}}",
@@ -14,11 +11,7 @@
     },
     {
       "formula_math": "\\text{Reading} = \\text{MSR} + (\\text{VSD} \\times \\text{LC})",
-      "formula_english": "Total reading for vernier caliper.",
-      "variants": [
-        "MSR = Main Scale Reading",
-        "VSD = Vernier Scale Division coinciding"
-      ]
+      "formula_english": "Total reading for vernier caliper."
     },
     {
       "formula_math": "\\text{Error} = |\\text{True Value} - \\text{Measured Value}|",

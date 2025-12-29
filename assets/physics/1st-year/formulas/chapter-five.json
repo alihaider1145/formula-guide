@@ -2,6 +2,10 @@
   "chapter": "5. Circular Motion",
   "formulas": [
     {
+      "formula_math": "\\theta = \\frac{s}{r}",
+      "formula_english": "Angular displacement defined as arc length divided by radius."
+    },
+    {
       "formula_math": "\\omega = \\frac{\\theta}{t}",
       "formula_english": "Angular velocity."
     },
@@ -40,10 +44,6 @@
     {
       "formula_math": "T = 2\\pi \\sqrt{\\frac{l}{g}}",
       "formula_english": "Period of simple pendulum."
-    },
-    {
-      "formula_math": "T = 2\\pi \\sqrt{\\frac{r}{g}}",
-      "formula_english": "Period of conical pendulum."
     },
     {
       "formula_math": "\\alpha = \\frac{\\Delta \\omega}{\\Delta t}",
@@ -86,6 +86,10 @@
       "formula_english": "Angular momentum."
     },
     {
+      "formula_math": "L = rp",
+      "formula_english": "Angular momentum of a particle equal to the product of radius vector magnitude and linear momentum (for perpendicular velocity)."
+    },
+    {
       "formula_math": "\\tau = \\frac{\\Delta L}{\\Delta t}",
       "formula_english": "Torque as rate of change of angular momentum."
     },
@@ -96,14 +100,6 @@
     {
       "formula_math": "P = \\tau \\omega",
       "formula_english": "Power in rotational motion."
-    },
-    {
-      "formula_math": "v = \\sqrt{gr}",
-      "formula_english": "Velocity at lowest point of vertical circle."
-    },
-    {
-      "formula_math": "\\frac{T_1^2}{T_2^2} = \\frac{r_1^3}{r_2^3}",
-      "formula_english": "Kepler's third law (ratio form)."
     },
     {
       "formula_math": "v_s = \\sqrt{\\frac{GM}{r}}",

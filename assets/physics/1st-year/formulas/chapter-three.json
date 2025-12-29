@@ -61,14 +61,6 @@
       "formula_english": "Conservation of linear momentum."
     },
     {
-      "formula_math": "f = \\mu N",
-      "formula_english": "Friction force.",
-      "variants": [
-        "\\mu_s = static friction coefficient",
-        "\\mu_k = kinetic friction coefficient"
-      ]
-    },
-    {
       "formula_math": "v_x = v_0 \\cos \\theta",
       "formula_english": "Horizontal component of projectile velocity."
     },
