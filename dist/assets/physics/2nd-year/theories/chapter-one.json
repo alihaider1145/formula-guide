@@ -1,0 +1,101 @@
+{
+  "chapter": "11. Electrostatics",
+  "theories": [
+    {
+      "card_title": "Electric Charge",
+      "card_other": "Fundamental property of matter that causes electromagnetic interactions. Two types: positive and negative. Like charges repel, unlike charges attract. SI unit: coulomb (C). Charge is quantized (comes in multiples of e)."
+    },
+    {
+      "card_title": "Conservation of Charge",
+      "card_other": "Total electric charge in an isolated system remains constant. Charge cannot be created or destroyed, only transferred. In any process, net charge before equals net charge after."
+    },
+    {
+      "card_title": "Quantization of Charge",
+      "card_other": "Charge exists in discrete packets, not continuous. Smallest charge is electron charge e = 1.6 × 10⁻¹⁹ C. Any charge Q = ne where n is integer. Discovered by Millikan's oil drop experiment."
+    },
+    {
+      "card_title": "Coulomb's Law",
+      "card_other": "Force between two point charges is directly proportional to product of charges and inversely proportional to square of distance. Acts along line joining charges. Obeys Newton's third law (action-reaction pair)."
+    },
+    {
+      "card_title": "Principle of Superposition",
+      "card_other": "Net force on a charge due to multiple charges is vector sum of individual forces. Each pair interacts independently. Used to calculate force in systems with many charges."
+    },
+    {
+      "card_title": "Electric Field",
+      "card_other": "Region around charge where electric force is experienced. Vector quantity pointing away from positive, toward negative charge. Exists independent of test charge. Visualized using field lines."
+    },
+    {
+      "card_title": "Electric Field Lines",
+      "card_other": "Imaginary lines showing direction of electric field. Start on positive charges, end on negative. Never cross each other. Density indicates field strength. Perpendicular to conductor surface."
+    },
+    {
+      "card_title": "Electric Flux",
+      "card_other": "Measure of electric field passing through a surface. Proportional to number of field lines crossing surface. Maximum when field perpendicular to surface, zero when parallel. SI unit: V·m or N·m²/C."
+    },
+    {
+      "card_title": "Gauss's Law",
+      "card_other": "Total electric flux through closed surface equals enclosed charge divided by ε₀. Relates field to charge distribution. Used to find fields with high symmetry (spherical, cylindrical, planar). Alternative formulation of Coulomb's law."
+    },
+    {
+      "card_title": "Electric Potential",
+      "card_other": "Electric potential energy per unit charge. Scalar quantity. Work done bringing unit positive charge from infinity to point. SI unit: volt (V). High potential near positive charge, low near negative."
+    },
+    {
+      "card_title": "Potential Difference (Voltage)",
+      "card_other": "Work done per unit charge moving between two points. Drives current in circuits. Independent of path taken. 1 volt = 1 joule/coulomb. Measured by voltmeter connected in parallel."
+    },
+    {
+      "card_title": "Equipotential Surface",
+      "card_other": "Surface where all points have same electric potential. No work needed to move charge along surface. Always perpendicular to electric field lines. Conductors are equipotential surfaces."
+    },
+    {
+      "card_title": "Relation between Field and Potential",
+      "card_other": "Electric field is negative gradient of potential. Field points in direction of maximum potential decrease. Strong field where potential changes rapidly. Field and potential contain same information about charge distribution."
+    },
+    {
+      "card_title": "Electric Dipole",
+      "card_other": "Pair of equal and opposite charges separated by small distance. Has dipole moment p = qd pointing from negative to positive. Important in molecules. Field decreases as 1/r³ (faster than point charge)."
+    },
+    {
+      "card_title": "Capacitor",
+      "card_other": "Device that stores electric charge and energy. Consists of two conductors separated by insulator. Stores energy in electric field between plates. Used in circuits for filtering, timing, energy storage."
+    },
+    {
+      "card_title": "Capacitance",
+      "card_other": "Ability to store charge per unit voltage. Depends on geometry and dielectric. Larger capacitance stores more charge at same voltage. SI unit: farad (F). 1 farad is very large in practice."
+    },
+    {
+      "card_title": "Dielectric Material",
+      "card_other": "Insulating material placed between capacitor plates. Increases capacitance by reducing field. Characterized by dielectric constant K (always ≥ 1). Prevents breakdown, allows higher voltage. Examples: air, paper, ceramic."
+    },
+    {
+      "card_title": "Dielectric Constant",
+      "card_other": "Ratio of capacitance with dielectric to capacitance without. Dimensionless quantity. Measures how much material reduces electric field. Vacuum has K = 1, water ~80, air ~1.0006."
+    },
+    {
+      "card_title": "Energy Stored in Capacitor",
+      "card_other": "Electric potential energy stored in electric field between plates. Energy = ½CV² = ½QV = Q²/2C. Energy density proportional to square of electric field. Released when capacitor discharges."
+    },
+    {
+      "card_title": "Capacitors in Series",
+      "card_other": "Same charge on each capacitor. Total voltage divided across capacitors. Equivalent capacitance less than smallest individual. Reciprocal rule: 1/Ceq = 1/C₁ + 1/C₂ + ..."
+    },
+    {
+      "card_title": "Capacitors in Parallel",
+      "card_other": "Same voltage across each capacitor. Total charge divided among capacitors. Equivalent capacitance equals sum. Ceq = C₁ + C₂ + ... Increases total capacitance."
+    },
+    {
+      "card_title": "Conductor in Electrostatic Equilibrium",
+      "card_other": "Electric field inside conductor is zero. All charge resides on surface. Surface is equipotential. Field just outside perpendicular to surface. Charges distribute to minimize energy."
+    },
+    {
+      "card_title": "Electric Shielding",
+      "card_other": "Hollow conductor shields interior from external electric fields. Electric field inside cavity is zero regardless of external field. Used in Faraday cage. Protects sensitive equipment from interference."
+    },
+    {
+      "card_title": "Breakdown Voltage",
+      "card_other": "Maximum voltage before dielectric fails and conducts. Causes spark or arc discharge. Depends on material and thickness. For air ~3 × 10⁶ V/m. Limits capacitor voltage rating."
+    }
+  ]
+}

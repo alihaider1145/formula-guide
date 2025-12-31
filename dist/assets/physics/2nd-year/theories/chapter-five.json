@@ -1,0 +1,121 @@
+{
+  "chapter": "15. Alternating Current",
+  "theories": [
+    {
+      "card_title": "Alternating Current (AC)",
+      "card_other": "Current that periodically reverses direction. Varies sinusoidally with time. Produced by AC generators. Frequency 50 Hz (Pakistan) or 60 Hz (US). Easier to generate and transmit than DC."
+    },
+    {
+      "card_title": "Direct Current (DC)",
+      "card_other": "Current flowing in one direction only. Constant or slowly varying magnitude. Produced by batteries, solar cells, rectifiers. Used in electronics, electric vehicles. Cannot use transformers directly."
+    },
+    {
+      "card_title": "Peak Value",
+      "card_other": "Maximum value of AC voltage or current. Amplitude of sinusoidal wave. Symbol: V₀, I₀. Instantaneous value varies from -peak to +peak. Related to RMS by factor √2."
+    },
+    {
+      "card_title": "RMS Value",
+      "card_other": "Root Mean Square value. Equivalent DC value producing same heating effect. Vrms = V₀/√2, Irms = I₀/√2. What AC meters read. Used in power calculations. Also called effective value."
+    },
+    {
+      "card_title": "Average Value of AC",
+      "card_other": "Average over complete cycle is zero (positive and negative halves cancel). Average over half cycle: Vavg = 2V₀/π. Average of rectified AC (half-wave): Vavg = V₀/π. Form factor relates RMS to average."
+    },
+    {
+      "card_title": "Phase",
+      "card_other": "Position in cycle at given time. Measured in radians or degrees. Phase difference indicates timing between two AC quantities. In phase: peaks coincide. Out of phase: peaks at different times."
+    },
+    {
+      "card_title": "Phasor",
+      "card_other": "Rotating vector representing AC quantity. Length = amplitude. Rotation rate = angular frequency. Projection on axis gives instantaneous value. Simplifies AC circuit analysis (vector addition instead of trigonometry)."
+    },
+    {
+      "card_title": "AC through Pure Resistor",
+      "card_other": "Voltage and current in phase (no phase difference). Obeys Ohm's law at every instant. Power always positive (dissipated as heat). Average power = Vrms × Irms."
+    },
+    {
+      "card_title": "AC through Pure Inductor",
+      "card_other": "Current lags voltage by 90°. Inductor opposes current change. No power dissipated (energy stored and returned). Opposition increases with frequency. Inductive reactance XL = ωL."
+    },
+    {
+      "card_title": "Inductive Reactance",
+      "card_other": "Opposition to AC by inductor. Increases with frequency (XL = 2πfL). SI unit: ohm. Zero for DC (f = 0). Used in high-pass filters. Blocks high frequencies more than low."
+    },
+    {
+      "card_title": "AC through Pure Capacitor",
+      "card_other": "Current leads voltage by 90°. Capacitor allows AC (charges/discharges) but blocks DC. No power dissipated. Opposition decreases with frequency. Capacitive reactance XC = 1/(ωC)."
+    },
+    {
+      "card_title": "Capacitive Reactance",
+      "card_other": "Opposition to AC by capacitor. Decreases with frequency (XC = 1/(2πfC)). SI unit: ohm. Infinite for DC (f = 0). Used in low-pass filters. Blocks low frequencies more than high."
+    },
+    {
+      "card_title": "Series RLC Circuit",
+      "card_other": "Contains resistor, inductor, and capacitor in series. Same current through all. Total voltage = phasor sum. Impedance Z = √(R² + (XL - XC)²). Shows resonance phenomenon."
+    },
+    {
+      "card_title": "Impedance",
+      "card_other": "Total opposition to AC in circuit. Combines resistance and reactance. SI unit: ohm. Symbol: Z. Depends on frequency. V = IZ (AC version of Ohm's law)."
+    },
+    {
+      "card_title": "Phase Angle",
+      "card_other": "Angle between voltage and current phasors. tan φ = (XL - XC)/R. Positive: inductive (current lags). Negative: capacitive (current leads). Zero at resonance (in phase)."
+    },
+    {
+      "card_title": "Power Factor",
+      "card_other": "Ratio of real power to apparent power. cos φ where φ is phase angle. Ranges from 0 to 1. Unity at resonance (φ = 0). Low power factor wastes energy in distribution."
+    },
+    {
+      "card_title": "Real Power (True Power)",
+      "card_other": "Actual power dissipated in resistance. P = Vrms × Irms × cos φ. SI unit: watt (W). Only component doing useful work. Measured by wattmeter."
+    },
+    {
+      "card_title": "Reactive Power",
+      "card_other": "Power oscillating between source and reactive components (L, C). Q = Vrms × Irms × sin φ. SI unit: VAR (volt-ampere reactive). No net energy transfer. Burdens power system without doing work."
+    },
+    {
+      "card_title": "Apparent Power",
+      "card_other": "Product of RMS voltage and current. S = Vrms × Irms. SI unit: VA (volt-ampere). Vector sum of real and reactive power. Used to rate transformers, generators."
+    },
+    {
+      "card_title": "Resonance in AC Circuit",
+      "card_other": "Occurs when XL = XC. Impedance minimum (equals R). Current maximum. Voltage and current in phase (power factor = 1). Used in radio tuning, filters. Resonant frequency f₀ = 1/(2π√LC)."
+    },
+    {
+      "card_title": "Quality Factor (Q-factor)",
+      "card_other": "Measure of sharpness of resonance. Q = ωL/R = 1/(ωCR). Higher Q means sharper peak, better selectivity. Important in radio receivers. Energy stored / energy dissipated per cycle."
+    },
+    {
+      "card_title": "Bandwidth",
+      "card_other": "Range of frequencies where power ≥ half maximum. Δf = f₀/Q. Narrow for high Q (selective). Wide for low Q (broad response). Important in communication systems."
+    },
+    {
+      "card_title": "Low-Pass Filter",
+      "card_other": "Passes low frequencies, blocks high. Made with RC circuit (capacitor to ground). Cutoff frequency fc = 1/(2πRC). Used in audio systems, power supplies. Removes noise."
+    },
+    {
+      "card_title": "High-Pass Filter",
+      "card_other": "Passes high frequencies, blocks low. Made with RC circuit (capacitor in series). Cutoff frequency fc = 1/(2πRC). Used to remove DC component. Blocks low-frequency noise."
+    },
+    {
+      "card_title": "Band-Pass Filter",
+      "card_other": "Passes frequencies within certain range. Made with series RLC circuit. Center frequency at resonance. Used in radio tuning, communication systems. Selects desired signal."
+    },
+    {
+      "card_title": "Rectifier",
+      "card_other": "Converts AC to pulsating DC. Half-wave: one diode (conducts half cycle). Full-wave: four diodes (bridge) or two with center-tap. Used in power supplies. Needs smoothing capacitor."
+    },
+    {
+      "card_title": "Smoothing",
+      "card_other": "Reducing ripple in rectified DC using capacitor. Capacitor charges to peak, discharges slowly through load. Larger capacitor gives smoother output. Trade-off between ripple and cost."
+    },
+    {
+      "card_title": "Three-Phase AC",
+      "card_other": "Three AC voltages 120° out of phase. More efficient for power transmission. Constant power delivery. Used in industry, power generation. Requires three wires (plus neutral)."
+    },
+    {
+      "card_title": "Advantages of AC over DC",
+      "card_other": "Easy voltage transformation (transformers). Simple generation (no commutator). Lower transmission losses at high voltage. Self-starting motors. Disadvantages: skin effect, reactive power."
+    }
+  ]
+}

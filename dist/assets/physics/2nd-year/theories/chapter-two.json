@@ -1,0 +1,109 @@
+{
+  "chapter": "12. Current Electricity",
+  "theories": [
+    {
+      "card_title": "Electric Current",
+      "card_other": "Flow of electric charge through conductor. Rate of charge flow. Conventional direction: positive to negative (opposite to electron flow). SI unit: ampere (A). 1 A = 1 C/s. Requires closed circuit and potential difference."
+    },
+    {
+      "card_title": "Drift Velocity",
+      "card_other": "Average velocity of charge carriers in conductor due to electric field. Very slow (~10⁻⁴ m/s) despite fast electron motion. Current depends on drift velocity, not random thermal velocity. Proportional to applied field."
+    },
+    {
+      "card_title": "Ohm's Law",
+      "card_other": "Current through conductor proportional to voltage, inversely proportional to resistance. V = IR. Valid for ohmic materials at constant temperature. Not universal law - semiconductors and diodes are non-ohmic."
+    },
+    {
+      "card_title": "Resistance",
+      "card_other": "Opposition to current flow. Depends on material (resistivity), length (longer = more resistance), and cross-section (wider = less resistance). SI unit: ohm (Ω). Converts electrical energy to heat."
+    },
+    {
+      "card_title": "Resistivity",
+      "card_other": "Intrinsic property of material indicating resistance to current. Independent of shape/size. Temperature dependent - increases with temperature for metals, decreases for semiconductors. SI unit: Ω·m. Symbol: ρ."
+    },
+    {
+      "card_title": "Conductivity",
+      "card_other": "Reciprocal of resistivity. Measure of how easily material conducts current. High in metals (good conductors), low in insulators. SI unit: S/m (siemens per meter). Symbol: σ."
+    },
+    {
+      "card_title": "Temperature Dependence of Resistance",
+      "card_other": "Resistance of metals increases with temperature due to increased atomic vibrations. Semiconductors show opposite behavior. Superconductors have zero resistance below critical temperature. Temperature coefficient α describes rate of change."
+    },
+    {
+      "card_title": "Superconductivity",
+      "card_other": "Phenomenon where certain materials have zero electrical resistance below critical temperature. Discovered by Kamerlingh Onnes. Allows persistent currents without energy loss. Used in MRI machines, particle accelerators."
+    },
+    {
+      "card_title": "Resistors in Series",
+      "card_other": "Same current flows through all. Total voltage divided among resistors. Equivalent resistance equals sum: Req = R₁ + R₂ + ... Increases total resistance. Used in voltage dividers."
+    },
+    {
+      "card_title": "Resistors in Parallel",
+      "card_other": "Same voltage across all. Total current divided among paths. Equivalent resistance less than smallest: 1/Req = 1/R₁ + 1/R₂ + ... Decreases total resistance. Provides multiple paths for current."
+    },
+    {
+      "card_title": "Electromotive Force (EMF)",
+      "card_other": "Energy per unit charge supplied by battery or generator. Despite name, not a force - measured in volts. Maximum potential difference when no current flows. Maintains current by doing work on charges."
+    },
+    {
+      "card_title": "Internal Resistance",
+      "card_other": "Resistance within battery/cell itself. Causes voltage drop when current flows. Terminal voltage less than EMF due to internal resistance. Increases as battery ages. Limits maximum current."
+    },
+    {
+      "card_title": "Terminal Voltage",
+      "card_other": "Actual voltage across battery terminals when current flows. Equals EMF minus voltage drop across internal resistance. Less than EMF when discharging. Measured by voltmeter."
+    },
+    {
+      "card_title": "Kirchhoff's Current Law (KCL)",
+      "card_other": "Sum of currents entering junction equals sum leaving. Consequence of charge conservation. Applies to any node in circuit. Essential for analyzing complex circuits."
+    },
+    {
+      "card_title": "Kirchhoff's Voltage Law (KVL)",
+      "card_other": "Sum of voltage changes around any closed loop is zero. Consequence of energy conservation. Sum of EMFs equals sum of voltage drops. Used with KCL to solve circuit problems."
+    },
+    {
+      "card_title": "Wheatstone Bridge",
+      "card_other": "Circuit for measuring unknown resistance precisely. Balanced when no current through galvanometer. At balance: P/Q = R/X. More accurate than direct measurement. Used in strain gauges, sensors."
+    },
+    {
+      "card_title": "Potentiometer",
+      "card_other": "Device for measuring EMF without drawing current. Uses null method - more accurate than voltmeter. Can compare EMFs or measure internal resistance. Based on potential gradient along wire."
+    },
+    {
+      "card_title": "Electric Power",
+      "card_other": "Rate of electrical energy conversion. P = VI = I²R = V²/R. Unit: watt (W). Heat dissipated in resistor converted from electrical energy. Important for rating appliances and preventing overheating."
+    },
+    {
+      "card_title": "Joule's Law of Heating",
+      "card_other": "Heat produced in resistor proportional to square of current, resistance, and time. H = I²Rt. Basis of electric heaters, bulbs, fuses. Can be unwanted (energy loss) or useful (heating elements)."
+    },
+    {
+      "card_title": "Kilowatt-hour",
+      "card_other": "Unit of electrical energy used by power companies. 1 kWh = 3.6 × 10⁶ J. Energy consumed by 1 kW device running for 1 hour. Appears on electricity bills."
+    },
+    {
+      "card_title": "Fuse",
+      "card_other": "Safety device with wire that melts if current exceeds rating. Protects circuits from overcurrent damage. Single-use (must be replaced) unlike circuit breakers. Rated by maximum safe current."
+    },
+    {
+      "card_title": "Cells in Series",
+      "card_other": "Increases total EMF (voltages add). Same current through all cells. Total internal resistance increases. Used when higher voltage needed. Batteries are cells in series."
+    },
+    {
+      "card_title": "Cells in Parallel",
+      "card_other": "Same EMF as single cell. Can supply larger current (divided among cells). Internal resistance decreases. Used when higher current capacity needed. Increases battery life."
+    },
+    {
+      "card_title": "Ammeter",
+      "card_other": "Instrument measuring current. Connected in series with component. Low resistance (ideally zero) to not affect current. Can be converted from galvanometer using shunt resistor."
+    },
+    {
+      "card_title": "Voltmeter",
+      "card_other": "Instrument measuring potential difference. Connected in parallel across component. High resistance (ideally infinite) to draw minimal current. Can be converted from galvanometer using high series resistance."
+    },
+    {
+      "card_title": "Ohmmeter",
+      "card_other": "Instrument measuring resistance. Must be used with power off in circuit. Contains own battery. Can check continuity (very low resistance). Based on Ohm's law."
+    }
+  ]
+}

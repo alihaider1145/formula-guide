@@ -1,0 +1,157 @@
+{
+  "chapter": "20. Nuclear Physics",
+  "theories": [
+    {
+      "card_title": "Nucleus",
+      "card_other": "Tiny, dense, positive core of atom. Contains protons and neutrons (nucleons). 10⁻¹⁵ m diameter (100,000 times smaller than atom). Contains 99.9% of atomic mass. Held by strong nuclear force."
+    },
+    {
+      "card_title": "Nucleon",
+      "card_other": "Collective term for protons and neutrons in nucleus. Approximately same mass (~1 u). Subject to strong nuclear force. Mass number A = number of nucleons."
+    },
+    {
+      "card_title": "Proton",
+      "card_other": "Positively charged nucleon. Charge +e = 1.6 × 10⁻¹⁹ C. Mass 1.673 × 10⁻²⁷ kg ≈ 1 u. Number of protons (Z) defines element. Stable alone. Symbol: p or ¹₁H."
+    },
+    {
+      "card_title": "Neutron",
+      "card_other": "Electrically neutral nucleon. Slightly heavier than proton (1.675 × 10⁻²⁷ kg). Discovered by Chadwick 1932. Unstable alone (decays ~10 min). Stabilizes nucleus. Symbol: n or ¹₀n."
+    },
+    {
+      "card_title": "Atomic Number (Z)",
+      "card_other": "Number of protons in nucleus. Defines element identity. Determines chemical properties. Equal to number of electrons in neutral atom. Periodic table ordered by Z. Symbol: Z."
+    },
+    {
+      "card_title": "Mass Number (A)",
+      "card_other": "Total number of nucleons (protons + neutrons). A = Z + N where N is neutron number. Approximately equals atomic mass in u. Symbol: A. Written as superscript before element symbol."
+    },
+    {
+      "card_title": "Isotopes",
+      "card_other": "Atoms of same element (same Z) with different mass numbers (different N). Same chemical properties, different nuclear properties. Example: ¹²C, ¹³C, ¹⁴C. Most elements have several isotopes. Some stable, some radioactive."
+    },
+    {
+      "card_title": "Nuclide",
+      "card_other": "Specific nuclear species characterized by Z and A. Written as ᴬ𝑍X where X is element symbol. Example: ²³⁸₉₂U. Over 3000 known nuclides, only ~300 stable."
+    },
+    {
+      "card_title": "Atomic Mass Unit (u or amu)",
+      "card_other": "Unit for atomic masses. 1 u = 1.66 × 10⁻²⁷ kg = 931.5 MeV/c². Defined as 1/12 mass of ¹²C atom. Convenient for nuclear calculations. Approximately proton/neutron mass."
+    },
+    {
+      "card_title": "Nuclear Force (Strong Force)",
+      "card_other": "Extremely strong, short-range force holding nucleus together. Overcomes electromagnetic repulsion between protons. Acts on nucleons regardless of charge. Range ~10⁻¹⁵ m. One of four fundamental forces. Charge-independent."
+    },
+    {
+      "card_title": "Nuclear Stability",
+      "card_other": "Determined by balance of forces. Stable nuclei have specific N/Z ratios. Light nuclei: N ≈ Z. Heavy nuclei: N > Z (more neutrons needed). Too many/few neutrons → unstable → radioactive. Magic numbers (2,8,20,28,50,82,126) give extra stability."
+    },
+    {
+      "card_title": "Binding Energy",
+      "card_other": "Energy required to completely separate nucleus into individual nucleons. Measure of nuclear stability. Released when nucleus forms. Higher binding energy = more stable. Equivalent to mass defect via E = mc²."
+    },
+    {
+      "card_title": "Mass Defect",
+      "card_other": "Difference between sum of nucleon masses and actual nuclear mass. Δm = (Zmp + Nmn) - Mnucleus. Always positive. Converted to binding energy. Demonstrates mass-energy equivalence. Larger for more stable nuclei."
+    },
+    {
+      "card_title": "Binding Energy per Nucleon",
+      "card_other": "Average binding energy per nucleon (BE/A). Better measure of stability than total BE. Maximum ~8.8 MeV for Fe-56 (most stable). Lower for light nuclei (fusion possible) and heavy nuclei (fission possible). Explains fusion in stars, fission in reactors."
+    },
+    {
+      "card_title": "Radioactivity",
+      "card_other": "Spontaneous emission of particles or energy from unstable nucleus. Discovered by Becquerel 1896. Three types: alpha, beta, gamma. Random process - cannot predict when individual nucleus decays. Exponential decay law."
+    },
+    {
+      "card_title": "Alpha Decay",
+      "card_other": "Emission of alpha particle (⁴₂He nucleus: 2 protons + 2 neutrons). Z decreases by 2, A decreases by 4. Penetration: stopped by paper. Occurs in heavy nuclei (Z > 82). Example: ²³⁸U → ²³⁴Th + ⁴He."
+    },
+    {
+      "card_title": "Alpha Particle",
+      "card_other": "Helium-4 nucleus (2p + 2n). Charge +2e. Mass 4 u. Slow (few % of c). Strongly ionizing. Short range in matter (~cm in air). Dangerous if ingested. Symbol: α or ⁴₂He."
+    },
+    {
+      "card_title": "Beta Decay (β⁻)",
+      "card_other": "Neutron converts to proton, emitting electron and antineutrino. Z increases by 1, A unchanged. n → p + e⁻ + ν̄. Penetration: stopped by aluminum. Continuous energy spectrum. Example: ¹⁴C → ¹⁴N + e⁻ + ν̄."
+    },
+    {
+      "card_title": "Beta Particle",
+      "card_other": "High-speed electron (β⁻) or positron (β⁺) from nucleus. Not orbital electron. Charge ±e. Fast (~50-99% c). Moderately ionizing. Range ~m in air. Symbol: β or e⁻/e⁺."
+    },
+    {
+      "card_title": "Positron (β⁺) Decay",
+      "card_other": "Proton converts to neutron, emitting positron and neutrino. Z decreases by 1, A unchanged. p → n + e⁺ + ν. Occurs in proton-rich nuclei. Positron annihilates with electron. Used in PET scans."
+    },
+    {
+      "card_title": "Gamma Decay",
+      "card_other": "Emission of high-energy photon from excited nucleus. No change in Z or A. Nucleus drops to lower energy state. Often follows alpha/beta decay. Most penetrating radiation. Symbol: γ. Stopped by thick lead."
+    },
+    {
+      "card_title": "Gamma Ray",
+      "card_other": "Highest energy electromagnetic radiation (> 100 keV). Wavelength < 10 pm. No charge or mass. Speed of light. Weakly ionizing but very penetrating. Dangerous to living tissue. Used in cancer treatment, sterilization."
+    },
+    {
+      "card_title": "Neutrino",
+      "card_other": "Electrically neutral, nearly massless particle. Very weak interaction with matter. Produced in beta decay. Difficult to detect (trillions pass through body each second). Three types: electron, muon, tau. Symbol: ν (nu)."
+    },
+    {
+      "card_title": "Decay Constant (λ)",
+      "card_other": "Probability of decay per unit time. Different for each isotope. Larger λ means faster decay. Unit: s⁻¹. Related to half-life: λ = ln(2)/T₁/₂. Determines exponential decay rate."
+    },
+    {
+      "card_title": "Half-Life (T₁/₂)",
+      "card_other": "Time for half of radioactive sample to decay. Characteristic of each isotope. Range from microseconds to billions of years. Independent of amount, temperature, pressure. Used for dating, medical applications. Symbol: T₁/₂."
+    },
+    {
+      "card_title": "Activity (A)",
+      "card_other": "Rate of radioactive decay. Number of decays per second. A = λN. SI unit: becquerel (Bq) = 1 decay/s. Old unit: curie (Ci) = 3.7 × 10¹⁰ Bq. Decreases exponentially with time."
+    },
+    {
+      "card_title": "Decay Series",
+      "card_other": "Chain of successive decays from parent to stable daughter nucleus. Multiple alpha and beta decays. Three natural series: uranium (⁴n+2), thorium (⁴n), actinium (⁴n+3). All end at stable lead isotopes."
+    },
+    {
+      "card_title": "Carbon Dating",
+      "card_other": "Method to date organic materials using ¹⁴C decay. ¹⁴C forms in atmosphere from cosmic rays. Living organisms maintain constant ¹⁴C/¹²C ratio. After death, ¹⁴C decays (T₁/₂ = 5730 years). Measuring remaining ¹⁴C gives age (up to ~50,000 years)."
+    },
+    {
+      "card_title": "Nuclear Reaction",
+      "card_other": "Transformation of nuclei through collision or decay. Conservation laws apply: charge, mass-energy, momentum, nucleon number. Can be spontaneous (decay) or induced (bombardment). Example: ¹⁴N + ⁴He → ¹⁷O + ¹H."
+    },
+    {
+      "card_title": "Nuclear Fission",
+      "card_other": "Splitting of heavy nucleus into lighter fragments. Releases energy (BE/nucleon increases). Induced by neutron absorption. Chain reaction possible. Used in nuclear reactors, bombs. Example: ²³⁵U + n → ⁹²Kr + ¹⁴¹Ba + 3n + energy."
+    },
+    {
+      "card_title": "Chain Reaction",
+      "card_other": "Self-sustaining fission reaction. One fission triggers more fissions via released neutrons. Critical mass needed. Controlled in reactors (k=1), uncontrolled in bombs (k>1). Controlled by moderators and control rods."
+    },
+    {
+      "card_title": "Nuclear Fusion",
+      "card_other": "Combining light nuclei into heavier nucleus. Releases energy (BE/nucleon increases for light nuclei). Requires extremely high temperature/pressure. Powers sun and stars. Potential clean energy source. Difficult to achieve controlled fusion on Earth."
+    },
+    {
+      "card_title": "Nuclear Reactor",
+      "card_other": "Device for controlled nuclear fission. Components: fuel (²³⁵U or ²³⁹Pu), moderator (slows neutrons), control rods (absorb neutrons), coolant (removes heat). Heat produces steam → turbine → electricity. No greenhouse gases but produces radioactive waste."
+    },
+    {
+      "card_title": "Moderator",
+      "card_other": "Material slowing neutrons in reactor. Fast neutrons from fission slowed to thermal speeds (better absorption by ²³⁵U). Common: water, heavy water, graphite. Light nuclei best (elastic collision energy transfer)."
+    },
+    {
+      "card_title": "Control Rods",
+      "card_other": "Neutron-absorbing rods controlling reaction rate. Made of cadmium or boron. Inserted to slow/stop reaction, withdrawn to increase rate. Maintain k=1 (critical). Emergency shutdown: rods fully inserted."
+    },
+    {
+      "card_title": "Critical Mass",
+      "card_other": "Minimum mass of fissile material to sustain chain reaction. Below: neutrons escape before causing fission. Above: chain reaction grows exponentially. Depends on material, shape, purity. Sphere has smallest critical mass."
+    },
+    {
+      "card_title": "Radiation Exposure Units",
+      "card_other": "Exposure: roentgen (R). Absorbed dose: gray (Gy) = J/kg. Dose equivalent (biological effect): sievert (Sv). Sv accounts for radiation type (α more damaging than γ). Background: ~2-3 mSv/year."
+    },
+    {
+      "card_title": "Biological Effects of Radiation",
+      "card_other": "Ionizes molecules, damages DNA. Acute effects: radiation sickness, burns. Long-term: cancer, genetic mutations. Severity depends on dose, type, exposure time. Alpha most dangerous if ingested. Shielding essential for workers."
+    }
+  ]
+}

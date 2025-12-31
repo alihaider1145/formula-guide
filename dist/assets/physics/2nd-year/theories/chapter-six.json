@@ -1,0 +1,133 @@
+{
+  "chapter": "16. Physics of Solids",
+  "theories": [
+    {
+      "card_title": "Crystalline Solid",
+      "card_other": "Atoms arranged in regular, repeating pattern (crystal lattice). Long-range order. Sharp melting point. Examples: metals, salt, diamond. Show anisotropy (properties vary with direction). Most solids are crystalline."
+    },
+    {
+      "card_title": "Amorphous Solid",
+      "card_other": "Atoms arranged randomly without long-range order. Like frozen liquid. Gradual softening instead of sharp melting. Examples: glass, plastics, rubber. Isotropic properties. Sometimes called supercooled liquids."
+    },
+    {
+      "card_title": "Unit Cell",
+      "card_other": "Smallest repeating unit of crystal lattice. Contains atoms in specific arrangement. Entire crystal built by repeating unit cell. Defined by lattice parameters (lengths and angles). Seven crystal systems exist."
+    },
+    {
+      "card_title": "Crystal Lattice",
+      "card_other": "Three-dimensional regular arrangement of atoms/ions/molecules. Mathematical points representing atom positions. Characterized by symmetry. Determines many properties (mechanical, optical, electrical)."
+    },
+    {
+      "card_title": "Stress",
+      "card_other": "Force per unit area applied to material. SI unit: pascal (Pa) or N/m². Types: tensile (pulling), compressive (pushing), shear (parallel). Symbol: σ. Causes deformation."
+    },
+    {
+      "card_title": "Strain",
+      "card_other": "Relative deformation in response to stress. Dimensionless (ratio of change to original). Types: longitudinal (length change), volumetric (volume change), shear (shape change). Symbol: ε."
+    },
+    {
+      "card_title": "Elastic Deformation",
+      "card_other": "Temporary deformation. Material returns to original shape when stress removed. Obeys Hooke's law (stress ∝ strain). Bonds stretched but not broken. Occurs below elastic limit."
+    },
+    {
+      "card_title": "Plastic Deformation",
+      "card_other": "Permanent deformation. Material does not return to original shape. Occurs beyond elastic limit. Atoms move to new positions. Used in metal forming (forging, rolling)."
+    },
+    {
+      "card_title": "Hooke's Law for Materials",
+      "card_other": "Stress proportional to strain within elastic limit. Linear region on stress-strain curve. Constant of proportionality is elastic modulus. Valid for small deformations. Beyond elastic limit, material yields."
+    },
+    {
+      "card_title": "Elastic Modulus",
+      "card_other": "Measure of material's stiffness or resistance to deformation. Ratio of stress to strain. Higher modulus means stiffer material. SI unit: pascal (Pa). Three types: Young's, bulk, shear."
+    },
+    {
+      "card_title": "Young's Modulus",
+      "card_other": "Resistance to longitudinal stress (stretching/compression). Y = (F/A)/(ΔL/L). Measures stiffness. Steel has high Y, rubber has low Y. Used in structural engineering. Symbol: Y or E."
+    },
+    {
+      "card_title": "Bulk Modulus",
+      "card_other": "Resistance to uniform compression (volume change). K = -ΔP/(ΔV/V). Reciprocal is compressibility. Measures how incompressible material is. Liquids and solids have high K, gases low K. Symbol: K or B."
+    },
+    {
+      "card_title": "Shear Modulus (Rigidity Modulus)",
+      "card_other": "Resistance to shear stress (parallel forces). G = (F/A)/(Δx/h). Measures resistance to shape change at constant volume. Only applies to solids. Fluids have zero shear modulus. Symbol: G."
+    },
+    {
+      "card_title": "Elastic Limit",
+      "card_other": "Maximum stress material can withstand and still return to original shape. Beyond this, permanent deformation occurs. Different from proportional limit (end of Hooke's law). Important in design safety factors."
+    },
+    {
+      "card_title": "Yield Point",
+      "card_other": "Stress at which material begins to deform plastically. Sudden increase in strain without increase in stress. Material yields (flows). Clear in ductile materials like steel. Defines onset of permanent deformation."
+    },
+    {
+      "card_title": "Ultimate Tensile Strength",
+      "card_other": "Maximum stress material can withstand before breaking. Peak of stress-strain curve. After this, necking occurs (cross-section decreases). Important for material selection in engineering."
+    },
+    {
+      "card_title": "Fracture/Breaking Point",
+      "card_other": "Stress at which material breaks or ruptures. End of stress-strain curve. Lower than ultimate strength for ductile materials. Equal to ultimate strength for brittle materials."
+    },
+    {
+      "card_title": "Ductile Material",
+      "card_other": "Material that can undergo significant plastic deformation before fracture. Can be drawn into wires. Long plastic region on stress-strain curve. Examples: copper, aluminum, gold. Shows necking before breaking."
+    },
+    {
+      "card_title": "Brittle Material",
+      "card_other": "Material that fractures with little or no plastic deformation. Breaks suddenly without warning. Short/no plastic region. Examples: glass, ceramics, cast iron. Dangerous in structures."
+    },
+    {
+      "card_title": "Elastic Energy",
+      "card_other": "Energy stored in deformed material. Released when stress removed. Energy = ½ × stress × strain × volume. Area under stress-strain curve. Used in springs, bows."
+    },
+    {
+      "card_title": "Poisson's Ratio",
+      "card_other": "Ratio of lateral strain to longitudinal strain. ν = -(lateral strain)/(longitudinal strain). Dimensionless, typically 0.2-0.5. Materials contract sideways when stretched. Cork ~0 (nearly incompressible), rubber ~0.5."
+    },
+    {
+      "card_title": "Energy Band Theory",
+      "card_other": "Explains electrical properties of solids. In crystal, atomic energy levels split into bands. Valence band (filled) and conduction band (empty/partially filled) separated by band gap. Band overlap/gap determines conductor/insulator/semiconductor."
+    },
+    {
+      "card_title": "Valence Band",
+      "card_other": "Highest energy band filled with electrons at absolute zero. Electrons bound to atoms. In insulators/semiconductors, separated from conduction band by gap. In metals, overlaps with conduction band."
+    },
+    {
+      "card_title": "Conduction Band",
+      "card_other": "Energy band where electrons are free to move and conduct. Empty at absolute zero for insulators/semiconductors. Partially filled in metals. Electrons reaching here contribute to conductivity."
+    },
+    {
+      "card_title": "Band Gap (Energy Gap)",
+      "card_other": "Forbidden energy region between valence and conduction bands. Large in insulators (>3 eV), small in semiconductors (~1 eV), zero in metals. Determines electrical and optical properties. Symbol: Eg."
+    },
+    {
+      "card_title": "Conductor",
+      "card_other": "Material with overlapping valence and conduction bands or partially filled conduction band. Free electrons available for conduction. Low resistivity. Examples: metals (copper, silver, aluminum). Conductivity decreases with temperature."
+    },
+    {
+      "card_title": "Insulator",
+      "card_other": "Material with large band gap (>3 eV). No free electrons at room temperature. Very high resistivity. Examples: rubber, glass, ceramics, plastics. Used for electrical isolation and safety."
+    },
+    {
+      "card_title": "Semiconductor",
+      "card_other": "Material with small band gap (~1 eV). Few free electrons at room temperature. Conductivity increases with temperature (opposite of metals). Examples: silicon, germanium. Used in electronics, solar cells."
+    },
+    {
+      "card_title": "Intrinsic Semiconductor",
+      "card_other": "Pure semiconductor without impurities. Equal number of electrons and holes. Conductivity low at room temperature. Increases exponentially with temperature. Fermi level at middle of band gap."
+    },
+    {
+      "card_title": "Extrinsic Semiconductor",
+      "card_other": "Semiconductor doped with impurities to increase conductivity. Two types: n-type (excess electrons) and p-type (excess holes). Controlled conductivity. Used in all semiconductor devices."
+    },
+    {
+      "card_title": "n-Type Semiconductor",
+      "card_other": "Doped with donor atoms (group V: P, As, Sb). Extra valence electron becomes free. Majority carriers: electrons. Minority carriers: holes. Fermi level near conduction band."
+    },
+    {
+      "card_title": "p-Type Semiconductor",
+      "card_other": "Doped with acceptor atoms (group III: B, Al, Ga). Creates holes in valence band. Majority carriers: holes. Minority carriers: electrons. Fermi level near valence band."
+    }
+  ]
+}
