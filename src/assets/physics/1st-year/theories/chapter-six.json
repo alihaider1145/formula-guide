@@ -1,0 +1,93 @@
+{
+  "chapter": "6. Fluid Dynamics",
+  "theories": [
+    {
+      "card_title": "Fluid",
+      "card_other": "A substance that can flow and takes shape of container. Includes liquids and gases. Cannot sustain shear stress - deforms continuously under tangential force."
+    },
+    {
+      "card_title": "Density",
+      "card_other": "Mass per unit volume. Scalar quantity. SI unit: kg/m³. For liquids, nearly constant with pressure. For gases, depends on temperature and pressure. Symbol: ρ (rho)."
+    },
+    {
+      "card_title": "Pressure",
+      "card_other": "Force per unit area. Scalar quantity that acts in all directions equally in fluid at rest. SI unit: pascal (Pa) = N/m². In fluids, pressure transmitted equally in all directions (Pascal's law)."
+    },
+    {
+      "card_title": "Atmospheric Pressure",
+      "card_other": "Pressure exerted by atmosphere due to weight of air above. Standard value: 1.013 × 10⁵ Pa = 1 atm = 760 mmHg = 101.3 kPa. Decreases with altitude."
+    },
+    {
+      "card_title": "Gauge Pressure vs Absolute Pressure",
+      "card_other": "Gauge pressure: Measured relative to atmospheric pressure. Absolute pressure: Total pressure including atmospheric. Absolute = Gauge + Atmospheric. Gauge can be negative (vacuum)."
+    },
+    {
+      "card_title": "Pascal's Law",
+      "card_other": "Pressure applied to enclosed fluid is transmitted undiminished to every point in fluid and to walls of container. Basis of hydraulic machines like hydraulic lift, brake systems."
+    },
+    {
+      "card_title": "Hydraulic Press",
+      "card_other": "Machine based on Pascal's law. Small force on small piston creates large force on large piston. Force ratio equals area ratio. Mechanical advantage = A₂/A₁."
+    },
+    {
+      "card_title": "Archimedes' Principle",
+      "card_other": "A body immersed in fluid experiences upward buoyant force equal to weight of fluid displaced. Object floats if average density less than fluid, sinks if greater."
+    },
+    {
+      "card_title": "Buoyancy",
+      "card_other": "Upward force exerted by fluid on immersed object. Results from pressure difference between top and bottom of object. Explains why objects feel lighter in water."
+    },
+    {
+      "card_title": "Floatation",
+      "card_other": "For floating object in equilibrium: weight of object = weight of fluid displaced. Fraction submerged = (density of object)/(density of fluid). Ice floats because density less than water."
+    },
+    {
+      "card_title": "Viscosity",
+      "card_other": "Internal friction in fluid that opposes relative motion between layers. Resistance to flow. SI unit: Pa·s or N·s/m². Symbol: η (eta). Honey has high viscosity, water has low. Decreases with temperature for liquids."
+    },
+    {
+      "card_title": "Streamline Flow (Laminar Flow)",
+      "card_other": "Smooth, orderly flow where fluid particles move in parallel layers without mixing. Velocity at any point remains constant in time. Occurs at low velocities. Characterized by smooth streamlines."
+    },
+    {
+      "card_title": "Turbulent Flow",
+      "card_other": "Irregular, chaotic flow with eddies and vortices. Velocity fluctuates randomly. Occurs at high velocities. Mixing between layers. Higher energy dissipation than laminar flow."
+    },
+    {
+      "card_title": "Ideal Fluid",
+      "card_other": "Theoretical fluid with zero viscosity (no internal friction) and incompressible (constant density). Does not exist in nature but good approximation for many liquids. Simplifies analysis."
+    },
+    {
+      "card_title": "Equation of Continuity",
+      "card_other": "For incompressible fluid in steady flow, product of cross-sectional area and velocity is constant along tube. Fluid moves faster through narrower sections. Mass conservation principle."
+    },
+    {
+      "card_title": "Bernoulli's Principle",
+      "card_other": "For ideal fluid in streamline flow, sum of pressure energy, kinetic energy per unit volume, and potential energy per unit volume remains constant. Pressure decreases where velocity increases."
+    },
+    {
+      "card_title": "Applications of Bernoulli's Principle",
+      "card_other": "Explains lift on airplane wing, Venturi meter, atomizer/sprayer, curve ball in sports, chimney functioning, blood flow in arteries."
+    },
+    {
+      "card_title": "Venturi Meter",
+      "card_other": "Device to measure flow rate of fluid in pipe. Uses Bernoulli's principle - pressure drop in narrow section relates to flow velocity. Used in water supply, carburetors."
+    },
+    {
+      "card_title": "Torricelli's Theorem",
+      "card_other": "Speed of efflux (outflow) from opening in tank equals velocity acquired by object falling freely through same vertical distance. v = √(2gh). Special case of Bernoulli's equation."
+    },
+    {
+      "card_title": "Stokes' Law",
+      "card_other": "Viscous drag force on sphere moving through fluid is proportional to radius, velocity, and viscosity. Valid for streamline flow around sphere at low velocities (small Reynolds number)."
+    },
+    {
+      "card_title": "Terminal Velocity",
+      "card_other": "Maximum constant velocity attained by falling object when drag force equals weight. Net force becomes zero, no further acceleration. Depends on size, shape, density of object and viscosity of medium."
+    },
+    {
+      "card_title": "Reynolds Number",
+      "card_other": "Dimensionless number predicting flow pattern. Low Re (< 2000): laminar flow. High Re (> 4000): turbulent flow. Intermediate: transitional. Re = ρvL/η where L is characteristic length."
+    }
+  ]
+}

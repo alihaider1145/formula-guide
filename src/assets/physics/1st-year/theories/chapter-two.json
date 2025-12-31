@@ -1,0 +1,61 @@
+{
+  "chapter": "2. Vectors and Equilibrium",
+  "theories": [
+    {
+      "card_title": "Scalar Quantity",
+      "card_other": "A physical quantity that has only magnitude (e.g., mass, time, temperature, speed, energy, distance)."
+    },
+    {
+      "card_title": "Vector Quantity",
+      "card_other": "A physical quantity that has both magnitude and direction (e.g., displacement, velocity, acceleration, force, momentum)."
+    },
+    {
+      "card_title": "Vector Addition Methods",
+      "card_other": "Three methods: (1) Triangle method - place vectors head to tail; (2) Parallelogram method - place vectors tail to tail; (3) Component method - resolve into perpendicular components and add algebraically."
+    },
+    {
+      "card_title": "Unit Vector",
+      "card_other": "A vector with magnitude of exactly 1, used to specify direction. Notation: î (x-direction), ĵ (y-direction), k̂ (z-direction)."
+    },
+    {
+      "card_title": "Null Vector (Zero Vector)",
+      "card_other": "A vector with zero magnitude and arbitrary direction. Resultant when equal and opposite vectors are added."
+    },
+    {
+      "card_title": "Dot Product Properties",
+      "card_other": "Results in a scalar. Maximum when vectors are parallel (θ = 0°), zero when perpendicular (θ = 90°), used to find work done by force. Commutative: A·B = B·A."
+    },
+    {
+      "card_title": "Cross Product Properties",
+      "card_other": "Results in a vector perpendicular to both original vectors. Maximum when vectors are perpendicular (θ = 90°), zero when parallel (θ = 0°). Used to find torque and angular momentum. Direction by right-hand rule. Not commutative: A×B = -B×A."
+    },
+    {
+      "card_title": "Equilibrium",
+      "card_other": "A body is in equilibrium when it is at rest or moving with constant velocity (zero acceleration). Requires both net force and net torque to be zero."
+    },
+    {
+      "card_title": "Types of Equilibrium",
+      "card_other": "Stable: Returns to original position when disturbed (center of mass rises). Unstable: Moves away from original position (center of mass falls). Neutral: Remains in new position (center of mass unchanged)."
+    },
+    {
+      "card_title": "Center of Gravity",
+      "card_other": "The point where entire weight of a body appears to act. For uniform gravitational field, coincides with center of mass. Object balances if supported at this point."
+    },
+    {
+      "card_title": "Center of Mass",
+      "card_other": "The point where entire mass of system appears to be concentrated. Moves as if all external forces act at this point. For symmetric uniform bodies, located at geometric center."
+    },
+    {
+      "card_title": "Couple",
+      "card_other": "Two equal and opposite parallel forces whose lines of action do not coincide. Produces pure rotation without translation. Net force is zero but net torque is not zero."
+    },
+    {
+      "card_title": "Moment Arm (Lever Arm)",
+      "card_other": "Perpendicular distance from axis of rotation to line of action of force. Greater moment arm means greater turning effect for same force."
+    },
+    {
+      "card_title": "Resolution of Vector",
+      "card_other": "Breaking a vector into perpendicular components. Any vector can be resolved into horizontal and vertical components using trigonometry."
+    }
+  ]
+}

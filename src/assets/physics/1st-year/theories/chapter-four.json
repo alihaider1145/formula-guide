@@ -1,0 +1,65 @@
+{
+  "chapter": "4. Work and Energy",
+  "theories": [
+    {
+      "card_title": "Work",
+      "card_other": "Work is done when force causes displacement. Scalar quantity. Only force component parallel to displacement does work. If force is perpendicular to displacement, work is zero. SI unit: joule (J)."
+    },
+    {
+      "card_title": "Positive and Negative Work",
+      "card_other": "Positive work: Force component in direction of motion (0° ≤ θ < 90°), energy added. Negative work: Force component opposite to motion (90° < θ ≤ 180°), energy removed. Zero work: Force perpendicular to motion (θ = 90°)."
+    },
+    {
+      "card_title": "Energy",
+      "card_other": "The capacity to do work. Scalar quantity. Same units as work (joule). Various forms: kinetic, potential, thermal, chemical, nuclear, electrical, etc."
+    },
+    {
+      "card_title": "Kinetic Energy",
+      "card_other": "Energy possessed by a body due to its motion. Depends on mass and square of velocity. Always positive. KE increases when net work done is positive."
+    },
+    {
+      "card_title": "Work-Energy Theorem",
+      "card_other": "Net work done on a body equals change in its kinetic energy. Applies to all forces (conservative and non-conservative). Valid in all inertial reference frames."
+    },
+    {
+      "card_title": "Potential Energy",
+      "card_other": "Energy possessed by a body due to its position or configuration. Associated with conservative forces. Can be negative, zero, or positive depending on reference point chosen."
+    },
+    {
+      "card_title": "Conservative Force",
+      "card_other": "A force for which work done is path-independent and depends only on initial and final positions. Work done in closed path is zero. Mechanical energy conserved. Examples: gravity, elastic spring force, electrostatic force."
+    },
+    {
+      "card_title": "Non-Conservative Force",
+      "card_other": "A force for which work done depends on path taken. Work done in closed path is not zero. Mechanical energy is not conserved. Examples: friction, air resistance, viscous drag."
+    },
+    {
+      "card_title": "Law of Conservation of Energy",
+      "card_other": "Energy cannot be created or destroyed, only transformed from one form to another. Total energy of an isolated system remains constant. Most fundamental law in physics."
+    },
+    {
+      "card_title": "Conservation of Mechanical Energy",
+      "card_other": "In absence of non-conservative forces, sum of kinetic and potential energy remains constant. KE + PE = constant. Energy continuously converts between forms."
+    },
+    {
+      "card_title": "Power",
+      "card_other": "The rate at which work is done or energy is transferred. Scalar quantity. SI unit: watt (W) = joule/second. 1 horsepower = 746 watts."
+    },
+    {
+      "card_title": "Efficiency",
+      "card_other": "The ratio of useful output to total input, expressed as percentage. Always less than 100% due to energy losses (friction, heat, sound). No machine can be 100% efficient."
+    },
+    {
+      "card_title": "Elastic Collision Energy",
+      "card_other": "In elastic collision, both momentum and kinetic energy are conserved. Total KE before collision equals total KE after collision. No energy lost to deformation or heat."
+    },
+    {
+      "card_title": "Inelastic Collision Energy",
+      "card_other": "In inelastic collision, momentum is conserved but kinetic energy is not. Some KE converted to other forms. Maximum loss in perfectly inelastic collision where objects stick together."
+    },
+    {
+      "card_title": "Escape Velocity",
+      "card_other": "Minimum velocity needed for object to escape gravitational field of planet without further propulsion. Independent of mass of object. Depends on mass and radius of planet."
+    }
+  ]
+}
