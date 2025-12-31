@@ -2,63 +2,63 @@
   "chapter": "1. Measurement",
   "formulas": [
     {
-      "formula_math": "\\text{Least Count} = \\frac{\\text{1 MSD}}{\\text{Total vernier divisions}}",
-      "formula_english": "Least count of vernier caliper."
+      "card_eng": "Least count of vernier caliper.",
+      "card_math": "\\text{Least Count} = \\frac{\\text{1 MSD}}{\\text{Total vernier divisions}}"
     },
     {
-      "formula_math": "\\text{Least Count} = \\frac{\\text{Pitch}}{\\text{Total circular divisions}}",
-      "formula_english": "Least count of screw gauge/micrometer."
+      "card_eng": "Least count of screw gauge/micrometer.",
+      "card_math": "\\text{Least Count} = \\frac{\\text{Pitch}}{\\text{Total circular divisions}}"
     },
     {
-      "formula_math": "\\text{Reading} = \\text{MSR} + (\\text{VSD} \\times \\text{LC})",
-      "formula_english": "Total reading for vernier caliper."
+      "card_eng": "Total reading for vernier caliper.",
+      "card_math": "\\text{Reading} = \\text{MSR} + (\\text{VSD} \\times \\text{LC})"
     },
     {
-      "formula_math": "\\text{Error} = |\\text{True Value} - \\text{Measured Value}|",
-      "formula_english": "Absolute error."
+      "card_eng": "Absolute error.",
+      "card_math": "\\text{Error} = |\\text{True Value} - \\text{Measured Value}|"
     },
     {
-      "formula_math": "\\text{Fractional Error} = \\frac{\\Delta x}{x}",
-      "formula_english": "Fractional (relative) error."
+      "card_eng": "Fractional (relative) error.",
+      "card_math": "\\text{Fractional Error} = \\frac{\\Delta x}{x}"
     },
     {
-      "formula_math": "\\% \\text{Error} = \\frac{\\Delta x}{x} \\times 100",
-      "formula_english": "Percentage error."
+      "card_eng": "Percentage error.",
+      "card_math": "\\% \\text{Error} = \\frac{\\Delta x}{x} \\times 100"
     },
     {
-      "formula_math": "\\Delta Z = \\Delta A + \\Delta B",
-      "formula_english": "Error propagation for addition/subtraction (Z = A ± B)."
+      "card_eng": "Error propagation for addition/subtraction (Z = A ± B).",
+      "card_math": "\\Delta Z = \\Delta A + \\Delta B"
     },
     {
-      "formula_math": "\\frac{\\Delta Z}{Z} = \\frac{\\Delta A}{A} + \\frac{\\Delta B}{B}",
-      "formula_english": "Fractional error for multiplication/division (Z = A × B or Z = A / B)."
+      "card_eng": "Fractional error for multiplication/division (Z = A × B or Z = A / B).",
+      "card_math": "\\frac{\\Delta Z}{Z} = \\frac{\\Delta A}{A} + \\frac{\\Delta B}{B}"
     },
     {
-      "formula_math": "\\frac{\\Delta Z}{Z} = n \\frac{\\Delta A}{A}",
-      "formula_english": "Fractional error for power function (Z = A^n)."
+      "card_eng": "Fractional error for power function (Z = A^n).",
+      "card_math": "\\frac{\\Delta Z}{Z} = n \\frac{\\Delta A}{A}"
     },
     {
-      "formula_math": "[L^a M^b T^c]",
-      "formula_english": "Dimensional formula representation.",
-      "variants": [
+      "card_eng": "Dimensional formula representation.",
+      "card_math": "[L^a M^b T^c]",
+      "card_other": [
         "L = Length, M = Mass, T = Time"
       ]
     },
     {
-      "formula_math": "[v] = [L T^{-1}]",
-      "formula_english": "Dimensional formula for velocity."
+      "card_eng": "Dimensional formula for velocity.",
+      "card_math": "[v] = [L T^{-1}]"
     },
     {
-      "formula_math": "[a] = [L T^{-2}]",
-      "formula_english": "Dimensional formula for acceleration."
+      "card_eng": "Dimensional formula for acceleration.",
+      "card_math": "[a] = [L T^{-2}]"
     },
     {
-      "formula_math": "[F] = [M L T^{-2}]",
-      "formula_english": "Dimensional formula for force."
+      "card_eng": "Dimensional formula for force.",
+      "card_math": "[F] = [M L T^{-2}]"
     },
     {
-      "formula_math": "[E] = [M L^2 T^{-2}]",
-      "formula_english": "Dimensional formula for energy/work."
+      "card_eng": "Dimensional formula for energy/work.",
+      "card_math": "[E] = [M L^2 T^{-2}]"
     }
   ]
 }
