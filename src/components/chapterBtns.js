@@ -1,12 +1,15 @@
 import globalState from "../state";
+import { createEle } from "../dom-utils.js";
 
-function genChapterBtns(subj, grade){
+function genChapterBtns(){
+    const subj = globalState.getState().subject;
+    const grade = globalState.getState().grade;
     const num = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty"];
-    for(let i = 0; i < globalState.getState()[`${subj}Chapter`[grade]]; i++){
-        const chapterBtn = document.createElement("button");
+    for(let i = 0; i < globalState.getState()[`${subj}Chapter`][grade]; i++){
+        const chapterBtn = createEle("button", `Chapter ${num[i]}`, document.querySelector(".chapter"));
         chapterBtn.classList.add("chapter__btn", "btn");
-        chapterBtn.textContent = `Chapter ${num[i]}`;
-        document.querySelector(".chapter").appendChild(chapterBtn);
+        console.log(chapterBtn);
+        console.log(chapterBtn.parentElement);
     }
 
     return document.querySelectorAll(".chapter__btn");
