@@ -1,0 +1,81 @@
+{
+  "chapter": "3. Motion and Force",
+  "theories": [
+    {
+      "card_title": "Distance vs Displacement",
+      "card_other": "Distance: Total path length traveled (scalar, always positive). Displacement: Straight-line distance from initial to final position (vector, can be zero)."
+    },
+    {
+      "card_title": "Speed vs Velocity",
+      "card_other": "Speed: Rate of change of distance (scalar, always positive). Velocity: Rate of change of displacement (vector, can be negative or zero)."
+    },
+    {
+      "card_title": "Uniform Motion",
+      "card_other": "Motion with constant velocity (zero acceleration). Equal displacements occur in equal time intervals. Velocity-time graph is horizontal line."
+    },
+    {
+      "card_title": "Uniformly Accelerated Motion",
+      "card_other": "Motion with constant acceleration. Velocity changes uniformly with time. Velocity-time graph is straight line with non-zero slope."
+    },
+    {
+      "card_title": "Instantaneous vs Average",
+      "card_other": "Instantaneous: Value at a specific instant (slope of tangent on graph). Average: Total change divided by time interval (slope of secant line)."
+    },
+    {
+      "card_title": "Free Fall",
+      "card_other": "Motion under gravity alone with no air resistance. All objects fall with same acceleration g = 9.8 m/s² regardless of mass. Acceleration is always downward."
+    },
+    {
+      "card_title": "Newton's First Law",
+      "card_other": "Law of Inertia: A body at rest remains at rest and a body in motion continues with constant velocity unless acted upon by an external net force. Defines inertial reference frames."
+    },
+    {
+      "card_title": "Newton's Second Law",
+      "card_other": "The acceleration of an object is directly proportional to net force and inversely proportional to mass. F = ma. Defines force quantitatively."
+    },
+    {
+      "card_title": "Newton's Third Law",
+      "card_other": "For every action, there is an equal and opposite reaction. Forces always occur in pairs acting on different objects. Action-reaction pairs never cancel as they act on different bodies."
+    },
+    {
+      "card_title": "Inertia",
+      "card_other": "The tendency of a body to resist change in its state of rest or uniform motion. Mass is a measure of inertia - greater mass means greater inertia."
+    },
+    {
+      "card_title": "Momentum",
+      "card_other": "The quantity of motion possessed by a moving body. Vector quantity equal to product of mass and velocity. SI unit: kg·m/s or N·s."
+    },
+    {
+      "card_title": "Impulse",
+      "card_other": "Product of force and time interval during which it acts. Equals change in momentum. Vector quantity. SI unit: N·s. Large force for short time can produce same effect as small force for long time."
+    },
+    {
+      "card_title": "Law of Conservation of Momentum",
+      "card_other": "In an isolated system (no external forces), total momentum remains constant. Holds true for all types of collisions. Consequence of Newton's third law."
+    },
+    {
+      "card_title": "Elastic Collision",
+      "card_other": "Collision in which both momentum and kinetic energy are conserved. Objects bounce off each other. No permanent deformation. Examples: collision between billiard balls, atoms."
+    },
+    {
+      "card_title": "Inelastic Collision",
+      "card_other": "Collision in which momentum is conserved but kinetic energy is not. Some KE converted to other forms (heat, sound, deformation). Objects may stick together (perfectly inelastic)."
+    },
+    {
+      "card_title": "Projectile Motion",
+      "card_other": "Motion of object launched at angle under gravity. Two independent components: horizontal (constant velocity) and vertical (uniformly accelerated). Path is parabola."
+    },
+    {
+      "card_title": "Range Maximum Condition",
+      "card_other": "Maximum horizontal range occurs at 45° launch angle (in absence of air resistance). For complementary angles (θ and 90°-θ), range is same."
+    },
+    {
+      "card_title": "Friction",
+      "card_other": "Force that opposes relative motion between surfaces in contact. Always acts parallel to surfaces. Static friction (at rest) is greater than kinetic friction (in motion)."
+    },
+    {
+      "card_title": "Coefficient of Friction",
+      "card_other": "Ratio of friction force to normal force. Dimensionless quantity. Symbol: μ. μs (static) > μk (kinetic). Depends on nature of surfaces, independent of area and mass."
+    }
+  ]
+}

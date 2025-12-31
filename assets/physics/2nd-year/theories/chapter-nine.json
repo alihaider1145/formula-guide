@@ -1,0 +1,141 @@
+{
+  "chapter": "19. Atomic Spectra",
+  "theories": [
+    {
+      "card_title": "Atomic Spectrum",
+      "card_other": "Electromagnetic radiation emitted or absorbed by atoms. Unique for each element (fingerprint). Discrete lines (not continuous). Explained by quantum theory of atom. Used in spectroscopy to identify elements."
+    },
+    {
+      "card_title": "Emission Spectrum",
+      "card_other": "Spectrum of light emitted by excited atoms. Bright lines on dark background. Atom emits specific wavelengths when electrons transition to lower energy levels. Produced by gas discharge tubes, flames."
+    },
+    {
+      "card_title": "Absorption Spectrum",
+      "card_other": "Spectrum showing dark lines in continuous spectrum. Produced when white light passes through cool gas. Atoms absorb specific wavelengths matching electron transitions. Dark lines correspond to emission lines of same element."
+    },
+    {
+      "card_title": "Continuous Spectrum",
+      "card_other": "Contains all wavelengths without gaps. Produced by hot solids or dense gases. Rainbow of colors. Examples: hot tungsten filament, sun's surface. No discrete lines."
+    },
+    {
+      "card_title": "Line Spectrum",
+      "card_other": "Discrete bright or dark lines at specific wavelengths. Characteristic of gases at low pressure. Each line corresponds to specific electron transition. Used to identify elements in stars, gases."
+    },
+    {
+      "card_title": "Spectroscopy",
+      "card_other": "Study of interaction between matter and electromagnetic radiation. Analyzes spectrum to determine composition, temperature, density, motion. Used in astronomy, chemistry, physics. Types: emission, absorption, fluorescence."
+    },
+    {
+      "card_title": "Balmer Series",
+      "card_other": "Series of spectral lines of hydrogen in visible region. Electron transitions ending at n=2. Four visible lines: Hα (red), Hβ (blue-green), Hγ (blue-violet), Hδ (violet). First series discovered (1885)."
+    },
+    {
+      "card_title": "Lyman Series",
+      "card_other": "Hydrogen spectral series in ultraviolet region. Electron transitions ending at n=1. Highest energy transitions. Used in astronomy to study hot stars. Named after Theodore Lyman."
+    },
+    {
+      "card_title": "Paschen Series",
+      "card_other": "Hydrogen series in infrared region. Transitions ending at n=3. Lower energy than Balmer. Used in infrared astronomy. Named after Friedrich Paschen."
+    },
+    {
+      "card_title": "Brackett and Pfund Series",
+      "card_other": "Hydrogen series in far infrared. Brackett: transitions to n=4. Pfund: transitions to n=5. Even lower energy. Important for complete understanding of hydrogen spectrum."
+    },
+    {
+      "card_title": "Rydberg Formula",
+      "card_other": "Empirical formula for hydrogen spectral lines. 1/λ = R(1/p² - 1/n²). R is Rydberg constant. p is final level, n is initial level. Explained theoretically by Bohr model. Remarkably accurate."
+    },
+    {
+      "card_title": "Rydberg Constant",
+      "card_other": "Fundamental constant for hydrogen spectrum. R = 1.097 × 10⁷ m⁻¹. Most precisely measured constant. Used to calculate wavelengths of hydrogen lines. Related to other fundamental constants."
+    },
+    {
+      "card_title": "Rutherford's Atomic Model",
+      "card_other": "Atom has tiny, dense, positive nucleus with electrons orbiting. Most of atom is empty space. Based on alpha scattering experiment. Problems: unstable orbits (radiating electrons), continuous spectrum predicted."
+    },
+    {
+      "card_title": "Alpha Scattering Experiment",
+      "card_other": "Geiger-Marsden experiment (1909). Alpha particles fired at gold foil. Most passed through, few deflected at large angles. Proved nucleus exists. Led to nuclear model of atom."
+    },
+    {
+      "card_title": "Bohr's Atomic Model",
+      "card_other": "Electrons orbit nucleus in quantized orbits without radiating. Energy levels discrete. Radiation emitted only when electron jumps between levels. Explained hydrogen spectrum perfectly. Won Nobel Prize 1922. Limited to hydrogen-like atoms."
+    },
+    {
+      "card_title": "Bohr's Postulates",
+      "card_other": "(1) Electrons in stationary states don't radiate. (2) Angular momentum quantized: L = nh/(2π). (3) Radiation emitted/absorbed when electron changes orbit: ΔE = hf. Revolutionary departure from classical physics."
+    },
+    {
+      "card_title": "Stationary State",
+      "card_other": "Allowed electron orbit in Bohr model. Stable - electron doesn't radiate energy. Discrete energy levels. Characterized by quantum number n. Only certain orbits permitted by quantization condition."
+    },
+    {
+      "card_title": "Energy Level Diagram",
+      "card_other": "Visual representation of allowed energy states in atom. Horizontal lines show energy levels. Vertical arrows show transitions. Ground state at bottom (n=1), excited states above. Energy increases upward."
+    },
+    {
+      "card_title": "Ground State",
+      "card_other": "Lowest energy state of atom (n=1). Most stable configuration. Electron closest to nucleus. Atom normally in ground state at room temperature. Energy = -13.6 eV for hydrogen."
+    },
+    {
+      "card_title": "Excited State",
+      "card_other": "Atom with electron in higher energy level (n>1). Unstable - decays to lower state emitting photon. Created by heating, electrical discharge, photon absorption. Lifetime typically 10⁻⁸ seconds."
+    },
+    {
+      "card_title": "Ionization",
+      "card_other": "Removal of electron from atom, creating ion. Requires ionization energy. For hydrogen from ground state: 13.6 eV. Electron goes to n = ∞ (E = 0). Can occur by photon absorption or collision."
+    },
+    {
+      "card_title": "Ionization Energy",
+      "card_other": "Energy required to remove electron from ground state to infinity. For hydrogen: 13.6 eV. Different for each element and electron. Decreases for higher energy levels (easier to remove)."
+    },
+    {
+      "card_title": "Bohr Radius",
+      "card_other": "Radius of first orbit in hydrogen (n=1). a₀ = 0.53 Å = 0.053 nm. Fundamental atomic scale. Other orbits: rₙ = n²a₀. Combines fundamental constants: ε₀, h, m, e."
+    },
+    {
+      "card_title": "Quantization of Angular Momentum",
+      "card_other": "Bohr's second postulate. L = nh/(2π) = nℏ where ℏ = h/(2π). Only certain angular momenta allowed. Explains stability of orbits. n is principal quantum number."
+    },
+    {
+      "card_title": "Electron Transition",
+      "card_other": "Electron jumping between energy levels. Emits photon if dropping to lower level (emission). Absorbs photon if rising to higher level (absorption). Photon energy = energy difference: hf = Ei - Ef."
+    },
+    {
+      "card_title": "Selection Rules",
+      "card_other": "Quantum mechanical rules determining allowed transitions. Not all transitions are possible. For orbital angular momentum: Δl = ±1. For hydrogen: all n transitions allowed. Important for complex atoms."
+    },
+    {
+      "card_title": "Hydrogen-like Ions",
+      "card_other": "Ions with one electron (He⁺, Li²⁺, etc.). Similar to hydrogen but different nuclear charge Z. Energy levels scaled by Z²: Eₙ = -13.6Z²/n² eV. Bohr model works well for these."
+    },
+    {
+      "card_title": "Limitations of Bohr Model",
+      "card_other": "Only works for hydrogen-like atoms. Cannot explain fine structure, Zeeman effect. No theoretical basis for postulates. Cannot predict intensities. Superseded by quantum mechanics. Still useful for basic understanding."
+    },
+    {
+      "card_title": "Quantum Numbers",
+      "card_other": "Set of numbers specifying electron state in atom. Principal (n): energy level. Azimuthal (l): orbital shape. Magnetic (ml): orbital orientation. Spin (ms): electron spin. Determines all properties of electrons in atoms."
+    },
+    {
+      "card_title": "Principal Quantum Number (n)",
+      "card_other": "Determines energy level and size of orbit. Positive integer: 1, 2, 3, ... Called shells: K, L, M, N, ... Higher n means higher energy, larger orbit. Bohr model only used this one."
+    },
+    {
+      "card_title": "Correspondence Principle",
+      "card_other": "Quantum predictions must agree with classical physics in limit of large quantum numbers. Bohr's principle. Quantum mechanics reduces to classical mechanics for macroscopic systems. Bridge between quantum and classical."
+    },
+    {
+      "card_title": "Franck-Hertz Experiment",
+      "card_other": "Confirmed quantization of atomic energy levels. Electrons colliding with mercury atoms lose specific amounts of energy. Discrete energy losses correspond to atomic energy levels. Direct evidence for Bohr model."
+    },
+    {
+      "card_title": "Spectral Line Width",
+      "card_other": "Spectral lines not infinitely narrow. Natural width from uncertainty principle (ΔEΔt ≥ ℏ/2). Doppler broadening from thermal motion. Pressure broadening from collisions. Stark and Zeeman effects from fields."
+    },
+    {
+      "card_title": "Doppler Effect in Spectra",
+      "card_other": "Moving source shifts spectral lines. Toward observer: blue shift (shorter λ). Away from observer: red shift (longer λ). Used to measure stellar velocities. Expansion of universe discovered this way."
+    }
+  ]
+}

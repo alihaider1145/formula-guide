@@ -1,0 +1,137 @@
+{
+  "chapter": "18. Dawn of Modern Physics",
+  "theories": [
+    {
+      "card_title": "Black Body Radiation",
+      "card_other": "Radiation emitted by perfect absorber/emitter (black body). Spectrum depends only on temperature. Classical physics failed to explain (ultraviolet catastrophe). Led to quantum theory. Used to define temperature scale."
+    },
+    {
+      "card_title": "Ultraviolet Catastrophe",
+      "card_other": "Failure of classical physics to explain black body spectrum. Predicted infinite energy at short wavelengths. Resolved by Planck's quantum hypothesis. Showed need for new physics."
+    },
+    {
+      "card_title": "Planck's Quantum Hypothesis",
+      "card_other": "Energy emitted/absorbed in discrete packets (quanta). E = hf where h is Planck's constant. Resolved black body problem. Foundation of quantum mechanics. Introduced energy quantization."
+    },
+    {
+      "card_title": "Planck's Constant",
+      "card_other": "Fundamental constant of quantum mechanics. h = 6.63 × 10⁻³⁴ J·s. Relates energy to frequency. Determines scale of quantum effects. One of most important constants in physics."
+    },
+    {
+      "card_title": "Photon",
+      "card_other": "Quantum (particle) of light. Has energy E = hf and momentum p = h/λ. No mass, travels at speed of light. Exhibits wave-particle duality. Concept introduced by Einstein for photoelectric effect."
+    },
+    {
+      "card_title": "Wave-Particle Duality",
+      "card_other": "Light and matter exhibit both wave and particle properties. Neither wave nor particle alone sufficient. Which aspect observed depends on experiment. Fundamental principle of quantum mechanics. Complementarity principle (Bohr)."
+    },
+    {
+      "card_title": "Photoelectric Effect",
+      "card_other": "Emission of electrons from metal surface when light shines on it. Cannot be explained by wave theory. Einstein explained using photon concept (Nobel Prize 1921). Key evidence for quantum nature of light."
+    },
+    {
+      "card_title": "Work Function",
+      "card_other": "Minimum energy needed to remove electron from metal surface. Depends on material. Symbol: φ (phi). Measured in eV. Determines threshold frequency. Binding energy of electron to metal."
+    },
+    {
+      "card_title": "Threshold Frequency",
+      "card_other": "Minimum frequency of light to cause photoemission. Below this, no electrons emitted regardless of intensity. f₀ = φ/h. Different for each metal. Related to work function."
+    },
+    {
+      "card_title": "Stopping Potential",
+      "card_other": "Reverse voltage needed to stop most energetic photoelectrons. Measures maximum kinetic energy: KEmax = eVs. Independent of light intensity. Increases linearly with frequency above threshold."
+    },
+    {
+      "card_title": "Classical vs Quantum (Photoelectric)",
+      "card_other": "Classical: KE depends on intensity, time lag expected, all frequencies should work. Quantum: KE depends on frequency, instantaneous, frequency threshold exists. Experiment confirms quantum predictions."
+    },
+    {
+      "card_title": "Compton Effect",
+      "card_other": "Scattering of X-rays by electrons with increase in wavelength. Photon behaves like particle with momentum. Wavelength shift depends on scattering angle. Further evidence for particle nature of light. Nobel Prize 1927."
+    },
+    {
+      "card_title": "de Broglie Wavelength",
+      "card_other": "Every particle has associated wave: λ = h/p. Matter waves. Significant for small particles (electrons), negligible for large objects. Verified by electron diffraction. Foundation of quantum mechanics."
+    },
+    {
+      "card_title": "Matter Waves",
+      "card_other": "Wave associated with material particles (de Broglie waves). Explains electron diffraction, interference. Wavelength inversely proportional to momentum. Basis of electron microscopy. Extended wave-particle duality to matter."
+    },
+    {
+      "card_title": "Electron Diffraction",
+      "card_other": "Electrons show diffraction and interference patterns like waves. Davisson-Germer experiment confirmed de Broglie hypothesis. Wavelength agrees with λ = h/p. Used in electron microscopes."
+    },
+    {
+      "card_title": "Pair Production",
+      "card_other": "Creation of particle-antiparticle pair from photon. Requires minimum energy 2mc² (rest mass energy). Occurs near nucleus (momentum conservation). Example: photon → electron + positron. Demonstrates mass-energy equivalence."
+    },
+    {
+      "card_title": "Pair Annihilation",
+      "card_other": "Particle-antiparticle collision producing photons. Converts matter to energy. Example: electron + positron → 2 gamma rays. Used in PET scans. Demonstrates E = mc²."
+    },
+    {
+      "card_title": "Mass-Energy Equivalence",
+      "card_other": "Einstein's famous E = mc². Mass and energy are interconvertible. Small mass equivalent to huge energy (c² very large). Basis of nuclear energy. Explains sun's energy, nuclear bombs."
+    },
+    {
+      "card_title": "Rest Mass Energy",
+      "card_other": "Energy equivalent of particle's rest mass: E₀ = m₀c². Intrinsic energy. For electron: 0.511 MeV. For proton: 938 MeV. Released in pair annihilation."
+    },
+    {
+      "card_title": "Special Relativity Postulates",
+      "card_other": "(1) Laws of physics same in all inertial frames. (2) Speed of light constant in all frames. Revolutionary implications: time dilation, length contraction, mass increase. No absolute time or space."
+    },
+    {
+      "card_title": "Time Dilation",
+      "card_other": "Moving clocks run slower relative to stationary observer. Δt = γΔt₀ where γ = 1/√(1-v²/c²). Proper time (Δt₀) measured in rest frame. Confirmed by muon decay, atomic clocks. Significant near speed of light."
+    },
+    {
+      "card_title": "Length Contraction",
+      "card_other": "Moving objects appear shorter along direction of motion. L = L₀√(1-v²/c²). Proper length (L₀) measured in rest frame. Only in direction of motion. Not noticeable at everyday speeds."
+    },
+    {
+      "card_title": "Relativistic Mass",
+      "card_other": "Mass increases with speed: m = γm₀. Rest mass m₀ is intrinsic. Approaches infinity as v → c. Explains why nothing with mass can reach c. Requires more energy to accelerate as speed increases."
+    },
+    {
+      "card_title": "Lorentz Factor",
+      "card_other": "γ = 1/√(1-v²/c²). Appears in all relativistic equations. Equals 1 at v = 0, approaches infinity as v → c. Determines magnitude of relativistic effects. Symbol: γ (gamma)."
+    },
+    {
+      "card_title": "Relativistic Momentum",
+      "card_other": "p = γm₀v. Reduces to classical p = mv at low speeds. Approaches infinity as v → c. Conserved in all frames. Important in particle physics."
+    },
+    {
+      "card_title": "Relativistic Energy",
+      "card_other": "Total energy E = γm₀c². Sum of rest mass energy and kinetic energy. Kinetic energy KE = (γ-1)m₀c². Energy-momentum relation: E² = (pc)² + (m₀c²)². Reduces to classical KE = ½mv² at low speeds."
+    },
+    {
+      "card_title": "Simultaneity is Relative",
+      "card_other": "Events simultaneous in one frame may not be in another. No absolute simultaneity. Depends on motion of observer. Fundamental departure from classical physics. Ordering of space-like separated events frame-dependent."
+    },
+    {
+      "card_title": "Twin Paradox",
+      "card_other": "Traveling twin ages slower than stay-at-home twin. Not actually paradox - asymmetry in acceleration. Confirmed by atomic clocks in planes. Demonstrates time dilation is real effect."
+    },
+    {
+      "card_title": "Spacetime",
+      "card_other": "Four-dimensional continuum (3 space + 1 time). Space and time are not independent. Introduced by Minkowski. Events are points in spacetime. Trajectory is world line. Foundation of general relativity."
+    },
+    {
+      "card_title": "Heisenberg Uncertainty Principle",
+      "card_other": "Cannot simultaneously know exact position and momentum. ΔxΔp ≥ h/(4π). Not measurement limitation - fundamental property of nature. Similar relation for energy-time. Implies particle-wave duality."
+    },
+    {
+      "card_title": "Implications of Uncertainty",
+      "card_other": "Particles don't have definite position and momentum simultaneously. Allows quantum tunneling. Zero-point energy (particles never at rest). Limits measurement precision. Philosophical implications about determinism."
+    },
+    {
+      "card_title": "X-Rays",
+      "card_other": "High-energy electromagnetic radiation. Wavelength ~0.01-10 nm. Produced by accelerating electrons hitting metal target (bremsstrahlung) or electron transitions. Used in medical imaging, crystallography, security. Discovered by Röntgen 1895."
+    },
+    {
+      "card_title": "Production of X-Rays",
+      "card_other": "Electrons accelerated by high voltage hit metal target. Two types produced: continuous spectrum (bremsstrahlung) and characteristic X-rays (electron transitions). Efficiency low (~1%). Most energy converted to heat."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "chapter": "14. Electromagnetic Induction",
+  "theories": [
+    {
+      "card_title": "Electromagnetic Induction",
+      "card_other": "Production of EMF in conductor when magnetic flux through it changes. Discovered by Faraday. Basis of generators, transformers, inductors. Converts mechanical energy to electrical. Reciprocal of magnetic force on current."
+    },
+    {
+      "card_title": "Magnetic Flux",
+      "card_other": "Measure of magnetic field passing through surface. Proportional to number of field lines through area. Maximum when perpendicular, zero when parallel. SI unit: weber (Wb). Symbol: Φ."
+    },
+    {
+      "card_title": "Faraday's Law",
+      "card_other": "Induced EMF proportional to rate of change of magnetic flux. Negative sign from Lenz's law. Works for changing field, moving conductor, or rotating coil. Foundation of AC generators and transformers."
+    },
+    {
+      "card_title": "Lenz's Law",
+      "card_other": "Direction of induced current opposes change causing it. Consequence of energy conservation. Induced field opposes flux change. Explains negative sign in Faraday's law. Causes magnetic damping."
+    },
+    {
+      "card_title": "Motional EMF",
+      "card_other": "EMF induced in conductor moving through magnetic field. Due to magnetic force on charges in conductor. Basis of simple generators. ε = Blv for rod moving perpendicular to field."
+    },
+    {
+      "card_title": "Eddy Currents",
+      "card_other": "Circulating currents induced in bulk conductor in changing magnetic field. Cause heating (I²R loss). Can be reduced by laminating conductor. Useful in induction heating, braking, metal detectors. Unwanted in transformers."
+    },
+    {
+      "card_title": "Self-Induction",
+      "card_other": "Changing current in coil induces EMF in same coil. Opposes current change (back EMF). Characterized by self-inductance L. Prevents sudden current changes. Used in chokes, ignition coils."
+    },
+    {
+      "card_title": "Self-Inductance",
+      "card_other": "Property of coil relating induced EMF to rate of current change. Depends on coil geometry and core material. SI unit: henry (H). Analogous to inertia in mechanics. Symbol: L."
+    },
+    {
+      "card_title": "Inductor",
+      "card_other": "Circuit component with significant inductance. Opposes current changes. Stores energy in magnetic field. Passes DC but opposes AC (reactance increases with frequency). Used in filters, tuning circuits."
+    },
+    {
+      "card_title": "Mutual Induction",
+      "card_other": "Changing current in one coil induces EMF in nearby coil. Basis of transformers. Characterized by mutual inductance M. Depends on proximity and orientation of coils. Used in wireless charging."
+    },
+    {
+      "card_title": "Mutual Inductance",
+      "card_other": "Measure of magnetic coupling between two coils. Depends on geometry, separation, and core material. SI unit: henry (H). Same whether current in coil 1 or 2. Symbol: M."
+    },
+    {
+      "card_title": "AC Generator (Alternator)",
+      "card_other": "Converts mechanical energy to AC electrical energy. Coil rotates in magnetic field producing sinusoidal EMF. Output frequency determined by rotation speed. Used in power plants. Produces electricity for grid."
+    },
+    {
+      "card_title": "DC Generator (Dynamo)",
+      "card_other": "Converts mechanical energy to DC electrical energy. Similar to AC generator but with commutator (split ring). Commutator reverses connections every half cycle. Used in some vehicles, welding."
+    },
+    {
+      "card_title": "Back EMF in Motors",
+      "card_other": "Rotating motor coil generates EMF opposing applied voltage (Lenz's law). Limits current at operating speed. Zero at start (high starting current). Increases with motor speed. Motor efficiency depends on back EMF."
+    },
+    {
+      "card_title": "Transformer",
+      "card_other": "Device changing AC voltage using mutual induction. Two coils on common core. Primary connected to AC source, secondary delivers output. Cannot work with DC. Used in power distribution, electronics."
+    },
+    {
+      "card_title": "Step-Up Transformer",
+      "card_other": "Increases voltage (more turns on secondary). Decreases current proportionally (power conserved). Used to reduce transmission losses. Secondary voltage higher than primary."
+    },
+    {
+      "card_title": "Step-Down Transformer",
+      "card_other": "Decreases voltage (fewer turns on secondary). Increases current proportionally. Used to provide safe voltages for homes, devices. Secondary voltage lower than primary."
+    },
+    {
+      "card_title": "Ideal Transformer",
+      "card_other": "No energy losses. Power in equals power out (VₚIₚ = VₛIₛ). Voltage ratio equals turns ratio. Current ratio inverse of turns ratio. Real transformers ~95-99% efficient."
+    },
+    {
+      "card_title": "Transformer Losses",
+      "card_other": "Copper loss: I²R heating in windings. Core loss: hysteresis and eddy currents in core. Flux leakage: not all flux links both coils. Reduced by laminated cores, efficient design."
+    },
+    {
+      "card_title": "Energy in Inductor",
+      "card_other": "Energy stored in magnetic field of inductor. E = ½LI². Analogous to kinetic energy ½mv². Released when current decreases. Used in switching power supplies, camera flashes."
+    },
+    {
+      "card_title": "RL Circuit",
+      "card_other": "Circuit with resistor and inductor. Current grows/decays exponentially with time constant τ = L/R. Inductor opposes current changes. Used in delay circuits, filtering."
+    },
+    {
+      "card_title": "LC Circuit",
+      "card_other": "Circuit with inductor and capacitor. Energy oscillates between electric (capacitor) and magnetic (inductor) fields. Resonant frequency f₀ = 1/(2π√LC). Used in radio tuning, filters, oscillators."
+    },
+    {
+      "card_title": "Magnetic Damping",
+      "card_other": "Induced currents oppose motion causing them (Lenz's law). Conductor moving in field slows down. Used in damping galvanometers, magnetic brakes. Converts kinetic energy to heat."
+    },
+    {
+      "card_title": "Power Transmission",
+      "card_other": "High voltage used for long-distance transmission (reduces I²R losses). Step-up transformer at plant, step-down at substations. AC preferred over DC (easy voltage transformation). Three-phase system commonly used."
+    },
+    {
+      "card_title": "Induction Coil",
+      "card_other": "Device producing high voltage pulses from low DC voltage. Primary coil with many turns around iron core. Interrupter breaks primary current creating rapid flux change. Used in spark plugs, old radios."
+    }
+  ]
+}

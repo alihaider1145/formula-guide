@@ -1,0 +1,157 @@
+{
+  "chapter": "17. Electronics",
+  "theories": [
+    {
+      "card_title": "Electronics",
+      "card_other": "Branch of physics dealing with emission, behavior, and effects of electrons in devices. Includes semiconductors, circuits, and systems. Foundation of modern technology (computers, phones, TVs). Distinct from electrical engineering (power systems)."
+    },
+    {
+      "card_title": "p-n Junction",
+      "card_other": "Boundary between p-type and n-type semiconductors. Electrons diffuse from n to p, holes from p to n. Creates depletion region with built-in potential. Basis of most semiconductor devices. Exhibits rectification property."
+    },
+    {
+      "card_title": "Depletion Region",
+      "card_other": "Region near p-n junction depleted of mobile charge carriers. Contains fixed ions (immobile). Creates electric field opposing further diffusion. Width depends on doping and applied voltage. Acts as insulator."
+    },
+    {
+      "card_title": "Built-in Potential (Barrier Potential)",
+      "card_other": "Voltage across depletion region in unbiased junction. About 0.7V for silicon, 0.3V for germanium. Prevents further diffusion at equilibrium. Must be overcome for conduction. Created by space charge."
+    },
+    {
+      "card_title": "Forward Bias",
+      "card_other": "Positive terminal connected to p-side, negative to n-side. Reduces depletion width and barrier. Above threshold (~0.7V Si), current flows easily. Resistance low. Diode conducts."
+    },
+    {
+      "card_title": "Reverse Bias",
+      "card_other": "Positive terminal connected to n-side, negative to p-side. Increases depletion width and barrier. Very small leakage current flows. High resistance. Diode blocks current. Used in capacitors, voltage multipliers."
+    },
+    {
+      "card_title": "Diode",
+      "card_other": "Two-terminal semiconductor device with p-n junction. Conducts in one direction (forward bias), blocks in other (reverse bias). Rectifies AC to DC. Types: signal, power, Zener, LED. Symbol: triangle pointing to bar."
+    },
+    {
+      "card_title": "Forward Resistance",
+      "card_other": "Resistance of forward-biased diode. Low (few ohms to few hundred ohms). Depends on current. Dynamic resistance decreases with increasing current. Causes voltage drop (~0.7V for Si)."
+    },
+    {
+      "card_title": "Reverse Resistance",
+      "card_other": "Resistance of reverse-biased diode. Very high (megaohms). Ideally infinite. Small leakage current flows. Breakdown occurs at reverse breakdown voltage."
+    },
+    {
+      "card_title": "Breakdown Voltage",
+      "card_other": "Reverse voltage at which diode suddenly conducts heavily. Two types: Zener (controlled) and avalanche (uncontrolled). Can damage regular diodes. Zener diodes designed to operate here. Used for voltage regulation."
+    },
+    {
+      "card_title": "Rectification",
+      "card_other": "Conversion of AC to pulsating DC using diodes. Half-wave: one diode (50% efficiency). Full-wave: bridge (four diodes) or center-tap (two diodes). Essential for power supplies."
+    },
+    {
+      "card_title": "Half-Wave Rectifier",
+      "card_other": "One diode allows only positive half cycles. Simple but inefficient (50%). High ripple. Output frequency = input frequency. Rarely used except in low-power applications."
+    },
+    {
+      "card_title": "Full-Wave Rectifier",
+      "card_other": "Converts both half cycles to DC. Bridge rectifier (4 diodes) or center-tap (2 diodes + center-tap transformer). More efficient. Output frequency = 2× input. Lower ripple than half-wave."
+    },
+    {
+      "card_title": "Ripple",
+      "card_other": "AC component remaining in rectified output. Variation from pure DC. Reduced by filter capacitors. Ripple factor = (RMS ripple voltage)/(DC voltage). Lower is better."
+    },
+    {
+      "card_title": "Zener Diode",
+      "card_other": "Special diode designed to operate in reverse breakdown region. Maintains constant voltage across it. Used for voltage regulation. Available in different voltages (3.3V to hundreds). Important for power supplies."
+    },
+    {
+      "card_title": "Light Emitting Diode (LED)",
+      "card_other": "Diode that emits light when forward biased. Electrons and holes recombine releasing photons. Color depends on band gap (material). Efficient, long-lasting. Used in displays, lighting, indicators."
+    },
+    {
+      "card_title": "Photodiode",
+      "card_other": "Diode sensitive to light. Reverse biased. Light creates electron-hole pairs, increasing current. Used in light detection, optical communication, solar cells. Fast response time."
+    },
+    {
+      "card_title": "Transistor",
+      "card_other": "Three-terminal semiconductor device for amplification and switching. Two types: BJT (bipolar) and FET (field-effect). Heart of modern electronics. Billions in computer chips. Can control large current with small signal."
+    },
+    {
+      "card_title": "Bipolar Junction Transistor (BJT)",
+      "card_other": "Current-controlled device. Three regions: emitter, base, collector. Two types: npn and pnp. Small base current controls large collector current. Used in amplifiers, switches. Symbol: arrow shows emitter."
+    },
+    {
+      "card_title": "npn Transistor",
+      "card_other": "n-type emitter and collector, p-type base. Electrons are majority carriers. Emitter heavily doped, base thin and lightly doped, collector moderately doped. Conventional current flows collector to emitter. More common than pnp."
+    },
+    {
+      "card_title": "pnp Transistor",
+      "card_other": "p-type emitter and collector, n-type base. Holes are majority carriers. Opposite polarity to npn. Conventional current flows emitter to collector. Less common. Complementary to npn in circuits."
+    },
+    {
+      "card_title": "Emitter (E)",
+      "card_other": "Heavily doped region supplying charge carriers. Emits carriers into base. Largest current (IE = IB + IC). Arrow in symbol points from emitter (npn out, pnp in)."
+    },
+    {
+      "card_title": "Base (B)",
+      "card_other": "Thin, lightly doped middle region. Controls current flow. Small base current controls large collector current. Most carriers pass through without recombination. Width critical for transistor operation."
+    },
+    {
+      "card_title": "Collector (C)",
+      "card_other": "Moderately doped region collecting carriers from emitter. Largest voltage applied here. Dissipates most heat. Physically largest region. Current slightly less than emitter current."
+    },
+    {
+      "card_title": "Current Gain (β or hFE)",
+      "card_other": "Ratio of collector current to base current: β = IC/IB. Typically 50-200 for small-signal transistors. Measure of amplification. Higher β means less base current needed. Temperature dependent."
+    },
+    {
+      "card_title": "Alpha (α)",
+      "card_other": "Ratio of collector current to emitter current: α = IC/IE. Always less than 1 (typically 0.95-0.99). Related to β by: α = β/(1+β). Indicates how many carriers reach collector."
+    },
+    {
+      "card_title": "Common Emitter Configuration",
+      "card_other": "Emitter common to input and output. Most popular amplifier configuration. High voltage and current gain. 180° phase shift. Moderate input/output impedance. Used in most amplifiers."
+    },
+    {
+      "card_title": "Common Collector Configuration",
+      "card_other": "Collector common to input and output (emitter follower). Voltage gain ~1. Current gain high. No phase shift. High input, low output impedance. Used for impedance matching, buffers."
+    },
+    {
+      "card_title": "Common Base Configuration",
+      "card_other": "Base common to input and output. No current gain. High voltage gain. No phase shift. Low input, high output impedance. Used in RF amplifiers, high-frequency applications."
+    },
+    {
+      "card_title": "Amplifier",
+      "card_other": "Circuit that increases amplitude of signal. Uses transistor in active region. Output proportional to input but larger. Requires DC biasing and AC coupling. Voltage gain = Vout/Vin. Power gain = Pout/Pin."
+    },
+    {
+      "card_title": "Transistor as Switch",
+      "card_other": "Operates between cutoff (off) and saturation (on). Cutoff: both junctions reverse biased, IC ≈ 0. Saturation: both junctions forward biased, IC maximum. Used in digital circuits, relays, motor control."
+    },
+    {
+      "card_title": "Logic Gates",
+      "card_other": "Basic building blocks of digital circuits. Perform Boolean operations. Made from transistors. Basic gates: AND, OR, NOT, NAND, NOR, XOR. Combinations create complex circuits (processors, memory)."
+    },
+    {
+      "card_title": "NOT Gate (Inverter)",
+      "card_other": "Output opposite of input. 1 becomes 0, 0 becomes 1. Single input, single output. Made with one transistor. Symbol: triangle with circle. Truth table: Y = Ā."
+    },
+    {
+      "card_title": "AND Gate",
+      "card_other": "Output HIGH only when all inputs HIGH. Two or more inputs. Symbol: flat-back shield. Truth table: Y = A·B. Used for multiplication in digital systems."
+    },
+    {
+      "card_title": "OR Gate",
+      "card_other": "Output HIGH when any input HIGH. Two or more inputs. Symbol: curved-back shield. Truth table: Y = A+B. Used for addition in digital systems."
+    },
+    {
+      "card_title": "NAND Gate",
+      "card_other": "NOT-AND. Output LOW only when all inputs HIGH. Universal gate (can make any logic function). Most commonly used. Symbol: AND with output circle. Y = (A·B)̄."
+    },
+    {
+      "card_title": "NOR Gate",
+      "card_other": "NOT-OR. Output HIGH only when all inputs LOW. Universal gate. Symbol: OR with output circle. Truth table: Y = (A+B)̄. Can implement any Boolean function."
+    },
+    {
+      "card_title": "Operational Amplifier (Op-Amp)",
+      "card_other": "High-gain DC-coupled amplifier with differential inputs. Very high gain (10⁵-10⁶). High input impedance, low output impedance. Used with feedback. Applications: amplification, filters, integrators, comparators. Symbol: triangle with + and - inputs."
+    }
+  ]
+}

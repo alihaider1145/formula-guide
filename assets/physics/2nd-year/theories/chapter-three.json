@@ -1,0 +1,109 @@
+{
+  "chapter": "13. Electromagnetism",
+  "theories": [
+    {
+      "card_title": "Magnetic Field",
+      "card_other": "Region around magnet or current where magnetic force acts. Vector quantity. Visualized by field lines (N to S outside magnet). SI unit: tesla (T). Detected by compass needle alignment or force on moving charge."
+    },
+    {
+      "card_title": "Magnetic Field Lines",
+      "card_other": "Imaginary lines showing magnetic field direction. Form closed loops (no magnetic monopoles). Never cross each other. Density indicates field strength. Outside magnet: N to S. Inside: S to N."
+    },
+    {
+      "card_title": "Magnetic Force on Moving Charge",
+      "card_other": "Force perpendicular to both velocity and magnetic field. Maximum when velocity perpendicular to field, zero when parallel. Direction by right-hand rule. Does no work (force always perpendicular to motion)."
+    },
+    {
+      "card_title": "Lorentz Force",
+      "card_other": "Combined electric and magnetic force on charged particle: F = q(E + v×B). Electric force parallel/antiparallel to field, magnetic force perpendicular. Used in particle accelerators, mass spectrometers."
+    },
+    {
+      "card_title": "Circular Motion in Magnetic Field",
+      "card_other": "Charged particle entering perpendicular to uniform field moves in circle. Magnetic force provides centripetal force. Radius depends on momentum, charge, field. Period independent of speed (cyclotron principle)."
+    },
+    {
+      "card_title": "Velocity Selector",
+      "card_other": "Device using crossed electric and magnetic fields to select particles of specific velocity. Only particles with v = E/B pass straight through. Others deflected. Used in mass spectrometers, cathode ray tubes."
+    },
+    {
+      "card_title": "Mass Spectrometer",
+      "card_other": "Instrument determining mass-to-charge ratio of ions. Uses magnetic field to separate particles by mass. Important in chemistry, physics for isotope identification. Measures atomic masses very precisely."
+    },
+    {
+      "card_title": "Cyclotron",
+      "card_other": "Particle accelerator using magnetic field and alternating electric field. Particles spiral outward gaining energy each revolution. Period independent of speed (resonance condition). Used to produce high-energy particles for research, medical isotopes."
+    },
+    {
+      "card_title": "Magnetic Force on Current-Carrying Wire",
+      "card_other": "Current (moving charges) in magnetic field experiences force. Force perpendicular to both current and field. Maximum when wire perpendicular to field. Basis of electric motors. Direction by right-hand rule."
+    },
+    {
+      "card_title": "Torque on Current Loop",
+      "card_other": "Current loop in magnetic field experiences torque causing rotation. Maximum at parallel to field, zero when perpendicular. Basis of galvanometer and electric motor operation. Depends on loop area, current, field strength."
+    },
+    {
+      "card_title": "Magnetic Dipole Moment",
+      "card_other": "Product of current and loop area (μ = NIA). Vector perpendicular to loop. Torque = μ × B. Analogous to electric dipole moment. Atoms have magnetic moments due to electron motion."
+    },
+    {
+      "card_title": "Biot-Savart Law",
+      "card_other": "Gives magnetic field produced by current element. Field proportional to current and inversely proportional to square of distance. Used to calculate field from any current distribution. Analogous to Coulomb's law."
+    },
+    {
+      "card_title": "Magnetic Field of Straight Wire",
+      "card_other": "Circular field lines around wire. Direction by right-hand thumb rule. Field inversely proportional to distance. Stronger near wire. Used in electromagnets and transformers."
+    },
+    {
+      "card_title": "Magnetic Field of Circular Loop",
+      "card_other": "Maximum at center, decreases along axis. Direction perpendicular to loop plane. Multiple loops (coil) multiply field strength. Used in Helmholtz coils for uniform fields."
+    },
+    {
+      "card_title": "Solenoid",
+      "card_other": "Long coil of wire. Produces uniform magnetic field inside, nearly zero outside. Field parallel to axis. Acts like bar magnet. Used in electromagnets, inductors, relays."
+    },
+    {
+      "card_title": "Ampere's Law",
+      "card_other": "Relates magnetic field around closed loop to enclosed current. ∮B·dl = μ₀I. Used to find fields with high symmetry. Analogous to Gauss's law. Foundation for electromagnetic theory."
+    },
+    {
+      "card_title": "Magnetic Permeability",
+      "card_other": "Measure of how material affects magnetic field. μ = μᵣμ₀ where μᵣ is relative permeability. μᵣ > 1 for paramagnetic/ferromagnetic, μᵣ < 1 for diamagnetic. Affects field strength in material."
+    },
+    {
+      "card_title": "Diamagnetism",
+      "card_other": "Weak repulsion from magnetic field. All materials show this. Induced magnetic moment opposes applied field. Examples: copper, bismuth, water. Used in magnetic levitation (frogs, superconductors)."
+    },
+    {
+      "card_title": "Paramagnetism",
+      "card_other": "Weak attraction to magnetic field. Due to unpaired electrons. Random thermal motion opposes alignment. Effect increases with field, decreases with temperature. Examples: aluminum, platinum, oxygen."
+    },
+    {
+      "card_title": "Ferromagnetism",
+      "card_other": "Strong attraction to magnetic field. Can be permanently magnetized. Caused by aligned magnetic domains. Examples: iron, cobalt, nickel. Used in permanent magnets, transformers, data storage."
+    },
+    {
+      "card_title": "Magnetic Domains",
+      "card_other": "Regions in ferromagnetic material where atomic magnetic moments aligned. Random domains cancel out in unmagnetized material. Applied field aligns domains, creating net magnetization. Domain walls move as field changes."
+    },
+    {
+      "card_title": "Hysteresis",
+      "card_other": "Lagging of magnetization behind applied field. Magnetization depends on history. Traced by B-H curve (hysteresis loop). Area represents energy loss per cycle. Important in transformer cores, magnetic recording."
+    },
+    {
+      "card_title": "Curie Temperature",
+      "card_other": "Temperature above which ferromagnetic material becomes paramagnetic. Thermal energy disrupts domain alignment. Different for each material (770°C for iron). Above Tc, loses permanent magnetization."
+    },
+    {
+      "card_title": "Galvanometer",
+      "card_other": "Sensitive instrument detecting small currents. Based on torque on current loop in magnetic field. Pointer deflection proportional to current. Can be converted to ammeter (with shunt) or voltmeter (with series resistance)."
+    },
+    {
+      "card_title": "Earth's Magnetic Field",
+      "card_other": "Earth acts like bar magnet. Magnetic north pole near geographic south pole. Field ~0.5 gauss at surface. Protects from solar wind. Used for navigation (compass). Reverses polarity every ~million years."
+    },
+    {
+      "card_title": "Hall Effect",
+      "card_other": "Voltage develops across conductor when current flows perpendicular to magnetic field. Due to magnetic force on charge carriers. Used to determine carrier type (positive/negative), measure magnetic fields. Applications in sensors."
+    }
+  ]
+}
