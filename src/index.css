@@ -70,7 +70,7 @@ body{
     color: var(--text-secondary-color);
 }
 
-.card__eng{
+.card__title{
     font-weight: 600;;
 }
 

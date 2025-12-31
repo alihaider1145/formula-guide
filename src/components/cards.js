@@ -1,21 +1,23 @@
 import { createEle } from "../dom-utils.js";
 import globalState from "../state.js";
 
-function createCards(cardEle){
+function createCard(cardEle){
 
     const card = createEle('div', null, document.querySelector(".content__cards")); 
     card.classList.add("card");
 
-    const cardTitle = createEle("div", cardEle["card_title"], card);
+    const cardTitle = createEle("div", cardEle.card_title, card);
     cardTitle.classList.add('card__title');
 
     const cardMath = createEle("div", null, card);
     cardMath.classList.add('card__math');
-    cardMath.innerHTML = `${cardEle["card_math"]}`;
+    cardMath.innerHTML = `\\(${cardEle.card_math}\\)`;
 
-    const cardOther = createEle("div", null, card);
-    cardOther.classList.add('card__other');
-    cardOther.innerHTML = `${cardEle["card_other"]}`;
+    if(cardEle.card_other){
+        const cardOther = createEle("div", null, card);
+        cardOther.classList.add('card__other');
+        cardOther.innerHTML = `${cardEle["card_other"]}`;
+    }
 
     return card;
 }
@@ -31,7 +33,7 @@ function genCards(){
     for(const cardEle of globalState.getState().currentData[globalState.getState().topic]){
         console.log(globalState.getState().currentData);
         console.log(cardEle);
-        const card = createCards(cardEle);
+        const card = createCard(cardEle);
     }
 
     MathJax.typesetPromise();
