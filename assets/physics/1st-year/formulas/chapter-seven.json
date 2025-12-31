@@ -2,64 +2,64 @@
   "chapter": "7. Oscillations",
   "formulas": [
     {
-      "formula_math": "F = -kx",
-      "formula_english": "Restoring force (Hooke's law)."
+      "card_title": "Restoring force (Hooke's law).",
+      "card_math": "F = -kx"
     },
     {
-      "formula_math": "a = -\\omega^2 x",
-      "formula_english": "Acceleration in simple harmonic motion."
+      "card_title": "Acceleration in simple harmonic motion.",
+      "card_math": "a = -\\omega^2 x"
     },
     {
-      "formula_math": "\\omega = \\sqrt{\\frac{k}{m}}",
-      "formula_english": "Angular frequency of mass-spring system."
+      "card_title": "Angular frequency of mass-spring system.",
+      "card_math": "\\omega = \\sqrt{\\frac{k}{m}}"
     },
     {
-      "formula_math": "T = 2\\pi \\sqrt{\\frac{m}{k}}",
-      "formula_english": "Period of mass-spring system."
+      "card_title": "Period of mass-spring system.",
+      "card_math": "T = 2\\pi \\sqrt{\\frac{m}{k}}"
     },
     {
-      "formula_math": "f = \\frac{1}{2\\pi} \\sqrt{\\frac{k}{m}}",
-      "formula_english": "Frequency of mass-spring system."
+      "card_title": "Frequency of mass-spring system.",
+      "card_math": "f = \\frac{1}{2\\pi} \\sqrt{\\frac{k}{m}}"
     },
     {
-      "formula_math": "x = A \\cos(\\omega t + \\phi)",
-      "formula_english": "Displacement in SHM."
+      "card_title": "Displacement in SHM.",
+      "card_math": "x = A \\cos(\\omega t + \\phi)"
     },
     {
-      "formula_math": "v = -A\\omega \\sin(\\omega t + \\phi)",
-      "formula_english": "Velocity in SHM."
+      "card_title": "Velocity in SHM.",
+      "card_math": "v = -A\\omega \\sin(\\omega t + \\phi)"
     },
     {
-      "formula_math": "v_{max} = A\\omega",
-      "formula_english": "Maximum velocity in SHM."
+      "card_title": "Maximum velocity in SHM.",
+      "card_math": "v_{max} = A\\omega"
     },
     {
-      "formula_math": "a = -A\\omega^2 \\cos(\\omega t + \\phi)",
-      "formula_english": "Acceleration in SHM."
+      "card_title": "Acceleration in SHM.",
+      "card_math": "a = -A\\omega^2 \\cos(\\omega t + \\phi)"
     },
     {
-      "formula_math": "a_{max} = A\\omega^2",
-      "formula_english": "Maximum acceleration in SHM."
+      "card_title": "Maximum acceleration in SHM.",
+      "card_math": "a_{max} = A\\omega^2"
     },
     {
-      "formula_math": "KE = \\frac{1}{2} m v^2 = \\frac{1}{2} m \\omega^2 (A^2 - x^2)",
-      "formula_english": "Kinetic energy in SHM."
+      "card_title": "Kinetic energy in SHM.",
+      "card_math": "KE = \\frac{1}{2} m v^2 = \\frac{1}{2} m \\omega^2 (A^2 - x^2)"
     },
     {
-      "formula_math": "PE = \\frac{1}{2} k x^2",
-      "formula_english": "Potential energy in SHM."
+      "card_title": "Potential energy in SHM.",
+      "card_math": "PE = \\frac{1}{2} k x^2"
     },
     {
-      "formula_math": "E_{total} = \\frac{1}{2} k A^2",
-      "formula_english": "Total energy in SHM."
+      "card_title": "Total energy in SHM.",
+      "card_math": "E_{total} = \\frac{1}{2} k A^2"
     },
     {
-      "formula_math": "T = 2\\pi \\sqrt{\\frac{l}{g}}",
-      "formula_english": "Period of simple pendulum."
+      "card_title": "Period of simple pendulum.",
+      "card_math": "T = 2\\pi \\sqrt{\\frac{l}{g}}"
     },
     {
-      "formula_math": "\\omega = \\sqrt{\\frac{g}{l}}",
-      "formula_english": "Angular frequency of simple pendulum."
+      "card_title": "Angular frequency of simple pendulum.",
+      "card_math": "\\omega = \\sqrt{\\frac{g}{l}}"
     }
   ]
 }

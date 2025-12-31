@@ -2,90 +2,90 @@
   "chapter": "10. Thermodynamics",
   "formulas": [
     {
-      "formula_math": "\\Delta U = Q - W",
-      "formula_english": "First law of thermodynamics."
+      "card_title": "First law of thermodynamics.",
+      "card_math": "\\Delta U = Q - W"
     },
     {
-      "formula_math": "W = P \\Delta V",
-      "formula_english": "Work done by gas at constant pressure."
+      "card_title": "Work done by gas at constant pressure.",
+      "card_math": "W = P \\Delta V"
     },
     {
-      "formula_math": "Q = mc\\Delta T",
-      "formula_english": "Heat absorbed or released."
+      "card_title": "heat absorbed or released.",
+      "card_math": "Q = mc\\Delta T"
     },
     {
-      "formula_math": "Q = mL_f",
-      "formula_english": "Heat for phase change (fusion).",
-      "variants": [
+      "card_title": "heat for phase change (fusion).",
+      "card_math": "Q = mL_f",
+      "card_other": [
         "L_f = latent heat of fusion"
       ]
     },
     {
-      "formula_math": "Q = mL_v",
-      "formula_english": "Heat for phase change (vaporization).",
-      "variants": [
+      "card_title": "heat for phase change (vaporization).",
+      "card_math": "Q = mL_v",
+      "card_other": [
         "L_v = latent heat of vaporization"
       ]
     },
     {
-      "formula_math": "PV = nRT",
-      "formula_english": "Ideal gas law."
+      "card_title": "Ideal gas law.",
+      "card_math": "PV = nRT"
     },
     {
-      "formula_math": "P_1 V_1 = P_2 V_2",
-      "formula_english": "Boyle's law (isothermal process)."
+      "card_title": "Boyle's law (isothermal process).",
+      "card_math": "P_1 V_1 = P_2 V_2"
     },
     {
-      "formula_math": "\\frac{V_1}{T_1} = \\frac{V_2}{T_2}",
-      "formula_english": "Charles's law (isobaric process)."
+      "card_title": "Charles's law (isobaric process).",
+      "card_math": "\\frac{V_1}{T_1} = \\frac{V_2}{T_2}"
     },
     {
-      "formula_math": "\\frac{P_1}{T_1} = \\frac{P_2}{T_2}",
-      "formula_english": "Gay-Lussac's law (isochoric process)."
+      "card_title": "Gay-Lussac's law (isochoric process).",
+      "card_math": "\\frac{P_1}{T_1} = \\frac{P_2}{T_2}"
     },
     {
-      "formula_math": "PV^\\gamma = \\text{constant}",
-      "formula_english": "Adiabatic process."
+      "card_title": "Adiabatic process.",
+      "card_math": "PV^\\gamma = \\text{constant}"
     },
     {
-      "formula_math": "TV^{\\gamma - 1} = \\text{constant}",
-      "formula_english": "Alternative form of adiabatic relation."
+      "card_title": "Alternative form of adiabatic relation.",
+      "card_math": "TV^{\\gamma - 1} = \\text{constant}"
     },
     {
-      "formula_math": "W = nRT \\ln\\left(\\frac{V_f}{V_i}\\right)",
-      "formula_english": "Work in isothermal process."
+      "card_title": "Work in isothermal process.",
+      "card_math": "W = nRT \\ln\\left(\\frac{V_f}{V_i}\\right)"
     },
     {
-      "formula_math": "W = \\frac{nR(T_1 - T_2)}{\\gamma - 1}",
-      "formula_english": "Work in adiabatic process."
+      "card_title": "Work in adiabatic process.",
+      "card_math": "W = \\frac{nR(T_1 - T_2)}{\\gamma - 1}"
     },
     {
-      "formula_math": "\\eta = \\frac{W}{Q_h}",
-      "formula_english": "Efficiency of heat engine."
+      "card_title": "Efficiency of heat engine.",
+      "card_math": "\\eta = \\frac{W}{Q_h}"
     },
     {
-      "formula_math": "\\eta = 1 - \\frac{Q_c}{Q_h}",
-      "formula_english": "Efficiency in terms of heat."
+      "card_title": "Efficiency in terms of heat.",
+      "card_math": "\\eta = 1 - \\frac{Q_c}{Q_h}"
     },
     {
-      "formula_math": "\\eta_c = 1 - \\frac{T_c}{T_h}",
-      "formula_english": "Carnot efficiency."
+      "card_title": "Carnot efficiency.",
+      "card_math": "\\eta_c = 1 - \\frac{T_c}{T_h}"
     },
     {
-      "formula_math": "W = Q_h - Q_c",
-      "formula_english": "Net work output of heat engine."
+      "card_title": "Net work output of heat engine.",
+      "card_math": "W = Q_h - Q_c"
     },
     {
-      "formula_math": "COP = \\frac{Q_c}{W}",
-      "formula_english": "Coefficient of performance (refrigerator)."
+      "card_title": "Coefficient of performance (refrigerator).",
+      "card_math": "COP = \\frac{Q_c}{W}"
     },
     {
-      "formula_math": "KE_{avg} = \\frac{3}{2} kT",
-      "formula_english": "Average kinetic energy per molecule."
+      "card_title": "Average kinetic energy per molecule.",
+      "card_math": "KE_{avg} = \\frac{3}{2} kT"
     },
     {
-      "formula_math": "v_{rms} = \\sqrt{\\frac{3RT}{M}}",
-      "formula_english": "Root mean square speed of gas molecules."
+      "card_title": "Root mean square speed of gas molecules.",
+      "card_math": "v_{rms} = \\sqrt{\\frac{3RT}{M}}"
     }
   ]
 }

@@ -2,91 +2,91 @@
   "chapter": "3. Motion and Force",
   "formulas": [
     {
-      "formula_math": "v_{avg} = \\frac{\\Delta x}{\\Delta t}",
-      "formula_english": "Average velocity."
+      "card_title": "Average velocity.",
+      "card_math": "v_{avg} = \\frac{\\Delta x}{\\Delta t}"
     },
     {
-      "formula_math": "a_{avg} = \\frac{\\Delta v}{\\Delta t}",
-      "formula_english": "Average acceleration."
+      "card_title": "Average acceleration.",
+      "card_math": "a_{avg} = \\frac{\\Delta v}{\\Delta t}"
     },
     {
-      "formula_math": "v_f = v_i + at",
-      "formula_english": "First equation of motion."
+      "card_title": "First equation of motion.",
+      "card_math": "v_f = v_i + at"
     },
     {
-      "formula_math": "s = v_i t + \\frac{1}{2} a t^2",
-      "formula_english": "Second equation of motion."
+      "card_title": "Second equation of motion.",
+      "card_math": "s = v_i t + \\frac{1}{2} a t^2"
     },
     {
-      "formula_math": "2as = v_f^2 - v_i^2",
-      "formula_english": "Third equation of motion."
+      "card_title": "Third equation of motion.",
+      "card_math": "2as = v_f^2 - v_i^2"
     },
     {
-      "formula_math": "s = \\frac{v_i + v_f}{2} \\times t",
-      "formula_english": "Distance using average velocity."
+      "card_title": "Distance using average velocity.",
+      "card_math": "s = \\frac{v_i + v_f}{2} \\times t"
     },
     {
-      "formula_math": "v = u + gt",
-      "formula_english": "Velocity under free fall.",
-      "variants": [
+      "card_title": "Velocity under free fall.",
+      "card_math": "v = u + gt",
+      "card_other": [
         "g = 9.8 m/s² (downward)"
       ]
     },
     {
-      "formula_math": "h = ut + \\frac{1}{2} g t^2",
-      "formula_english": "Height in free fall motion."
+      "card_title": "Height in free fall motion.",
+      "card_math": "h = ut + \\frac{1}{2} g t^2"
     },
     {
-      "formula_math": "v^2 = u^2 + 2gh",
-      "formula_english": "Velocity-height relation in free fall."
+      "card_title": "Velocity-height relation in free fall.",
+      "card_math": "v^2 = u^2 + 2gh"
     },
     {
-      "formula_math": "F = ma",
-      "formula_english": "Newton's second law of motion."
+      "card_title": "Newton's second law of motion.",
+      "card_math": "F = ma"
     },
     {
-      "formula_math": "F_{12} = -F_{21}",
-      "formula_english": "Newton's third law (action-reaction)."
+      "card_title": "Newton's third law (action-reaction).",
+      "card_math": "F_{12} = -F_{21}"
     },
     {
-      "formula_math": "p = mv",
-      "formula_english": "Linear momentum."
+      "card_title": "Linear momentum.",
+      "card_math": "p = mv"
     },
     {
-      "formula_math": "F = \\frac{\\Delta p}{\\Delta t}",
-      "formula_english": "Force as rate of change of momentum."
+      "card_title": "Force as rate of change of momentum.",
+      "card_math": "F = \\frac{\\Delta p}{\\Delta t}"
     },
     {
-      "formula_math": "\\sum p_{before} = \\sum p_{after}",
-      "formula_english": "Conservation of linear momentum."
+      "card_title": "Conservation of linear momentum.",
+      "card_math": "\\sum p_{before} = \\sum p_{after}"
     },
     {
-      "formula_math": "v_x = v_0 \\cos \\theta",
-      "formula_english": "Horizontal component of projectile velocity."
+      "card_title": "Horizontal component of projectile velocity.",
+      "card_math": "v_x = v_0 \\cos \\theta"
     },
     {
-      "formula_math": "v_y = v_0 \\sin \\theta - gt",
-      "formula_english": "Vertical component of projectile velocity."
+      "card_title": "Vertical component of projectile velocity.",
+      "card_math": "v_y = v_0 \\sin \\theta - gt"
     },
     {
-      "formula_math": "x = (v_0 \\cos \\theta) t",
-      "formula_english": "Horizontal displacement of projectile."
+      "card_title": "Horizontal displacement of projectile.",
+      "card_math": "x = (v_0 \\cos \\theta) t"
     },
     {
-      "formula_math": "y = (v_0 \\sin \\theta) t - \\frac{1}{2} g t^2",
-      "formula_english": "Vertical displacement of projectile."
+      "card_title": "Vertical displacement of projectile.",
+      "card_math": "y = (v_0 \\sin \\theta) t - \\frac{1}{2} g t^2"
     },
     {
-      "formula_math": "H = \\frac{v_0^2 \\sin^2 \\theta}{2g}",
-      "formula_english": "Maximum height of projectile."
+      "card_title": "Maximum height of projectile.",
+      "card_math": "H = \\frac{v_0^2 \\sin^2 \\theta}{2g}"
     },
     {
-      "formula_math": "R = \\frac{v_0^2 \\sin 2\\theta}{g}",
-      "formula_english": "Range of projectile."
+      "card_title": "Range of projectile.",
+      "card_math": "R = \\frac{v_0^2 \\sin 2\\theta}{g}"
     },
     {
-      "formula_math": "T = \\frac{2 v_0 \\sin \\theta}{g}",
-      "formula_english": "Time of flight for projectile."
+      "card_title": "Time of flight for projectile.",
+      "card_math": "T = \\frac{2 v_0 \\sin \\theta}{g}"
     }
   ]
 }

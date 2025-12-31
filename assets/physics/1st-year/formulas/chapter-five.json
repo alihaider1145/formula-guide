@@ -2,112 +2,112 @@
   "chapter": "5. Circular Motion",
   "formulas": [
     {
-      "formula_math": "\\theta = \\frac{s}{r}",
-      "formula_english": "Angular displacement defined as arc length divided by radius."
+      "card_title": "Angular displacement defined as arc length divided by radius.",
+      "card_math": "\\theta = \\frac{s}{r}"
     },
     {
-      "formula_math": "\\omega = \\frac{\\theta}{t}",
-      "formula_english": "Angular velocity."
+      "card_title": "Angular velocity.",
+      "card_math": "\\omega = \\frac{\\theta}{t}"
     },
     {
-      "formula_math": "\\omega = \\frac{2\\pi}{T}",
-      "formula_english": "Angular velocity in terms of period."
+      "card_title": "Angular velocity in terms of period.",
+      "card_math": "\\omega = \\frac{2\\pi}{T}"
     },
     {
-      "formula_math": "\\omega = 2\\pi f",
-      "formula_english": "Angular velocity in terms of frequency."
+      "card_title": "Angular velocity in terms of frequency.",
+      "card_math": "\\omega = 2\\pi f"
     },
     {
-      "formula_math": "v = r\\omega",
-      "formula_english": "Linear velocity in circular motion."
+      "card_title": "Linear velocity in circular motion.",
+      "card_math": "v = r\\omega"
     },
     {
-      "formula_math": "a_c = \\frac{v^2}{r}",
-      "formula_english": "Centripetal acceleration."
+      "card_title": "Centripetal acceleration.",
+      "card_math": "a_c = \\frac{v^2}{r}"
     },
     {
-      "formula_math": "a_c = r\\omega^2",
-      "formula_english": "Centripetal acceleration in angular form."
+      "card_title": "Centripetal acceleration in angular form.",
+      "card_math": "a_c = r\\omega^2"
     },
     {
-      "formula_math": "F_c = \\frac{mv^2}{r}",
-      "formula_english": "Centripetal force."
+      "card_title": "Centripetal force.",
+      "card_math": "F_c = \\frac{mv^2}{r}"
     },
     {
-      "formula_math": "F_c = mr\\omega^2",
-      "formula_english": "Centripetal force in angular form."
+      "card_title": "Centripetal force in angular form.",
+      "card_math": "F_c = mr\\omega^2"
     },
     {
-      "formula_math": "\\tan \\theta = \\frac{v^2}{rg}",
-      "formula_english": "Banking angle for circular motion."
+      "card_title": "Banking angle for circular motion.",
+      "card_math": "\\tan \\theta = \\frac{v^2}{rg}"
     },
     {
-      "formula_math": "T = 2\\pi \\sqrt{\\frac{l}{g}}",
-      "formula_english": "Period of simple pendulum."
+      "card_title": "Period of simple pendulum.",
+      "card_math": "T = 2\\pi \\sqrt{\\frac{l}{g}}"
     },
     {
-      "formula_math": "\\alpha = \\frac{\\Delta \\omega}{\\Delta t}",
-      "formula_english": "Angular acceleration."
+      "card_title": "Angular acceleration.",
+      "card_math": "\\alpha = \\frac{\\Delta \\omega}{\\Delta t}"
     },
     {
-      "formula_math": "\\omega_f = \\omega_i + \\alpha t",
-      "formula_english": "Angular velocity with constant angular acceleration."
+      "card_title": "Angular velocity with constant angular acceleration.",
+      "card_math": "\\omega_f = \\omega_i + \\alpha t"
     },
     {
-      "formula_math": "\\theta = \\omega_i t + \\frac{1}{2} \\alpha t^2",
-      "formula_english": "Angular displacement with constant angular acceleration."
+      "card_title": "Angular displacement with constant angular acceleration.",
+      "card_math": "\\theta = \\omega_i t + \\frac{1}{2} \\alpha t^2"
     },
     {
-      "formula_math": "\\omega_f^2 = \\omega_i^2 + 2\\alpha \\theta",
-      "formula_english": "Angular velocity-displacement relation."
+      "card_title": "Angular velocity-displacement relation.",
+      "card_math": "\\omega_f^2 = \\omega_i^2 + 2\\alpha \\theta"
     },
     {
-      "formula_math": "a_t = r\\alpha",
-      "formula_english": "Tangential acceleration."
+      "card_title": "Tangential acceleration.",
+      "card_math": "a_t = r\\alpha"
     },
     {
-      "formula_math": "\\tau = r F \\sin \\theta",
-      "formula_english": "Torque."
+      "card_title": "Torque.",
+      "card_math": "\\tau = r F \\sin \\theta"
     },
     {
-      "formula_math": "\\tau = I \\alpha",
-      "formula_english": "Rotational form of Newton's second law."
+      "card_title": "Rotational form of Newton's second law.",
+      "card_math": "\\tau = I \\alpha"
     },
     {
-      "formula_math": "I = \\sum m_i r_i^2",
-      "formula_english": "Moment of inertia (discrete masses)."
+      "card_title": "Moment of inertia (discrete masses).",
+      "card_math": "I = \\sum m_i r_i^2"
     },
     {
-      "formula_math": "KE_{rot} = \\frac{1}{2} I \\omega^2",
-      "formula_english": "Rotational kinetic energy."
+      "card_title": "Rotational kinetic energy.",
+      "card_math": "KE_{rot} = \\frac{1}{2} I \\omega^2"
     },
     {
-      "formula_math": "L = I\\omega",
-      "formula_english": "Angular momentum."
+      "card_title": "Angular momentum.",
+      "card_math": "L = I\\omega"
     },
     {
-      "formula_math": "L = rp",
-      "formula_english": "Angular momentum of a particle equal to the product of radius vector magnitude and linear momentum (for perpendicular velocity)."
+      "card_title": "Angular momentum of a particle equal to the product of radius vector magnitude and linear momentum (for perpendicular velocity).",
+      "card_math": "L = rp"
     },
     {
-      "formula_math": "\\tau = \\frac{\\Delta L}{\\Delta t}",
-      "formula_english": "Torque as rate of change of angular momentum."
+      "card_title": "Torque as rate of change of angular momentum.",
+      "card_math": "\\tau = \\frac{\\Delta L}{\\Delta t}"
     },
     {
-      "formula_math": "W = \\tau \\theta",
-      "formula_english": "Work done in rotational motion."
+      "card_title": "Work done in rotational motion.",
+      "card_math": "W = \\tau \\theta"
     },
     {
-      "formula_math": "P = \\tau \\omega",
-      "formula_english": "Power in rotational motion."
+      "card_title": "Power in rotational motion.",
+      "card_math": "P = \\tau \\omega"
     },
     {
-      "formula_math": "v_s = \\sqrt{\\frac{GM}{r}}",
-      "formula_english": "Orbital velocity of satellite."
+      "card_title": "Orbital velocity of satellite.",
+      "card_math": "v_s = \\sqrt{\\frac{GM}{r}}"
     },
     {
-      "formula_math": "T = 2\\pi \\sqrt{\\frac{r^3}{GM}}",
-      "formula_english": "Orbital period."
+      "card_title": "Orbital period.",
+      "card_math": "T = 2\\pi \\sqrt{\\frac{r^3}{GM}}"
     }
   ]
 }

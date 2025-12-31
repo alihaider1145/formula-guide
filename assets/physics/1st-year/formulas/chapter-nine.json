@@ -2,94 +2,94 @@
   "chapter": "9. Physical Optics",
   "formulas": [
     {
-      "formula_math": "c = f\\lambda",
-      "formula_english": "Speed of light relation."
+      "card_title": "Speed of light relation.",
+      "card_math": "c = f\\lambda"
     },
     {
-      "formula_math": "n = \\frac{c}{v}",
-      "formula_english": "Refractive index."
+      "card_title": "Refractive index.",
+      "card_math": "n = \\frac{c}{v}"
     },
     {
-      "formula_math": "\\lambda_n = \\frac{\\lambda}{n}",
-      "formula_english": "Wavelength in a medium."
+      "card_title": "Wavelength in a medium.",
+      "card_math": "\\lambda_n = \\frac{\\lambda}{n}"
     },
     {
-      "formula_math": "I = I_0 \\cos^2 \\theta",
-      "formula_english": "Malus' law for polarized light."
+      "card_title": "Malus' law for polarized light.",
+      "card_math": "I = I_0 \\cos^2 \\theta"
     },
     {
-      "formula_math": "\\tan \\theta_p = \\frac{n_2}{n_1}",
-      "formula_english": "Brewster's angle.",
-      "variants": [
+      "card_title": "Brewster's angle.",
+      "card_math": "\\tan \\theta_p = \\frac{n_2}{n_1}",
+      "card_other": [
         "\\theta_p = polarizing angle"
       ]
     },
     {
-      "formula_math": "\\Delta x = \\frac{\\lambda D}{d}",
-      "formula_english": "Fringe width in Young's double slit."
+      "card_title": "Fringe width in Young's double slit.",
+      "card_math": "\\Delta x = \\frac{\\lambda D}{d}"
     },
     {
-      "formula_math": "x_n = \\frac{n\\lambda D}{d}",
-      "formula_english": "Position of bright fringes.",
-      "variants": [
+      "card_title": "Position of bright fringes.",
+      "card_math": "x_n = \\frac{n\\lambda D}{d}",
+      "card_other": [
         "n = 0, 1, 2, 3, ..."
       ]
     },
     {
-      "formula_math": "x_n = \\frac{(2n-1)\\lambda D}{2d}",
-      "formula_english": "Position of dark fringes.",
-      "variants": [
+      "card_title": "Position of dark fringes.",
+      "card_math": "x_n = \\frac{(2n-1)\\lambda D}{2d}",
+      "card_other": [
         "n = 1, 2, 3, ..."
       ]
     },
     {
-      "formula_math": "\\Delta \\phi = \\frac{2\\pi}{\\lambda} \\times \\text{path difference}",
-      "formula_english": "Phase difference from path difference."
+      "card_title": "Phase difference from path difference.",
+      "card_math": "\\Delta \\phi = \\frac{2\\pi}{\\lambda} \\times \\text{path difference}"
     },
     {
-      "formula_math": "d \\sin \\theta = n\\lambda",
-      "formula_english": "Diffraction grating (principal maxima).",
-      "variants": [
+      "card_title": "Diffraction grating (principal maxima).",
+      "card_math": "d \\sin \\theta = n\\lambda",
+      "card_other": [
         "n = 0, 1, 2, 3, ..."
       ]
     },
     {
-      "formula_math": "N = \\frac{1}{d}",
-      "formula_english": "Number of lines per unit length on grating."
+      "card_title": "Number of lines per unit length on grating.",
+      "card_math": "N = \\frac{1}{d}"
     },
     {
-      "formula_math": "a \\sin \\theta = n\\lambda",
-      "formula_english": "Single slit diffraction (minima).",
-      "variants": [
+      "card_title": "Single slit diffraction (minima).",
+      "card_math": "a \\sin \\theta = n\\lambda",
+      "card_other": [
         "a = slit width",
         "n = 1, 2, 3, ..."
       ]
     },
     {
-      "formula_math": "\\theta = 1.22\\frac{\\lambda}{D}",
-      "formula_english": "Rayleigh criterion for resolution."
+      "card_title": "Rayleigh criterion for resolution.",
+      "card_math": "\\theta = 1.22\\frac{\\lambda}{D}"
     },
     {
-      "formula_math": "R = \\frac{\\lambda}{\\Delta \\lambda} = nN",
-      "formula_english": "Resolving power of diffraction grating."
+      "card_title": "Resolving power of diffraction grating.",
+      "card_math": "R = \\frac{\\lambda}{\\Delta \\lambda} = nN"
     },
     {
-      "formula_math": "2t = (m + \\frac{1}{2})\\lambda",
-      "formula_english": "Constructive interference in thin films.",
-      "variants": [
+      "card_title": "Constructive interference in thin films.",
+      "card_math": "2t = (m + \\frac{1}{2})\\lambda",
+      "card_other": [
         "m = 0, 1, 2, 3, ..."
       ]
     },
     {
-      "formula_math": "2t = m\\lambda",
-      "formula_english": "Destructive interference in thin films.",
-      "variants": [
+      "card_title": "Destructive interference in thin films.",
+      "card_math": "2t = m\\lambda",
+      "card_other": [
         "m = 0, 1, 2, 3, ..."
       ]
     },
     {
-      "formula_math": "2\\mu t \\cos r = n\\lambda",
-      "formula_english": "Thin film interference with oblique incidence."
+      "card_title": "Thin film interference with oblique incidence.",
+      "card_math": "2\\mu t \\cos r = n\\lambda"
     }
   ]
 }

@@ -2,57 +2,57 @@
   "chapter": "6. Fluid Dynamics",
   "formulas": [
     {
-      "formula_math": "\\rho = \\frac{m}{V}",
-      "formula_english": "Density."
+      "card_title": "Density.",
+      "card_math": "\\rho = \\frac{m}{V}"
     },
     {
-      "formula_math": "P = \\frac{F}{A}",
-      "formula_english": "Pressure."
+      "card_title": "Pressure.",
+      "card_math": "P = \\frac{F}{A}"
     },
     {
-      "formula_math": "P = P_0 + \\rho g h",
-      "formula_english": "Pressure in a fluid at depth h."
+      "card_title": "Pressure in a fluid at depth h.",
+      "card_math": "P = P_0 + \\rho g h"
     },
     {
-      "formula_math": "F_B = \\rho_{fluid} V g",
-      "formula_english": "Buoyant force (Archimedes' principle)."
+      "card_title": "Buoyant force (Archimedes' principle).",
+      "card_math": "F_B = \\rho_{fluid} V g"
     },
     {
-      "formula_math": "F_v = 6\\pi \\eta r v",
-      "formula_english": "Stokes' law for viscous drag."
+      "card_title": "Stokes' law for viscous drag.",
+      "card_math": "F_v = 6\\pi \\eta r v"
     },
     {
-      "formula_math": "v_t = \\frac{2r^2 (\\rho - \\sigma) g}{9\\eta}",
-      "formula_english": "Terminal velocity in viscous fluid.",
-      "variants": "\\rho : Density of object. \\sigma : Density of medium."
+      "card_title": "Terminal velocity in viscous fluid.",
+      "card_math": "v_t = \\frac{2r^2 (\\rho - \\sigma) g}{9\\eta}",
+      "card_other": "\\rho : Density of object. \\sigma : Density of medium."
     },
     {
-      "formula_math": "Q = Av",
-      "formula_english": "Volume flow rate."
+      "card_title": "Volume flow rate.",
+      "card_math": "Q = Av"
     },
     {
-      "formula_math": "A_1 v_1 = A_2 v_2",
-      "formula_english": "Equation of continuity."
+      "card_title": "Equation of continuity.",
+      "card_math": "A_1 v_1 = A_2 v_2"
     },
     {
-      "formula_math": "P + \\frac{1}{2}\\rho v^2 + \\rho g h = \\text{constant}",
-      "formula_english": "Bernoulli's equation."
+      "card_title": "Bernoulli's equation.",
+      "card_math": "P + \\frac{1}{2}\\rho v^2 + \\rho g h = \\text{constant}"
     },
     {
-      "formula_math": "P_1 + \\frac{1}{2}\\rho v_1^2 + \\rho g h_1 = P_2 + \\frac{1}{2}\\rho v_2^2 + \\rho g h_2",
-      "formula_english": "Bernoulli's equation between two points."
+      "card_title": "Bernoulli's equation between two points.",
+      "card_math": "P_1 + \\frac{1}{2}\\rho v_1^2 + \\rho g h_1 = P_2 + \\frac{1}{2}\\rho v_2^2 + \\rho g h_2"
     },
     {
-      "formula_math": "v = \\sqrt{2gh}",
-      "formula_english": "Torricelli's theorem (efflux velocity)."
+      "card_title": "Torricelli's theorem (efflux velocity).",
+      "card_math": "v = \\sqrt{2gh}"
     },
     {
-      "formula_math": "Q = A \\sqrt{2 g h}",
-      "formula_english": "Flow rate in Venturi meter with height difference h."
+      "card_title": "Flow rate in Venturi meter with height difference h.",
+      "card_math": "Q = A \\sqrt{2 g h}"
     },
     {
-      "formula_math": "Q = A_1 A_2 \\sqrt{ \\frac{2 g (P_1 - P_2)}{\\rho (A_1^2 - A_2^2)} }",
-      "formula_english": "Flow rate in Venturi meter using pressure difference."
+      "card_title": "Flow rate in Venturi meter using pressure difference.",
+      "card_math": "Q = A_1 A_2 \\sqrt{ \\frac{2 g (P_1 - P_2)}{\\rho (A_1^2 - A_2^2)} }"
     }
   ]
 }

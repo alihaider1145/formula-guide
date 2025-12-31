@@ -2,40 +2,40 @@
   "chapter": "17. Electronics",
   "formulas": [
     {
-      "formula_math": "I_E = I_B + I_C",
-      "formula_english": "Current relation in transistor."
+      "card_title": "Current relation in transistor.",
+      "card_math": "I_E = I_B + I_C"
     },
     {
-      "formula_math": "\\alpha = \\frac{I_C}{I_E}",
-      "formula_english": "Current amplification factor (alpha)."
+      "card_title": "Current amplification factor (alpha).",
+      "card_math": "\\alpha = \\frac{I_C}{I_E}"
     },
     {
-      "formula_math": "\\beta = \\frac{I_C}{I_B}",
-      "formula_english": "Current gain (beta)."
+      "card_title": "Current gain (beta).",
+      "card_math": "\\beta = \\frac{I_C}{I_B}"
     },
     {
-      "formula_math": "\\beta = \\frac{\\alpha}{1 - \\alpha}",
-      "formula_english": "Relation between alpha and beta."
+      "card_title": "Relation between alpha and beta.",
+      "card_math": "\\beta = \\frac{\\alpha}{1 - \\alpha}"
     },
     {
-      "formula_math": "\\alpha = \\frac{\\beta}{1 + \\beta}",
-      "formula_english": "Alpha in terms of beta."
+      "card_title": "Alpha in terms of beta.",
+      "card_math": "\\alpha = \\frac{\\beta}{1 + \\beta}"
     },
     {
-      "formula_math": "f_c = \\frac{1}{2\\pi RC}",
-      "formula_english": "Cut-off frequency of filter."
+      "card_title": "Cut-off frequency of filter.",
+      "card_math": "f_c = \\frac{1}{2\\pi RC}"
     },
     {
-      "formula_math": "Y = A + B",
-      "formula_english": "OR gate logic."
+      "card_title": "OR gate logic.",
+      "card_math": "Y = A + B"
     },
     {
-      "formula_math": "Y = A \\cdot B",
-      "formula_english": "AND gate logic."
+      "card_title": "AND gate logic.",
+      "card_math": "Y = A \\cdot B"
     },
     {
-      "formula_math": "Y = \\overline{A}",
-      "formula_english": "NOT gate logic."
+      "card_title": "NOT gate logic.",
+      "card_math": "Y = \\overline{A}"
     }
   ]
 }

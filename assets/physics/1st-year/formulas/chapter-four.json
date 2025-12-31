@@ -2,74 +2,74 @@
   "chapter": "4. Work and Energy",
   "formulas": [
     {
-      "formula_math": "W = Fs \\cos \\theta",
-      "formula_english": "Work done by a constant force."
+      "card_title": "Work done by a constant force.",
+      "card_math": "W = Fs \\cos \\theta"
     },
     {
-      "formula_math": "W = Fs",
-      "formula_english": "Work when force is in direction of displacement.",
-      "variants": [
+      "card_title": "Work when force is in direction of displacement.",
+      "card_math": "W = Fs",
+      "card_other": [
         "\\theta = 0°"
       ]
     },
     {
-      "formula_math": "KE = \\frac{1}{2} m v^2",
-      "formula_english": "Kinetic energy."
+      "card_title": "Kinetic energy.",
+      "card_math": "KE = \\frac{1}{2} m v^2"
     },
     {
-      "formula_math": "W_{net} = \\Delta KE = KE_f - KE_i",
-      "formula_english": "Work-energy theorem."
+      "card_title": "Work-energy theorem.",
+      "card_math": "W_{net} = \\Delta KE = KE_f - KE_i"
     },
     {
-      "formula_math": "PE = mgh",
-      "formula_english": "Gravitational potential energy."
+      "card_title": "Gravitational potential energy.",
+      "card_math": "PE = mgh"
     },
     {
-      "formula_math": "PE = \\frac{1}{2} k x^2",
-      "formula_english": "Elastic potential energy."
+      "card_title": "Elastic potential energy.",
+      "card_math": "PE = \\frac{1}{2} k x^2"
     },
     {
-      "formula_math": "F = -kx",
-      "formula_english": "Hooke's law for springs."
+      "card_title": "Hooke's law for springs.",
+      "card_math": "F = -kx"
     },
     {
-      "formula_math": "ME = KE + PE",
-      "formula_english": "Total mechanical energy."
+      "card_title": "Total mechanical energy.",
+      "card_math": "ME = KE + PE"
     },
     {
-      "formula_math": "KE_i + PE_i = KE_f + PE_f",
-      "formula_english": "Conservation of mechanical energy."
+      "card_title": "Conservation of mechanical energy.",
+      "card_math": "KE_i + PE_i = KE_f + PE_f"
     },
     {
-      "formula_math": "KE_i + PE_i = KE_f + PE_f + W_f",
-      "formula_english": "Energy conservation with friction.",
-      "variants": [
+      "card_title": "Energy conservation with friction.",
+      "card_math": "KE_i + PE_i = KE_f + PE_f + W_f",
+      "card_other": [
         "W_f = work done against friction"
       ]
     },
     {
-      "formula_math": "U = -\\frac{1}{4\\pi\\varepsilon_0}\\frac{e^2}{r}",
-      "formula_english": "Absolute electrostatic potential energy of an electron at a distance r from the nucleus, taking zero potential energy at infinity."
+      "card_title": "Absolute electrostatic potential energy of an electron at a distance r from the nucleus, taking zero potential energy at infinity.",
+      "card_math": "U = -\\frac{1}{4\\pi\\varepsilon_0}\\frac{e^2}{r}"
     },
     {
-      "formula_math": "v_e = \\sqrt{\\frac{2GM}{R}}",
-      "formula_english": "Escape velocity required for a body to leave the gravitational field of a planet without further propulsion."
+      "card_title": "Escape velocity required for a body to leave the gravitational field of a planet without further propulsion.",
+      "card_math": "v_e = \\sqrt{\\frac{2GM}{R}}"
     },
     {
-      "formula_math": "P = \\frac{W}{t}",
-      "formula_english": "Average power."
+      "card_title": "Average power.",
+      "card_math": "P = \\frac{W}{t}"
     },
     {
-      "formula_math": "P = Fv",
-      "formula_english": "Instantaneous power."
+      "card_title": "Instantaneous power.",
+      "card_math": "P = Fv"
     },
     {
-      "formula_math": "\\eta = \\frac{W_{out}}{W_{in}} \\times 100\\%",
-      "formula_english": "Efficiency of a machine."
+      "card_title": "Efficiency of a machine.",
+      "card_math": "\\eta = \\frac{W_{out}}{W_{in}} \\times 100\\%"
     },
     {
-      "formula_math": "\\eta = \\frac{P_{out}}{P_{in}} \\times 100\\%",
-      "formula_english": "Efficiency in terms of power."
+      "card_title": "Efficiency in terms of power.",
+      "card_math": "\\eta = \\frac{P_{out}}{P_{in}} \\times 100\\%"
     }
   ]
 }

@@ -2,81 +2,81 @@
   "chapter": "19. Atomic Spectra",
   "formulas": [
     {
-      "formula_math": "\\Delta E = E_i - E_f",
-      "formula_english": "Energy difference between levels."
+      "card_title": "Energy difference between levels.",
+      "card_math": "\\Delta E = E_i - E_f"
     },
     {
-      "formula_math": "hf = E_i - E_f",
-      "formula_english": "Photon energy in transition."
+      "card_title": "Photon energy in transition.",
+      "card_math": "hf = E_i - E_f"
     },
     {
-      "formula_math": "\\frac{1}{\\lambda} = R \\left(\\frac{1}{p^2} - \\frac{1}{n^2}\\right)",
-      "formula_english": "Rydberg formula.",
-      "variants": [
+      "card_title": "Rydberg formula.",
+      "card_math": "\\frac{1}{\\lambda} = R \\left(\\frac{1}{p^2} - \\frac{1}{n^2}\\right)",
+      "card_other": [
         "R = 1.097 \\times 10^7 m^{-1}"
       ]
     },
     {
-      "formula_math": "\\lambda = \\frac{hc}{E_i - E_f}",
-      "formula_english": "Wavelength of emitted photon."
+      "card_title": "Wavelength of emitted photon.",
+      "card_math": "\\lambda = \\frac{hc}{E_i - E_f}"
     },
     {
-      "formula_math": "r_n = n^2 r_1",
-      "formula_english": "Radius of nth Bohr orbit.",
-      "variants": [
+      "card_title": "Radius of nth Bohr orbit.",
+      "card_math": "r_n = n^2 r_1",
+      "card_other": [
         "r_1 = 0.53 Å (Bohr radius)"
       ]
     },
     {
-      "formula_math": "r_n = \\frac{n^2 h^2}{4\\pi^2 mke^2}",
-      "formula_english": "Bohr radius formula (detailed)."
+      "card_title": "Bohr radius formula (detailed).",
+      "card_math": "r_n = \\frac{n^2 h^2}{4\\pi^2 mke^2}"
     },
     {
-      "formula_math": "E_n = -\\frac{13.6}{n^2} \\text{ eV}",
-      "formula_english": "Energy levels of hydrogen atom."
+      "card_title": "Energy levels of hydrogen atom.",
+      "card_math": "E_n = -\\frac{13.6}{n^2} \\text{ eV}"
     },
     {
-      "formula_math": "E_n = -\\frac{E_0}{n^2}",
-      "formula_english": "General form of energy levels.",
-      "variants": [
+      "card_title": "General form of energy levels.",
+      "card_math": "E_n = -\\frac{E_0}{n^2}",
+      "card_other": [
         "E_0 = 13.6 eV"
       ]
     },
     {
-      "formula_math": "E_n = -\\frac{m e^4}{8\\varepsilon_0^2 h^2}\\,\\frac{1}{n^2} = -\\frac{13.6}{n^2}\\,\\text{eV}",
-      "formula_english": "Total energy of an electron in the nth Bohr orbit of a hydrogen atom, showing both the fundamental-constants form and the numerical value in electron-volts."
+      "card_title": "Total energy of an electron in the nth Bohr orbit of a hydrogen atom, showing both the fundamental-constants form and the numerical value in electron-volts.",
+      "card_math": "E_n = -\\frac{m e^4}{8\\varepsilon_0^2 h^2}\\,\\frac{1}{n^2} = -\\frac{13.6}{n^2}\\,\\text{eV}"
     },
     {
-      "formula_math": "v_n = \\frac{v_1}{n}",
-      "formula_english": "Velocity in nth orbit."
+      "card_title": "Velocity in nth orbit.",
+      "card_math": "v_n = \\frac{v_1}{n}"
     },
     {
-      "formula_math": "v_n = \\frac{2\\pi ke^2}{nh}",
-      "formula_english": "Orbital velocity formula."
+      "card_title": "Orbital velocity formula.",
+      "card_math": "v_n = \\frac{2\\pi ke^2}{nh}"
     },
     {
-      "formula_math": "L = n\\frac{h}{2\\pi} = n\\hbar",
-      "formula_english": "Quantization of angular momentum."
+      "card_title": "Quantization of angular momentum.",
+      "card_math": "L = n\\frac{h}{2\\pi} = n\\hbar"
     },
     {
-      "formula_math": "mvr = \\frac{nh}{2\\pi}",
-      "formula_english": "Bohr's quantization condition."
+      "card_title": "Bohr's quantization condition.",
+      "card_math": "mvr = \\frac{nh}{2\\pi}"
     },
     {
-      "formula_math": "\\frac{mv^2}{r} = \\frac{1}{4\\pi\\varepsilon_0}\\frac{e^2}{r^2}",
-      "formula_english": "In Bohr postulate one, the electrostatic force between nucleus and electron provides the centripetal force for circular orbit."
+      "card_title": "In Bohr postulate one, the electrostatic force between nucleus and electron provides the centripetal force for circular orbit.",
+      "card_math": "\\frac{mv^2}{r} = \\frac{1}{4\\pi\\varepsilon_0}\\frac{e^2}{r^2}"
     },
     {
-      "formula_math": "KE_n = \\frac{13.6}{n^2} \\text{ eV}",
-      "formula_english": "Kinetic energy in nth orbit."
+      "card_title": "Kinetic energy in nth orbit.",
+      "card_math": "KE_n = \\frac{13.6}{n^2} \\text{ eV}"
     },
     {
-      "formula_math": "PE_n = -\\frac{27.2}{n^2} \\text{ eV}",
-      "formula_english": "Potential energy in nth orbit."
+      "card_title": "Potential energy in nth orbit.",
+      "card_math": "PE_n = -\\frac{27.2}{n^2} \\text{ eV}"
     },
     {
-      "formula_math": "E_n = KE_n + PE_n = -\\frac{13.6}{n^2} \\text{ eV}",
-      "formula_english": "Total energy in nth orbit."
+      "card_title": "Total energy in nth orbit.",
+      "card_math": "E_n = KE_n + PE_n = -\\frac{13.6}{n^2} \\text{ eV}"
     }
   ]
 }

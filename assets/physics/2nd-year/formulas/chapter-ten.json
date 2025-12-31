@@ -2,71 +2,71 @@
   "chapter": "20. Nuclear Physics",
   "formulas": [
     {
-      "formula_math": "\\Delta m = (Zm_p + Nm_n) - M_{nucleus}",
-      "formula_english": "Mass defect."
+      "card_title": "Mass defect.",
+      "card_math": "\\Delta m = (Zm_p + Nm_n) - M_{nucleus}"
     },
     {
-      "formula_math": "E_b = \\Delta m c^2",
-      "formula_english": "Binding energy."
+      "card_title": "Binding energy.",
+      "card_math": "E_b = \\Delta m c^2"
     },
     {
-      "formula_math": "\\frac{E_b}{A}",
-      "formula_english": "Binding energy per nucleon."
+      "card_title": "Binding energy per nucleon.",
+      "card_math": "\\frac{E_b}{A}"
     },
     {
-      "formula_math": "1 \\text{ amu} = 931.5 \\text{ MeV/c}^2",
-      "formula_english": "Atomic mass unit conversion."
+      "card_title": "Atomic mass unit conversion.",
+      "card_math": "1 \\text{ amu} = 931.5 \\text{ MeV/c}^2"
     },
     {
-      "formula_math": "N = N_0 e^{-\\lambda t}",
-      "formula_english": "Radioactive decay law."
+      "card_title": "Radioactive decay law.",
+      "card_math": "N = N_0 e^{-\\lambda t}"
     },
     {
-      "formula_math": "A = A_0 e^{-\\lambda t}",
-      "formula_english": "Activity decay."
+      "card_title": "Activity decay.",
+      "card_math": "A = A_0 e^{-\\lambda t}"
     },
     {
-      "formula_math": "A = \\lambda N",
-      "formula_english": "Activity definition."
+      "card_title": "Activity definition.",
+      "card_math": "A = \\lambda N"
     },
     {
-      "formula_math": "T_{1/2} = \\frac{0.693}{\\lambda}",
-      "formula_english": "Half-life relation."
+      "card_title": "Half-life relation.",
+      "card_math": "T_{1/2} = \\frac{0.693}{\\lambda}"
     },
     {
-      "formula_math": "\\lambda = \\frac{\\ln 2}{T_{1/2}}",
-      "formula_english": "Decay constant from half-life."
+      "card_title": "Decay constant from half-life.",
+      "card_math": "\\lambda = \\frac{\\ln 2}{T_{1/2}}"
     },
     {
-      "formula_math": "N = N_0 \\left(\\frac{1}{2}\\right)^{t/T_{1/2}}",
-      "formula_english": "Decay in terms of half-life."
+      "card_title": "Decay in terms of half-life.",
+      "card_math": "N = N_0 \\left(\\frac{1}{2}\\right)^{t/T_{1/2}}"
     },
     {
-      "formula_math": "N = N_0 2^{-n}",
-      "formula_english": "After n half-lives.",
-      "variants": [
+      "card_title": "After n half-lives.",
+      "card_math": "N = N_0 2^{-n}",
+      "card_other": [
         "n = t/T_{1/2}"
       ]
     },
     {
-      "formula_math": "t_{avg} = \\frac{T_{1/2}}{0.693} = \\frac{1}{\\lambda}",
-      "formula_english": "Average (mean) life."
+      "card_title": "Average (mean) life.",
+      "card_math": "t_{avg} = \\frac{T_{1/2}}{0.693} = \\frac{1}{\\lambda}"
     },
     {
-      "formula_math": "Q = (m_i - m_f)c^2",
-      "formula_english": "Q-value of nuclear reaction."
+      "card_title": "Q-value of nuclear reaction.",
+      "card_math": "Q = (m_i - m_f)c^2"
     },
     {
-      "formula_math": "E = hf = \\frac{hc}{\\lambda}",
-      "formula_english": "Gamma ray energy."
+      "card_title": "Gamma ray energy.",
+      "card_math": "E = hf = \\frac{hc}{\\lambda}"
     },
     {
-      "formula_math": "KE = \\frac{1}{2}mv^2",
-      "formula_english": "Kinetic energy of particles."
+      "card_title": "Kinetic energy of particles.",
+      "card_math": "KE = \\frac{1}{2}mv^2"
     },
     {
-      "formula_math": "\\frac{dN}{dt} = -\\lambda N",
-      "formula_english": "Rate of decay."
+      "card_title": "Rate of decay.",
+      "card_math": "\\frac{dN}{dt} = -\\lambda N"
     }
   ]
 }

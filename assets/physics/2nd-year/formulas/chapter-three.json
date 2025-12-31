@@ -2,81 +2,81 @@
   "chapter": "13. Electromagnetism",
   "formulas": [
     {
-      "formula_math": "F = qvB \\sin \\theta",
-      "formula_english": "Magnetic force on moving charge."
+      "card_title": "Magnetic force on moving charge.",
+      "card_math": "F = qvB \\sin \\theta"
     },
     {
-      "formula_math": "\\vec{F} = q(\\vec{v} \\times \\vec{B})",
-      "formula_english": "Lorentz force (vector form)."
+      "card_title": "Lorentz force (vector form).",
+      "card_math": "\\vec{F} = q(\\vec{v} \\times \\vec{B})"
     },
     {
-      "formula_math": "r = \\frac{mv}{qB}",
-      "formula_english": "Radius of circular path in magnetic field."
+      "card_title": "Radius of circular path in magnetic field.",
+      "card_math": "r = \\frac{mv}{qB}"
     },
     {
-      "formula_math": "T = \\frac{2\\pi m}{qB}",
-      "formula_english": "Period of circular motion in magnetic field.",
-      "variants": "Cyclotron frequency f = \\frac{qB}{2\\pi m}"
+      "card_title": "Period of circular motion in magnetic field.",
+      "card_math": "T = \\frac{2\\pi m}{qB}",
+      "card_other": "Cyclotron frequency f = \\frac{qB}{2\\pi m}"
     },
     {
-      "formula_math": "v = \\frac{E}{B}",
-      "formula_english": "Velocity of a charged particle selected when electric and magnetic forces balance."
+      "card_title": "Velocity of a charged particle selected when electric and magnetic forces balance.",
+      "card_math": "v = \\frac{E}{B}"
     },
     {
-      "formula_math": "\\frac{e}{m} = \\frac{2V}{B^2 r^2}",
-      "formula_english": "Charge to mass ratio (e/m) of an electron."
+      "card_title": "Charge to mass ratio (e/m) of an electron.",
+      "card_math": "\\frac{e}{m} = \\frac{2V}{B^2 r^2}"
     },
     {
-      "formula_math": "F = BIl \\sin \\theta",
-      "formula_english": "Force on current-carrying conductor."
+      "card_title": "Force on current-carrying conductor.",
+      "card_math": "F = BIl \\sin \\theta"
     },
     {
-      "formula_math": "\\tau = NIAB \\sin \\theta",
-      "formula_english": "Torque on current loop."
+      "card_title": "Torque on current loop.",
+      "card_math": "\\tau = NIAB \\sin \\theta"
     },
     {
-      "formula_math": "B = \\frac{\\mu_0 I}{2\\pi r}",
-      "formula_english": "Magnetic field due to straight wire."
+      "card_title": "Magnetic field due to straight wire.",
+      "card_math": "B = \\frac{\\mu_0 I}{2\\pi r}"
     },
     {
-      "formula_math": "B = \\mu_0 nI",
-      "formula_english": "Magnetic field inside solenoid."
+      "card_title": "Magnetic field inside solenoid.",
+      "card_math": "B = \\mu_0 nI"
     },
     {
-      "formula_math": "\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I_{enclosed}",
-      "formula_english": "Ampere's law."
+      "card_title": "Ampere's law.",
+      "card_math": "\\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I_{enclosed}"
     },
     {
-      "formula_math": "\\mu_r = \\frac{mu}{mu_0}",
-      "formula_english": "Relative permeability."
+      "card_title": "Relative permeability.",
+      "card_math": "\\mu_r = \\frac{mu}{mu_0}"
     },
     {
-      "formula_math": "I = \\frac{c\\,\\theta}{NAB}",
-      "formula_english": "Current through a galvanometer expressed in terms of torsional constant, deflection, number of turns, area, and magnetic field."
+      "card_title": "Current through a galvanometer expressed in terms of torsional constant, deflection, number of turns, area, and magnetic field.",
+      "card_math": "I = \\frac{c\\,\\theta}{NAB}"
     },
     {
-      "formula_math": "R_s = \\frac{G I_g}{I - I_g}",
-      "formula_english": "Shunt resistance required to convert a galvanometer into an ammeter."
+      "card_title": "Shunt resistance required to convert a galvanometer into an ammeter.",
+      "card_math": "R_s = \\frac{G I_g}{I - I_g}"
     },
     {
-      "formula_math": "R = \\frac{V}{I_g} - G",
-      "formula_english": "High resistance required to convert a galvanometer into a voltmeter."
+      "card_title": "High resistance required to convert a galvanometer into a voltmeter.",
+      "card_math": "R = \\frac{V}{I_g} - G"
     },
     {
-      "formula_math": "V_1 = V_2 = V_3 = \\cdots = V",
-      "formula_english": "In a parallel circuit, the potential difference across each branch is the same."
+      "card_title": "In a parallel circuit, the potential difference across each branch is the same.",
+      "card_math": "V_1 = V_2 = V_3 = \\cdots = V"
     },
     {
-      "formula_math": "I = I_1 + I_2 + I_3 + \\cdots",
-      "formula_english": "In a parallel circuit, the total current is divided among the branches."
+      "card_title": "In a parallel circuit, the total current is divided among the branches.",
+      "card_math": "I = I_1 + I_2 + I_3 + \\cdots"
     },
     {
-      "formula_math": "I_1 = I_2 = I_3 = \\cdots = I",
-      "formula_english": "In a series circuit, the same current flows through all components."
+      "card_title": "In a series circuit, the same current flows through all components.",
+      "card_math": "I_1 = I_2 = I_3 = \\cdots = I"
     },
     {
-      "formula_math": "V = V_1 + V_2 + V_3 + \\cdots",
-      "formula_english": "In a series circuit, the total potential difference is divided across components."
+      "card_title": "In a series circuit, the total potential difference is divided across components.",
+      "card_math": "V = V_1 + V_2 + V_3 + \\cdots"
     }
   ]
 }

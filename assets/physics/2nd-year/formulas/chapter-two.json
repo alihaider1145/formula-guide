@@ -2,92 +2,92 @@
   "chapter": "12. Current Electricity",
   "formulas": [
     {
-      "formula_math": "I = \\frac{Q}{t}",
-      "formula_english": "Electric current."
+      "card_title": "Electric current.",
+      "card_math": "I = \\frac{Q}{t}"
     },
     {
-      "formula_math": "V = IR",
-      "formula_english": "Ohm's law."
+      "card_title": "Ohm's law.",
+      "card_math": "V = IR"
     },
     {
-      "formula_math": "R = \\rho \\frac{l}{A}",
-      "formula_english": "Resistance of conductor."
+      "card_title": "Resistance of conductor.",
+      "card_math": "R = \\rho \\frac{l}{A}"
     },
     {
-      "formula_math": "\\rho = \\rho_0 (1 + \\alpha \\Delta T)",
-      "formula_english": "Temperature dependence of resistivity."
+      "card_title": "Temperature dependence of resistivity.",
+      "card_math": "\\rho = \\rho_0 (1 + \\alpha \\Delta T)"
     },
     {
-      "formula_math": "G = \\frac{1}{R}",
-      "formula_english": "Conductance."
+      "card_title": "Conductance.",
+      "card_math": "G = \\frac{1}{R}"
     },
     {
-      "formula_math": "\\rho = \\frac{RA}{l}",
-      "formula_english": "Resistivity of a material in terms of resistance, length, and cross-sectional area."
+      "card_title": "Resistivity of a material in terms of resistance, length, and cross-sectional area.",
+      "card_math": "\\rho = \\frac{RA}{l}"
     },
     {
-      "formula_math": "\\sigma = \\frac{1}{\\rho}",
-      "formula_english": "Conductivity defined as the reciprocal of resistivity."
+      "card_title": "Conductivity defined as the reciprocal of resistivity.",
+      "card_math": "\\sigma = \\frac{1}{\\rho}"
     },
     {
-      "formula_math": "R_s = R_1 + R_2 + ...",
-      "formula_english": "Resistors in series."
+      "card_title": "Resistors in series.",
+      "card_math": "R_s = R_1 + R_2 + ..."
     },
     {
-      "formula_math": "\\frac{1}{R_p} = \\frac{1}{R_1} + \\frac{1}{R_2} + ...",
-      "formula_english": "Resistors in parallel."
+      "card_title": "Resistors in parallel.",
+      "card_math": "\\frac{1}{R_p} = \\frac{1}{R_1} + \\frac{1}{R_2} + ..."
     },
     {
-      "formula_math": "\\text{emf} = \\frac{W}{Q}",
-      "formula_english": "Electromotive force defined as work done per unit charge."
+      "card_title": "Electromotive force defined as work done per unit charge.",
+      "card_math": "\\text{emf} = \\frac{W}{Q}"
     },
     {
-      "formula_math": "\\varepsilon = I(R + r)",
-      "formula_english": "EMF and internal resistance."
+      "card_title": "EMF and internal resistance.",
+      "card_math": "\\varepsilon = I(R + r)"
     },
     {
-      "formula_math": "V = \\varepsilon - Ir",
-      "formula_english": "Terminal voltage."
+      "card_title": "Terminal voltage.",
+      "card_math": "V = \\varepsilon - Ir"
     },
     {
-      "formula_math": "P = VI",
-      "formula_english": "Electric power."
+      "card_title": "Electric power.",
+      "card_math": "P = VI"
     },
     {
-      "formula_math": "P = I^2 R",
-      "formula_english": "Power (current form)."
+      "card_title": "Power (current form).",
+      "card_math": "P = I^2 R"
     },
     {
-      "formula_math": "P = \\frac{V^2}{R}",
-      "formula_english": "Power (voltage form)."
+      "card_title": "Power (voltage form).",
+      "card_math": "P = \\frac{V^2}{R}"
     },
     {
-      "formula_math": "E = Pt",
-      "formula_english": "Electrical energy."
+      "card_title": "Electrical energy.",
+      "card_math": "E = Pt"
     },
     {
-      "formula_math": "P_{\\text{max}} = \\frac{E^2}{4r}",
-      "formula_english": "Maximum power output of a source when external resistance equals internal resistance."
+      "card_title": "Maximum power output of a source when external resistance equals internal resistance.",
+      "card_math": "P_{\\text{max}} = \\frac{E^2}{4r}"
     },
     {
-      "formula_math": "\\sum I = 0",
-      "formula_english": "Kirchhoff's current law (junction rule)."
+      "card_title": "Kirchhoff's current law (junction rule).",
+      "card_math": "\\sum I = 0"
     },
     {
-      "formula_math": "\\sum \\varepsilon = \\sum IR",
-      "formula_english": "Kirchhoff's voltage law (loop rule)."
+      "card_title": "Kirchhoff's voltage law (loop rule).",
+      "card_math": "\\sum \\varepsilon = \\sum IR"
     },
     {
-      "formula_math": "\\frac{P}{Q} = \\frac{R}{X}",
-      "formula_english": "Wheatstone bridge balance condition."
+      "card_title": "Wheatstone bridge balance condition.",
+      "card_math": "\\frac{P}{Q} = \\frac{R}{X}"
     },
     {
-      "formula_math": "R_x = \\frac{R_2}{R_1} R_3",
-      "formula_english": "Unknown resistance in Wheatstone bridge."
+      "card_title": "Unknown resistance in Wheatstone bridge.",
+      "card_math": "R_x = \\frac{R_2}{R_1} R_3"
     },
     {
-      "formula_math": "S = \\frac{l}{RA}",
-      "formula_english": "Specific conductance."
+      "card_title": "Specific conductance.",
+      "card_math": "S = \\frac{l}{RA}"
     }
   ]
 }

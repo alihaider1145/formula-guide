@@ -2,76 +2,76 @@
   "chapter": "15. Alternating Current",
   "formulas": [
     {
-      "formula_math": "V = V_0 \\sin(\\omega t)",
-      "formula_english": "Instantaneous AC voltage."
+      "card_title": "Instantaneous AC voltage.",
+      "card_math": "V = V_0 \\sin(\\omega t)"
     },
     {
-      "formula_math": "I = I_0 \\sin(\\omega t)",
-      "formula_english": "Instantaneous AC current."
+      "card_title": "Instantaneous AC current.",
+      "card_math": "I = I_0 \\sin(\\omega t)"
     },
     {
-      "formula_math": "V_{rms} = \\frac{V_0}{\\sqrt{2}}",
-      "formula_english": "RMS voltage."
+      "card_title": "RMS voltage.",
+      "card_math": "V_{rms} = \\frac{V_0}{\\sqrt{2}}"
     },
     {
-      "formula_math": "I_{rms} = \\frac{I_0}{\\sqrt{2}}",
-      "formula_english": "RMS current."
+      "card_title": "RMS current.",
+      "card_math": "I_{rms} = \\frac{I_0}{\\sqrt{2}}"
     },
     {
-      "formula_math": "X_L = \\omega L = 2\\pi f L",
-      "formula_english": "Inductive reactance."
+      "card_title": "Inductive reactance.",
+      "card_math": "X_L = \\omega L = 2\\pi f L"
     },
     {
-      "formula_math": "X_C = \\frac{1}{\\omega C} = \\frac{1}{2\\pi f C}",
-      "formula_english": "Capacitive reactance."
+      "card_title": "Capacitive reactance.",
+      "card_math": "X_C = \\frac{1}{\\omega C} = \\frac{1}{2\\pi f C}"
     },
     {
-      "formula_math": "V_L = I_0 X_L",
-      "formula_english": "Voltage across inductor."
+      "card_title": "Voltage across inductor.",
+      "card_math": "V_L = I_0 X_L"
     },
     {
-      "formula_math": "V_C = I_0 X_C",
-      "formula_english": "Voltage across capacitor."
+      "card_title": "Voltage across capacitor.",
+      "card_math": "V_C = I_0 X_C"
     },
     {
-      "formula_math": "Z = \\sqrt{R^2 + (X_L - X_C)^2}",
-      "formula_english": "Impedance of RLC circuit."
+      "card_title": "Impedance of RLC circuit.",
+      "card_math": "Z = \\sqrt{R^2 + (X_L - X_C)^2}"
     },
     {
-      "formula_math": "I = \\frac{V}{Z}",
-      "formula_english": "Current in AC circuit."
+      "card_title": "Current in AC circuit.",
+      "card_math": "I = \\frac{V}{Z}"
     },
     {
-      "formula_math": "\\tan \\phi = \\frac{X_L - X_C}{R}",
-      "formula_english": "Phase angle."
+      "card_title": "Phase angle.",
+      "card_math": "\\tan \\phi = \\frac{X_L - X_C}{R}"
     },
     {
-      "formula_math": "\\cos \\phi = \\frac{R}{Z}",
-      "formula_english": "Power factor."
+      "card_title": "Power factor.",
+      "card_math": "\\cos \\phi = \\frac{R}{Z}"
     },
     {
-      "formula_math": "P_{avg} = V_{rms} I_{rms} \\cos \\phi",
-      "formula_english": "Average power in AC circuit."
+      "card_title": "Average power in AC circuit.",
+      "card_math": "P_{avg} = V_{rms} I_{rms} \\cos \\phi"
     },
     {
-      "formula_math": "P = I_{rms}^2 R",
-      "formula_english": "Power dissipated in resistance."
+      "card_title": "Power dissipated in resistance.",
+      "card_math": "P = I_{rms}^2 R"
     },
     {
-      "formula_math": "f_0 = \\frac{1}{2\\pi \\sqrt{LC}}",
-      "formula_english": "Resonant frequency."
+      "card_title": "Resonant frequency.",
+      "card_math": "f_0 = \\frac{1}{2\\pi \\sqrt{LC}}"
     },
     {
-      "formula_math": "\\omega_0 = \\frac{1}{\\sqrt{LC}}",
-      "formula_english": "Angular resonant frequency."
+      "card_title": "Angular resonant frequency.",
+      "card_math": "\\omega_0 = \\frac{1}{\\sqrt{LC}}"
     },
     {
-      "formula_math": "Z_{min} = R",
-      "formula_english": "Impedance at resonance."
+      "card_title": "Impedance at resonance.",
+      "card_math": "Z_{min} = R"
     },
     {
-      "formula_math": "I_{max} = \\frac{V_0}{R}",
-      "formula_english": "Maximum current at resonance."
+      "card_title": "Maximum current at resonance.",
+      "card_math": "I_{max} = \\frac{V_0}{R}"
     }
   ]
 }

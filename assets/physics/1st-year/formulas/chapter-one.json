@@ -2,63 +2,64 @@
   "chapter": "1. Measurement",
   "formulas": [
     {
-      "card_eng": "Least count of vernier caliper.",
+      "card_title": "Least count of vernier caliper.",
       "card_math": "\\text{Least Count} = \\frac{\\text{1 MSD}}{\\text{Total vernier divisions}}"
     },
     {
-      "card_eng": "Least count of screw gauge/micrometer.",
+      "card_title": "Least count of screw gauge/micrometer.",
       "card_math": "\\text{Least Count} = \\frac{\\text{Pitch}}{\\text{Total circular divisions}}"
     },
     {
-      "card_eng": "Total reading for vernier caliper.",
+      "card_title": "Total reading for vernier caliper.",
       "card_math": "\\text{Reading} = \\text{MSR} + (\\text{VSD} \\times \\text{LC})"
     },
     {
-      "card_eng": "Absolute error.",
+      "card_title": "Absolute error.",
       "card_math": "\\text{Error} = |\\text{True Value} - \\text{Measured Value}|"
     },
     {
-      "card_eng": "Fractional (relative) error.",
+      "card_title": "Fractional (relative) error.",
       "card_math": "\\text{Fractional Error} = \\frac{\\Delta x}{x}"
     },
     {
-      "card_eng": "Percentage error.",
+      "card_title": "Percentage error.",
       "card_math": "\\% \\text{Error} = \\frac{\\Delta x}{x} \\times 100"
     },
     {
-      "card_eng": "Error propagation for addition/subtraction (Z = A ± B).",
+      "card_title": "Error propagation for addition/subtraction (Z = A ± B).",
       "card_math": "\\Delta Z = \\Delta A + \\Delta B"
     },
     {
-      "card_eng": "Fractional error for multiplication/division (Z = A × B or Z = A / B).",
+      "card_title": "Fractional error for multiplication/division (Z = A × B or Z = A / B).",
       "card_math": "\\frac{\\Delta Z}{Z} = \\frac{\\Delta A}{A} + \\frac{\\Delta B}{B}"
     },
     {
-      "card_eng": "Fractional error for power function (Z = A^n).",
+      "card_title": "Fractional error for power function (Z = A^n).",
       "card_math": "\\frac{\\Delta Z}{Z} = n \\frac{\\Delta A}{A}"
     },
     {
-      "card_eng": "Dimensional formula representation.",
+      "card_title": "Dimensional formula representation.",
       "card_math": "[L^a M^b T^c]",
       "card_other": [
         "L = Length, M = Mass, T = Time"
       ]
     },
     {
-      "card_eng": "Dimensional formula for velocity.",
+      "card_title": "Dimensional formula for velocity.",
       "card_math": "[v] = [L T^{-1}]"
     },
     {
-      "card_eng": "Dimensional formula for acceleration.",
+      "card_title": "Dimensional formula for acceleration.",
       "card_math": "[a] = [L T^{-2}]"
     },
     {
-      "card_eng": "Dimensional formula for force.",
+      "card_title": "Dimensional formula for force.",
       "card_math": "[F] = [M L T^{-2}]"
     },
     {
-      "card_eng": "Dimensional formula for energy/work.",
+      "card_title": "Dimensional formula for energy/work.",
       "card_math": "[E] = [M L^2 T^{-2}]"
     }
   ]
 }
+

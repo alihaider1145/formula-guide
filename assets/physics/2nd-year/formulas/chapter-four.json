@@ -2,64 +2,64 @@
   "chapter": "14. Electromagnetic Induction",
   "formulas": [
     {
-      "formula_math": "\\Phi_B = BA \\cos \\theta",
-      "formula_english": "Magnetic flux."
+      "card_title": "Magnetic flux.",
+      "card_math": "\\Phi_B = BA \\cos \\theta"
     },
     {
-      "formula_math": "\\varepsilon = -N \\frac{d\\Phi_B}{dt}",
-      "formula_english": "Faraday's law of induction."
+      "card_title": "Faraday's law of induction.",
+      "card_math": "\\varepsilon = -N \\frac{d\\Phi_B}{dt}"
     },
     {
-      "formula_math": "P = I^2 R = \\frac{B^2 l^2 v^2}{R}",
-      "formula_english": "Power dissipated as heat in a conductor due to motional electromotive force induction."
+      "card_title": "Power dissipated as heat in a conductor due to motional electromotive force induction.",
+      "card_math": "P = I^2 R = \\frac{B^2 l^2 v^2}{R}"
     },
     {
-      "formula_math": "L = \\frac{N\\Phi}{I}",
-      "formula_english": "Self inductance defined as magnetic flux linkage per unit current."
+      "card_title": "Self inductance defined as magnetic flux linkage per unit current.",
+      "card_math": "L = \\frac{N\\Phi}{I}"
     },
     {
-      "formula_math": "\\varepsilon = -\\frac{d\\Phi_B}{dt}",
-      "formula_english": "Induced EMF (single loop)."
+      "card_title": "Induced EMF (single loop).",
+      "card_math": "\\varepsilon = -\\frac{d\\Phi_B}{dt}"
     },
     {
-      "formula_math": "\\varepsilon = Blv",
-      "formula_english": "Motional EMF."
+      "card_title": "Motional EMF.",
+      "card_math": "\\varepsilon = Blv"
     },
     {
-      "formula_math": "\\varepsilon = NAB\\omega \\sin(\\omega t)",
-      "formula_english": "EMF in rotating coil (AC generator)."
+      "card_title": "EMF in rotating coil (AC generator).",
+      "card_math": "\\varepsilon = NAB\\omega \\sin(\\omega t)"
     },
     {
-      "formula_math": "\\varepsilon_0 = NAB\\omega",
-      "formula_english": "Peak EMF in AC generator."
+      "card_title": "Peak EMF in AC generator.",
+      "card_math": "\\varepsilon_0 = NAB\\omega"
     },
     {
-      "formula_math": "\\varepsilon = -M \\frac{dI}{dt}",
-      "formula_english": "Mutual induction."
+      "card_title": "Mutual induction.",
+      "card_math": "\\varepsilon = -M \\frac{dI}{dt}"
     },
     {
-      "formula_math": "\\varepsilon = -L \\frac{dI}{dt}",
-      "formula_english": "Self-induction."
+      "card_title": "Self-induction.",
+      "card_math": "\\varepsilon = -L \\frac{dI}{dt}"
     },
     {
-      "formula_math": "L = \\frac{N\\Phi_B}{I}",
-      "formula_english": "Self-inductance definition."
+      "card_title": "Self-inductance definition.",
+      "card_math": "L = \\frac{N\\Phi_B}{I}"
     },
     {
-      "formula_math": "\\frac{V_s}{V_p} = \\frac{N_s}{N_p}",
-      "formula_english": "Transformer voltage relation."
+      "card_title": "Transformer voltage relation.",
+      "card_math": "\\frac{V_s}{V_p} = \\frac{N_s}{N_p}"
     },
     {
-      "formula_math": "\\frac{I_s}{I_p} = \\frac{N_p}{N_s}",
-      "formula_english": "Transformer current relation."
+      "card_title": "Transformer current relation.",
+      "card_math": "\\frac{I_s}{I_p} = \\frac{N_p}{N_s}"
     },
     {
-      "formula_math": "\\frac{V_s}{V_p} = \\frac{I_p}{I_s}",
-      "formula_english": "Ideal transformer power relation."
+      "card_title": "Ideal transformer power relation.",
+      "card_math": "\\frac{V_s}{V_p} = \\frac{I_p}{I_s}"
     },
     {
-      "formula_math": "\\eta = \\frac{P_{out}}{P_{in}} \\times 100\\%",
-      "formula_english": "Transformer efficiency."
+      "card_title": "Transformer efficiency.",
+      "card_math": "\\eta = \\frac{P_{out}}{P_{in}} \\times 100\\%"
     }
   ]
 }

@@ -2,36 +2,36 @@
   "chapter": "16. Physics of Solids",
   "formulas": [
     {
-      "formula_math": "\\sigma = \\frac{F}{A}",
-      "formula_english": "Stress (tensile or compressive)."
+      "card_title": "Stress (tensile or compressive).",
+      "card_math": "\\sigma = \\frac{F}{A}"
     },
     {
-      "formula_math": "\\varepsilon = \\frac{\\Delta L}{L}",
-      "formula_english": "Strain (longitudinal)."
+      "card_title": "Strain (longitudinal).",
+      "card_math": "\\varepsilon = \\frac{\\Delta L}{L}"
     },
     {
-      "formula_math": "Y = \\frac{\\sigma}{\\varepsilon} = \\frac{FL}{A\\Delta L}",
-      "formula_english": "Young's modulus."
+      "card_title": "Young's modulus.",
+      "card_math": "Y = \\frac{\\sigma}{\\varepsilon} = \\frac{FL}{A\\Delta L}"
     },
     {
-      "formula_math": "K = -\\frac{\\Delta P}{\\Delta V / V}",
-      "formula_english": "Bulk modulus."
+      "card_title": "Bulk modulus.",
+      "card_math": "K = -\\frac{\\Delta P}{\\Delta V / V}"
     },
     {
-      "formula_math": "G = \\frac{\\tau}{\\gamma}",
-      "formula_english": "Shear modulus (rigidity modulus)."
+      "card_title": "Shear modulus (rigidity modulus).",
+      "card_math": "G = \\frac{\\tau}{\\gamma}"
     },
     {
-      "formula_math": "\\tau = \\frac{F}{A}",
-      "formula_english": "Shear stress."
+      "card_title": "Shear stress.",
+      "card_math": "\\tau = \\frac{F}{A}"
     },
     {
-      "formula_math": "\\gamma = \\frac{\\Delta x}{h}",
-      "formula_english": "Shear strain."
+      "card_title": "Shear strain.",
+      "card_math": "\\gamma = \\frac{\\Delta x}{h}"
     },
     {
-      "formula_math": "E_g = E_C - E_V",
-      "formula_english": "Energy band gap."
+      "card_title": "Energy band gap.",
+      "card_math": "E_g = E_C - E_V"
     }
   ]
 }

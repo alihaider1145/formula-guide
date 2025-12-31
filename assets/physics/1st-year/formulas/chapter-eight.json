@@ -2,106 +2,106 @@
   "chapter": "8. Waves",
   "formulas": [
     {
-      "formula_math": "v = f\\lambda",
-      "formula_english": "Wave equation."
+      "card_title": "Wave equation.",
+      "card_math": "v = f\\lambda"
     },
     {
-      "formula_math": "T = \\frac{1}{f}",
-      "formula_english": "Period and frequency relation."
+      "card_title": "Period and frequency relation.",
+      "card_math": "T = \\frac{1}{f}"
     },
     {
-      "formula_math": "y = A \\sin(kx - \\omega t)",
-      "formula_english": "Progressive wave equation."
+      "card_title": "Progressive wave equation.",
+      "card_math": "y = A \\sin(kx - \\omega t)"
     },
     {
-      "formula_math": "k = \\frac{2\\pi}{\\lambda}",
-      "formula_english": "Wave number."
+      "card_title": "Wave number.",
+      "card_math": "k = \\frac{2\\pi}{\\lambda}"
     },
     {
-      "formula_math": "\\omega = 2\\pi f",
-      "formula_english": "Angular frequency."
+      "card_title": "Angular frequency.",
+      "card_math": "\\omega = 2\\pi f"
     },
     {
-      "formula_math": "v = \\frac{\\omega}{k}",
-      "formula_english": "Wave speed from angular quantities."
+      "card_title": "Wave speed from angular quantities.",
+      "card_math": "v = \\frac{\\omega}{k}"
     },
     {
-      "formula_math": "v = \\sqrt{\\frac{T}{\\mu}}",
-      "formula_english": "Speed of wave on a string.",
-      "variants": [
+      "card_title": "Speed of wave on a string.",
+      "card_math": "v = \\sqrt{\\frac{T}{\\mu}}",
+      "card_other": [
         "T = tension, \\mu = mass per unit length"
       ]
     },
     {
-      "formula_math": "v = \\sqrt{\\frac{E}{\\rho}}",
-      "formula_english": "Speed of longitudinal wave in solid."
+      "card_title": "Speed of longitudinal wave in solid.",
+      "card_math": "v = \\sqrt{\\frac{E}{\\rho}}"
     },
     {
-      "formula_math": "v = \\sqrt{\\frac{B}{\\rho}}",
-      "formula_english": "Speed of sound in fluid."
+      "card_title": "Speed of sound in fluid.",
+      "card_math": "v = \\sqrt{\\frac{B}{\\rho}}"
     },
     {
-      "formula_math": "v = \\sqrt{\\frac{\\gamma P}{\\rho}}",
-      "formula_english": "Speed of sound in gas."
+      "card_title": "Speed of sound in gas.",
+      "card_math": "v = \\sqrt{\\frac{\\gamma P}{\\rho}}"
     },
     {
-      "formula_math": "v = 331 + 0.6t",
-      "formula_english": "Speed of sound in air at temperature t°C."
+      "card_title": "Speed of sound in air at temperature t°C.",
+      "card_math": "v = 331 + 0.6t"
     },
     {
-      "formula_math": "I = \\frac{P}{A}",
-      "formula_english": "Intensity of wave."
+      "card_title": "Intensity of wave.",
+      "card_math": "I = \\frac{P}{A}"
     },
     {
-      "formula_math": "I \\propto \\frac{1}{r^2}",
-      "formula_english": "Inverse square law for intensity."
+      "card_title": "Inverse square law for intensity.",
+      "card_math": "I \\propto \\frac{1}{r^2}"
     },
     {
-      "formula_math": "I = 2\\pi^2 f^2 A^2 \\rho v",
-      "formula_english": "Intensity in terms of amplitude."
+      "card_title": "Intensity in terms of amplitude.",
+      "card_math": "I = 2\\pi^2 f^2 A^2 \\rho v"
     },
     {
-      "formula_math": "\\beta = 10 \\log_{10} \\left(\\frac{I}{I_0}\\right)",
-      "formula_english": "Sound intensity level in decibels.",
-      "variants": [
+      "card_title": "Sound intensity level in decibels.",
+      "card_math": "\\beta = 10 \\log_{10} \\left(\\frac{I}{I_0}\\right)",
+      "card_other": [
         "I_0 = 10^{-12} W/m^2"
       ]
     },
     {
-      "formula_math": "y = 2A \\cos\\left(\\frac{\\phi}{2}\\right) \\sin(kx - \\omega t)",
-      "formula_english": "Resultant of two interfering waves."
+      "card_title": "Resultant of two interfering waves.",
+      "card_math": "y = 2A \\cos\\left(\\frac{\\phi}{2}\\right) \\sin(kx - \\omega t)"
     },
     {
-      "formula_math": "f_n = n\\frac{v}{2L}",
-      "formula_english": "Frequencies of string fixed at both ends.",
-      "variants": [
+      "card_title": "Frequencies of string fixed at both ends.",
+      "card_math": "f_n = n\\frac{v}{2L}",
+      "card_other": [
         "n = 1, 2, 3, ..."
       ]
     },
     {
-      "formula_math": "f_n = (2n-1)\\frac{v}{4L}",
-      "formula_english": "Frequencies of pipe closed at one end.",
-      "variants": [
+      "card_title": "Frequencies of pipe closed at one end.",
+      "card_math": "f_n = (2n-1)\\frac{v}{4L}",
+      "card_other": [
         "n = 1, 2, 3, ..."
       ]
     },
     {
-      "formula_math": "f_n = n\\frac{v}{2L}",
-      "formula_english": "Frequencies of pipe open at both ends.",
-      "variants": [
+      "card_title": "Frequencies of pipe open at both ends.",
+      "card_math": "f_n = n\\frac{v}{2L}",
+      "card_other": [
         "n = 1, 2, 3, ..."
       ]
     },
     {
-      "formula_math": "f_b = |f_1 - f_2|",
-      "formula_english": "Beat frequency."
+      "card_title": "Beat frequency.",
+      "card_math": "f_b = |f_1 - f_2|"
     },
     {
-      "formula_math": "f' = f\\left(\\frac{v \\pm v_o}{v \\mp v_s}\\right)",
-      "formula_english": "Doppler effect.",
-      "variants": [
-        "+ when observer/source approaching",
-        "- when observer/source receding"
+      "card_title": "Doppler effect.",
+      "card_math": "f' = f\\left(\\frac{v \\pm v_o}{v \\mp v_s}\\right)",
+      "card_other": [
+        "+ when observer/source approached",
+        "- when observer/source receded"
       ]
     }
   ]

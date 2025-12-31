@@ -2,202 +2,203 @@
   "chapter": "Constants",
   "constants": [
     {
-      "const_eng": "Speed of light in vacuum",
-      "const_math": "c = 3.00 \\times 10^8 \\text{ m/s}"
+      "card_title": "Speed of light in vacuum",
+      "card_math": "c = 3.00 \\times 10^8 \\text{ m/s}"
     },
     {
-      "const_eng": "Planck's constant",
-      "const_math": "h = 6.63 \\times 10^{-34} \\text{ J·s}"
+      "card_title": "Planck's constant",
+      "card_math": "h = 6.63 \\times 10^{-34} \\text{ J·s}"
     },
     {
-      "const_eng": "Elementary charge / Charge of electron",
-      "const_math": "e = 1.60 \\times 10^{-19} \\text{ C}"
+      "card_title": "Elementary charge / Charge of electron",
+      "card_math": "e = 1.60 \\times 10^{-19} \\text{ C}"
     },
     {
-      "const_eng": "Rest mass of electron / Electron mass",
-      "const_math": "m_e = 9.11 \\times 10^{-31} \\text{ kg}"
+      "card_title": "Rest mass of electron / Electron mass",
+      "card_math": "m_e = 9.11 \\times 10^{-31} \\text{ kg}"
     },
     {
-      "const_eng": "Mass of proton / Rest mass of proton",
-      "const_math": "m_p = 1.67 \\times 10^{-27} \\text{ kg}"
+      "card_title": "Mass of proton / Rest mass of proton",
+      "card_math": "m_p = 1.67 \\times 10^{-27} \\text{ kg}"
     },
     {
-      "const_eng": "Mass of neutron",
-      "const_math": "m_n = 1.675 \\times 10^{-27} \\text{ kg}"
+      "card_title": "Mass of neutron",
+      "card_math": "m_n = 1.675 \\times 10^{-27} \\text{ kg}"
     },
     {
-      "const_eng": "1 atomic mass unit",
-      "const_math": "1 \\text{ u} = 1.66 \\times 10^{-27} \\text{ kg}"
+      "card_title": "1 atomic mass unit",
+      "card_math": "1 \\text{ u} = 1.66 \\times 10^{-27} \\text{ kg}"
     },
     {
-      "const_eng": "Avogadro's number",
-      "const_math": "N_A = 6.02 \\times 10^{23} \\text{ mol}^{-1}"
+      "card_title": "Avogadro's number",
+      "card_math": "N_A = 6.02 \\times 10^{23} \\text{ mol}^{-1}"
     },
     {
-      "const_eng": "Universal gas constant",
-      "const_math": "R = 8.314 \\text{ J/(mol·K)}"
+      "card_title": "Universal gas constant",
+      "card_math": "R = 8.314 \\text{ J/(mol·K)}"
     },
     {
-      "const_eng": "Boltzmann constant",
-      "const_math": "k = 1.38 \\times 10^{-23} \\text{ J/K}"
+      "card_title": "Boltzmann constant",
+      "card_math": "k = 1.38 \\times 10^{-23} \\text{ J/K}"
     },
     {
-      "const_eng": "Acceleration due to gravity",
-      "const_math": "g = 9.8 \\text{ m/s}^2"
+      "card_title": "Acceleration due to gravity",
+      "card_math": "g = 9.8 \\text{ m/s}^2"
     },
     {
-      "const_eng": "Standard atmospheric pressure",
-      "const_math": "P_{\\text{atm}} = 1.013 \\times 10^5 \\text{ Pa}"
+      "card_title": "Standard atmospheric pressure",
+      "card_math": "P_{\\text{atm}} = 1.013 \\times 10^5 \\text{ Pa}"
     },
     {
-      "const_eng": "Permittivity of free space",
-      "const_math": "\\varepsilon_0 = 8.85 \\times 10^{-12} \\text{ F/m}"
+      "card_title": "Permittivity of free space",
+      "card_math": "\\varepsilon_0 = 8.85 \\times 10^{-12} \\text{ F/m}"
     },
     {
-      "const_eng": "Permeability of free space",
-      "const_math": "\\mu_0 = 4\\pi \\times 10^{-7} \\text{ H/m}"
+      "card_title": "Permeability of free space",
+      "card_math": "\\mu_0 = 4\\pi \\times 10^{-7} \\text{ H/m}"
     },
     {
-      "const_eng": "Coulomb constant",
-      "const_math": "k = 8.99 \\times 10^9 \\text{ N·m}^2\\text{/C}^2"
+      "card_title": "Coulomb constant",
+      "card_math": "k = 8.99 \\times 10^9 \\text{ N·m}^2\\text{/C}^2"
     },
     {
-      "const_eng": "Magnetic constant (μ₀/4π)",
-      "const_math": "\\frac{\\mu_0}{4\\pi} = 10^{-7} \\text{ H/m}"
+      "card_title": "Magnetic constant (μ₀/4π)",
+      "card_math": "\\frac{\\mu_0}{4\\pi} = 10^{-7} \\text{ H/m}"
     },
     {
-      "const_eng": "Rydberg constant",
-      "const_math": "R_H = 1.097 \\times 10^7 \\text{ m}^{-1}"
+      "card_title": "Rydberg constant",
+      "card_math": "R_H = 1.097 \\times 10^7 \\text{ m}^{-1}"
     },
     {
-      "const_eng": "Magnetic flux quantum",
-      "const_math": "\\Phi_0 = 2.07 \\times 10^{-15} \\text{ Wb}"
+      "card_title": "Magnetic flux quantum",
+      "card_math": "\\Phi_0 = 2.07 \\times 10^{-15} \\text{ Wb}"
     },
     {
-      "const_eng": "Speed of sound in air (standard at 20°C)",
-      "const_math": "v_{\\text{air}} \\approx 343 \\text{ m/s}"
+      "card_title": "Speed of sound in air (standard at 20°C)",
+      "card_math": "v_{\\text{air}} \\approx 343 \\text{ m/s}"
     },
     {
-      "const_eng": "Speed of sound in water (reference)",
-      "const_math": "v_{\\text{water}} \\approx 1500 \\text{ m/s}"
+      "card_title": "Speed of sound in water (reference)",
+      "card_math": "v_{\\text{water}} \\approx 1500 \\text{ m/s}"
     },
     {
-      "const_eng": "Speed of sound in solids (general reference)",
-      "const_math": "v_{\\text{solid}} \\approx 3000\\text{–}6000 \\text{ m/s}"
+      "card_title": "Speed of sound in solids (general reference)",
+      "card_math": "v_{\\text{solid}} \\approx 3000\\text{–}6000 \\text{ m/s}"
     },
     {
-      "const_eng": "Refractive index of air (approx.)",
-      "const_math": "n_{\\text{air}} \\approx 1.0003"
+      "card_title": "Refractive index of air (approx.)",
+      "card_math": "n_{\\text{air}} \\approx 1.0003"
     },
     {
-      "const_eng": "Refractive index of water (visible light)",
-      "const_math": "n_{\\text{water}} \\approx 1.33"
+      "card_title": "Refractive index of water (visible light)",
+      "card_math": "n_{\\text{water}} \\approx 1.33"
     },
     {
-      "const_eng": "Refractive index of glass (typical)",
-      "const_math": "n_{\\text{glass}} \\approx 1.5"
+      "card_title": "Refractive index of glass (typical)",
+      "card_math": "n_{\\text{glass}} \\approx 1.5"
     },
     {
-      "const_eng": "Density of water (standard reference)",
-      "const_math": "\\rho_{\\text{water}} \\approx 1000 \\text{ kg/m}^3"
+      "card_title": "Density of water (standard reference)",
+      "card_math": "\\rho_{\\text{water}} \\approx 1000 \\text{ kg/m}^3"
     },
     {
-      "const_eng": "Density of solids (general reference)",
-      "const_math": "\\rho_{\\text{solids}} \\approx 2000 \\text{ to } 8000 \\text{ kg/m}^3"
+      "card_title": "Density of solids (general reference)",
+      "card_math": "\\rho_{\\text{solids}} \\approx 2000 \\text{ to } 8000 \\text{ kg/m}^3"
     },
     {
-      "const_eng": "Young's modulus typical range (solids)",
-      "const_math": "E \\approx 10^9 \\text{ to } 10^{12} \\text{ Pa}"
+      "card_title": "Young's modulus typical range (solids)",
+      "card_math": "E \\approx 10^9 \\text{ to } 10^{12} \\text{ Pa}"
     },
     {
-      "const_eng": "Resistivity reference range (metals)",
-      "const_math": "\\rho \\approx 10^{-8} \\text{ to } 10^{-6} \\text{ Ω·m}"
+      "card_title": "Resistivity reference range (metals)",
+      "card_math": "\\rho \\approx 10^{-8} \\text{ to } 10^{-6} \\text{ Ω·m}"
     },
     {
-      "const_eng": "Temperature coefficient of resistance (typical metals)",
-      "const_math": "\\alpha \\approx 0.003 \\text{ to } 0.005 \\text{ per °C}"
+      "card_title": "Temperature coefficient of resistance (typical metals)",
+      "card_math": "\\alpha \\approx 0.003 \\text{ to } 0.005 \\text{ per °C}"
     },
     {
-      "const_eng": "Energy band gap of silicon",
-      "const_math": "E_g \\approx 1.1 \\text{ eV}"
+      "card_title": "Energy band gap of silicon",
+      "card_math": "E_g \\approx 1.1 \\text{ eV}"
     },
     {
-      "const_eng": "Energy band gap of germanium",
-      "const_math": "E_g \\approx 0.7 \\text{ eV}"
+      "card_title": "Energy band gap of germanium",
+      "card_math": "E_g \\approx 0.7 \\text{ eV}"
     },
     {
-      "const_eng": "Thermal voltage at room temperature",
-      "const_math": "V_T \\approx 0.026 \\text{ V}"
+      "card_title": "Thermal voltage at room temperature",
+      "card_math": "V_T \\approx 0.026 \\text{ V}"
     },
     {
-      "const_eng": "Forward voltage drop of silicon diode",
-      "const_math": "V_f \\approx 0.7 \\text{ V}"
+      "card_title": "Forward voltage drop of silicon diode",
+      "card_math": "V_f \\approx 0.7 \\text{ V}"
     },
     {
-      "const_eng": "Forward voltage drop of germanium diode",
-      "const_math": "V_f \\approx 0.3 \\text{ V}"
+      "card_title": "Forward voltage drop of germanium diode",
+      "card_math": "V_f \\approx 0.3 \\text{ V}"
     },
     {
-      "const_eng": "π constant",
-      "const_math": "\\pi = 3.14159\\ldots"
+      "card_title": "π constant",
+      "card_math": "\\pi = 3.14159\\ldots"
     },
     {
-      "const_eng": "2π constant",
-      "const_math": "2\\pi = 6.28318\\ldots"
+      "card_title": "2π constant",
+      "card_math": "2\\pi = 6.28318\\ldots"
     },
     {
-      "const_eng": "Angle conversion",
-      "const_math": "\\pi \\text{ radians} = 180^\\circ"
+      "card_title": "Angle conversion",
+      "card_math": "\\pi \\text{ radians} = 180^\\circ"
     },
     {
-      "const_eng": "1 joule definition",
-      "const_math": "1 \\text{ J} = 1 \\text{ N·m}"
+      "card_title": "1 joule definition",
+      "card_math": "1 \\text{ J} = 1 \\text{ N·m}"
     },
     {
-      "const_eng": "1 newton definition",
-      "const_math": "1 \\text{ N} = 1 \\text{ kg·m/s}^2"
+      "card_title": "1 newton definition",
+      "card_math": "1 \\text{ N} = 1 \\text{ kg·m/s}^2"
     },
     {
-      "const_eng": "Standard friction coefficients (typical ranges)",
-      "const_math": "\\mu \\approx 0.1 \\text{ to } 1.0 \\text{ (dimensionless)}"
+      "card_title": "Standard friction coefficients (typical ranges)",
+      "card_math": "\\mu \\approx 0.1 \\text{ to } 1.0 \\text{ (dimensionless)}"
     },
     {
-      "const_eng": "Mechanical efficiency limit",
-      "const_math": "\\eta \\leq 1"
+      "card_title": "Mechanical efficiency limit",
+      "card_math": "\\eta \\leq 1"
     },
     {
-      "const_eng": "Moment of inertia for solid sphere",
-      "const_math": "I_{\\text{solid sphere}} = \\frac{2}{5} m r^2"
+      "card_title": "Moment of inertia for solid sphere",
+      "card_math": "I_{\\text{solid sphere}} = \\frac{2}{5} m r^2"
     },
     {
-      "const_eng": "Moment of inertia for hollow sphere",
-      "const_math": "I_{\\text{hollow sphere}} = \\frac{2}{3} m r^2"
+      "card_title": "Moment of inertia for hollow sphere",
+      "card_math": "I_{\\text{hollow sphere}} = \\frac{2}{3} m r^2"
     },
     {
-      "const_eng": "Moment of inertia for rod (center)",
-      "const_math": "I_{\\text{rod center}} = \\frac{1}{12} m L^2"
+      "card_title": "Moment of inertia for rod (center)",
+      "card_math": "I_{\\text{rod center}} = \\frac{1}{12} m L^2"
     },
     {
-      "const_eng": "Definition basis of 1 second (cesium-133 frequency)",
-      "const_math": "\\Delta\\nu(\\text{Cs}) = 9{,}192{,}631{,}770 \\text{ Hz}"
+      "card_title": "Definition basis of 1 second (cesium-133 frequency)",
+      "card_math": "\\Delta\\nu(\\text{Cs}) = 9{,}192{,}631{,}770 \\text{ Hz}"
     },
     {
-      "const_eng": "SI prefix: milli",
-      "const_math": "\\text{milli} = 10^{-3}"
+      "card_title": "SI prefix: milli",
+      "card_math": "\\text{milli} = 10^{-3}"
     },
     {
-      "const_eng": "SI prefix: micro",
-      "const_math": "\\text{micro} = 10^{-6}"
+      "card_title": "SI prefix: micro",
+      "card_math": "\\text{micro} = 10^{-6}"
     },
     {
-      "const_eng": "SI prefix: nano",
-      "const_math": "\\text{nano} = 10^{-9}"
+      "card_title": "SI prefix: nano",
+      "card_math": "\\text{nano} = 10^{-9}"
     },
     {
-      "const_eng": "SI prefix: kilo",
-      "const_math": "\\text{kilo} = 10^3"
+      "card_title": "SI prefix: kilo",
+      "card_math": "\\text{kilo} = 10^3"
     },
     {
+      "card_title": "SI prefix: mega",
       "const_eng": "SI prefix: mega",
       "const_math": "\\text{mega} = 10^6"
     }

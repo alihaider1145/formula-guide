@@ -2,95 +2,95 @@
   "chapter": "18. Dawn of Modern Physics",
   "formulas": [
     {
-      "formula_math": "E = hf",
-      "formula_english": "Photon energy."
+      "card_title": "Photon energy.",
+      "card_math": "E = hf"
     },
     {
-      "formula_math": "E = \\frac{hc}{\\lambda}",
-      "formula_english": "Photon energy in terms of wavelength."
+      "card_title": "Photon energy in terms of wavelength.",
+      "card_math": "E = \\frac{hc}{\\lambda}"
     },
     {
-      "formula_math": "p = \\frac{h}{\\lambda}",
-      "formula_english": "Photon momentum."
+      "card_title": "Photon momentum.",
+      "card_math": "p = \\frac{h}{\\lambda}"
     },
     {
-      "formula_math": "KE_{max} = hf - \\phi",
-      "formula_english": "Photoelectric effect (Einstein's equation)."
+      "card_title": "Photoelectric effect (Einstein's equation).",
+      "card_math": "KE_{max} = hf - \\phi"
     },
     {
-      "formula_math": "eV_s = hf - \\phi",
-      "formula_english": "Stopping potential in photoelectric effect."
+      "card_title": "Stopping potential in photoelectric effect.",
+      "card_math": "eV_s = hf - \\phi"
     },
     {
-      "formula_math": "hf_0 = \\phi",
-      "formula_english": "Threshold frequency."
+      "card_title": "Threshold frequency.",
+      "card_math": "hf_0 = \\phi"
     },
     {
-      "formula_math": "\\lambda_0 = \\frac{c}{f_0}",
-      "formula_english": "Threshold wavelength."
+      "card_title": "Threshold wavelength.",
+      "card_math": "\\lambda_0 = \\frac{c}{f_0}"
     },
     {
-      "formula_math": "\\lambda = \\frac{h}{p} = \\frac{h}{mv}",
-      "formula_english": "de Broglie wavelength."
+      "card_title": "de Broglie wavelength.",
+      "card_math": "\\lambda = \\frac{h}{p} = \\frac{h}{mv}"
     },
     {
-      "formula_math": "\\lambda = \\frac{h}{\\sqrt{2mE}}",
-      "formula_english": "de Broglie wavelength in terms of kinetic energy."
+      "card_title": "de Broglie wavelength in terms of kinetic energy.",
+      "card_math": "\\lambda = \\frac{h}{\\sqrt{2mE}}"
     },
     {
-      "formula_math": "\\lambda = \\frac{h}{\\sqrt{2meV}}",
-      "formula_english": "de Broglie wavelength for electron."
+      "card_title": "de Broglie wavelength for electron.",
+      "card_math": "\\lambda = \\frac{h}{\\sqrt{2meV}}"
     },
     {
-      "formula_math": "E = mc^2",
-      "formula_english": "Mass-energy equivalence."
+      "card_title": "Mass-energy equivalence.",
+      "card_math": "E = mc^2"
     },
     {
-      "formula_math": "\\Delta E = \\Delta m c^2",
-      "formula_english": "Energy from mass change."
+      "card_title": "Energy from mass change.",
+      "card_math": "\\Delta E = \\Delta m c^2"
     },
     {
-      "formula_math": "KE = (\\gamma - 1) m_0 c^2",
-      "formula_english": "Relativistic kinetic energy."
+      "card_title": "Relativistic kinetic energy.",
+      "card_math": "KE = (\\gamma - 1) m_0 c^2"
     },
     {
-      "formula_math": "\\gamma = \\frac{1}{\\sqrt{1 - v^2/c^2}}",
-      "formula_english": "Lorentz factor."
+      "card_title": "Lorentz factor.",
+      "card_math": "\\gamma = \\frac{1}{\\sqrt{1 - v^2/c^2}}"
     },
     {
-      "formula_math": "L = L_0 \\sqrt{1 - v^2/c^2}",
-      "formula_english": "Length contraction."
+      "card_title": "Length contraction.",
+      "card_math": "L = L_0 \\sqrt{1 - v^2/c^2}"
     },
     {
-      "formula_math": "\\Delta t = \\frac{\\Delta t_0}{\\sqrt{1 - v^2/c^2}}",
-      "formula_english": "Time dilation."
+      "card_title": "Time dilation.",
+      "card_math": "\\Delta t = \\frac{\\Delta t_0}{\\sqrt{1 - v^2/c^2}}"
     },
     {
-      "formula_math": "m = \\frac{m_0}{\\sqrt{1 - v^2/c^2}}",
-      "formula_english": "Relativistic mass."
+      "card_title": "Relativistic mass.",
+      "card_math": "m = \\frac{m_0}{\\sqrt{1 - v^2/c^2}}"
     },
     {
-      "formula_math": "p = \\gamma m_0 v",
-      "formula_english": "Relativistic momentum."
+      "card_title": "Relativistic momentum.",
+      "card_math": "p = \\gamma m_0 v"
     },
     {
-      "formula_math": "\\lambda_{max} T = b",
-      "formula_english": "Wien's displacement law.",
-      "variants": [
+      "card_title": "Wien's displacement law.",
+      "card_math": "\\lambda_{max} T = b",
+      "card_other": [
         "b = 2.898 \\times 10^{-3} m·K"
       ]
     },
     {
-      "formula_math": "E = \\sigma T^4",
-      "formula_english": "Stefan-Boltzmann law."
+      "card_title": "Stefan-Boltzmann law.",
+      "card_math": "E = \\sigma T^4"
     },
     {
-      "formula_math": "\\Delta x \\Delta p \\geq \\frac{h}{4\\pi}",
-      "formula_english": "Heisenberg uncertainty principle."
+      "card_title": "Heisenberg uncertainty principle.",
+      "card_math": "\\Delta x \\Delta p \\geq \\frac{h}{4\\pi}"
     },
     {
-      "formula_math": "\\Delta x \\Delta p \\geq h",
-      "formula_english": "Heisenberg uncertainty principle proportionality."
+      "card_title": "Heisenberg uncertainty principle proportionality.",
+      "card_math": "\\Delta x \\Delta p \\geq h"
     }
   ]
 }
