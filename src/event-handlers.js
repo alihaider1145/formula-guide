@@ -1,6 +1,7 @@
 import globalState from "./state";
 import { genChapterBtns } from "./components/chapterBtns";
 import { genCards } from "./components/cards";
+import { fetchData, fetchURL } from "./api-utils.js";
 
 function transitionContainer(container, action){
     if(action === "hide"){
@@ -12,40 +13,51 @@ function transitionContainer(container, action){
 }
 
 function subjectHandler(e){
-    globalState.getState().subject = e.target.textContent.split(" ").join("-").toLowerCase();
+    globalState.setState({subject: e.target.textContent.split(" ").join("-").toLowerCase()}) ;
     transitionContainer(document.querySelector(".grade-wrapper"), "show");
     transitionContainer(document.querySelector(".subject-wrapper"), "hide");
 }
 
 function gradeHandler(e){
-    globalState.getState().grade = e.target.textContent.split(" ").join("-").toLowerCase();
-    transitionContainer(document.querySelector(".topic-wrapper"), "show");
+    globalState.setState({grade: e.target.textContent.split(" ").join("-").toLowerCase()}) ;
     transitionContainer(document.querySelector(".grade-wrapper"), "hide");
+    if(globalState.getState().subject === "physics"){
+        transitionContainer(document.querySelector(".topic__physics"), "show");
+    }
+    else if(globalState.getState().subject === "maths"){
+        transitionContainer(document.querySelector(".topic__maths"), "show");
+    }
 }
 
 function topicHandler(e){
-    globalState.getState().topic = e.target.textContent.split(" ").join("-").toLowerCase();
+    globalState.setState({topic: e.target.textContent.split(" ").join("-").toLowerCase()}) ;
+    //physics topics that have a single json files
     if(globalState.getState().topic === "units" || globalState.getState().topic === "constants"){
         transitionContainer(document.querySelector(".content-wrapper"), "show");
-        transitionContainer(document.querySelector(".topic-wrapper"), "hide");
+        transitionContainer(document.querySelector(".topic__physics"), "hide");
         return;
     }
-    else{
+    //physics topics with chapter wise json files
+    else if(globalState.getState().topic === "formulas"){
+        genChapterBtns();
         transitionContainer(document.querySelector(".chapter-wrapper"), "show");
-
-        transitionContainer(document.querySelector(".topic-wrapper"), "hide");
+        transitionContainer(document.querySelector(".topic__physics"), "hide");
+        return;
+    }
+    //math topics
+    else{
+        genChapterBtns();
+        transitionContainer(document.querySelector(".chapter-wrapper"), "show");
+        transitionContainer(document.querySelector(".topic__maths"), "hide");
     }
 }
 
-function chapterHandler(e){
-    globalState.getState().chapter = e.target.textContent.split(" ").join("-").toLowerCase();
+async function chapterHandler(e){
+    globalState.setState({chapter: e.target.textContent.split(" ").join("-").toLowerCase()}) ;
+    globalState.setState({currentData: await fetchData(fetchURL())});
+    const cards = genCards();
     transitionContainer(document.querySelector(".content-wrapper"), "show");
-    genChapterBtns(globalState.getState().subject, globalState.getState().grade);
     transitionContainer(document.querySelector(".chapter-wrapper"), "hide");
-}
-
-function contentHandler(e){
-    genCards(data, topic, chapter);
 }
 
 function backBtnHandler(){
@@ -79,7 +91,7 @@ function backBtnHandler(){
     }
 }
 
-export { subjectHandler, gradeHandler, topicHandler, chapterHandler, backBtnHandler, contentHandler };
+export { subjectHandler, gradeHandler, topicHandler, chapterHandler, backBtnHandler };
 
 // //TODO-done(NR): add the logic for units/constants (no chapters)
 // async function chapterBtnFunc(event){

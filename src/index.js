@@ -1,6 +1,6 @@
 import "./index.css";
-import { subjectHandler, gradeHandler, topicHandler, chapterHandler, backBtnHandler, contentHandler } from "./event-handlers";
-
+import { subjectHandler, gradeHandler, topicHandler, chapterHandler, backBtnHandler } from "./event-handlers";
+import globalState from "./state";
 // Register Service Worker for offline capability
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
@@ -15,9 +15,11 @@ if ('serviceWorker' in navigator) {
   });
 }
 
+//debugging line
+globalState.subscribe(() => {console.log(globalState.getState())})
+
 document.querySelector(".subject").addEventListener("click", subjectHandler);
 document.querySelector(".grade").addEventListener("click", gradeHandler);
 document.querySelector(".topic").addEventListener("click", topicHandler);
 document.querySelector(".chapter").addEventListener("click", chapterHandler);
 document.querySelector(".back-btn").addEventListener("click", backBtnHandler);
-document.querySelector(".content").addEventListener("click", contentHandler);

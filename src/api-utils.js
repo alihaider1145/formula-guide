@@ -1,10 +1,16 @@
+import globalState from "./state.js";
+
 const dataCache = new Map();
 
 const getCacheKey = (subject, grade, topic, chapter) => {
     return `${subject}-${grade}-${topic}-${chapter}`;
 }
 
-function fetchURL(subject, grade, topic, chapter) {
+function fetchURL() {
+    let subject = globalState.getState().subject;
+    let grade = globalState.getState().grade;
+    let topic = globalState.getState().topic;
+    let chapter = globalState.getState().chapter;
     const owner = "alihaider1145";
     const repo = "revision-guide";
     let directoryPath;
@@ -18,8 +24,8 @@ function fetchURL(subject, grade, topic, chapter) {
     return `https://raw.githubusercontent.com/${owner}/${repo}/main/${directoryPath}`;
 }
 
-async function fetchData(subject, grade, topic, chapter) {
-    const cacheKey = getCacheKey(subject, grade, topic, chapter);
+async function fetchData(url) {
+    const cacheKey = getCacheKey();
     
     if (dataCache.has(cacheKey)) {
         return dataCache.get(cacheKey);

@@ -13,6 +13,7 @@ class GlobalState {
             grade: null,
             topic: null,
             chapter: null,
+            currentData: null,
         }
 
         this.listeners = [];
