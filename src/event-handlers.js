@@ -1,7 +1,6 @@
 import globalState from "./state";
 import { genChapterBtns } from "./components/chapterBtns";
 import { genCards } from "./components/cards";
-import { fetchData, fetchURL } from "./api-utils.js";
 
 function transitionContainer(container, action){
     if(action === "hide"){
@@ -30,10 +29,11 @@ function gradeHandler(e){
     }
 }
 
-function topicHandler(e){
+async function topicHandler(e){
     globalState.setState({topic: e.target.textContent.split(" ").join("-").toLowerCase()}) ;
     //physics topics that have a single json files
     if(globalState.getState().topic === "units" || globalState.getState().topic === "constants"){
+        genCards();
         transitionContainer(document.querySelector(".content-wrapper"), "show");
         transitionContainer(document.querySelector(".topic__physics"), "hide");
         return;
@@ -55,8 +55,7 @@ function topicHandler(e){
 
 async function chapterHandler(e){
     globalState.setState({chapter: e.target.textContent.split(" ").join("-").toLowerCase()}) ;
-    globalState.setState({currentData: await fetchData(fetchURL())});
-    const cards = genCards();
+    genCards();
     transitionContainer(document.querySelector(".content-wrapper"), "show");
     transitionContainer(document.querySelector(".chapter-wrapper"), "hide");
 }

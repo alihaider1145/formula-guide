@@ -1,4 +1,5 @@
 import { createEle } from "../dom-utils.js";
+import { fetchData, fetchURL } from "../api-utils.js";
 import globalState from "../state.js";
 
 function createCard(cardEle){
@@ -22,7 +23,9 @@ function createCard(cardEle){
     return card;
 }
 
-function genCards(){
+async function genCards(){
+    globalState.setState({currentData: await fetchData(fetchURL())});
+
     console.log(globalState.getState().currentData);
     const contentCards = createEle('div', null, document.querySelector(".content"));
     contentCards.classList.add("content__cards");
