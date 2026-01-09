@@ -199,8 +199,7 @@
     },
     {
       "card_title": "SI prefix: mega",
-      "const_eng": "SI prefix: mega",
-      "const_math": "\\text{mega} = 10^6"
+      "card_math": "\\text{mega} = 10^6"
     }
   ]
 }
