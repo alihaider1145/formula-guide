@@ -1,0 +1,45 @@
+{
+  "chapter": "Fundamentals of Trigonometry",
+  "equations": [
+    {
+      "eq_eng": "Definitions of basic trigonometric ratios",
+      "eq_math": " \\sinθ = \\frac{\\text{Opp}}{\\text{Hyp}}, \\quad \\cosθ = \\frac{\\text{Adj}}{\\text{Hyp}}, \\quad \\tanθ = \\frac{\\text{Opp}}{\\text{Adj}} ",
+      "related": ["cotθ = 1/tanθ", "secθ = 1/cosθ", "cscθ = 1/sinθ"]
+    },
+    {
+      "eq_eng": "Pythagorean identities",
+      "eq_math": " \\sin^2θ + \\cos^2θ = 1 ",
+      "related": ["1 + \\tan^2θ = \\sec^2θ", "1 + \\cot^2θ = \\csc^2θ"]
+    },
+    {
+      "eq_eng": "Angle conversion",
+      "eq_math": " π\\text{ radians} = 180° ",
+      "related": ["θ(rad) = θ° × π/180", "θ° = θ(rad) × 180/π"]
+    },
+    {
+      "eq_eng": "Sum and difference formulas",
+      "eq_math": " \\sin(A ± B) = \\sin A \\cos B ± \\cos A \\sin B ",
+      "related": ["\\cos(A ± B) = \\cos A \\cos B ∓ \\sin A \\sin B"]
+    },
+    {
+      "eq_eng": "Double angle formulas",
+      "eq_math": " \\sin 2θ = 2\\sinθ\\cosθ ",
+      "related": ["\\cos 2θ = \\cos^2θ - \\sin^2θ"]
+    },
+    {
+      "eq_eng": "Area of triangle using sine rule",
+      "eq_math": " \\Delta = \\frac{1}{2}ab\\sin C ",
+      "related": []
+    },
+    {
+      "eq_eng": "Law of sines",
+      "eq_math": " \\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} ",
+      "related": []
+    },
+    {
+      "eq_eng": "Law of cosines",
+      "eq_math": " c^2 = a^2 + b^2 - 2ab \\cos C ",
+      "related": ["a² = b² + c² − 2bc cosA", "b² = a² + c² − 2ac cosB"]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "chapter": "17. Electronics",
+  "content": [
+    {
+      "card_title": "Current relation in transistor.",
+      "card_math": "I_E = I_B + I_C"
+    },
+    {
+      "card_title": "Current amplification factor (alpha).",
+      "card_math": "\\alpha = \\frac{I_C}{I_E}"
+    },
+    {
+      "card_title": "Current gain (beta).",
+      "card_math": "\\beta = \\frac{I_C}{I_B}"
+    },
+    {
+      "card_title": "Relation between alpha and beta.",
+      "card_math": "\\beta = \\frac{\\alpha}{1 - \\alpha}"
+    },
+    {
+      "card_title": "Alpha in terms of beta.",
+      "card_math": "\\alpha = \\frac{\\beta}{1 + \\beta}"
+    },
+    {
+      "card_title": "Cut-off frequency of filter.",
+      "card_math": "f_c = \\frac{1}{2\\pi RC}"
+    },
+    {
+      "card_title": "OR gate logic.",
+      "card_math": "Y = A + B"
+    },
+    {
+      "card_title": "AND gate logic.",
+      "card_math": "Y = A \\cdot B"
+    },
+    {
+      "card_title": "NOT gate logic.",
+      "card_math": "Y = \\overline{A}"
+    }
+  ]
+}

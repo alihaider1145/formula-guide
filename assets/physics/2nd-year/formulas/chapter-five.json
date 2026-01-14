@@ -1,0 +1,77 @@
+{
+  "chapter": "15. Alternating Current",
+  "content": [
+    {
+      "card_title": "Instantaneous AC voltage.",
+      "card_math": "V = V_0 \\sin(\\omega t)"
+    },
+    {
+      "card_title": "Instantaneous AC current.",
+      "card_math": "I = I_0 \\sin(\\omega t)"
+    },
+    {
+      "card_title": "RMS voltage.",
+      "card_math": "V_{rms} = \\frac{V_0}{\\sqrt{2}}"
+    },
+    {
+      "card_title": "RMS current.",
+      "card_math": "I_{rms} = \\frac{I_0}{\\sqrt{2}}"
+    },
+    {
+      "card_title": "Inductive reactance.",
+      "card_math": "X_L = \\omega L = 2\\pi f L"
+    },
+    {
+      "card_title": "Capacitive reactance.",
+      "card_math": "X_C = \\frac{1}{\\omega C} = \\frac{1}{2\\pi f C}"
+    },
+    {
+      "card_title": "Voltage across inductor.",
+      "card_math": "V_L = I_0 X_L"
+    },
+    {
+      "card_title": "Voltage across capacitor.",
+      "card_math": "V_C = I_0 X_C"
+    },
+    {
+      "card_title": "Impedance of RLC circuit.",
+      "card_math": "Z = \\sqrt{R^2 + (X_L - X_C)^2}"
+    },
+    {
+      "card_title": "Current in AC circuit.",
+      "card_math": "I = \\frac{V}{Z}"
+    },
+    {
+      "card_title": "Phase angle.",
+      "card_math": "\\tan \\phi = \\frac{X_L - X_C}{R}"
+    },
+    {
+      "card_title": "Power factor.",
+      "card_math": "\\cos \\phi = \\frac{R}{Z}"
+    },
+    {
+      "card_title": "Average power in AC circuit.",
+      "card_math": "P_{avg} = V_{rms} I_{rms} \\cos \\phi"
+    },
+    {
+      "card_title": "Power dissipated in resistance.",
+      "card_math": "P = I_{rms}^2 R"
+    },
+    {
+      "card_title": "Resonant frequency.",
+      "card_math": "f_0 = \\frac{1}{2\\pi \\sqrt{LC}}"
+    },
+    {
+      "card_title": "Angular resonant frequency.",
+      "card_math": "\\omega_0 = \\frac{1}{\\sqrt{LC}}"
+    },
+    {
+      "card_title": "Impedance at resonance.",
+      "card_math": "Z_{min} = R"
+    },
+    {
+      "card_title": "Maximum current at resonance.",
+      "card_math": "I_{max} = \\frac{V_0}{R}"
+    }
+  ]
+}

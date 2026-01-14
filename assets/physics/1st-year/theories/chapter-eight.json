@@ -1,0 +1,141 @@
+{
+  "chapter": "8. Waves",
+  "content": [
+    {
+      "card_title": "Wave",
+      "card_other": "A disturbance that transfers energy from one point to another without net transport of matter. Particles oscillate about mean position while energy propagates through medium."
+    },
+    {
+      "card_title": "Mechanical Waves",
+      "card_other": "Waves that require material medium for propagation. Cannot travel through vacuum. Examples: sound waves, water waves, seismic waves, waves on string."
+    },
+    {
+      "card_title": "Electromagnetic Waves",
+      "card_other": "Waves that can travel through vacuum (do not need medium). Travel at speed of light. Examples: light, radio waves, X-rays, gamma rays, microwaves."
+    },
+    {
+      "card_title": "Transverse Wave",
+      "card_other": "Particles oscillate perpendicular to direction of wave propagation. Can be polarized. Cannot travel through fluids (except surface waves). Examples: light, waves on string, S-waves in earthquakes."
+    },
+    {
+      "card_title": "Longitudinal Wave",
+      "card_other": "Particles oscillate parallel to direction of wave propagation. Creates compressions and rarefactions. Cannot be polarized. Can travel through all media. Examples: sound waves, P-waves in earthquakes."
+    },
+    {
+      "card_title": "Wavelength",
+      "card_other": "Distance between two consecutive points in same phase (crest to crest or trough to trough). SI unit: meter. Symbol: λ (lambda). Inversely related to frequency for constant wave speed."
+    },
+    {
+      "card_title": "Amplitude",
+      "card_other": "Maximum displacement of particle from mean position. Determines energy and intensity of wave - intensity proportional to square of amplitude. Does not affect wave speed or frequency."
+    },
+    {
+      "card_title": "Wave Speed",
+      "card_other": "Speed at which disturbance propagates through medium. Depends on properties of medium (elasticity, density), not on amplitude or frequency. For given medium and wave type, speed is constant."
+    },
+    {
+      "card_title": "Progressive (Traveling) Wave",
+      "card_other": "Wave that continuously moves through medium, transferring energy from one place to another. Each particle performs SHM with same amplitude and frequency but different phase."
+    },
+    {
+      "card_title": "Wave Number",
+      "card_other": "Number of waves per unit length (2π/λ). Spatial analog of angular frequency. SI unit: rad/m. Symbol: k. Used in wave equations."
+    },
+    {
+      "card_title": "Phase Velocity",
+      "card_other": "Speed at which phase of wave propagates. For non-dispersive medium, equals group velocity. Related to wavelength and period by v = λ/T = λf."
+    },
+    {
+      "card_title": "Sound Wave",
+      "card_other": "Longitudinal mechanical wave in air (or other medium). Requires medium, cannot travel in vacuum. Speed depends on temperature and medium properties. Speed in air ~343 m/s at 20°C."
+    },
+    {
+      "card_title": "Speed of Sound in Different Media",
+      "card_other": "Increases with stiffness, decreases with density. Fastest in solids, slowest in gases. In air, increases 0.6 m/s per °C rise. Sound travels faster in warm air than cold air."
+    },
+    {
+      "card_title": "Intensity of Wave",
+      "card_other": "Energy transmitted per unit time per unit area perpendicular to direction of propagation. Power per unit area. SI unit: W/m². Proportional to square of amplitude and square of frequency."
+    },
+    {
+      "card_title": "Inverse Square Law",
+      "card_other": "For point source, intensity decreases with square of distance from source: I ∝ 1/r². Energy spreads over larger area as wave propagates outward. Applies to light, sound, radiation."
+    },
+    {
+      "card_title": "Sound Intensity Level (Decibel)",
+      "card_other": "Logarithmic scale for sound intensity. Measured in decibels (dB). Reference intensity I₀ = 10⁻¹² W/m² (threshold of hearing). Every 10 dB increase means 10 times intensity increase."
+    },
+    {
+      "card_title": "Principle of Superposition",
+      "card_other": "When two or more waves overlap, resultant displacement at any point is sum of individual displacements. Waves pass through each other without being disturbed. Basis of interference."
+    },
+    {
+      "card_title": "Interference",
+      "card_other": "Superposition of two coherent waves resulting in regions of reinforcement and cancellation. Constructive: waves in phase, amplitudes add. Destructive: waves out of phase, amplitudes subtract."
+    },
+    {
+      "card_title": "Coherent Sources",
+      "card_other": "Sources producing waves of same frequency with constant phase difference. Essential for sustained interference pattern. Examples: two slits illuminated by same source, two speakers from same signal."
+    },
+    {
+      "card_title": "Path Difference",
+      "card_other": "Difference in distances traveled by two waves from sources to point of observation. Determines nature of interference. Constructive if path difference = nλ. Destructive if = (n+½)λ."
+    },
+    {
+      "card_title": "Standing Wave (Stationary Wave)",
+      "card_other": "Wave pattern formed by superposition of two identical waves traveling in opposite directions. Energy does not propagate. Has nodes (zero amplitude) and antinodes (maximum amplitude) at fixed positions."
+    },
+    {
+      "card_title": "Node",
+      "card_other": "Point of zero amplitude in standing wave. Occurs where two waves interfere destructively. Spacing between consecutive nodes = λ/2. Particles at nodes remain at rest."
+    },
+    {
+      "card_title": "Antinode",
+      "card_other": "Point of maximum amplitude in standing wave. Occurs where two waves interfere constructively. Located midway between nodes. Particles at antinodes oscillate with maximum amplitude."
+    },
+    {
+      "card_title": "Fundamental Frequency (First Harmonic)",
+      "card_other": "Lowest frequency at which standing wave can be produced in given system. Corresponds to longest wavelength that fits boundary conditions. Higher frequencies are overtones."
+    },
+    {
+      "card_title": "Harmonics and Overtones",
+      "card_other": "Harmonics: frequencies that are integer multiples of fundamental. Overtones: frequencies above fundamental. First overtone = second harmonic. Musical instruments produce combination of harmonics determining timbre."
+    },
+    {
+      "card_title": "Vibrating String (Both Ends Fixed)",
+      "card_other": "String fixed at both ends has nodes at ends. Allowed wavelengths: λₙ = 2L/n where n = 1,2,3... All harmonics present. Used in stringed instruments."
+    },
+    {
+      "card_title": "Closed Pipe (One End Closed)",
+      "card_other": "Pipe closed at one end has node at closed end, antinode at open end. Only odd harmonics present. Fundamental frequency half that of open pipe of same length."
+    },
+    {
+      "card_title": "Open Pipe (Both Ends Open)",
+      "card_other": "Pipe open at both ends has antinodes at both ends. All harmonics present like vibrating string. Used in flutes, organs. Produces richer sound than closed pipe."
+    },
+    {
+      "card_title": "Beat Frequency",
+      "card_other": "Periodic variation in amplitude when two waves of slightly different frequencies interfere. Beat frequency equals difference between two frequencies. Used for tuning musical instruments."
+    },
+    {
+      "card_title": "Beats",
+      "card_other": "Alternating loud and soft sound produced by superposition of two sound waves of slightly different frequencies. Number of beats per second = |f₁ - f₂|. Useful for tuning."
+    },
+    {
+      "card_title": "Doppler Effect",
+      "card_other": "Apparent change in frequency of wave when source or observer is moving. Frequency increases when approaching, decreases when receding. Applied to sound (pitch change) and light (redshift/blueshift)."
+    },
+    {
+      "card_title": "Applications of Doppler Effect",
+      "card_other": "Speed measurement (radar guns, speed cameras), medical ultrasound (blood flow), astronomy (motion of stars/galaxies), weather radar (storm tracking), navigation systems."
+    },
+    {
+      "card_title": "Reflection of Waves",
+      "card_other": "When wave encounters boundary, part or all is reflected back. At fixed end: phase changes by 180° (inverted). At free end: no phase change. Law of reflection: angle of incidence = angle of reflection."
+    },
+    {
+      "card_title": "Refraction of Waves",
+      "card_other": "Change in direction of wave when it passes from one medium to another due to change in speed. Bends toward normal if entering denser medium (slower), away if entering rarer medium (faster)."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "chapter": "9. Physical Optics",
+  "content": [
+    {
+      "card_title": "Speed of light relation.",
+      "card_math": "c = f\\lambda"
+    },
+    {
+      "card_title": "Refractive index.",
+      "card_math": "n = \\frac{c}{v}"
+    },
+    {
+      "card_title": "Wavelength in a medium.",
+      "card_math": "\\lambda_n = \\frac{\\lambda}{n}"
+    },
+    {
+      "card_title": "Malus' law for polarized light.",
+      "card_math": "I = I_0 \\cos^2 \\theta"
+    },
+    {
+      "card_title": "Brewster's angle.",
+      "card_math": "\\tan \\theta_p = \\frac{n_2}{n_1}",
+      "card_other": [
+        "\\theta_p = polarizing angle"
+      ]
+    },
+    {
+      "card_title": "Fringe width in Young's double slit.",
+      "card_math": "\\Delta x = \\frac{\\lambda D}{d}"
+    },
+    {
+      "card_title": "Position of bright fringes.",
+      "card_math": "x_n = \\frac{n\\lambda D}{d}",
+      "card_other": [
+        "n = 0, 1, 2, 3, ..."
+      ]
+    },
+    {
+      "card_title": "Position of dark fringes.",
+      "card_math": "x_n = \\frac{(2n-1)\\lambda D}{2d}",
+      "card_other": [
+        "n = 1, 2, 3, ..."
+      ]
+    },
+    {
+      "card_title": "Phase difference from path difference.",
+      "card_math": "\\Delta \\phi = \\frac{2\\pi}{\\lambda} \\times \\text{path difference}"
+    },
+    {
+      "card_title": "Diffraction grating (principal maxima).",
+      "card_math": "d \\sin \\theta = n\\lambda",
+      "card_other": [
+        "n = 0, 1, 2, 3, ..."
+      ]
+    },
+    {
+      "card_title": "Number of lines per unit length on grating.",
+      "card_math": "N = \\frac{1}{d}"
+    },
+    {
+      "card_title": "Single slit diffraction (minima).",
+      "card_math": "a \\sin \\theta = n\\lambda",
+      "card_other": [
+        "a = slit width",
+        "n = 1, 2, 3, ..."
+      ]
+    },
+    {
+      "card_title": "Rayleigh criterion for resolution.",
+      "card_math": "\\theta = 1.22\\frac{\\lambda}{D}"
+    },
+    {
+      "card_title": "Resolving power of diffraction grating.",
+      "card_math": "R = \\frac{\\lambda}{\\Delta \\lambda} = nN"
+    },
+    {
+      "card_title": "Constructive interference in thin films.",
+      "card_math": "2t = (m + \\frac{1}{2})\\lambda",
+      "card_other": [
+        "m = 0, 1, 2, 3, ..."
+      ]
+    },
+    {
+      "card_title": "Destructive interference in thin films.",
+      "card_math": "2t = m\\lambda",
+      "card_other": [
+        "m = 0, 1, 2, 3, ..."
+      ]
+    },
+    {
+      "card_title": "Thin film interference with oblique incidence.",
+      "card_math": "2\\mu t \\cos r = n\\lambda"
+    }
+  ]
+}

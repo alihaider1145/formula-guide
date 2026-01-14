@@ -1,0 +1,121 @@
+{
+  "chapter": "9. Physical Optics",
+  "content": [
+    {
+      "card_title": "Light as Wave",
+      "card_other": "Light is electromagnetic wave with wavelength range ~400-700 nm (visible spectrum). Exhibits wave properties: interference, diffraction, polarization. Does not require medium, travels through vacuum."
+    },
+    {
+      "card_title": "Speed of Light",
+      "card_other": "Fundamental constant c = 3.00 × 10⁸ m/s in vacuum. Reduces in material media. Constant in vacuum regardless of source motion or observer (relativity). Fastest possible speed in universe."
+    },
+    {
+      "card_title": "Electromagnetic Spectrum",
+      "card_other": "Range of all electromagnetic waves ordered by frequency/wavelength. From long to short: radio, microwave, infrared, visible, ultraviolet, X-rays, gamma rays. All travel at speed of light in vacuum."
+    },
+    {
+      "card_title": "Refractive Index",
+      "card_other": "Ratio of speed of light in vacuum to speed in medium: n = c/v. Dimensionless, always ≥ 1. Measures optical density of medium. Higher n means light travels slower, more bending at interface."
+    },
+    {
+      "card_title": "Optical Path Length",
+      "card_other": "Physical distance multiplied by refractive index: nd. Represents equivalent distance in vacuum for same phase change. Used in interference calculations."
+    },
+    {
+      "card_title": "Huygens' Principle",
+      "card_other": "Every point on wavefront acts as source of secondary wavelets. Envelope of these wavelets gives new wavefront. Explains reflection, refraction, diffraction. Foundation of wave theory of light."
+    },
+    {
+      "card_title": "Wavefront",
+      "card_other": "Surface of constant phase in propagating wave. All points on wavefront oscillate in phase. Perpendicular to direction of propagation. Types: plane, spherical, cylindrical."
+    },
+    {
+      "card_title": "Coherence",
+      "card_other": "Property of maintaining constant phase relationship. Temporal coherence: phase correlation over time. Spatial coherence: phase correlation across space. Essential for clear interference patterns. Lasers highly coherent."
+    },
+    {
+      "card_title": "Polarization",
+      "card_other": "Orientation of oscillation perpendicular to propagation direction. Only transverse waves can be polarized. Unpolarized: oscillations in all perpendicular directions. Polarized: oscillation in single plane."
+    },
+    {
+      "card_title": "Plane of Polarization",
+      "card_other": "The plane containing electric field vector and direction of propagation. Light is plane-polarized when electric field oscillates in single plane."
+    },
+    {
+      "card_title": "Malus' Law",
+      "card_other": "When polarized light passes through analyzer, transmitted intensity varies as square of cosine of angle between polarizer and analyzer axes: I = I₀cos²θ. Zero transmission at 90° (crossed polarizers)."
+    },
+    {
+      "card_title": "Polarization by Reflection",
+      "card_other": "Reflected light is partially polarized, with electric field preferentially perpendicular to plane of incidence. Complete polarization at Brewster's angle. Used in polarizing sunglasses."
+    },
+    {
+      "card_title": "Brewster's Angle",
+      "card_other": "Angle of incidence at which reflected light is completely plane-polarized. Occurs when reflected and refracted rays are perpendicular. tan θₚ = n₂/n₁. Also called polarizing angle."
+    },
+    {
+      "card_title": "Interference of Light",
+      "card_other": "Superposition of coherent light waves producing pattern of bright and dark regions. Bright fringes: constructive interference (path difference = nλ). Dark fringes: destructive (path difference = (n+½)λ)."
+    },
+    {
+      "card_title": "Young's Double Slit Experiment",
+      "card_other": "Classic demonstration of wave nature of light. Single source illuminates two narrow slits, producing interference pattern on screen. Bright and dark fringes prove wave behavior."
+    },
+    {
+      "card_title": "Conditions for Interference",
+      "card_other": "Sources must be coherent (constant phase difference), monochromatic (single wavelength), have comparable amplitudes, and should be close together relative to distance to screen."
+    },
+    {
+      "card_title": "Fringe Width",
+      "card_other": "Distance between consecutive bright (or dark) fringes in interference pattern. Directly proportional to wavelength and screen distance, inversely proportional to slit separation. Uniform spacing in double slit."
+    },
+    {
+      "card_title": "Thin Film Interference",
+      "card_other": "Interference between light reflected from top and bottom surfaces of thin film. Creates colorful patterns (soap bubbles, oil films). Phase change may occur at denser medium reflection."
+    },
+    {
+      "card_title": "Newton's Rings",
+      "card_other": "Circular interference fringes formed between plano-convex lens and flat glass plate. Central spot usually dark due to phase change at reflection. Used to test optical surfaces and measure wavelength."
+    },
+    {
+      "card_title": "Diffraction",
+      "card_other": "Bending of waves around obstacles or through apertures. Significant when obstacle size comparable to wavelength. Proves wave nature of light. Limits resolution of optical instruments."
+    },
+    {
+      "card_title": "Single Slit Diffraction",
+      "card_other": "Produces central bright maximum (wider and brighter) with alternating dark and bright fringes of decreasing intensity. Central maximum twice width of secondary maxima. First minimum when a sinθ = λ."
+    },
+    {
+      "card_title": "Diffraction Grating",
+      "card_other": "Array of many parallel slits (thousands per cm). Produces very sharp, bright interference maxima at specific angles. Used for spectroscopy - separates light into component wavelengths."
+    },
+    {
+      "card_title": "Grating Equation",
+      "card_other": "Condition for principal maxima: d sinθ = nλ, where d is grating spacing, n is order. Higher orders farther from center. Used to precisely measure wavelengths."
+    },
+    {
+      "card_title": "Resolving Power",
+      "card_other": "Ability of optical instrument to distinguish between two close objects as separate. Limited by diffraction. Better resolution requires larger aperture or shorter wavelength."
+    },
+    {
+      "card_title": "Rayleigh Criterion",
+      "card_other": "Two point sources just resolved when central maximum of one diffraction pattern falls on first minimum of other. Minimum resolvable angle θ = 1.22λ/D for circular aperture of diameter D."
+    },
+    {
+      "card_title": "Monochromatic Light",
+      "card_other": "Light of single wavelength (color). Pure monochromatic light doesn't exist naturally. Lasers and spectral lamps produce nearly monochromatic light. Essential for clear interference patterns."
+    },
+    {
+      "card_title": "White Light Interference",
+      "card_other": "White light contains all wavelengths. Central fringe white (all wavelengths in phase), others colored (different wavelengths satisfy maxima condition at different positions). Used in optical coatings."
+    },
+    {
+      "card_title": "Dispersion",
+      "card_other": "Separation of white light into component colors due to wavelength-dependent refractive index. Red light least deviated (longer wavelength, lower n), violet most (shorter wavelength, higher n). Creates rainbow."
+    },
+    {
+      "card_title": "Anti-Reflection Coating",
+      "card_other": "Thin film on lens surface to minimize reflection through destructive interference. Coating thickness typically λ/4 in coating material. Improves light transmission, reduces glare."
+    }
+  ]
+}

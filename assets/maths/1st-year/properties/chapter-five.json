@@ -1,0 +1,43 @@
+{
+  "chapter": "Sequence and Series",
+  "properties": [
+    {
+      "prop_eng": "Common difference in arithmetic sequence",
+      "prop_math": "d = a_{n+1} - a_n",
+      "related": []
+    },
+    {
+      "prop_eng": "Arithmetic mean property",
+      "prop_math": "AM = \\frac{a + b}{2}",
+      "related": []
+    },
+    {
+      "prop_eng": "Common ratio in geometric sequence",
+      "prop_math": "r = \\frac{a_{n+1}}{a_n}",
+      "conditions": "a_n ≠ 0",
+      "related": []
+    },
+    {
+      "prop_eng": "Geometric mean property",
+      "prop_math": "GM = \\sqrt{ab}",
+      "conditions": "a, b > 0",
+      "related": []
+    },
+    {
+      "prop_eng": "Convergence of geometric series",
+      "prop_math": "|r| < 1 ⇒ S_∞ exists",
+      "related": []
+    },
+    {
+      "prop_eng": "Divergence of geometric series",
+      "prop_math": "|r| ≥ 1 ⇒ S_∞ does not exist",
+      "related": []
+    },
+    {
+      "prop_eng": "AM-GM inequality",
+      "prop_math": "AM ≥ GM",
+      "conditions": "For positive real numbers",
+      "related": []
+    }
+  ]
+}

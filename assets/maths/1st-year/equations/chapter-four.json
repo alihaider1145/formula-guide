@@ -1,0 +1,47 @@
+{
+  "chapter": "Vectors",
+  "equations": [
+    {
+      "eq_eng": "Magnitude of a vector",
+      "eq_math": "|\\vec{a}| = \\sqrt{a_x^2 + a_y^2 + a_z^2}",
+      "related": []
+    },
+    {
+      "eq_eng": "Unit vector",
+      "eq_math": "\\hat{a} = \\frac{\\vec{a}}{|\\vec{a}|}",
+      "related": []
+    },
+    {
+      "eq_eng": "Vector addition",
+      "eq_math": "\\vec{a} + \\vec{b} = (a_x + b_x, a_y + b_y, a_z + b_z)",
+      "related": []
+    },
+    {
+      "eq_eng": "Dot product",
+      "eq_math": "\\vec{a}·\\vec{b} = |\\vec{a}| |\\vec{b}| \\cosθ = a_x b_x + a_y b_y + a_z b_z",
+      "related": []
+    },
+    {
+      "eq_eng": "Cross product",
+      "eq_math": "\\vec{a} × \\vec{b} = |\\vec{a}| |\\vec{b}| \\sinθ \\; \\hat{n}",
+      "conditions": "Direction given by right-hand rule",
+      "related": []
+    },
+    {
+      "eq_eng": "Component form of cross product",
+      "eq_math": "\\vec{a} × \\vec{b} = (a_y b_z - a_z b_y,\\; a_z b_x - a_x b_z,\\; a_x b_y - a_y b_x)",
+      "related": ["Determinant method"]
+    },
+    {
+      "eq_eng": "Scalar triple product",
+      "eq_math": "\\vec{a}·(\\vec{b} × \\vec{c})",
+      "conditions": "Gives volume of parallelepiped",
+      "related": []
+    },
+    {
+      "eq_eng": "Vector triple product",
+      "eq_math": "\\vec{a} × (\\vec{b} × \\vec{c}) = \\vec{b}(\\vec{a}·\\vec{c}) - \\vec{c}(\\vec{a}·\\vec{b})",
+      "related": []
+    }
+  ]
+}

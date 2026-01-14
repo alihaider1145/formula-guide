@@ -1,0 +1,50 @@
+{
+  "chapter": "Vectors",
+  "properties": [
+    {
+      "prop_eng": "Commutative property of vector addition",
+      "prop_math": "\\vec{a} + \\vec{b} = \\vec{b} + \\vec{a}",
+      "related": []
+    },
+    {
+      "prop_eng": "Associative property of vector addition",
+      "prop_math": "(\\vec{a} + \\vec{b}) + \\vec{c} = \\vec{a} + (\\vec{b} + \\vec{c})",
+      "related": []
+    },
+    {
+      "prop_eng": "Distributive property",
+      "prop_math": "k(\\vec{a} + \\vec{b}) = k\\vec{a} + k\\vec{b}",
+      "related": []
+    },
+    {
+      "prop_eng": "Scalar multiplication identity",
+      "prop_math": "1\\vec{a} = \\vec{a}",
+      "related": []
+    },
+    {
+      "prop_eng": "Dot product commutativity",
+      "prop_math": "\\vec{a}·\\vec{b} = \\vec{b}·\\vec{a}",
+      "related": []
+    },
+    {
+      "prop_eng": "Dot product distributive law",
+      "prop_math": "\\vec{a}·(\\vec{b} + \\vec{c}) = \\vec{a}·\\vec{b} + \\vec{a}·\\vec{c}",
+      "related": []
+    },
+    {
+      "prop_eng": "Cross product anti-commutativity",
+      "prop_math": "\\vec{a} × \\vec{b} = - (\\vec{b} × \\vec{a})",
+      "related": []
+    },
+    {
+      "prop_eng": "Cross product distributive law",
+      "prop_math": "\\vec{a} × (\\vec{b} + \\vec{c}) = \\vec{a} × \\vec{b} + \\vec{a} × \\vec{c}",
+      "related": []
+    },
+    {
+      "prop_eng": "Scalar triple product cyclic property",
+      "prop_math": "\\vec{a}·(\\vec{b} × \\vec{c}) = \\vec{b}·(\\vec{c} × \\vec{a})",
+      "related": []
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "chapter": "18. Dawn of Modern Physics",
+  "content": [
+    {
+      "card_title": "Photon energy.",
+      "card_math": "E = hf"
+    },
+    {
+      "card_title": "Photon energy in terms of wavelength.",
+      "card_math": "E = \\frac{hc}{\\lambda}"
+    },
+    {
+      "card_title": "Photon momentum.",
+      "card_math": "p = \\frac{h}{\\lambda}"
+    },
+    {
+      "card_title": "Photoelectric effect (Einstein's equation).",
+      "card_math": "KE_{max} = hf - \\phi"
+    },
+    {
+      "card_title": "Stopping potential in photoelectric effect.",
+      "card_math": "eV_s = hf - \\phi"
+    },
+    {
+      "card_title": "Threshold frequency.",
+      "card_math": "hf_0 = \\phi"
+    },
+    {
+      "card_title": "Threshold wavelength.",
+      "card_math": "\\lambda_0 = \\frac{c}{f_0}"
+    },
+    {
+      "card_title": "de Broglie wavelength.",
+      "card_math": "\\lambda = \\frac{h}{p} = \\frac{h}{mv}"
+    },
+    {
+      "card_title": "de Broglie wavelength in terms of kinetic energy.",
+      "card_math": "\\lambda = \\frac{h}{\\sqrt{2mE}}"
+    },
+    {
+      "card_title": "de Broglie wavelength for electron.",
+      "card_math": "\\lambda = \\frac{h}{\\sqrt{2meV}}"
+    },
+    {
+      "card_title": "Mass-energy equivalence.",
+      "card_math": "E = mc^2"
+    },
+    {
+      "card_title": "Energy from mass change.",
+      "card_math": "\\Delta E = \\Delta m c^2"
+    },
+    {
+      "card_title": "Relativistic kinetic energy.",
+      "card_math": "KE = (\\gamma - 1) m_0 c^2"
+    },
+    {
+      "card_title": "Lorentz factor.",
+      "card_math": "\\gamma = \\frac{1}{\\sqrt{1 - v^2/c^2}}"
+    },
+    {
+      "card_title": "Length contraction.",
+      "card_math": "L = L_0 \\sqrt{1 - v^2/c^2}"
+    },
+    {
+      "card_title": "Time dilation.",
+      "card_math": "\\Delta t = \\frac{\\Delta t_0}{\\sqrt{1 - v^2/c^2}}"
+    },
+    {
+      "card_title": "Relativistic mass.",
+      "card_math": "m = \\frac{m_0}{\\sqrt{1 - v^2/c^2}}"
+    },
+    {
+      "card_title": "Relativistic momentum.",
+      "card_math": "p = \\gamma m_0 v"
+    },
+    {
+      "card_title": "Wien's displacement law.",
+      "card_math": "\\lambda_{max} T = b",
+      "card_other": [
+        "b = 2.898 \\times 10^{-3} m·K"
+      ]
+    },
+    {
+      "card_title": "Stefan-Boltzmann law.",
+      "card_math": "E = \\sigma T^4"
+    },
+    {
+      "card_title": "Heisenberg uncertainty principle.",
+      "card_math": "\\Delta x \\Delta p \\geq \\frac{h}{4\\pi}"
+    },
+    {
+      "card_title": "Heisenberg uncertainty principle proportionality.",
+      "card_math": "\\Delta x \\Delta p \\geq h"
+    }
+  ]
+}

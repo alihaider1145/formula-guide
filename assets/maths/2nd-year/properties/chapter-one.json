@@ -1,0 +1,42 @@
+{
+  "chapter": "Functions and Graphs",
+  "properties": [
+    {
+      "prop_eng": "One-to-one function property",
+      "prop_math": "f(x₁) = f(x₂) ⇒ x₁ = x₂",
+      "conditions": "Required for inverse to exist",
+      "related": []
+    },
+    {
+      "prop_eng": "Horizontal line test",
+      "prop_math": "Any horizontal line intersects graph at most once",
+      "related": ["One-to-one function"]
+    },
+    {
+      "prop_eng": "Composition associativity",
+      "prop_math": "f ∘ (g ∘ h) = (f ∘ g) ∘ h",
+      "related": []
+    },
+    {
+      "prop_eng": "Identity function property",
+      "prop_math": "f ∘ I = f",
+      "related": []
+    },
+    {
+      "prop_eng": "Inverse composition",
+      "prop_math": "f ∘ f^{-1} = I",
+      "conditions": "f must be bijective",
+      "related": []
+    },
+    {
+      "prop_eng": "Even function symmetry",
+      "prop_math": "f(-x) = f(x)",
+      "related": []
+    },
+    {
+      "prop_eng": "Odd function symmetry",
+      "prop_math": "f(-x) = -f(x)",
+      "related": []
+    }
+  ]
+}

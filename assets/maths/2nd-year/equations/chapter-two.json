@@ -1,0 +1,52 @@
+{
+  "chapter": "Limit, Continuity and Derivative",
+  "equations": [
+    {
+      "eq_eng": "Limit definition",
+      "eq_math": " \\lim_{x→a} f(x) = L ",
+      "conditions": "Left-hand and right-hand limits must be equal",
+      "related": []
+    },
+    {
+      "eq_eng": "Continuity condition",
+      "eq_math": " f(a) = \\lim_{x→a} f(x) ",
+      "related": []
+    },
+    {
+      "eq_eng": "Derivative (first principles)",
+      "eq_math": " f'(x) = \\lim_{h→0} \\frac{f(x+h) - f(x)}{h} ",
+      "related": []
+    },
+    {
+      "eq_eng": "Power rule",
+      "eq_math": " \\frac{d}{dx}(x^n) = n x^{n-1} ",
+      "related": []
+    },
+    {
+      "eq_eng": "Derivative of product",
+      "eq_math": " (uv)' = u'v + uv' ",
+      "related": ["Product rule"]
+    },
+    {
+      "eq_eng": "Derivative of quotient",
+      "eq_math": " \\left(\\frac{u}{v}\\right)' = \\frac{u'v - uv'}{v^2} ",
+      "related": []
+    },
+    {
+      "eq_eng": "Chain rule",
+      "eq_math": " \\frac{d}{dx}f(g(x)) = f'(g(x)) g'(x) ",
+      "related": []
+    },
+    {
+      "eq_eng": "Derivative of exponential function",
+      "eq_math": " \\frac{d}{dx} (e^x) = e^x ",
+      "related": []
+    },
+    {
+      "eq_eng": "Derivative of logarithmic function",
+      "eq_math": " \\frac{d}{dx} (\\ln x) = \\frac{1}{x} ",
+      "conditions": "x > 0",
+      "related": []
+    }
+  ]
+}

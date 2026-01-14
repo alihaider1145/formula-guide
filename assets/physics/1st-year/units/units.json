@@ -1,0 +1,101 @@
+{
+  "chapter": "Units",
+  "content": [
+    { "card_title": "Length", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Distance", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Displacement", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Displacement (SHM)", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Displacement (wave)", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Height", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Height / depth", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Radius", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Amplitude", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Amplitude of wave", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Wavelength", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Path difference", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Fringe spacing", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Slit separation", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Slit width", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Optical path length", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Lens/film thickness (t)", "card_math": "\\text{meter (m)}" },
+    
+    { "card_title": "Area", "card_math": "\\text{square meter (m}^2\\text{)}" },
+    { "card_title": "Area of cross-section", "card_math": "\\text{square meter (m}^2\\text{)}" },
+    
+    { "card_title": "Volume", "card_math": "\\text{cubic meter (m}^3\\text{)}" },
+    
+    { "card_title": "Mass", "card_math": "\\text{kilogram (kg)}" },
+    
+    { "card_title": "Time", "card_math": "\\text{second (s)}" },
+    { "card_title": "Time period", "card_math": "\\text{second (s)}" },
+    
+    { "card_title": "Speed / Velocity", "card_math": "\\text{meter per second (m/s)}" },
+    { "card_title": "Velocity", "card_math": "\\text{meter per second (m/s)}" },
+    { "card_title": "Linear velocity", "card_math": "\\text{meter per second (m/s)}" },
+    { "card_title": "Tangential velocity", "card_math": "\\text{meter per second (m/s)}" },
+    { "card_title": "Velocity of fluid", "card_math": "\\text{meter per second (m/s)}" },
+    { "card_title": "Wave speed", "card_math": "\\text{meter per second (m/s)}" },
+    
+    { "card_title": "Acceleration", "card_math": "\\text{meter per second squared (m/s}^2\\text{)}" },
+    { "card_title": "Centripetal acceleration", "card_math": "\\text{meter per second squared (m/s}^2\\text{)}" },
+    
+    { "card_title": "Angle (plane)", "card_math": "\\text{radian (rad)}" },
+    { "card_title": "Angle between vectors", "card_math": "\\text{radian (rad)}" },
+    { "card_title": "Phase angle", "card_math": "\\text{radian (rad)}" },
+    { "card_title": "Phase difference", "card_math": "\\text{radian (rad)}" },
+    { "card_title": "Angle of diffraction", "card_math": "\\text{radian (rad)}" },
+    { "card_title": "Polarization angle", "card_math": "\\text{radian (rad)}" },
+    { "card_title": "Angular displacement", "card_math": "\\text{radian (rad)}" },
+    
+    { "card_title": "Solid angle", "card_math": "\\text{steradian (sr)}" },
+    
+    { "card_title": "Angular velocity", "card_math": "\\text{radian per second (rad/s)}" },
+    { "card_title": "Angular frequency", "card_math": "\\text{radian per second (rad/s)}" },
+    { "card_title": "Angular frequency (ω)", "card_math": "\\text{radian per second (rad/s)}" },
+    
+    { "card_title": "Angular acceleration", "card_math": "\\text{radian per second squared (rad/s}^2\\text{)}" },
+    
+    { "card_title": "Wave number", "card_math": "\\text{radian per meter (rad/m)}" },
+    { "card_title": "Wave number (k)", "card_math": "\\text{radian per meter (rad/m)}" },
+    
+    { "card_title": "Frequency", "card_math": "\\text{hertz (Hz)}" },
+    
+    { "card_title": "Force", "card_math": "\\text{newton (N)}" },
+    { "card_title": "Weight", "card_math": "\\text{newton (N)}" },
+    { "card_title": "Normal force", "card_math": "\\text{newton (N)}" },
+    { "card_title": "Normal reaction", "card_math": "\\text{newton (N)}" },
+    { "card_title": "Friction", "card_math": "\\text{newton (N)}" },
+    { "card_title": "Frictional force", "card_math": "\\text{newton (N)}" },
+    { "card_title": "Friction (rolling/centripetal)", "card_math": "\\text{newton (N)}" },
+    { "card_title": "Tension", "card_math": "\\text{newton (N)}" },
+    { "card_title": "Tension (string)", "card_math": "\\text{newton (N)}" },
+    { "card_title": "Air resistance / drag", "card_math": "\\text{newton (N)}" },
+    { "card_title": "Centripetal force", "card_math": "\\text{newton (N)}" },
+    { "card_title": "Buoyant force", "card_math": "\\text{newton (N)}" },
+    { "card_title": "Drag force", "card_math": "\\text{newton (N)}" },
+    
+    { "card_title": "Momentum", "card_math": "\\text{kilogram meter per second (kg·m/s)}" },
+    
+    { "card_title": "Impulse", "card_math": "\\text{newton second (N·s)}" },
+    
+    { "card_title": "Torque", "card_math": "\\text{newton meter (N·m)}" },
+    { "card_title": "Couple", "card_math": "\\text{newton meter (N·m)}" },
+    
+    { "card_title": "Moment of inertia", "card_math": "\\text{kilogram meter squared (kg·m}^2\\text{)}" },
+    
+    { "card_title": "Angular momentum", "card_math": "\\text{kilogram meter squared per second (kg·m}^2\\text{/s)}" },
+    
+    { "card_title": "Work", "card_math": "\\text{joule (J)}" },
+    { "card_title": "Work (rotational)", "card_math": "\\text{joule (J)}" },
+    { "card_title": "Energy", "card_math": "\\text{joule (J)}" },
+    { "card_title": "Energy (SHM)", "card_math": "\\text{joule (J)}" },
+    { "card_title": "Kinetic energy", "card_math": "\\text{joule (J)}" },
+    { "card_title": "Kinetic energy (oscillation)", "card_math": "\\text{joule (J)}" },
+    { "card_title": "Rotational kinetic energy", "card_math": "\\text{joule (J)}" },
+    { "card_title": "Potential energy (gravitational)", "card_math": "\\text{joule (J)}" },
+    { "card_title": "Potential energy (spring/oscillation)", "card_math": "\\text{joule (J)}" },
+    { "card_title": "Elastic potential energy", "card_math": "\\text{joule (J)}" },
+    { "card_title": "Internal energy", "card_math": "\\text{joule (J)}" },
+    { "card_title": "Heat", "card_math": "\\text{joule (J)}" }
+  ]
+}

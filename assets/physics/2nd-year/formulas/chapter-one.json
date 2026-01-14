@@ -1,0 +1,100 @@
+{
+  "chapter": "11. Electrostatics",
+  "content": [
+    {
+      "card_title": "Coulomb's law.",
+      "card_math": "F = k \\frac{q_1 q_2}{r^2}"
+    },
+    {
+      "card_title": "Coulomb's constant.",
+      "card_math": "k = \\frac{1}{4\\pi \\varepsilon_0}",
+      "card_other": [
+        "k = 9 \\times 10^9 N m^2/C^2"
+      ]
+    },
+    {
+      "card_title": "Electric field intensity.",
+      "card_math": "E = \\frac{F}{q_0}"
+    },
+    {
+      "card_title": "Electric field due to point charge.",
+      "card_math": "E = k \\frac{Q}{r^2}"
+    },
+    {
+      "card_title": "Electric field (vector form).",
+      "card_math": "\\vec{E} = k \\frac{Q}{r^2} \\hat{r}"
+    },
+    {
+      "card_title": "Force on charge in electric field.",
+      "card_math": "F = qE"
+    },
+    {
+      "card_title": "Electric field due to infinite charged sheet.",
+      "card_math": "E = \\frac{\\sigma}{\\varepsilon_0}"
+    },
+    {
+      "card_title": "Electric field near conducting plate.",
+      "card_math": "E = \\frac{\\sigma}{2\\varepsilon_0}"
+    },
+    {
+      "card_title": "Electric flux through surface.",
+      "card_math": "\\Phi = E A \\cos \\theta"
+    },
+    {
+      "card_title": "Gauss's law.",
+      "card_math": "\\Phi = \\oint \\vec{E} \\cdot d\\vec{A} = \\frac{Q_{enclosed}}{\\varepsilon_0}"
+    },
+    {
+      "card_title": "Electric potential.",
+      "card_math": "V = \\frac{W}{q}"
+    },
+    {
+      "card_title": "Electric field as the negative potential gradient.",
+      "card_math": "E = -\\frac{\\Delta V}{\\Delta r}"
+    },
+    {
+      "card_title": "Potential due to point charge.",
+      "card_math": "V = k \\frac{Q}{r}"
+    },
+    {
+      "card_title": "Potential difference in uniform field.",
+      "card_math": "V = Ed"
+    },
+    {
+      "card_title": "Work done in moving charge.",
+      "card_math": "W = qV"
+    },
+    {
+      "card_title": "Relation between field and potential.",
+      "card_math": "E = -\\frac{dV}{dr}"
+    },
+    {
+      "card_title": "Capacitance definition.",
+      "card_math": "C = \\frac{Q}{V}"
+    },
+    {
+      "card_title": "Capacitance of parallel plate capacitor.",
+      "card_math": "C = \\frac{\\varepsilon_0 A}{d}"
+    },
+    {
+      "card_title": "Capacitance with dielectric.",
+      "card_math": "C = K C_0"
+    },
+    {
+      "card_title": "Capacitors in series.",
+      "card_math": "C_s = \\frac{1}{\\frac{1}{C_1} + \\frac{1}{C_2} + ...}"
+    },
+    {
+      "card_title": "Capacitors in parallel.",
+      "card_math": "C_p = C_1 + C_2 + ..."
+    },
+    {
+      "card_title": "Energy stored in capacitor.",
+      "card_math": "U = \\frac{1}{2} CV^2"
+    },
+    {
+      "card_title": "Alternative forms of stored energy.",
+      "card_math": "U = \\frac{1}{2} QV = \\frac{Q^2}{2C}"
+    }
+  ]
+}

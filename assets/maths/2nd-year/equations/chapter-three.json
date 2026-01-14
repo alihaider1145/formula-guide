@@ -1,0 +1,57 @@
+{
+  "chapter": "Integration",
+  "equations": [
+    {
+      "eq_eng": "Indefinite integral",
+      "eq_math": "∫ f(x) dx = F(x) + C",
+      "related": []
+    },
+    {
+      "eq_eng": "Definite integral",
+      "eq_math": "∫_a^b f(x) dx = F(b) - F(a)",
+      "related": []
+    },
+    {
+      "eq_eng": "Power rule for integration",
+      "eq_math": "∫ x^n dx = x^{n+1}/(n+1) + C",
+      "conditions": "n ≠ -1",
+      "related": []
+    },
+    {
+      "eq_eng": "Integral of 1/x",
+      "eq_math": "∫ (1/x) dx = ln|x| + C",
+      "related": []
+    },
+    {
+      "eq_eng": "Exponential integral",
+      "eq_math": "∫ e^x dx = e^x + C",
+      "related": []
+    },
+    {
+      "eq_eng": "Integral of sine",
+      "eq_math": "∫ sin x dx = -cos x + C",
+      "related": []
+    },
+    {
+      "eq_eng": "Integral of cosine",
+      "eq_math": "∫ cos x dx = sin x + C",
+      "related": []
+    },
+    {
+      "eq_eng": "Integration by substitution",
+      "eq_math": "∫ f(g(x)) g'(x) dx = ∫ f(u) du",
+      "conditions": "u = g(x)",
+      "related": []
+    },
+    {
+      "eq_eng": "Integration by parts",
+      "eq_math": "∫ u dv = uv - ∫ v du",
+      "related": []
+    },
+    {
+      "eq_eng": "Trigonometric integration example",
+      "eq_math": "∫ sec^2 x dx = tan x + C",
+      "related": []
+    }
+  ]
+}

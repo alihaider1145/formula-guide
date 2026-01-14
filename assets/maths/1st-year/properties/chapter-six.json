@@ -1,0 +1,36 @@
+{
+  "chapter": "Permutation, Combination and Probability",
+  "properties": [
+    {
+      "prop_eng": "Permutation–combination relationship",
+      "prop_math": "P(n, r) = r! C(n, r)",
+      "related": []
+    },
+    {
+      "prop_eng": "Symmetry property of combinations",
+      "prop_math": "C(n, r) = C(n, n-r)",
+      "related": []
+    },
+    {
+      "prop_eng": "Addition law for mutually exclusive events",
+      "prop_math": "P(A ∪ B) = P(A) + P(B)",
+      "related": []
+    },
+    {
+      "prop_eng": "Addition law for general events",
+      "prop_math": "P(A ∪ B) = P(A) + P(B) - P(A ∩ B)",
+      "related": []
+    },
+    {
+      "prop_eng": "Multiplication law for independent events",
+      "prop_math": "P(A ∩ B) = P(A) P(B)",
+      "related": []
+    },
+    {
+      "prop_eng": "Conditional probability relationship",
+      "prop_math": "P(A|B) = \\frac{P(A ∩ B)}{P(B)}",
+      "conditions": "P(B) ≠ 0",
+      "related": []
+    }
+  ]
+}

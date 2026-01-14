@@ -1,0 +1,40 @@
+{
+  "chapter": "Differential Equations",
+  "properties": [
+    {
+      "prop_eng": "Order determines solution complexity",
+      "prop_math": "Order = highest order derivative present",
+      "related": []
+    },
+    {
+      "prop_eng": "Degree defined only after clearing radicals",
+      "prop_math": "Degree = power of highest derivative after simplification",
+      "related": []
+    },
+    {
+      "prop_eng": "General solution contains arbitrary constants",
+      "prop_math": "y = f(x, C_1, C_2, ...)",
+      "related": []
+    },
+    {
+      "prop_eng": "Particular solution obtained from general solution",
+      "prop_math": "Assign specific values to constants",
+      "related": []
+    },
+    {
+      "prop_eng": "Linearity condition for first-order DE",
+      "prop_math": "dy/dx + P(x)y = Q(x)",
+      "related": []
+    },
+    {
+      "prop_eng": "Integrating factor property",
+      "prop_math": "IF = e^{∫P(x)dx}",
+      "related": []
+    },
+    {
+      "prop_eng": "Solution consistency check",
+      "prop_math": "Differentiation of solution satisfies original DE",
+      "related": []
+    }
+  ]
+}
