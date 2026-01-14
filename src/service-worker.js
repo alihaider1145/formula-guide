@@ -1,10 +1,10 @@
-const CACHE_NAME = 'formula-guide-v1';
+const CACHE_NAME = 'revision-guide-v1';
 
 // Files to cache immediately when service worker installs
 const STATIC_ASSETS = [
   '/',
   '/index.html',
-  '/index.css',
+  '/main.js',
   // Add your JS bundles here (whatever Webpack outputs)
   // '/main.bundle.js',
 ];

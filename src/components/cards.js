@@ -26,16 +26,13 @@ function createCard(cardEle){
 async function genCards(){
     globalState.setState({currentData: await fetchData(fetchURL())});
 
-    console.log(globalState.getState().currentData);
     const contentCards = createEle('div', null, document.querySelector(".content"));
     contentCards.classList.add("content__cards");
 
     const contentTitle = createEle('h2', `${globalState.getState().chapter}`, contentCards);
     contentTitle.classList.add('title', 'content__title');
 
-    for(const cardEle of globalState.getState().currentData[globalState.getState().topic]){
-        console.log(globalState.getState().currentData);
-        console.log(cardEle);
+    for(const cardEle of globalState.getState().currentData.content){
         const card = createCard(cardEle);
     }
 
@@ -44,4 +41,10 @@ async function genCards(){
     return document.querySelectorAll(".card");
 }
 
-export { genCards };
+function removeCards(cards){
+    cards.forEach(card => {
+        card.remove();
+    });
+}
+
+export { genCards, removeCards };

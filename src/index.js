@@ -15,9 +15,6 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-//debugging line
-globalState.subscribe(() => {console.log(globalState.getState())})
-
 document.querySelector(".subject").addEventListener("click", subjectHandler);
 document.querySelector(".grade").addEventListener("click", gradeHandler);
 document.querySelector(".topic").addEventListener("click", topicHandler);
