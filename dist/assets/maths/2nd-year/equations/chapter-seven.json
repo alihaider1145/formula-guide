@@ -1,0 +1,46 @@
+{
+  "chapter": "Conic Section",
+  "equations": [
+    {
+      "eq_eng": "Standard equation of a parabola (right opening)",
+      "eq_math": "y^2 = 4ax",
+      "related": []
+    },
+    {
+      "eq_eng": "Standard equation of a parabola (upward opening)",
+      "eq_math": "x^2 = 4ay",
+      "related": []
+    },
+    {
+      "eq_eng": "Standard equation of an ellipse",
+      "eq_math": "\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1",
+      "conditions": "a > b",
+      "related": []
+    },
+    {
+      "eq_eng": "Relation between a, b and c for ellipse",
+      "eq_math": "c^2 = a^2 - b^2",
+      "related": []
+    },
+    {
+      "eq_eng": "Standard equation of a hyperbola",
+      "eq_math": "\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1",
+      "related": []
+    },
+    {
+      "eq_eng": "Relation between a, b and c for hyperbola",
+      "eq_math": "c^2 = a^2 + b^2",
+      "related": []
+    },
+    {
+      "eq_eng": "Eccentricity of a conic",
+      "eq_math": "e = \\frac{c}{a}",
+      "related": []
+    },
+    {
+      "eq_eng": "Length of latus rectum (parabola)",
+      "eq_math": "L = 4a",
+      "related": []
+    }
+  ]
+}

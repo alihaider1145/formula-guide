@@ -1,0 +1,42 @@
+{
+  "chapter": "Polynomials",
+  "equations": [
+    {
+      "eq_eng": "General form of an nth degree polynomial",
+      "eq_math": "P(x) = a_n x^n + a_{n-1} x^{n-1} + ... + a_1 x + a_0",
+      "related": []
+    },
+    {
+      "eq_eng": "Factor Theorem",
+      "eq_math": "If P(a) = 0 then (x - a) is a factor of P(x)",
+      "related": []
+    },
+    {
+      "eq_eng": "Remainder Theorem",
+      "eq_math": "R = P(a) when dividing by (x - a)",
+      "related": []
+    },
+    {
+      "eq_eng": "Sum and product of roots (Quadratic)",
+      "eq_math": "α + β = -b/a ,   αβ = c/a",
+      "conditions": "For ax² + bx + c = 0",
+      "related": []
+    },
+    {
+      "eq_eng": "Quadratic formula",
+      "eq_math": "x = \\frac{-b ± \\sqrt{b^2 - 4ac}}{2a}",
+      "related": []
+    },
+    {
+      "eq_eng": "Cubic roots relations",
+      "eq_math": "α + β + γ = -a_2/a_3,   αβ + βγ + γα = a_1/a_3,   αβγ = -a_0/a_3",
+      "conditions": "For a_3 x³ + a_2 x² + a_1 x + a_0 = 0",
+      "related": []
+    },
+    {
+      "eq_eng": "Derivative of a polynomial",
+      "eq_math": "P'(x) = n a_n x^{n-1} + (n-1) a_{n-1} x^{n-2} + ... + a_1",
+      "related": []
+    }
+  ]
+}

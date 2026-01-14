@@ -1,0 +1,40 @@
+{
+  "chapter": "Numerical Methods",
+  "properties": [
+    {
+      "prop_eng": "Approximation nature of numerical methods",
+      "prop_math": "Numerical results are approximate, not exact",
+      "related": []
+    },
+    {
+      "prop_eng": "Equal interval requirement",
+      "prop_math": "Interpolation formulas assume equal spacing (h constant)",
+      "related": []
+    },
+    {
+      "prop_eng": "Forward interpolation suitability",
+      "prop_math": "Newton forward formula best near beginning of table",
+      "related": []
+    },
+    {
+      "prop_eng": "Backward interpolation suitability",
+      "prop_math": "Newton backward formula best near end of table",
+      "related": []
+    },
+    {
+      "prop_eng": "Accuracy increases with smaller step size",
+      "prop_math": "h ↓ ⇒ approximation error ↓",
+      "related": []
+    },
+    {
+      "prop_eng": "Trapezoidal rule accuracy",
+      "prop_math": "Exact for linear functions",
+      "related": []
+    },
+    {
+      "prop_eng": "Simpson’s rule accuracy",
+      "prop_math": "Exact for polynomials up to degree 3",
+      "related": []
+    }
+  ]
+}

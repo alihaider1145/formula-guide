@@ -1,0 +1,55 @@
+{
+  "chapter": "Matrices and Determinants",
+  "equations": [
+    {
+      "eq_eng": "Matrix addition",
+      "eq_math": "(A + B)_{ij} = a_{ij} + b_{ij}",
+      "conditions": "Same order matrices",
+      "related": []
+    },
+    {
+      "eq_eng": "Matrix multiplication",
+      "eq_math": "(AB)_{ij} = \\sum_{k=1}^{n} a_{ik} b_{kj}",
+      "conditions": "Columns of A = rows of B",
+      "related": []
+    },
+    {
+      "eq_eng": "Scalar multiplication",
+      "eq_math": "(kA)_{ij} = k a_{ij}",
+      "related": []
+    },
+    {
+      "eq_eng": "Determinant of a 2×2 matrix",
+      "eq_math": "|A| = ad - bc",
+      "conditions": "A = [[a, b], [c, d]]",
+      "related": []
+    },
+    {
+      "eq_eng": "Determinant of a 3×3 matrix (Sarrus Rule)",
+      "eq_math": "|A| = a(ei - fh) - b(di - fg) + c(dh - eg)",
+      "related": []
+    },
+    {
+      "eq_eng": "Adjoint of a matrix",
+      "eq_math": "adj(A) = (cofactor(A))^T",
+      "related": []
+    },
+    {
+      "eq_eng": "Inverse of a matrix",
+      "eq_math": "A^{-1} = \\frac{1}{|A|} adj(A)",
+      "conditions": "|A| ≠ 0",
+      "related": []
+    },
+    {
+      "eq_eng": "System of linear equations (matrix form)",
+      "eq_math": "AX = B",
+      "related": []
+    },
+    {
+      "eq_eng": "Cramer's Rule",
+      "eq_math": "x_i = \\frac{|A_i|}{|A|}",
+      "conditions": "|A| ≠ 0",
+      "related": []
+    }
+  ]
+}

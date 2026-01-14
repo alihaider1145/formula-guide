@@ -1,0 +1,65 @@
+{
+  "chapter": "14. Electromagnetic Induction",
+  "content": [
+    {
+      "card_title": "Magnetic flux.",
+      "card_math": "\\Phi_B = BA \\cos \\theta"
+    },
+    {
+      "card_title": "Faraday's law of induction.",
+      "card_math": "\\varepsilon = -N \\frac{d\\Phi_B}{dt}"
+    },
+    {
+      "card_title": "Power dissipated as heat in a conductor due to motional electromotive force induction.",
+      "card_math": "P = I^2 R = \\frac{B^2 l^2 v^2}{R}"
+    },
+    {
+      "card_title": "Self inductance defined as magnetic flux linkage per unit current.",
+      "card_math": "L = \\frac{N\\Phi}{I}"
+    },
+    {
+      "card_title": "Induced EMF (single loop).",
+      "card_math": "\\varepsilon = -\\frac{d\\Phi_B}{dt}"
+    },
+    {
+      "card_title": "Motional EMF.",
+      "card_math": "\\varepsilon = Blv"
+    },
+    {
+      "card_title": "EMF in rotating coil (AC generator).",
+      "card_math": "\\varepsilon = NAB\\omega \\sin(\\omega t)"
+    },
+    {
+      "card_title": "Peak EMF in AC generator.",
+      "card_math": "\\varepsilon_0 = NAB\\omega"
+    },
+    {
+      "card_title": "Mutual induction.",
+      "card_math": "\\varepsilon = -M \\frac{dI}{dt}"
+    },
+    {
+      "card_title": "Self-induction.",
+      "card_math": "\\varepsilon = -L \\frac{dI}{dt}"
+    },
+    {
+      "card_title": "Self-inductance definition.",
+      "card_math": "L = \\frac{N\\Phi_B}{I}"
+    },
+    {
+      "card_title": "Transformer voltage relation.",
+      "card_math": "\\frac{V_s}{V_p} = \\frac{N_s}{N_p}"
+    },
+    {
+      "card_title": "Transformer current relation.",
+      "card_math": "\\frac{I_s}{I_p} = \\frac{N_p}{N_s}"
+    },
+    {
+      "card_title": "Ideal transformer power relation.",
+      "card_math": "\\frac{V_s}{V_p} = \\frac{I_p}{I_s}"
+    },
+    {
+      "card_title": "Transformer efficiency.",
+      "card_math": "\\eta = \\frac{P_{out}}{P_{in}} \\times 100\\%"
+    }
+  ]
+}

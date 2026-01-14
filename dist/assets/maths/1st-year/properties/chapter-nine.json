@@ -1,0 +1,40 @@
+{
+  "chapter": "Trigonometric Functions",
+  "properties": [
+    {
+      "prop_eng": "Periodicity of sine and cosine",
+      "prop_math": "sin(θ + 2π) = sinθ,  cos(θ + 2π) = cosθ",
+      "related": []
+    },
+    {
+      "prop_eng": "Periodicity of tangent and cotangent",
+      "prop_math": "tan(θ + π) = tanθ,  cot(θ + π) = cotθ",
+      "related": []
+    },
+    {
+      "prop_eng": "Amplitude property",
+      "prop_math": "Amplitude of y = a sin x or a cos x is |a|",
+      "related": []
+    },
+    {
+      "prop_eng": "Range of sine and cosine",
+      "prop_math": "-1 ≤ sinθ ≤ 1,  -1 ≤ cosθ ≤ 1",
+      "related": []
+    },
+    {
+      "prop_eng": "Range of tangent",
+      "prop_math": "tanθ ∈ ℝ",
+      "related": []
+    },
+    {
+      "prop_eng": "Symmetry of sine graph",
+      "prop_math": "sin(-x) = -sinx",
+      "related": []
+    },
+    {
+      "prop_eng": "Symmetry of cosine graph",
+      "prop_math": "cos(-x) = cosx",
+      "related": []
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "chapter": "2. Vectors and Equilibrium",
+  "content": [
+    {
+      "card_title": "Horizontal (x) component of vector A.",
+      "card_math": "A_x = A \\cos \\theta"
+    },
+    {
+      "card_title": "Vertical (y) component of vector A.",
+      "card_math": "A_y = A \\sin \\theta"
+    },
+    {
+      "card_title": "Magnitude of vector from its components.",
+      "card_math": "A = \\sqrt{A_x^2 + A_y^2}"
+    },
+    {
+      "card_title": "Direction of vector from components.",
+      "card_math": "\\theta = \\tan^{-1} \\left( \\frac{A_y}{A_x} \\right)"
+    },
+    {
+      "card_title": "x-component of resultant vector.",
+      "card_math": "R_x = A_x + B_x"
+    },
+    {
+      "card_title": "y-component of resultant vector.",
+      "card_math": "R_y = A_y + B_y"
+    },
+    {
+      "card_title": "Magnitude of resultant vector.",
+      "card_math": "R = \\sqrt{R_x^2 + R_y^2}"
+    },
+    {
+      "card_title": "Direction of resultant vector.",
+      "card_math": "\\theta = \\tan^{-1} \\left( \\frac{R_y}{R_x} \\right)"
+    },
+    {
+      "card_title": "Scalar (dot) product of two vectors.",
+      "card_math": "\\vec{A} \\cdot \\vec{B} = AB \\cos \\theta"
+    },
+    {
+      "card_title": "Dot product in component form.",
+      "card_math": "\\vec{A} \\cdot \\vec{B} = A_x B_x + A_y B_y + A_z B_z"
+    },
+    {
+      "card_title": "Magnitude of cross product.",
+      "card_math": "|\\vec{A} \\times \\vec{B}| = AB \\sin \\theta"
+    },
+    {
+      "card_title": "Vector (cross) product with direction.",
+      "card_math": "\\vec{A} \\times \\vec{B} = (AB \\sin \\theta) \\hat{n}"
+    },
+    {
+      "card_title": "First condition of equilibrium (translational).",
+      "card_math": "\\sum F = 0"
+    },
+    {
+      "card_title": "Equilibrium conditions in component form.",
+      "card_math": "\\sum F_x = 0, \\quad \\sum F_y = 0"
+    },
+    {
+      "card_title": "Second condition of equilibrium (rotational).",
+      "card_math": "\\sum \\tau = 0"
+    },
+    {
+      "card_title": "Torque (moment of force).",
+      "card_math": "\\tau = r F \\sin \\theta"
+    },
+    {
+      "card_title": "Torque using perpendicular distance.",
+      "card_math": "\\tau = F \\times r_\\perp",
+      "card_other": [
+        "r_\\perp = r \\sin \\theta"
+      ]
+    },
+    {
+      "card_title": "Principle of moments (law of LEVER).",
+      "card_math": "F_1 d_1 = F_2 d_2"
+    }
+  ]
+}

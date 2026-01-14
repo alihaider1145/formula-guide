@@ -1,0 +1,37 @@
+{
+  "chapter": "16. Physics of Solids",
+  "content": [
+    {
+      "card_title": "Stress (tensile or compressive).",
+      "card_math": "\\sigma = \\frac{F}{A}"
+    },
+    {
+      "card_title": "Strain (longitudinal).",
+      "card_math": "\\varepsilon = \\frac{\\Delta L}{L}"
+    },
+    {
+      "card_title": "Young's modulus.",
+      "card_math": "Y = \\frac{\\sigma}{\\varepsilon} = \\frac{FL}{A\\Delta L}"
+    },
+    {
+      "card_title": "Bulk modulus.",
+      "card_math": "K = -\\frac{\\Delta P}{\\Delta V / V}"
+    },
+    {
+      "card_title": "Shear modulus (rigidity modulus).",
+      "card_math": "G = \\frac{\\tau}{\\gamma}"
+    },
+    {
+      "card_title": "Shear stress.",
+      "card_math": "\\tau = \\frac{F}{A}"
+    },
+    {
+      "card_title": "Shear strain.",
+      "card_math": "\\gamma = \\frac{\\Delta x}{h}"
+    },
+    {
+      "card_title": "Energy band gap.",
+      "card_math": "E_g = E_C - E_V"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "chapter": "Complex Numbers",
+  "equations": [
+    {
+      "eq_eng": "Standard form of a complex number",
+      "eq_math": "z = a + bi",
+      "conditions": "a = real part, b = imaginary part",
+      "related": []
+    },
+    {
+      "eq_eng": "Modulus of a complex number",
+      "eq_math": "|z| = √(a² + b²)",
+      "related": ["Argand representation uses modulus as radius"]
+    },
+    {
+      "eq_eng": "Argument of a complex number",
+      "eq_math": "arg(z) = θ = tan⁻¹(b/a)",
+      "conditions": "Quadrant must be adjusted based on signs of a, b",
+      "related": []
+    },
+    {
+      "eq_eng": "Conjugate of a complex number",
+      "eq_math": "z̄ = a - bi",
+      "related": ["z·z̄ = |z|²"]
+    },
+    {
+      "eq_eng": "Multiplication of complex numbers",
+      "eq_math": "(a + bi)(c + di) = (ac - bd) + (ad + bc)i",
+      "related": []
+    },
+    {
+      "eq_eng": "Division of complex numbers",
+      "eq_math": "\\frac{a + bi}{c + di} = \\frac{(a + bi)(c - di)}{c² + d²}",
+      "related": ["Uses conjugate in denominator to rationalize"]
+    },
+    {
+      "eq_eng": "Modulus–Argument (polar) form",
+      "eq_math": "z = r(\\cosθ + i\\sinθ)",
+      "conditions": "r = |z|, θ = arg(z)",
+      "related": ["Euler form"]
+    },
+    {
+      "eq_eng": "Euler form of complex number",
+      "eq_math": "z = re^{iθ}",
+      "related": []
+    },
+    {
+      "eq_eng": "De Moivre’s Theorem",
+      "eq_math": "(\\cosθ + i\\sinθ)^n = \\cos(nθ) + i\\sin(nθ)",
+      "conditions": "n ∈ ℤ",
+      "related": []
+    },
+    {
+      "eq_eng": "n-th roots of a complex number",
+      "eq_math": "z_k = r^{1/n} [\\cos(\\frac{θ + 2kπ}{n}) + i\\sin(\\frac{θ + 2kπ}{n})]",
+      "conditions": "k = 0,1,2,...,n−1",
+      "related": []
+    }
+  ]
+}

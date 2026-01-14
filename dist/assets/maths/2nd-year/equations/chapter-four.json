@@ -1,0 +1,51 @@
+{
+  "chapter": "Differential Equations",
+  "equations": [
+    {
+      "eq_eng": "General form of differential equation",
+      "eq_math": "F(x, y, y', y'', ...) = 0",
+      "related": []
+    },
+    {
+      "eq_eng": "Order of differential equation",
+      "eq_math": "Order = highest derivative present",
+      "related": []
+    },
+    {
+      "eq_eng": "Degree of differential equation",
+      "eq_math": "Degree = power of highest derivative after clearing radicals",
+      "related": []
+    },
+    {
+      "eq_eng": "General solution",
+      "eq_math": "y = f(x, C_1, C_2, ...)",
+      "conditions": "Contains arbitrary constants",
+      "related": []
+    },
+    {
+      "eq_eng": "Particular solution",
+      "eq_math": "Obtained by assigning specific values to constants",
+      "related": []
+    },
+    {
+      "eq_eng": "First-order linear differential equation",
+      "eq_math": "dy/dx + P(x)y = Q(x)",
+      "related": []
+    },
+    {
+      "eq_eng": "Solution of first-order linear DE",
+      "eq_math": "y e^{∫P(x)dx} = ∫ [Q(x) e^{∫P(x)dx}] dx + C",
+      "related": ["Integrating factor method"]
+    },
+    {
+      "eq_eng": "Variable separable equation",
+      "eq_math": "M(y) dy = N(x) dx",
+      "related": []
+    },
+    {
+      "eq_eng": "Solution by separation",
+      "eq_math": "∫ M(y) dy = ∫ N(x) dx",
+      "related": []
+    }
+  ]
+}

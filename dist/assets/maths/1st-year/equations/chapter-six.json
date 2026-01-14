@@ -1,0 +1,53 @@
+{
+  "chapter": "Permutation, Combination and Probability",
+  "equations": [
+    {
+      "eq_eng": "Factorial definition",
+      "eq_math": "n! = n(n-1)(n-2)...(1)",
+      "conditions": "0! = 1",
+      "related": []
+    },
+    {
+      "eq_eng": "Permutation (arrangements of r items from n)",
+      "eq_math": "P(n, r) = \\frac{n!}{(n-r)!}",
+      "related": []
+    },
+    {
+      "eq_eng": "Combination (selection of r items from n)",
+      "eq_math": "C(n, r) = \\frac{n!}{r!(n-r)!}",
+      "related": []
+    },
+    {
+      "eq_eng": "Relation between permutations and combinations",
+      "eq_math": "P(n, r) = r! \\cdot C(n, r)",
+      "related": []
+    },
+    {
+      "eq_eng": "Probability of an event",
+      "eq_math": "P(E) = \\frac{n(E)}{n(S)}",
+      "conditions": "All outcomes equally likely",
+      "related": []
+    },
+    {
+      "eq_eng": "Addition rule (mutually exclusive events)",
+      "eq_math": "P(A ∪ B) = P(A) + P(B)",
+      "related": []
+    },
+    {
+      "eq_eng": "Addition rule (general)",
+      "eq_math": "P(A ∪ B) = P(A) + P(B) - P(A ∩ B)",
+      "related": []
+    },
+    {
+      "eq_eng": "Multiplication rule (independent events)",
+      "eq_math": "P(A ∩ B) = P(A)P(B)",
+      "related": []
+    },
+    {
+      "eq_eng": "Conditional probability",
+      "eq_math": "P(A|B) = \\frac{P(A ∩ B)}{P(B)}",
+      "conditions": "P(B) ≠ 0",
+      "related": []
+    }
+  ]
+}

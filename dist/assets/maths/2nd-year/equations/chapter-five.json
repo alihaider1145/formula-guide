@@ -1,0 +1,51 @@
+{
+  "chapter": "Kinematics of Motion in a Straight Line",
+  "equations": [
+    {
+      "eq_eng": "Velocity as rate of change of position",
+      "eq_math": "v = \\frac{dx}{dt}",
+      "related": []
+    },
+    {
+      "eq_eng": "Acceleration as rate of change of velocity",
+      "eq_math": "a = \\frac{dv}{dt}",
+      "related": []
+    },
+    {
+      "eq_eng": "Velocity–acceleration relation",
+      "eq_math": "a = v \\frac{dv}{dx}",
+      "related": []
+    },
+    {
+      "eq_eng": "Displacement from velocity",
+      "eq_math": "x = ∫ v \\, dt",
+      "related": []
+    },
+    {
+      "eq_eng": "Velocity from acceleration",
+      "eq_math": "v = ∫ a \\, dt",
+      "related": []
+    },
+    {
+      "eq_eng": "Constant acceleration equation 1",
+      "eq_math": "v = u + at",
+      "related": []
+    },
+    {
+      "eq_eng": "Constant acceleration equation 2",
+      "eq_math": "s = ut + \\frac{1}{2}at^2",
+      "related": []
+    },
+    {
+      "eq_eng": "Constant acceleration equation 3",
+      "eq_math": "v^2 = u^2 + 2as",
+      "related": []
+    },
+    {
+      "eq_eng": "Average velocity",
+      "eq_math": "v_{avg} = \\frac{u + v}{2}",
+      "conditions": "Valid only for constant acceleration",
+      "related": []
+    }
+  ]
+}

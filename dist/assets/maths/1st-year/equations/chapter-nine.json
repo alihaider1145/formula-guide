@@ -1,0 +1,41 @@
+{
+  "chapter": "Trigonometric Functions",
+  "equations": [
+    {
+      "eq_eng": "General solutions of sine equation",
+      "eq_math": " \\sinθ = k ⇒ θ = (-1)^n \\sin^{-1}(k) + nπ ",
+      "related": []
+    },
+    {
+      "eq_eng": "General solutions of cosine equation",
+      "eq_math": " \\cosθ = k ⇒ θ = ±\\cos^{-1}(k) + 2nπ ",
+      "related": []
+    },
+    {
+      "eq_eng": "General solutions of tangent equation",
+      "eq_math": " \\tanθ = k ⇒ θ = \\tan^{-1}(k) + nπ ",
+      "related": []
+    },
+    {
+      "eq_eng": "Period of trigonometric functions",
+      "eq_math": " T_{\\sin, \\cos} = 2π, \\quad T_{\\tan, \\cot} = π ",
+      "related": []
+    },
+    {
+      "eq_eng": "Amplitude of sine and cosine",
+      "eq_math": " A = |a| \\text{ for } y = a\\sin x, a\\cos x ",
+      "related": []
+    },
+    {
+      "eq_eng": "Phase shift",
+      "eq_math": " y = \\sin(x - c) ⇒ \\text{shift right by } c ",
+      "related": []
+    },
+    {
+      "eq_eng": "Transformations",
+      "eq_math": " y = a\\sin(bx + c) + d ",
+      "conditions": "a = amplitude, b affects period, c shifts graph, d shifts vertically",
+      "related": []
+    }
+  ]
+}

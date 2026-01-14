@@ -1,0 +1,49 @@
+{
+  "chapter": "1. Measurement",
+  "content": [
+    {
+      "card_title": "Physical Quantity",
+      "card_other": "A quantity that can be measured and expressed in numerical value with appropriate unit. Consists of magnitude and unit."
+    },
+    {
+      "card_title": "Base Quantities",
+      "card_other": "Seven fundamental quantities that cannot be expressed in terms of other quantities: Length (m), Mass (kg), Time (s), Electric Current (A), Temperature (K), Amount of Substance (mol), Luminous Intensity (cd)."
+    },
+    {
+      "card_title": "Derived Quantities",
+      "card_other": "Physical quantities that can be expressed in terms of base quantities through mathematical operations (e.g., velocity, acceleration, force, energy)."
+    },
+    {
+      "card_title": "Significant Figures",
+      "card_other": "The reliable digits in a measurement including all certain digits plus one estimated digit. Rules: Non-zero digits are always significant; zeros between non-zero digits are significant; leading zeros are not significant; trailing zeros in decimal numbers are significant."
+    },
+    {
+      "card_title": "Precision vs Accuracy",
+      "card_other": "Precision: How close repeated measurements are to each other (reproducibility). Accuracy: How close a measurement is to the true/accepted value."
+    },
+    {
+      "card_title": "Dimensional Analysis",
+      "card_other": "A method to check the correctness of physical equations by comparing dimensions on both sides. The principle of homogeneity states that only quantities with the same dimensions can be added, subtracted, or equated."
+    },
+    {
+      "card_title": "Vernier Caliper",
+      "card_other": "An instrument used to measure internal and external dimensions and depths accurately. Can measure up to 0.01 cm or 0.1 mm depending on least count."
+    },
+    {
+      "card_title": "Screw Gauge (Micrometer)",
+      "card_other": "An instrument used for precise measurement of small dimensions like wire diameter or sheet thickness. Can measure up to 0.01 mm (0.001 cm)."
+    },
+    {
+      "card_title": "Zero Error",
+      "card_other": "Error in measuring instrument when it does not read zero when it should. Positive zero error: reading is more than zero. Negative zero error: reading is less than zero. Must be corrected in final reading."
+    },
+    {
+      "card_title": "Random Errors",
+      "card_other": "Unpredictable errors that vary randomly in magnitude and direction. Caused by uncontrollable variables. Reduced by taking multiple measurements and averaging."
+    },
+    {
+      "card_title": "Systematic Errors",
+      "card_other": "Errors that consistently occur in same direction and magnitude. Caused by faulty equipment, incorrect calibration, or environmental factors. Can be corrected if source is identified."
+    }
+  ]
+}

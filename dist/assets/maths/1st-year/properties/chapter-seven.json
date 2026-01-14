@@ -1,0 +1,36 @@
+{
+  "chapter": "Mathematical Induction and Binomial Theorem",
+  "properties": [
+    {
+      "prop_eng": "Principle of mathematical induction",
+      "prop_math": "P(1) true ∧ [P(k) ⇒ P(k+1)] ⇒ P(n) true ∀ n ∈ ℕ",
+      "related": []
+    },
+    {
+      "prop_eng": "Symmetry property of binomial coefficients",
+      "prop_math": "C(n, r) = C(n, n-r)",
+      "related": []
+    },
+    {
+      "prop_eng": "Sum of binomial coefficients",
+      "prop_math": "\\sum_{r=0}^{n} C(n, r) = 2^n",
+      "related": []
+    },
+    {
+      "prop_eng": "Alternating sum of binomial coefficients",
+      "prop_math": "\\sum_{r=0}^{n} (-1)^r C(n, r) = 0",
+      "conditions": "n ≥ 1",
+      "related": []
+    },
+    {
+      "prop_eng": "Middle term in binomial expansion",
+      "prop_math": "T_{(n/2)+1} \\text{ if n even},  T_{(n+1)/2}, T_{(n+3)/2} \\text{ if n odd}",
+      "related": []
+    },
+    {
+      "prop_eng": "Pascal’s triangle property",
+      "prop_math": "C(n, r) = C(n-1, r) + C(n-1, r-1)",
+      "related": []
+    }
+  ]
+}

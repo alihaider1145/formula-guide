@@ -1,0 +1,117 @@
+{
+  "chapter": "Units",
+  "content": [
+    { "card_title": "Length", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Distance", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Distance/length (L)", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Distance / separation (r)", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Displacement", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Displacement (SHM)", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Displacement (wave)", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Height", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Height / depth", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Radius", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Change in length (ΔL)", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Lateral displacement (x)", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Length of conductor (L)", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Interatomic distance (r)", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Amplitude", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Amplitude of wave", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Wavelength", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Wavelength (λ)", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Path difference", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Fringe spacing", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Slit separation", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Slit width", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Optical path length", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Lens/film thickness (t)", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Orbital radius (Bohr model)", "card_math": "\\text{meter (m)}" },
+    { "card_title": "Orbital radius (Bohr radius multiples)", "card_math": "\\text{meter (m)}" },
+
+    { "card_title": "Area", "card_math": "\\text{square meter (m}^2\\text{)}" },
+    { "card_title": "Area of cross-section", "card_math": "\\text{square meter (m}^2\\text{)}" },
+    { "card_title": "Cross-sectional area (A)", "card_math": "\\text{square meter (m}^2\\text{)}" },
+    { "card_title": "Area (A)", "card_math": "\\text{square meter (m}^2\\text{)}" },
+    { "card_title": "Area of coil (A)", "card_math": "\\text{square meter (m}^2\\text{)}" },
+
+    { "card_title": "Volume", "card_math": "\\text{cubic meter (m}^3\\text{)}" },
+
+    { "card_title": "Mass", "card_math": "\\text{kilogram (kg)}" },
+    { "card_title": "Mass (m)", "card_math": "\\text{kilogram (kg)}" },
+    { "card_title": "Mass defect (Δm)", "card_math": "\\text{kilogram (kg)}" },
+
+    { "card_title": "Time", "card_math": "\\text{second (s)}" },
+    { "card_title": "Time (t)", "card_math": "\\text{second (s)}" },
+    { "card_title": "Time period", "card_math": "\\text{second (s)}" },
+    { "card_title": "Half-life (T₁/₂)", "card_math": "\\text{second (s)}" },
+    { "card_title": "Time constant (τ = RC)", "card_math": "\\text{second (s)}" },
+
+    { "card_title": "Speed / Velocity", "card_math": "\\text{meter per second (m/s)}" },
+    { "card_title": "Velocity", "card_math": "\\text{meter per second (m/s)}" },
+    { "card_title": "Velocity (v)", "card_math": "\\text{meter per second (m/s)}" },
+    { "card_title": "Linear velocity", "card_math": "\\text{meter per second (m/s)}" },
+    { "card_title": "Tangential velocity", "card_math": "\\text{meter per second (m/s)}" },
+    { "card_title": "Velocity of fluid", "card_math": "\\text{meter per second (m/s)}" },
+    { "card_title": "Wave speed", "card_math": "\\text{meter per second (m/s)}" },
+    { "card_title": "Velocity of charge (v)", "card_math": "\\text{meter per second (m/s)}" },
+    { "card_title": "Drift velocity (v_d)", "card_math": "\\text{meter per second (m/s)}" },
+    { "card_title": "Electron speed (v_n)", "card_math": "\\text{meter per second (m/s)}" },
+
+    { "card_title": "Acceleration", "card_math": "\\text{meter per second squared (m/s}^2\\text{)}" },
+    { "card_title": "Centripetal acceleration", "card_math": "\\text{meter per second squared (m/s}^2\\text{)}" },
+
+    { "card_title": "Angle (plane)", "card_math": "\\text{radian (rad)}" },
+    { "card_title": "Angle", "card_math": "\\text{radian (rad)}" },
+    { "card_title": "Angle between vectors", "card_math": "\\text{radian (rad)}" },
+    { "card_title": "Phase angle", "card_math": "\\text{radian (rad)}" },
+    { "card_title": "Phase angle (φ)", "card_math": "\\text{radian (rad)}" },
+    { "card_title": "Phase difference", "card_math": "\\text{radian (rad)}" },
+    { "card_title": "Angle of diffraction", "card_math": "\\text{radian (rad)}" },
+    { "card_title": "Polarization angle", "card_math": "\\text{radian (rad)}" },
+    { "card_title": "Angular displacement", "card_math": "\\text{radian (rad)}" },
+
+    { "card_title": "Solid angle", "card_math": "\\text{steradian (sr)}" },
+
+    { "card_title": "Angular velocity", "card_math": "\\text{radian per second (rad/s)}" },
+    { "card_title": "Angular velocity (ω)", "card_math": "\\text{radian per second (rad/s)}" },
+    { "card_title": "Angular frequency", "card_math": "\\text{radian per second (rad/s)}" },
+    { "card_title": "Angular frequency (ω)", "card_math": "\\text{radian per second (rad/s)}" },
+
+    { "card_title": "Angular acceleration", "card_math": "\\text{radian per second squared (rad/s}^2\\text{)}" },
+
+    { "card_title": "Wave number", "card_math": "\\text{radian per meter (rad/m)}" },
+    { "card_title": "Wave number (k)", "card_math": "\\text{radian per meter (rad/m)}" },
+    { "card_title": "Wave number (1/λ)", "card_math": "\\text{per meter (m}^{-1}\\text{)}" },
+
+    { "card_title": "Frequency", "card_math": "\\text{hertz (Hz)}" },
+    { "card_title": "Frequency (f)", "card_math": "\\text{hertz (Hz)}" },
+    { "card_title": "Photon frequency", "card_math": "\\text{hertz (Hz)}" },
+    { "card_title": "Cutoff frequency (f_c)", "card_math": "\\text{hertz (Hz)}" },
+
+    { "card_title": "Charge (q)", "card_math": "\\text{coulomb (C)}" },
+    { "card_title": "Charge (Q)", "card_math": "\\text{coulomb (C)}" },
+
+    { "card_title": "AC current (I, I₀, Iᵣₘₛ)", "card_math": "\\text{ampere (A)}" },
+    { "card_title": "RMS current", "card_math": "\\text{ampere (A)}" },
+    { "card_title": "Electric current", "card_math": "\\text{ampere (A)}" },
+
+    { "card_title": "Voltage (V)", "card_math": "\\text{volt (V)}" },
+    { "card_title": "AC voltage (V, V₀, Vᵣₘₛ)", "card_math": "\\text{volt (V)}" },
+    { "card_title": "RMS voltage", "card_math": "\\text{volt (V)}" },
+    { "card_title": "Electric potential (V)", "card_math": "\\text{volt (V)}" },
+    { "card_title": "Induced emf (ε)", "card_math": "\\text{volt (V)}" },
+
+    { "card_title": "Resistance (R)", "card_math": "\\text{ohm (Ω)}" },
+    { "card_title": "Resistivity (ρ)", "card_math": "\\text{ohm meter (Ω·m)}" },
+    { "card_title": "Inductive reactance (X_L)", "card_math": "\\text{ohm (Ω)}" },
+    { "card_title": "Capacitive reactance (X_C)", "card_math": "\\text{ohm (Ω)}" },
+    { "card_title": "Impedance (Z)", "card_math": "\\text{ohm (Ω)}" },
+    { "card_title": "Input impedance (Z_in)", "card_math": "\\text{ohm (Ω)}" },
+    { "card_title": "Output impedance (Z_out)", "card_math": "\\text{ohm (Ω)}" },
+
+    { "card_title": "Capacitance (C)", "card_math": "\\text{farad (F)}" },
+
+    { "card_title": "Inductance (L)", "card_math": "\\text{henry (H)}" },
+    { "card_title": "Mutual inductance (M)", "card_math": "\\text{henry (H)}" }
+  ]
+}

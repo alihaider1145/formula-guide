@@ -1,0 +1,47 @@
+{
+  "chapter": "Complex Numbers",
+  "properties": [
+    {
+      "prop_eng": "Conjugate multiplication property",
+      "prop_math": "z \\cdot \\bar{z} = |z|^2",
+      "related": []
+    },
+    {
+      "prop_eng": "Modulus of conjugate",
+      "prop_math": "|z| = |\\bar{z}|",
+      "related": []
+    },
+    {
+      "prop_eng": "Argument of conjugate",
+      "prop_math": "arg(\\bar{z}) = -arg(z)",
+      "related": []
+    },
+    {
+      "prop_eng": "Triangle inequality",
+      "prop_math": "|z_1 + z_2| ≤ |z_1| + |z_2|",
+      "related": []
+    },
+    {
+      "prop_eng": "Multiplicative property of modulus",
+      "prop_math": "|z_1 z_2| = |z_1||z_2|",
+      "related": []
+    },
+    {
+      "prop_eng": "Division property of modulus",
+      "prop_math": "|z_1 / z_2| = |z_1| / |z_2|",
+      "conditions": "z₂ ≠ 0",
+      "related": []
+    },
+    {
+      "prop_eng": "Argument of product",
+      "prop_math": "arg(z_1 z_2) = arg(z_1) + arg(z_2)",
+      "related": []
+    },
+    {
+      "prop_eng": "Argument of quotient",
+      "prop_math": "arg(z_1 / z_2) = arg(z_1) - arg(z_2)",
+      "conditions": "z₂ ≠ 0",
+      "related": []
+    }
+  ]
+}

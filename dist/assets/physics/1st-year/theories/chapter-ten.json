@@ -1,0 +1,129 @@
+{
+  "chapter": "10. Thermodynamics",
+  "content": [
+    {
+      "card_title": "Thermodynamics",
+      "card_other": "Branch of physics dealing with heat, work, temperature, and energy. Studies energy transformations and relationship between macroscopic properties of systems. Based on four fundamental laws."
+    },
+    {
+      "card_title": "Thermodynamic System",
+      "card_other": "Region of space under study separated from surroundings by boundary. Open: exchanges matter and energy. Closed: exchanges energy only. Isolated: exchanges neither."
+    },
+    {
+      "card_title": "Temperature",
+      "card_other": "Measure of average kinetic energy of molecules. Determines direction of heat flow (hot to cold). SI unit: kelvin (K). Absolute zero (0 K = -273.15°C) is lowest possible temperature."
+    },
+    {
+      "card_title": "Heat",
+      "card_other": "Energy transferred between systems due to temperature difference. Flows from high to low temperature. Not a state function - depends on process. SI unit: joule. Symbol: Q."
+    },
+    {
+      "card_title": "Internal Energy",
+      "card_other": "Total energy of all molecules in system (kinetic + potential). State function - depends only on current state, not path. For ideal gas, depends only on temperature. Symbol: U."
+    },
+    {
+      "card_title": "Work in Thermodynamics",
+      "card_other": "Energy transfer by means other than heat. Can be mechanical (PV work), electrical, etc. Positive when done by system (expansion). Negative when done on system (compression)."
+    },
+    {
+      "card_title": "First Law of Thermodynamics",
+      "card_other": "Energy conservation: change in internal energy equals heat added minus work done by system: ΔU = Q - W. Energy cannot be created or destroyed, only transformed."
+    },
+    {
+      "card_title": "Thermodynamic Processes",
+      "card_other": "Path taken by system from one state to another. Different processes transfer energy differently. Common types: isothermal, adiabatic, isobaric, isochoric."
+    },
+    {
+      "card_title": "Isothermal Process",
+      "card_other": "Process at constant temperature (ΔT = 0). For ideal gas: PV = constant (Boyle's law). Internal energy constant (ΔU = 0), so Q = W. Slow process allowing heat exchange."
+    },
+    {
+      "card_title": "Adiabatic Process",
+      "card_other": "Process with no heat transfer (Q = 0). System thermally insulated. ΔU = -W. For ideal gas: PVᵞ = constant. Temperature changes. Faster than isothermal. Example: rapid compression/expansion."
+    },
+    {
+      "card_title": "Isobaric Process",
+      "card_other": "Process at constant pressure (ΔP = 0). V/T = constant (Charles's law). Work done = PΔV. Common in atmospheric processes and engines with pistons."
+    },
+    {
+      "card_title": "Isochoric Process",
+      "card_other": "Process at constant volume (ΔV = 0). P/T = constant (Gay-Lussac's law). No work done (W = 0), so ΔU = Q. Heat added directly increases internal energy."
+    },
+    {
+      "card_title": "Specific Heat Capacity",
+      "card_other": "Heat required to raise temperature of unit mass by 1°C (or 1 K). Depends on material. SI unit: J/(kg·K). Symbol: c. Water has high specific heat (4186 J/(kg·K))."
+    },
+    {
+      "card_title": "Molar Specific Heat",
+      "card_other": "Heat required to raise temperature of one mole by 1 K. Two values for gases: Cₚ (constant pressure) and Cᵥ (constant volume). Cₚ > Cᵥ because work done in expansion."
+    },
+    {
+      "card_title": "Latent Heat",
+      "card_other": "Heat required for phase change at constant temperature. Latent heat of fusion: solid ↔ liquid. Latent heat of vaporization: liquid ↔ gas. No temperature change during phase transition."
+    },
+    {
+      "card_title": "Ideal Gas",
+      "card_other": "Theoretical gas with no intermolecular forces and negligible molecular volume. Obeys ideal gas law: PV = nRT. Good approximation for real gases at low pressure and high temperature."
+    },
+    {
+      "card_title": "Ideal Gas Law",
+      "card_other": "Equation of state relating pressure, volume, temperature, and amount: PV = nRT. R = 8.314 J/(mol·K) is universal gas constant. Combines Boyle's, Charles's, and Avogadro's laws."
+    },
+    {
+      "card_title": "Kinetic Theory of Gases",
+      "card_other": "Microscopic model explaining gas behavior. Assumptions: large number of molecules in random motion, elastic collisions, negligible molecular size, no intermolecular forces. Relates macroscopic properties to molecular motion."
+    },
+    {
+      "card_title": "Average Kinetic Energy",
+      "card_other": "Mean kinetic energy of gas molecules directly proportional to absolute temperature: KE_avg = (3/2)kT. All gases at same temperature have same average KE per molecule."
+    },
+    {
+      "card_title": "Root Mean Square Speed",
+      "card_other": "Square root of average of squared speeds of molecules. Measure of typical molecular speed. Proportional to √T and inversely proportional to √M. Lighter molecules move faster at given temperature."
+    },
+    {
+      "card_title": "Heat Engine",
+      "card_other": "Device converting heat into work. Operates in cycles between hot and cold reservoirs. Takes heat from hot reservoir, does work, rejects remaining heat to cold reservoir. Examples: steam engine, car engine."
+    },
+    {
+      "card_title": "Efficiency of Heat Engine",
+      "card_other": "Ratio of work output to heat input: η = W/Qₕ = 1 - Qc/Qₕ. Always less than 100% (second law). Maximum efficiency is Carnot efficiency. Improved by increasing temperature difference."
+    },
+    {
+      "card_title": "Carnot Engine",
+      "card_other": "Ideal reversible heat engine operating between two temperatures. Maximum possible efficiency for given temperature limits: η_c = 1 - Tc/Tₕ. Real engines less efficient. Sets theoretical upper limit."
+    },
+    {
+      "card_title": "Carnot Cycle",
+      "card_other": "Theoretical reversible cycle with four processes: isothermal expansion, adiabatic expansion, isothermal compression, adiabatic compression. Most efficient cycle possible between two temperatures."
+    },
+    {
+      "card_title": "Second Law of Thermodynamics",
+      "card_other": "Heat naturally flows from hot to cold, not reverse (Clausius). No engine can be 100% efficient (Kelvin-Planck). Entropy of isolated system never decreases. Defines arrow of time."
+    },
+    {
+      "card_title": "Entropy",
+      "card_other": "Measure of disorder or randomness in system. State function. Increases in spontaneous processes. For reversible process at constant T: ΔS = Q/T. Universe's entropy always increases."
+    },
+    {
+      "card_title": "Refrigerator",
+      "card_other": "Heat engine operating in reverse. Transfers heat from cold to hot reservoir using external work. Cannot work without work input (violates second law otherwise). Examples: refrigerator, air conditioner."
+    },
+    {
+      "card_title": "Coefficient of Performance (COP)",
+      "card_other": "For refrigerator: ratio of heat removed from cold reservoir to work input: COP = Qc/W. Can be greater than 1. Higher COP means more efficient. For heat pump: (Qₕ/W)."
+    },
+    {
+      "card_title": "Zeroth Law of Thermodynamics",
+      "card_other": "If A and B are each in thermal equilibrium with C, then A and B are in thermal equilibrium with each other. Establishes concept of temperature. Foundation for thermometry."
+    },
+    {
+      "card_title": "Third Law of Thermodynamics",
+      "card_other": "Entropy of perfect crystal at absolute zero is zero. Absolute zero (0 K) is unattainable - would require infinite steps. Provides reference point for entropy calculations."
+    },
+    {
+      "card_title": "Reversible vs Irreversible Processes",
+      "card_other": "Reversible: can be reversed without change in universe. Ideal, infinitely slow, no entropy increase. Irreversible: cannot be reversed without changes. All real processes irreversible due to friction, heat loss."
+    }
+  ]
+}
