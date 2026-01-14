@@ -1,6 +1,6 @@
 {
   "chapter": "2. Vectors and Equilibrium",
-  "formulas": [
+  "content": [
     {
       "card_title": "Horizontal (x) component of vector A.",
       "card_math": "A_x = A \\cos \\theta"

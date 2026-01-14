@@ -1,6 +1,6 @@
 {
   "chapter": "6. Fluid Dynamics",
-  "theories": [
+  "content": [
     {
       "card_title": "Fluid",
       "card_other": "A substance that can flow and takes shape of container. Includes liquids and gases. Cannot sustain shear stress - deforms continuously under tangential force."

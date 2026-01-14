@@ -1,6 +1,6 @@
 {
   "chapter": "Constants",
-  "constants": [
+  "content": [
     {
       "card_title": "Speed of light in vacuum",
       "card_math": "c = 3.00 \\times 10^8 \\text{ m/s}"

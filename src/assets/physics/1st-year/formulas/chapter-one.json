@@ -1,6 +1,6 @@
 {
   "chapter": "1. Measurement",
-  "formulas": [
+  "content": [
     {
       "card_title": "Least count of vernier caliper.",
       "card_math": "\\text{Least Count} = \\frac{\\text{1 MSD}}{\\text{Total vernier divisions}}"

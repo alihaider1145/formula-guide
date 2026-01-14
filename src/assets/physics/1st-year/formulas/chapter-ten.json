@@ -1,6 +1,6 @@
 {
   "chapter": "10. Thermodynamics",
-  "formulas": [
+  "content": [
     {
       "card_title": "First law of thermodynamics.",
       "card_math": "\\Delta U = Q - W"

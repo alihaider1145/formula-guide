@@ -1,6 +1,6 @@
 {
   "chapter": "5. Circular Motion",
-  "theories": [
+  "content": [
     {
       "card_title": "Radian",
       "card_other": "The angle subtended at center of circle by arc equal in length to radius. 1 radian ≈ 57.3°. 2π radians = 360°. Dimensionless unit but written as 'rad' for clarity."

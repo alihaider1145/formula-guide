@@ -1,6 +1,6 @@
 {
   "chapter": "4. Work and Energy",
-  "formulas": [
+  "content": [
     {
       "card_title": "Work done by a constant force.",
       "card_math": "W = Fs \\cos \\theta"

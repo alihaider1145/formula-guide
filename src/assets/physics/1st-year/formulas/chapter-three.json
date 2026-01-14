@@ -1,6 +1,6 @@
 {
   "chapter": "3. Motion and Force",
-  "formulas": [
+  "content": [
     {
       "card_title": "Average velocity.",
       "card_math": "v_{avg} = \\frac{\\Delta x}{\\Delta t}"

@@ -1,6 +1,6 @@
 {
   "chapter": "6. Fluid Dynamics",
-  "formulas": [
+  "content": [
     {
       "card_title": "Density.",
       "card_math": "\\rho = \\frac{m}{V}"

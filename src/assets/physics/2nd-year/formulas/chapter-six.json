@@ -1,6 +1,6 @@
 {
   "chapter": "16. Physics of Solids",
-  "formulas": [
+  "content": [
     {
       "card_title": "Stress (tensile or compressive).",
       "card_math": "\\sigma = \\frac{F}{A}"

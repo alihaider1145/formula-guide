@@ -1,6 +1,6 @@
 {
   "chapter": "12. Current Electricity",
-  "formulas": [
+  "content": [
     {
       "card_title": "Electric current.",
       "card_math": "I = \\frac{Q}{t}"

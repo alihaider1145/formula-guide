@@ -1,6 +1,6 @@
 {
   "chapter": "13. Electromagnetism",
-  "theories": [
+  "content": [
     {
       "card_title": "Magnetic Field",
       "card_other": "Region around magnet or current where magnetic force acts. Vector quantity. Visualized by field lines (N to S outside magnet). SI unit: tesla (T). Detected by compass needle alignment or force on moving charge."

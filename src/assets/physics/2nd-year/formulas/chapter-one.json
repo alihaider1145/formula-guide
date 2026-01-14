@@ -1,6 +1,6 @@
 {
   "chapter": "11. Electrostatics",
-  "formulas": [
+  "content": [
     {
       "card_title": "Coulomb's law.",
       "card_math": "F = k \\frac{q_1 q_2}{r^2}"

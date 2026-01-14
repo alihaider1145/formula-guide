@@ -1,6 +1,6 @@
 {
   "chapter": "3. Motion and Force",
-  "theories": [
+  "content": [
     {
       "card_title": "Distance vs Displacement",
       "card_other": "Distance: Total path length traveled (scalar, always positive). Displacement: Straight-line distance from initial to final position (vector, can be zero)."

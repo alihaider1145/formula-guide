@@ -1,6 +1,6 @@
 {
   "chapter": "14. Electromagnetic Induction",
-  "theories": [
+  "content": [
     {
       "card_title": "Electromagnetic Induction",
       "card_other": "Production of EMF in conductor when magnetic flux through it changes. Discovered by Faraday. Basis of generators, transformers, inductors. Converts mechanical energy to electrical. Reciprocal of magnetic force on current."

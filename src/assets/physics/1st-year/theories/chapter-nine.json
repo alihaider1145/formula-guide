@@ -1,6 +1,6 @@
 {
   "chapter": "9. Physical Optics",
-  "theories": [
+  "content": [
     {
       "card_title": "Light as Wave",
       "card_other": "Light is electromagnetic wave with wavelength range ~400-700 nm (visible spectrum). Exhibits wave properties: interference, diffraction, polarization. Does not require medium, travels through vacuum."

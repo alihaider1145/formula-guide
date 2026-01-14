@@ -1,6 +1,6 @@
 {
   "chapter": "20. Nuclear Physics",
-  "formulas": [
+  "content": [
     {
       "card_title": "Mass defect.",
       "card_math": "\\Delta m = (Zm_p + Nm_n) - M_{nucleus}"

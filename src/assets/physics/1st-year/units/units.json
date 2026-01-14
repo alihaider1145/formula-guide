@@ -1,6 +1,6 @@
 {
   "chapter": "Units",
-  "units": [
+  "content": [
     { "card_title": "Length", "card_math": "\\text{meter (m)}" },
     { "card_title": "Distance", "card_math": "\\text{meter (m)}" },
     { "card_title": "Displacement", "card_math": "\\text{meter (m)}" },

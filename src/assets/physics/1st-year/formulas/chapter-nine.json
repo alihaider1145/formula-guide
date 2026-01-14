@@ -1,6 +1,6 @@
 {
   "chapter": "9. Physical Optics",
-  "formulas": [
+  "content": [
     {
       "card_title": "Speed of light relation.",
       "card_math": "c = f\\lambda"

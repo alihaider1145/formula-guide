@@ -1,6 +1,6 @@
 {
   "chapter": "13. Electromagnetism",
-  "formulas": [
+  "content": [
     {
       "card_title": "Magnetic force on moving charge.",
       "card_math": "F = qvB \\sin \\theta"

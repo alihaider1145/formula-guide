@@ -1,6 +1,6 @@
 {
   "chapter": "18. Dawn of Modern Physics",
-  "theories": [
+  "content": [
     {
       "card_title": "Black Body Radiation",
       "card_other": "Radiation emitted by perfect absorber/emitter (black body). Spectrum depends only on temperature. Classical physics failed to explain (ultraviolet catastrophe). Led to quantum theory. Used to define temperature scale."

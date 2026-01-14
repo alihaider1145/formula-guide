@@ -1,6 +1,6 @@
 {
   "chapter": "8. Waves",
-  "formulas": [
+  "content": [
     {
       "card_title": "Wave equation.",
       "card_math": "v = f\\lambda"

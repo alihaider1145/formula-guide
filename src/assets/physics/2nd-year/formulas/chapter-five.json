@@ -1,6 +1,6 @@
 {
   "chapter": "15. Alternating Current",
-  "formulas": [
+  "content": [
     {
       "card_title": "Instantaneous AC voltage.",
       "card_math": "V = V_0 \\sin(\\omega t)"

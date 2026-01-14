@@ -1,6 +1,6 @@
 {
   "chapter": "17. Electronics",
-  "formulas": [
+  "content": [
     {
       "card_title": "Current relation in transistor.",
       "card_math": "I_E = I_B + I_C"

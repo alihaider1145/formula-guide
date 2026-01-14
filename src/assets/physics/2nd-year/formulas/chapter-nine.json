@@ -1,6 +1,6 @@
 {
   "chapter": "19. Atomic Spectra",
-  "formulas": [
+  "content": [
     {
       "card_title": "Energy difference between levels.",
       "card_math": "\\Delta E = E_i - E_f"

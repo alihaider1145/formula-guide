@@ -1,6 +1,6 @@
 {
   "chapter": "7. Oscillations",
-  "formulas": [
+  "content": [
     {
       "card_title": "Restoring force (Hooke's law).",
       "card_math": "F = -kx"

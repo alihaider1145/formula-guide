@@ -1,6 +1,6 @@
 {
   "chapter": "5. Circular Motion",
-  "formulas": [
+  "content": [
     {
       "card_title": "Angular displacement defined as arc length divided by radius.",
       "card_math": "\\theta = \\frac{s}{r}"

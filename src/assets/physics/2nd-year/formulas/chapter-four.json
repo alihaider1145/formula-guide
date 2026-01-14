@@ -1,6 +1,6 @@
 {
   "chapter": "14. Electromagnetic Induction",
-  "formulas": [
+  "content": [
     {
       "card_title": "Magnetic flux.",
       "card_math": "\\Phi_B = BA \\cos \\theta"

@@ -1,6 +1,6 @@
 {
   "chapter": "15. Alternating Current",
-  "theories": [
+  "content": [
     {
       "card_title": "Alternating Current (AC)",
       "card_other": "Current that periodically reverses direction. Varies sinusoidally with time. Produced by AC generators. Frequency 50 Hz (Pakistan) or 60 Hz (US). Easier to generate and transmit than DC."
