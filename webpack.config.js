@@ -1,6 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const CopyWebpackPlugin = require('copy-webpack-plugin');
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -12,7 +12,10 @@ module.exports = {
   },
   devtool: "eval-source-map",
   devServer: {
-    watchFiles: ["./src/index.html"],
+    static: "./dist",
+    hot: true,
+    open: true,
+    port: 8080,
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -20,12 +23,7 @@ module.exports = {
     }),
     new CopyWebpackPlugin({
       patterns: [
-        { from: 'src/assets', to: 'assets' }
-      ],
-    }),
-    new CopyWebpackPlugin({
-      patterns: [
-        { from: 'src/service-worker.js', to: 'service-worker.js' }
+        { from: "src/assets", to: "assets", noErrorOnMissing: true },
       ],
     }),
   ],
