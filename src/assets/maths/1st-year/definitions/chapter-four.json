@@ -1,35 +1,65 @@
 {
-  "chapter": "Vectors",
+  "chapter": "Sequences and Series",
   "definitions": [
     {
-      "term": "Vector",
-      "definition_math": "A quantity with magnitude and direction.",
-      "definition_eng": "An object defined by its length and direction.",
-      "examples": ["(3, 4)", "i + 2j - k"]
+      "card_title": "Recursive formula",
+      "card_math": "",
+      "card_other": "Recurrence relation - Relation between successive terms"
     },
     {
-      "term": "Unit Vector",
-      "definition_math": "û = v / |v|",
-      "definition_eng": "A vector of magnitude 1 in the direction of v.",
-      "examples": ["(3/5, 4/5)"]
+      "card_title": "Sequence notation",
+      "card_math": "t₁ = a, t_{n+1} = t_n + (n-1), n = 1,2,3,...",
+      "card_other": ""
     },
     {
-      "term": "Scalar Product",
-      "definition_math": "a · b = |a||b| cosθ",
-      "definition_eng": "Dot product gives projection magnitude.",
-      "examples": ["(1,2)·(3,4)=11"]
+      "card_title": "Triangle number sequence",
+      "card_math": "",
+      "card_other": "(factorial)"
     },
     {
-      "term": "Vector Product",
-      "definition_math": "a × b = |a||b| sinθ n̂",
-      "definition_eng": "Cross product gives an area vector perpendicular to both vectors.",
-      "examples": []
+      "card_title": "Factorial sequence",
+      "card_math": "0! = 1, (n)! = n(n-1)...(r) = 0,1,2...",
+      "card_other": ""
     },
     {
-      "term": "Collinear Vectors",
-      "definition_math": "a = k b",
-      "definition_eng": "Vectors lying along the same or opposite directions.",
-      "examples": ["(2,4) and (1,2)"]
+      "card_title": "Pascal sequence",
+      "card_math": "(n/0) = 1, (n/r+1) = (n+1/r+1), r = 0,1,2...",
+      "card_other": "Note: The well-known triangle is extracted from Pascal sequence"
+    },
+    {
+      "card_title": "Sequence",
+      "card_math": "1,3,5,7,9...",
+      "card_other": "is a sequence"
+    },
+    {
+      "card_title": "Series",
+      "card_math": "1+3+5+7+9...",
+      "card_other": "is a series (sigma Σ)"
+    },
+    {
+      "card_title": "Arithmetic Sequence (A.S) or Arithmetic Progression (A.P)",
+      "card_math": "a_n = a + (n-1)d",
+      "card_other": ""
+    },
+    {
+      "card_title": "Arithmetic Mean (A.M)",
+      "card_math": "A.M = (a+b)/2",
+      "card_other": ""
+    },
+    {
+      "card_title": "Arithmetic Means",
+      "card_math": "(A.M)_n = a, A₁, A₂, A_n ... finite",
+      "card_other": "d = (b-a)/(n+1), common difference"
+    },
+    {
+      "card_title": "n-th term",
+      "card_math": "A_n = A + (n) * ((b-a)/(n+1))",
+      "card_other": "current index to sequence index of first A.M"
+    },
+    {
+      "card_title": "nth term where index",
+      "card_math": "b = a + (n+1)d",
+      "card_other": ""
     }
   ]
 }
