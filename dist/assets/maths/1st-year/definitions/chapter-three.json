@@ -53,12 +53,12 @@
     },
     {
       "card_title": "Projection of a on b",
-      "card_math": "a⃗·b⃗ = similarly |b|",
+      "card_math": "\\vec{a} \\cdot \\vec{b} = |\\vec{a}| |\\vec{b}| \\cos \\theta",
       "card_other": ""
     },
     {
       "card_title": "Component form of projection",
-      "card_math": "comp_a⃗ b = a⃗·b⃗/|a|",
+      "card_math": "comp_{\\vec{a}} \\vec{b} = \\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{a}|}",
       "card_other": ""
     },
     {
