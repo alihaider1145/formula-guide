@@ -1,6 +1,6 @@
 {
   "chapter": "Vectors",
-  "equations": [
+  "content": [
     {
       "eq_eng": "Magnitude of a vector",
       "eq_math": "|\\vec{a}| = \\sqrt{a_x^2 + a_y^2 + a_z^2}",

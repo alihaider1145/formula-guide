@@ -1,6 +1,6 @@
 {
   "chapter": "Complex Numbers",
-  "equations": [
+  "content": [
     {
       "card_title": "Equality of complex numbers",
       "card_math": "If z₁ = z₂, then |z₁| = |z₂| and arg(z₁) = arg(z₂)",

@@ -1,6 +1,6 @@
 {
   "chapter": "Sequence and Series",
-  "properties": [
+  "content": [
     {
       "prop_eng": "Common difference in arithmetic sequence",
       "prop_math": "d = a_{n+1} - a_n",

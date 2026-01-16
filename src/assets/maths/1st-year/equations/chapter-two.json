@@ -1,6 +1,6 @@
 {
   "chapter": "Matrices and Determinants",
-  "equations": [
+  "content": [
     {
       "eq_eng": "Matrix addition",
       "eq_math": "(A + B)_{ij} = a_{ij} + b_{ij}",

@@ -1,6 +1,6 @@
 {
   "chapter": "Fundamentals of Trigonometry",
-  "definitions": [
+  "content": [
     {
       "term": "Radian",
       "definition_math": "θ = s / r",

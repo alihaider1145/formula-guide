@@ -1,6 +1,6 @@
 {
   "chapter": "Matrices and Determinants",
-  "properties": [
+  "content": [
     {
       "card_title": "Commutative law of addition",
       "card_math": "A + B = B + A",
