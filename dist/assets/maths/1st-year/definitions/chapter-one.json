@@ -1,35 +1,60 @@
 {
   "chapter": "Complex Numbers",
-  "definitions": [
+  "content": [
     {
-      "term": "Complex Number",
-      "definition_math": "z = a + bi",
-      "definition_eng": "A number consisting of a real part a and an imaginary part b multiplied by i.",
-      "examples": ["3 + 4i", "-2 + 7i"]
+      "card_title": "i (imaginary unit)",
+      "card_math": "i² = -1",
+      "card_other": ""
     },
     {
-      "term": "Imaginary Unit",
-      "definition_math": "i^2 = -1",
-      "definition_eng": "A special number whose square is negative one.",
-      "examples": ["i", "2i", "-5i"]
+      "card_title": "Real part of z",
+      "card_math": "Re(z)",
+      "card_other": ""
     },
     {
-      "term": "Modulus",
-      "definition_math": "|z| = √(a^2 + b^2)",
-      "definition_eng": "The distance of a complex number from the origin in the complex plane.",
-      "examples": ["|3 + 4i| = 5"]
+      "card_title": "Imaginary part of z",
+      "card_math": "Im(z)",
+      "card_other": ""
     },
     {
-      "term": "Argument",
-      "definition_math": "arg(z) = tan^{-1}(b/a)",
-      "definition_eng": "The angle a complex number makes with the positive real axis.",
-      "examples": ["arg(1 + i) = 45°"]
+      "card_title": "Zero complex number",
+      "card_math": "0 + 0i",
+      "card_other": ""
     },
     {
-      "term": "Polar Form",
-      "definition_math": "z = r (cos θ + i sin θ)",
-      "definition_eng": "Representation using modulus and argument.",
-      "examples": ["5(cos 37° + i sin 37°)"]
+      "card_title": "Unit complex number",
+      "card_math": "1 + 0i",
+      "card_other": ""
+    },
+    {
+      "card_title": "Equality of complex numbers",
+      "card_math": "a+bi = c+di ⟺ a=c and b=d",
+      "card_other": ""
+    },
+    {
+      "card_title": "Additive identity",
+      "card_math": "z + 0 = 0 + z = z",
+      "card_other": ""
+    },
+    {
+      "card_title": "Multiplicative identity",
+      "card_math": "z · 1 = 1 · z = z",
+      "card_other": ""
+    },
+    {
+      "card_title": "Additive inverse",
+      "card_math": "z + (-z) = 0",
+      "card_other": ""
+    },
+    {
+      "card_title": "Multiplicative inverse",
+      "card_math": "z · (1/z) = 1",
+      "card_other": "where z ≠ 0"
+    },
+    {
+      "card_title": "Complex number does not possess order relation",
+      "card_math": "",
+      "card_other": "Cannot compare complex numbers with <, >, ≤, ≥"
     }
   ]
 }

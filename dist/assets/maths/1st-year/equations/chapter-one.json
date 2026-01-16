@@ -1,60 +1,55 @@
 {
   "chapter": "Complex Numbers",
-  "equations": [
+  "content": [
     {
-      "eq_eng": "Standard form of a complex number",
-      "eq_math": "z = a + bi",
-      "conditions": "a = real part, b = imaginary part",
-      "related": []
+      "card_title": "Equality of complex numbers",
+      "card_math": "If z₁ = z₂, then |z₁| = |z₂| and arg(z₁) = arg(z₂)",
+      "card_other": ""
     },
     {
-      "eq_eng": "Modulus of a complex number",
-      "eq_math": "|z| = √(a² + b²)",
-      "related": ["Argand representation uses modulus as radius"]
+      "card_title": "Modulus equality",
+      "card_math": "|z₁| = |z₂| ⟹ z₁·z̄₂ = z̄₁·z₂",
+      "card_other": ""
     },
     {
-      "eq_eng": "Argument of a complex number",
-      "eq_math": "arg(z) = θ = tan⁻¹(b/a)",
-      "conditions": "Quadrant must be adjusted based on signs of a, b",
-      "related": []
+      "card_title": "Addition of complex numbers",
+      "card_math": "z₁ + z₂ = (a₁+a₂) + i(b₁+b₂)",
+      "card_other": ""
     },
     {
-      "eq_eng": "Conjugate of a complex number",
-      "eq_math": "z̄ = a - bi",
-      "related": ["z·z̄ = |z|²"]
+      "card_title": "Subtraction of complex numbers",
+      "card_math": "z₁ - z₂ = (a₁-a₂) + i(b₁-b₂)",
+      "card_other": ""
     },
     {
-      "eq_eng": "Multiplication of complex numbers",
-      "eq_math": "(a + bi)(c + di) = (ac - bd) + (ad + bc)i",
-      "related": []
+      "card_title": "Multiplication (OR MULTIPLY YOURSELF)",
+      "card_math": "z₁ = a+bi, z₂ = c+di ⟹ z₁z₂ = (ac-bd) + i(ad+bc)",
+      "card_other": ""
     },
     {
-      "eq_eng": "Division of complex numbers",
-      "eq_math": "\\frac{a + bi}{c + di} = \\frac{(a + bi)(c - di)}{c² + d²}",
-      "related": ["Uses conjugate in denominator to rationalize"]
+      "card_title": "Division (RATIONALIZE)",
+      "card_math": "\\frac{z₁}{z₂} = \\frac{a+bi}{c+di} · \\frac{c-di}{c-di}",
+      "card_other": ""
     },
     {
-      "eq_eng": "Modulus–Argument (polar) form",
-      "eq_math": "z = r(\\cosθ + i\\sinθ)",
-      "conditions": "r = |z|, θ = arg(z)",
-      "related": ["Euler form"]
+      "card_title": "Rationalization formula",
+      "card_math": "\\frac{z₁}{z₂} = \\frac{(ac+bd) + i(bc-ad)}{c²+d²}",
+      "card_other": "where n=1"
     },
     {
-      "eq_eng": "Euler form of complex number",
-      "eq_math": "z = re^{iθ}",
-      "related": []
+      "card_title": "Rationalization formula (general)",
+      "card_math": "Re = \\frac{x₁x₂+y₁y₂+...}{x₂²+y₂²}, Im = \\frac{y₁x₂-x₁y₂+...}{x₂²+y₂²}",
+      "card_other": "where n=2"
     },
     {
-      "eq_eng": "De Moivre’s Theorem",
-      "eq_math": "(\\cosθ + i\\sinθ)^n = \\cos(nθ) + i\\sin(nθ)",
-      "conditions": "n ∈ ℤ",
-      "related": []
+      "card_title": "Further rationalization",
+      "card_math": "Re=(x₁-y₁)+(y₁-y₁)+..., Im=(x₁y₁+y₁)-(x₁(y₁-y₁))",
+      "card_other": "where n=2"
     },
     {
-      "eq_eng": "n-th roots of a complex number",
-      "eq_math": "z_k = r^{1/n} [\\cos(\\frac{θ + 2kπ}{n}) + i\\sin(\\frac{θ + 2kπ}{n})]",
-      "conditions": "k = 0,1,2,...,n−1",
-      "related": []
+      "card_title": "Final rationalization",
+      "card_math": "Re:(x₁-y₁)(x₁-y₁)+(y₁+y₁), Im=(x₁y₁+y₁-x₁)(y₁-y₁)/(x₁²+y₁²)",
+      "card_other": "where n=2"
     }
   ]
 }

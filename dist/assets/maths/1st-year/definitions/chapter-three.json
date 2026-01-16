@@ -2,34 +2,74 @@
   "chapter": "Vectors",
   "definitions": [
     {
-      "term": "Vector",
-      "definition_math": "A quantity with magnitude and direction.",
-      "definition_eng": "An object defined by its length and direction.",
-      "examples": ["(3, 4)", "i + 2j - k"]
+      "card_title": "Vector",
+      "card_math": "u = (x, y)",
+      "card_other": ""
     },
     {
-      "term": "Unit Vector",
-      "definition_math": "û = v / |v|",
-      "definition_eng": "A vector of magnitude 1 in the direction of v.",
-      "examples": ["(3/5, 4/5)"]
+      "card_title": "Modulus/Magnitude",
+      "card_math": "|u| = √(x² + y²)",
+      "card_other": ""
     },
     {
-      "term": "Scalar Product",
-      "definition_math": "a · b = |a||b| cosθ",
-      "definition_eng": "Dot product gives projection magnitude.",
-      "examples": ["(1,2)·(3,4)=11"]
+      "card_title": "Unit vector",
+      "card_math": "â = a/|a|",
+      "card_other": ""
     },
     {
-      "term": "Vector Product",
-      "definition_math": "a × b = |a||b| sinθ n̂",
-      "definition_eng": "Cross product gives an area vector perpendicular to both vectors.",
-      "examples": []
+      "card_title": "Points",
+      "card_math": "P₁ = (x₁, y₁), P₂ = (x₂, y₂)",
+      "card_other": ""
     },
     {
-      "term": "Collinear Vectors",
-      "definition_math": "a = k b",
-      "definition_eng": "Vectors lying along the same or opposite directions.",
-      "examples": ["(2,4) and (1,2)"]
+      "card_title": "Distance between points",
+      "card_math": "|P₁P₂| = √((x₂-x₁)² + (y₂-y₁)²) = √((z₂-z₁)²)",
+      "card_other": ""
+    },
+    {
+      "card_title": "Point dividing a line internally and internally",
+      "card_math": "(x₁,x₂) + (y₁,y₂) + (z₁,z₂)",
+      "card_other": ""
+    },
+    {
+      "card_title": "Direction cosines",
+      "card_math": "cos α = x/|r|, cos β = y/|r|, cos γ = z/|r|",
+      "card_other": ""
+    },
+    {
+      "card_title": "Polar form",
+      "card_math": "r(x, y, z) = (|r| cos α, |r| cos β, |r| cos γ)",
+      "card_other": ""
+    },
+    {
+      "card_title": "Direction number (Direction ratio)",
+      "card_math": "x = cos α |r|, y = cos β |r|, z = cos γ |r|",
+      "card_other": ""
+    },
+    {
+      "card_title": "Angle between two vectors",
+      "card_math": "cos θ = a·b/(|a||b|)",
+      "card_other": ""
+    },
+    {
+      "card_title": "Projection of a on b",
+      "card_math": "a⃗·b⃗ = similarly |b|",
+      "card_other": ""
+    },
+    {
+      "card_title": "Component form of projection",
+      "card_math": "comp_a⃗ b = a⃗·b⃗/|a|",
+      "card_other": ""
+    },
+    {
+      "card_title": "Coplanar vectors",
+      "card_math": "",
+      "card_other": "lie in three dimensional space"
+    },
+    {
+      "card_title": "Non-coplanar vectors",
+      "card_math": "",
+      "card_other": ""
     }
   ]
 }

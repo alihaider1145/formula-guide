@@ -1,35 +1,20 @@
 {
   "chapter": "Matrices and Determinants",
-  "definitions": [
+  "content": [
     {
-      "term": "Matrix",
-      "definition_math": "An array of numbers arranged in rows and columns.",
-      "definition_eng": "A rectangular arrangement of elements.",
-      "examples": ["[[1, 2], [3, 4]]"]
+      "card_title": "Echelon form",
+      "card_math": "",
+      "card_other": "Every next row has at least 1 more zero before its first non-zero in current row. (i) Non-zero rows before zero rows. (ii) First non-zero entry in R₂ lies in C₂ is 1 and all other entries of C₂ are zero"
     },
     {
-      "term": "Order of a Matrix",
-      "definition_math": "m × n",
-      "definition_eng": "Matrix with m rows and n columns.",
-      "examples": ["2 × 3 matrix"]
+      "card_title": "Rank of matrix",
+      "card_math": "",
+      "card_other": "No. of non-zero rows in (R×C)"
     },
     {
-      "term": "Determinant",
-      "definition_math": "|A|",
-      "definition_eng": "A scalar value computed from a square matrix.",
-      "examples": ["| [[a, b], [c, d]] | = ad - bc"]
-    },
-    {
-      "term": "Identity Matrix",
-      "definition_math": "I_n = diag(1, 1, ..., 1)",
-      "definition_eng": "A square matrix with 1s on the diagonal and 0 elsewhere.",
-      "examples": ["[[1, 0], [0, 1]]"]
-    },
-    {
-      "term": "Singular Matrix",
-      "definition_math": "|A| = 0",
-      "definition_eng": "A matrix without an inverse.",
-      "examples": []
+      "card_title": "Condition for reduced echelon",
+      "card_math": "",
+      "card_other": "(i) Must be in echelon form. (ii) The first non-zero entry in R₂ lies in C₂ is 1 and all other entries of C₂ are zero"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "chapter": "Mathematical Induction and Binomial Theorem",
-  "definitions": [
+  "content": [
     {
       "term": "Mathematical Induction",
       "definition_math": "If P(1) is true and P(k) ⇒ P(k+1), then P(n) is true for all n ∈ ℕ.",

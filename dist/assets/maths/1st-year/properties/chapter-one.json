@@ -1,47 +1,30 @@
 {
   "chapter": "Complex Numbers",
-  "properties": [
+  "content": [
     {
-      "prop_eng": "Conjugate multiplication property",
-      "prop_math": "z \\cdot \\bar{z} = |z|^2",
-      "related": []
+      "card_title": "Commutative law of addition",
+      "card_math": "z₁ + z₂ = z₂ + z₁",
+      "card_other": ""
     },
     {
-      "prop_eng": "Modulus of conjugate",
-      "prop_math": "|z| = |\\bar{z}|",
-      "related": []
+      "card_title": "Associative law of addition",
+      "card_math": "(z₁ + z₂) + z₃ = z₁ + (z₂ + z₃)",
+      "card_other": ""
     },
     {
-      "prop_eng": "Argument of conjugate",
-      "prop_math": "arg(\\bar{z}) = -arg(z)",
-      "related": []
+      "card_title": "Commutative law of multiplication",
+      "card_math": "z₁ · z₂ = z₂ · z₁",
+      "card_other": ""
     },
     {
-      "prop_eng": "Triangle inequality",
-      "prop_math": "|z_1 + z_2| ≤ |z_1| + |z_2|",
-      "related": []
+      "card_title": "Associative law of multiplication",
+      "card_math": "(z₁ · z₂) · z₃ = z₁ · (z₂ · z₃)",
+      "card_other": ""
     },
     {
-      "prop_eng": "Multiplicative property of modulus",
-      "prop_math": "|z_1 z_2| = |z_1||z_2|",
-      "related": []
-    },
-    {
-      "prop_eng": "Division property of modulus",
-      "prop_math": "|z_1 / z_2| = |z_1| / |z_2|",
-      "conditions": "z₂ ≠ 0",
-      "related": []
-    },
-    {
-      "prop_eng": "Argument of product",
-      "prop_math": "arg(z_1 z_2) = arg(z_1) + arg(z_2)",
-      "related": []
-    },
-    {
-      "prop_eng": "Argument of quotient",
-      "prop_math": "arg(z_1 / z_2) = arg(z_1) - arg(z_2)",
-      "conditions": "z₂ ≠ 0",
-      "related": []
+      "card_title": "Distributive law",
+      "card_math": "z₁(z₂ + z₃) = z₁z₂ + z₁z₃",
+      "card_other": ""
     }
   ]
 }

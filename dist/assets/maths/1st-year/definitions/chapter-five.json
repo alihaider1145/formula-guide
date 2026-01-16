@@ -1,6 +1,6 @@
 {
   "chapter": "Polynomials",
-  "definitions": [
+  "content": [
     {
       "term": "Polynomial",
       "definition_math": "P(x) = a_n x^n + ... + a_1 x + a_0",
